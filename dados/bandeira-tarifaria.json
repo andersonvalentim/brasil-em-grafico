@@ -1,0 +1,116 @@
+{
+  "id": "bandeira-tarifaria",
+  "geradoEm": "2026-11-02T15:18:20.677Z",
+  "origem": "exemplo",
+  "ultimoPeriodo": "2026-10",
+  "observacoes": [
+    {
+      "local": "BR",
+      "periodo": "2025-05",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-06",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-07",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-08",
+      "categoria": "Amarela",
+      "valor": 1.885
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-09",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-10",
+      "categoria": "Vermelha 1",
+      "valor": 4.463
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-11",
+      "categoria": "Amarela",
+      "valor": 1.885
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-12",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-01",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-02",
+      "categoria": "Amarela",
+      "valor": 1.885
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-03",
+      "categoria": "Vermelha 1",
+      "valor": 4.463
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-04",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-05",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-06",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-07",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-08",
+      "categoria": "Vermelha 1",
+      "valor": 4.463
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09",
+      "categoria": "Verde",
+      "valor": 0
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10",
+      "categoria": "Verde",
+      "valor": 0
+    }
+  ]
+}

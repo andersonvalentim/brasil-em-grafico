@@ -1,0 +1,31 @@
+{
+  "id": "populacao",
+  "status": "ativo",
+  "titulo": "População: quantas pessoas vivem aqui",
+  "nomeCurto": "População",
+  "icone": "pessoas",
+  "azulejo": "contexto",
+  "descricao": "Quantas pessoas vivem no Brasil e em cada estado, segundo o IBGE.",
+  "palavras": [
+    "populacao",
+    "pessoas",
+    "habitantes",
+    "censo",
+    "moradores"
+  ],
+  "resumo": {
+    "indicador": "populacao",
+    "texto": "{valor} de pessoas vivem no Brasil."
+  },
+  "cartoes": [
+    {
+      "indicador": "populacao",
+      "visual": "ranking-uf",
+      "pergunta": "Quantas pessoas vivem em cada estado?",
+      "opcoes": {
+        "semBrasil": true
+      }
+    }
+  ],
+  "ordem": 6
+}

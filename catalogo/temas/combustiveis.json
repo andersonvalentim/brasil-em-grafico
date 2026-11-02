@@ -1,0 +1,56 @@
+{
+  "id": "combustiveis",
+  "status": "ativo",
+  "titulo": "Combustíveis: quanto custa abastecer",
+  "nomeCurto": "Combustíveis",
+  "icone": "combustivel",
+  "azulejo": "azulejo",
+  "descricao": "O preço médio do litro da gasolina no seu estado, nos vizinhos e no Brasil, semana a semana.",
+  "palavras": [
+    "gasolina",
+    "combustivel",
+    "combustiveis",
+    "posto",
+    "litro",
+    "etanol",
+    "alcool",
+    "diesel",
+    "anp",
+    "abastecer"
+  ],
+  "resumo": {
+    "indicador": "gasolina-preco",
+    "texto": "Gasolina a {valor} o litro, na média do Brasil."
+  },
+  "cartoes": [
+    {
+      "indicador": "gasolina-preco",
+      "visual": "comparativo-local",
+      "pergunta": "Quanto custa a gasolina {noEstado}?",
+      "detalhes": [
+        "Toda semana, a ANP pesquisa o preço da gasolina em postos de várias cidades. O número é a média desses preços.",
+        "O preço final soma o custo da refinaria, os impostos federais, o imposto do estado (ICMS) e o lucro de quem distribui e de quem vende."
+      ],
+      "unidade": "o litro da gasolina comum",
+      "frase": "Na média do país, o litro sai por {valorBrasil}."
+    },
+    {
+      "indicador": "gasolina-preco",
+      "visual": "linha",
+      "pergunta": "Como o preço mudou nas últimas semanas?",
+      "opcoes": {
+        "locais": [
+          "estado",
+          "BR"
+        ],
+        "periodos": 26
+      }
+    },
+    {
+      "indicador": "gasolina-preco",
+      "visual": "ranking-uf",
+      "pergunta": "Onde a gasolina é mais cara?"
+    }
+  ],
+  "ordem": 2
+}

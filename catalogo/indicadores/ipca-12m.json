@@ -1,0 +1,29 @@
+{
+  "id": "ipca-12m",
+  "status": "ativo",
+  "tema": "precos",
+  "nome": "Quanto os preços subiram em 1 ano",
+  "nomeTecnico": "IPCA acumulado em 12 meses",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "mensal",
+  "abrangencia": [
+    "BR",
+    "UF"
+  ],
+  "cobertura": "O IBGE mede a inflação em 16 capitais e regiões metropolitanas. Os outros estados não têm um número próprio.",
+  "referencias": [
+    {
+      "rotulo": "Meta do governo",
+      "valor": 3
+    }
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "IPCA",
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "adaptador": "ibge-sidra",
+    "parametros": {}
+  }
+}

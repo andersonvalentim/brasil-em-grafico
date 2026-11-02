@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre os dados — Brasil em Gráfico</title>
+  <meta name="description" content="De onde vem cada número do Brasil em Gráfico, como ler os gráficos e nosso compromisso com a acessibilidade.">
+  <meta name="theme-color" content="#F7F2E8">
+  <script>(function(){try{var r=document.documentElement,t=localStorage.getItem("bg-tema");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"escuro":"claro";r.dataset.tema=t;if(localStorage.getItem("bg-texto")==="maior")r.dataset.texto="maior"}catch(e){}})();</script>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Vollkorn:wght@500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body data-pagina="sobre" data-nav="">
+  <div data-layout="topo"></div>
+
+  <main id="conteudo">
+    <div class="container cabecalho-pagina" style="grid-template-columns:1fr">
+      <div>
+        <ol class="migalhas" aria-label="Você está em">
+          <li><a href="index.html">Início</a></li>
+          <li aria-current="page">Sobre os dados</li>
+        </ol>
+        <h1>De onde vêm os números</h1>
+        <p>Todo número do site vem de um órgão público oficial. Aqui você vê quem mede cada coisa, de quanto em quanto tempo e onde achar os dados originais.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="aviso-cobertura">
+        <svg class="icone" aria-hidden="true"><use href="#i-info"/></svg>
+        <p><strong>Os números são atualizados automaticamente.</strong>Todo dia, o site busca os dados nas bases oficiais abaixo. Quando uma fonte está fora do ar, o site mantém o último número que conseguiu buscar. Se algum número aparecer como “dados ilustrativos”, é porque a fonte ainda não pôde ser lida.</p>
+      </div>
+    </div>
+
+    <section class="secao" aria-labelledby="titulo-fontes">
+      <div class="container">
+        <h2 class="titulo-secao" id="titulo-fontes" style="margin-bottom:var(--espaco-lg)">As fontes oficiais</h2>
+        <div class="fontes-lista" id="lista-fontes"></div>
+
+        <p class="texto-suave" style="margin-top:var(--espaco-lg)">Para ir mais fundo: <a href="https://dados.gov.br" rel="noopener">dados.gov.br</a>, <a href="http://www.ipeadata.gov.br" rel="noopener">Ipeadata</a> e <a href="https://basedosdados.org" rel="noopener">Base dos Dados</a> reúnem várias dessas bases em um só lugar.</p>
+      </div>
+    </section>
+
+    <hr class="onda" aria-hidden="true">
+
+    <section class="secao" id="como-ler" aria-labelledby="titulo-como-ler">
+      <div class="container">
+        <h2 class="titulo-secao" id="titulo-como-ler" style="margin-bottom:var(--espaco-md)">Como ler os gráficos</h2>
+        <p style="margin-bottom:var(--espaco-lg)">Todo gráfico segue a mesma ordem: primeiro a <strong>pergunta</strong>, depois o <strong>número grande</strong> com uma frase, depois o <strong>gráfico</strong> e, por último, os <strong>detalhes</strong> recolhidos. Quem aprende uma vez entende o site inteiro.</p>
+
+        <div class="grade grade--2">
+          <div class="card">
+            <h3 style="font-size:var(--titulo-sm);margin-bottom:1rem">O que cada cor quer dizer</h3>
+            <ul class="legenda" style="display:grid;gap:0.875rem;margin:0">
+              <li><span class="legenda__amostra" aria-hidden="true"></span><span><strong>Azul:</strong> o dado</span></li>
+              <li><span class="legenda__amostra legenda__amostra--destaque" aria-hidden="true"></span><span><strong>Laranja-urucum:</strong> o seu estado ou o valor mais recente</span></li>
+              <li><span class="legenda__amostra legenda__amostra--brasil" aria-hidden="true"></span><span><strong>Linha tracejada:</strong> a média do Brasil ou a meta</span></li>
+              <li><span class="legenda__amostra legenda__amostra--contexto" aria-hidden="true"></span><span><strong>Cinza:</strong> os outros estados</span></li>
+              <li><span class="legenda__amostra legenda__amostra--sem-dado" aria-hidden="true"></span><span><strong>Listras:</strong> sem dado</span></li>
+            </ul>
+            <p class="texto-suave" style="margin-top:1rem;font-size:1rem">A cor nunca diz se algo é bom ou ruim. Quem diz é o texto, com “subiu” ▲ ou “caiu” ▼.</p>
+          </div>
+          <div class="card">
+            <h3 style="font-size:var(--titulo-sm);margin-bottom:1rem">Poucos tipos de gráfico, sempre iguais</h3>
+            <ul style="margin:0;padding-left:1.25rem;display:grid;gap:0.5rem">
+              <li><strong>Número grande:</strong> o valor principal, sempre com a unidade.</li>
+              <li><strong>Linha:</strong> como algo mudou com o tempo.</li>
+              <li><strong>Barras deitadas:</strong> para comparar estados, sempre começando do zero.</li>
+              <li><strong>Ano a ano:</strong> cada item numa linha e cada ano numa coluna; a barra vai para a direita quando subiu e para a esquerda quando caiu.</li>
+              <li><strong>Faixas:</strong> quantos estados ficam em cada faixa de valor.</li>
+              <li><strong>100 pessoas:</strong> “em cada 100, quantas…”, para porcentagens.</li>
+            </ul>
+            <p class="texto-suave" style="margin-top:1rem;font-size:1rem">Não usamos pizza, 3D nem eixo cortado, porque eles enganam o olho.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="acessibilidade" aria-labelledby="titulo-acessibilidade">
+      <div class="card">
+        <span class="sobretitulo">Declaração de acessibilidade</span>
+        <h2 class="titulo-secao" id="titulo-acessibilidade" style="font-size:var(--titulo-md);margin-bottom:1rem">Feito para todas as pessoas</h2>
+        <ul style="margin:0;padding-left:1.25rem;display:grid;gap:0.5rem">
+          <li>Seguimos as regras de acessibilidade WCAG 2.2, nível AA.</li>
+          <li>Todo gráfico tem um botão “Ouvir”, que lê a resposta em voz alta, e um botão “Ver em tabela”.</li>
+          <li>O botão “Aa Texto maior” aumenta as letras. O site também funciona com zoom de 200%.</li>
+          <li>Tudo funciona pelo teclado, com o foco sempre visível.</li>
+          <li>O site é leve e funciona em celulares simples e com internet fraca.</li>
+        </ul>
+        <p class="texto-suave" style="margin-top:1rem;font-size:1rem">Encontrou alguma barreira? Conte para a gente para que possamos corrigir.</p>
+      </div>
+    </section>
+  </main>
+
+  <div data-layout="rodape"></div>
+
+  <script src="assets/js/icones.js"></script>
+  <script src="assets/js/nucleo.js"></script>
+  <script src="assets/js/graficos.js"></script>
+  <script src="assets/js/visuais/comum.js"></script>
+  <script src="assets/js/cartao.js"></script>
+  <script src="assets/js/paginas.js"></script>
+</body>
+</html>

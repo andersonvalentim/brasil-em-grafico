@@ -1,0 +1,21 @@
+{
+  "id": "bandeira-tarifaria",
+  "status": "ativo",
+  "tema": "energia",
+  "nome": "Bandeira da conta de luz",
+  "nomeTecnico": "Acionamento das bandeiras tarifárias",
+  "unidade": "R$ a cada 100 kWh",
+  "formato": "categoria",
+  "casas": 2,
+  "periodicidade": "mensal",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "ANEEL",
+    "nome": "Bandeiras tarifárias",
+    "url": "https://dadosabertos.aneel.gov.br/",
+    "adaptador": "aneel-bandeiras",
+    "parametros": {}
+  }
+}

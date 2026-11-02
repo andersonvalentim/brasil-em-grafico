@@ -1,0 +1,52 @@
+{
+  "id": "juros-dolar",
+  "status": "ativo",
+  "titulo": "Juros e dólar: quanto custa o dinheiro",
+  "nomeCurto": "Juros e dólar",
+  "icone": "juros",
+  "azulejo": "azulejo",
+  "descricao": "A cotação do dólar e os juros básicos da economia, definidos pelo Banco Central.",
+  "palavras": [
+    "dolar",
+    "cambio",
+    "moeda",
+    "cotacao",
+    "juros",
+    "selic",
+    "copom",
+    "banco",
+    "central"
+  ],
+  "resumo": {
+    "indicador": "selic",
+    "texto": "Juros básicos (Selic) em {valor} ao ano."
+  },
+  "cartoes": [
+    {
+      "indicador": "dolar",
+      "visual": "linha",
+      "pergunta": "Quanto vale 1 dólar hoje?",
+      "opcoes": {
+        "periodos": 90
+      },
+      "detalhes": [
+        "É a cotação de venda do dólar comercial (PTAX), calculada pelo Banco Central todo dia útil. Na casa de câmbio, o dólar para turismo costuma sair mais caro."
+      ],
+      "unidade": "em {periodo}"
+    },
+    {
+      "indicador": "selic",
+      "visual": "linha",
+      "pergunta": "Quanto estão os juros básicos?",
+      "opcoes": {
+        "periodos": 365
+      },
+      "detalhes": [
+        "A Selic é a taxa de juros que serve de base para empréstimos, financiamentos e investimentos. Quem define é o Copom, do Banco Central, a cada 45 dias.",
+        "Juros mais altos deixam o crédito mais caro e ajudam a segurar os preços."
+      ],
+      "unidade": "ao ano, em {periodo}"
+    }
+  ],
+  "ordem": 4
+}

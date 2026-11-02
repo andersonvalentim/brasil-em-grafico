@@ -1,0 +1,16 @@
+{
+  "name": "brasil-em-grafico",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Site estático e modular com dados oficiais do Brasil em perguntas e gráficos claros.",
+  "scripts": {
+    "dev": "npx --yes serve -l 8642 .",
+    "dados": "node scripts/atualizar-dados.mjs",
+    "validar": "node scripts/validar.mjs",
+    "novo-indicador": "node scripts/novo-indicador.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

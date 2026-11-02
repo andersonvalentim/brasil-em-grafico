@@ -1,0 +1,21 @@
+{
+  "id": "selic",
+  "status": "ativo",
+  "tema": "juros-dolar",
+  "nome": "Juros básicos da economia (Selic)",
+  "nomeTecnico": "Meta da taxa Selic definida pelo Copom",
+  "unidade": "% ao ano",
+  "formato": "pct",
+  "casas": 2,
+  "periodicidade": "diaria",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "Banco Central do Brasil",
+    "nome": "Sistema Gerenciador de Séries Temporais (SGS)",
+    "url": "https://www3.bcb.gov.br/sgspub/",
+    "adaptador": "bcb-sgs",
+    "parametros": {}
+  }
+}

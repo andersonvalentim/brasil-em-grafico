@@ -1,0 +1,78 @@
+{
+  "id": "selic",
+  "geradoEm": "2026-11-02T15:18:20.676Z",
+  "origem": "exemplo",
+  "ultimoPeriodo": "2026-09",
+  "observacoes": [
+    {
+      "local": "BR",
+      "periodo": "2024-09",
+      "valor": 10.5
+    },
+    {
+      "local": "BR",
+      "periodo": "2024-11",
+      "valor": 11.25
+    },
+    {
+      "local": "BR",
+      "periodo": "2024-12",
+      "valor": 12.25
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-01",
+      "valor": 13.25
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-03",
+      "valor": 14.25
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-05",
+      "valor": 14.75
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-06",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-09",
+      "valor": 14.75
+    },
+    {
+      "local": "BR",
+      "periodo": "2025-11",
+      "valor": 14.25
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-01",
+      "valor": 13.75
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-03",
+      "valor": 13.25
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-05",
+      "valor": 12.75
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-07",
+      "valor": 12.25
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09",
+      "valor": 11.75
+    }
+  ]
+}

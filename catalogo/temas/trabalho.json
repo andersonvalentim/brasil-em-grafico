@@ -1,0 +1,71 @@
+{
+  "id": "trabalho",
+  "status": "ativo",
+  "titulo": "Trabalho: quem procura e não encontra",
+  "nomeCurto": "Trabalho e renda",
+  "icone": "trabalho",
+  "azulejo": "ipe",
+  "descricao": "Quantas pessoas procuram trabalho e não encontram, no Brasil e no seu estado.",
+  "palavras": [
+    "desemprego",
+    "emprego",
+    "trabalho",
+    "vaga",
+    "vagas",
+    "desocupacao",
+    "desempregado",
+    "desempregados",
+    "pnad",
+    "carteira"
+  ],
+  "resumo": {
+    "indicador": "desemprego",
+    "texto": "Desemprego em {valor} no Brasil."
+  },
+  "cartoes": [
+    {
+      "indicador": "desemprego",
+      "visual": "pictograma",
+      "pergunta": "Quantas pessoas procuram trabalho e não encontram {noEstado}?",
+      "detalhes": [
+        "O IBGE visita milhares de casas a cada três meses e pergunta quem está trabalhando e quem está procurando trabalho. É a PNAD Contínua.",
+        "Só conta como desempregado quem procurou trabalho de verdade nos últimos 30 dias."
+      ],
+      "unidade": "das pessoas que procuram trabalho",
+      "frase": "De cada 100 {gentilico} que procuram trabalho, cerca de {emCada100} não encontram. A média do Brasil é {valorBrasil}.",
+      "tituloGrafico": "Em cada 100 pessoas que procuram trabalho",
+      "opcoes": {
+        "rotulos": [
+          "sem trabalho",
+          "trabalhando"
+        ]
+      }
+    },
+    {
+      "indicador": "desemprego",
+      "visual": "linha",
+      "pergunta": "O desemprego subiu ou caiu?",
+      "opcoes": {
+        "locais": [
+          "estado",
+          "BR"
+        ],
+        "periodos": 12
+      }
+    },
+    {
+      "indicador": "desemprego",
+      "visual": "histograma",
+      "pergunta": "Em quantos estados o desemprego é alto?",
+      "opcoes": {
+        "faixa": 2
+      }
+    },
+    {
+      "indicador": "desemprego",
+      "visual": "ranking-uf",
+      "pergunta": "Como está o desemprego em cada estado?"
+    }
+  ],
+  "ordem": 3
+}

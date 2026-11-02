@@ -1,0 +1,441 @@
+{
+  "brasil": {
+    "uf": "BR",
+    "codigoIbge": 1,
+    "nome": "Brasil",
+    "prep": "no"
+  },
+  "estados": [
+    {
+      "uf": "AC",
+      "codigoIbge": 12,
+      "nome": "Acre",
+      "prep": "no",
+      "gentilico": "acreanos",
+      "regiao": "Norte",
+      "capital": "Rio Branco",
+      "areaIpca": "Rio Branco",
+      "distribuidora": "Energisa Acre",
+      "vizinhos": [
+        "AM",
+        "RO"
+      ]
+    },
+    {
+      "uf": "AL",
+      "codigoIbge": 27,
+      "nome": "Alagoas",
+      "prep": "em",
+      "gentilico": "alagoanos",
+      "regiao": "Nordeste",
+      "capital": "Maceió",
+      "ipcaProximo": "PE",
+      "distribuidora": "Equatorial Alagoas",
+      "vizinhos": [
+        "PE",
+        "SE",
+        "BA"
+      ]
+    },
+    {
+      "uf": "AP",
+      "codigoIbge": 16,
+      "nome": "Amapá",
+      "prep": "no",
+      "gentilico": "amapaenses",
+      "regiao": "Norte",
+      "capital": "Macapá",
+      "ipcaProximo": "PA",
+      "distribuidora": "CEA Equatorial",
+      "vizinhos": [
+        "PA"
+      ]
+    },
+    {
+      "uf": "AM",
+      "codigoIbge": 13,
+      "nome": "Amazonas",
+      "prep": "no",
+      "gentilico": "amazonenses",
+      "regiao": "Norte",
+      "capital": "Manaus",
+      "ipcaProximo": "PA",
+      "distribuidora": "Amazonas Energia",
+      "vizinhos": [
+        "PA",
+        "RR",
+        "AC",
+        "RO"
+      ]
+    },
+    {
+      "uf": "BA",
+      "codigoIbge": 29,
+      "nome": "Bahia",
+      "prep": "na",
+      "gentilico": "baianos",
+      "regiao": "Nordeste",
+      "capital": "Salvador",
+      "areaIpca": "Salvador e região",
+      "distribuidora": "Neoenergia Coelba",
+      "vizinhos": [
+        "SE",
+        "PE",
+        "MG"
+      ]
+    },
+    {
+      "uf": "CE",
+      "codigoIbge": 23,
+      "nome": "Ceará",
+      "prep": "no",
+      "gentilico": "cearenses",
+      "regiao": "Nordeste",
+      "capital": "Fortaleza",
+      "areaIpca": "Fortaleza e região",
+      "distribuidora": "Enel Ceará",
+      "vizinhos": [
+        "PI",
+        "RN",
+        "PB",
+        "PE"
+      ]
+    },
+    {
+      "uf": "DF",
+      "codigoIbge": 53,
+      "nome": "Distrito Federal",
+      "prep": "no",
+      "gentilico": "brasilienses",
+      "regiao": "Centro-Oeste",
+      "capital": "Brasília",
+      "areaIpca": "Brasília",
+      "distribuidora": "Neoenergia Brasília",
+      "vizinhos": [
+        "GO",
+        "MG"
+      ]
+    },
+    {
+      "uf": "ES",
+      "codigoIbge": 32,
+      "nome": "Espírito Santo",
+      "prep": "no",
+      "gentilico": "capixabas",
+      "regiao": "Sudeste",
+      "capital": "Vitória",
+      "areaIpca": "Vitória e região",
+      "distribuidora": "EDP Espírito Santo",
+      "vizinhos": [
+        "MG",
+        "RJ",
+        "BA"
+      ]
+    },
+    {
+      "uf": "GO",
+      "codigoIbge": 52,
+      "nome": "Goiás",
+      "prep": "em",
+      "gentilico": "goianos",
+      "regiao": "Centro-Oeste",
+      "capital": "Goiânia",
+      "areaIpca": "Goiânia",
+      "distribuidora": "Equatorial Goiás",
+      "vizinhos": [
+        "DF",
+        "MG",
+        "MT",
+        "TO"
+      ]
+    },
+    {
+      "uf": "MA",
+      "codigoIbge": 21,
+      "nome": "Maranhão",
+      "prep": "no",
+      "gentilico": "maranhenses",
+      "regiao": "Nordeste",
+      "capital": "São Luís",
+      "areaIpca": "São Luís",
+      "distribuidora": "Equatorial Maranhão",
+      "vizinhos": [
+        "PI",
+        "PA",
+        "TO"
+      ]
+    },
+    {
+      "uf": "MT",
+      "codigoIbge": 51,
+      "nome": "Mato Grosso",
+      "prep": "em",
+      "gentilico": "mato-grossenses",
+      "regiao": "Centro-Oeste",
+      "capital": "Cuiabá",
+      "ipcaProximo": "MS",
+      "distribuidora": "Energisa Mato Grosso",
+      "vizinhos": [
+        "MS",
+        "GO",
+        "RO"
+      ]
+    },
+    {
+      "uf": "MS",
+      "codigoIbge": 50,
+      "nome": "Mato Grosso do Sul",
+      "prep": "em",
+      "gentilico": "sul-mato-grossenses",
+      "regiao": "Centro-Oeste",
+      "capital": "Campo Grande",
+      "areaIpca": "Campo Grande",
+      "distribuidora": "Energisa Mato Grosso do Sul",
+      "vizinhos": [
+        "MT",
+        "PR",
+        "SP"
+      ]
+    },
+    {
+      "uf": "MG",
+      "codigoIbge": 31,
+      "nome": "Minas Gerais",
+      "prep": "em",
+      "gentilico": "mineiros",
+      "regiao": "Sudeste",
+      "capital": "Belo Horizonte",
+      "areaIpca": "Belo Horizonte e região",
+      "distribuidora": "Cemig",
+      "vizinhos": [
+        "SP",
+        "RJ",
+        "ES",
+        "BA"
+      ]
+    },
+    {
+      "uf": "PA",
+      "codigoIbge": 15,
+      "nome": "Pará",
+      "prep": "no",
+      "gentilico": "paraenses",
+      "regiao": "Norte",
+      "capital": "Belém",
+      "areaIpca": "Belém e região",
+      "distribuidora": "Equatorial Pará",
+      "vizinhos": [
+        "AP",
+        "AM",
+        "MA",
+        "TO"
+      ]
+    },
+    {
+      "uf": "PB",
+      "codigoIbge": 25,
+      "nome": "Paraíba",
+      "prep": "na",
+      "gentilico": "paraibanos",
+      "regiao": "Nordeste",
+      "capital": "João Pessoa",
+      "ipcaProximo": "PE",
+      "distribuidora": "Energisa Paraíba",
+      "vizinhos": [
+        "PE",
+        "RN",
+        "CE"
+      ]
+    },
+    {
+      "uf": "PR",
+      "codigoIbge": 41,
+      "nome": "Paraná",
+      "prep": "no",
+      "gentilico": "paranaenses",
+      "regiao": "Sul",
+      "capital": "Curitiba",
+      "areaIpca": "Curitiba e região",
+      "distribuidora": "Copel",
+      "vizinhos": [
+        "SP",
+        "SC",
+        "MS"
+      ]
+    },
+    {
+      "uf": "PE",
+      "codigoIbge": 26,
+      "nome": "Pernambuco",
+      "prep": "em",
+      "gentilico": "pernambucanos",
+      "regiao": "Nordeste",
+      "capital": "Recife",
+      "areaIpca": "Recife e região",
+      "distribuidora": "Neoenergia Pernambuco",
+      "vizinhos": [
+        "PB",
+        "AL",
+        "BA",
+        "CE"
+      ]
+    },
+    {
+      "uf": "PI",
+      "codigoIbge": 22,
+      "nome": "Piauí",
+      "prep": "no",
+      "gentilico": "piauienses",
+      "regiao": "Nordeste",
+      "capital": "Teresina",
+      "ipcaProximo": "MA",
+      "distribuidora": "Equatorial Piauí",
+      "vizinhos": [
+        "MA",
+        "CE",
+        "BA"
+      ]
+    },
+    {
+      "uf": "RJ",
+      "codigoIbge": 33,
+      "nome": "Rio de Janeiro",
+      "prep": "no",
+      "gentilico": "fluminenses",
+      "regiao": "Sudeste",
+      "capital": "Rio de Janeiro",
+      "areaIpca": "Grande Rio",
+      "areaPrep": "no",
+      "distribuidora": "Light e Enel Rio",
+      "vizinhos": [
+        "SP",
+        "MG",
+        "ES"
+      ]
+    },
+    {
+      "uf": "RN",
+      "codigoIbge": 24,
+      "nome": "Rio Grande do Norte",
+      "prep": "no",
+      "gentilico": "potiguares",
+      "regiao": "Nordeste",
+      "capital": "Natal",
+      "ipcaProximo": "PE",
+      "distribuidora": "Neoenergia Cosern",
+      "vizinhos": [
+        "PB",
+        "CE"
+      ]
+    },
+    {
+      "uf": "RS",
+      "codigoIbge": 43,
+      "nome": "Rio Grande do Sul",
+      "prep": "no",
+      "gentilico": "gaúchos",
+      "regiao": "Sul",
+      "capital": "Porto Alegre",
+      "areaIpca": "Porto Alegre e região",
+      "distribuidora": "CEEE Equatorial e RGE",
+      "vizinhos": [
+        "SC",
+        "PR"
+      ]
+    },
+    {
+      "uf": "RO",
+      "codigoIbge": 11,
+      "nome": "Rondônia",
+      "prep": "em",
+      "gentilico": "rondonienses",
+      "regiao": "Norte",
+      "capital": "Porto Velho",
+      "ipcaProximo": "AC",
+      "distribuidora": "Energisa Rondônia",
+      "vizinhos": [
+        "AC",
+        "AM",
+        "MT"
+      ]
+    },
+    {
+      "uf": "RR",
+      "codigoIbge": 14,
+      "nome": "Roraima",
+      "prep": "em",
+      "gentilico": "roraimenses",
+      "regiao": "Norte",
+      "capital": "Boa Vista",
+      "ipcaProximo": "PA",
+      "distribuidora": "Roraima Energia",
+      "foraDoSistema": true,
+      "vizinhos": [
+        "AM",
+        "PA"
+      ]
+    },
+    {
+      "uf": "SC",
+      "codigoIbge": 42,
+      "nome": "Santa Catarina",
+      "prep": "em",
+      "gentilico": "catarinenses",
+      "regiao": "Sul",
+      "capital": "Florianópolis",
+      "ipcaProximo": "PR",
+      "distribuidora": "Celesc",
+      "vizinhos": [
+        "PR",
+        "RS"
+      ]
+    },
+    {
+      "uf": "SP",
+      "codigoIbge": 35,
+      "nome": "São Paulo",
+      "prep": "em",
+      "gentilico": "paulistas",
+      "regiao": "Sudeste",
+      "capital": "São Paulo",
+      "areaIpca": "São Paulo e região",
+      "distribuidora": "Enel São Paulo e outras",
+      "vizinhos": [
+        "RJ",
+        "MG",
+        "PR"
+      ]
+    },
+    {
+      "uf": "SE",
+      "codigoIbge": 28,
+      "nome": "Sergipe",
+      "prep": "em",
+      "gentilico": "sergipanos",
+      "regiao": "Nordeste",
+      "capital": "Aracaju",
+      "areaIpca": "Aracaju",
+      "distribuidora": "Energisa Sergipe",
+      "vizinhos": [
+        "BA",
+        "AL"
+      ]
+    },
+    {
+      "uf": "TO",
+      "codigoIbge": 17,
+      "nome": "Tocantins",
+      "prep": "no",
+      "gentilico": "tocantinenses",
+      "regiao": "Norte",
+      "capital": "Palmas",
+      "ipcaProximo": "GO",
+      "distribuidora": "Energisa Tocantins",
+      "vizinhos": [
+        "GO",
+        "PA",
+        "MA"
+      ]
+    }
+  ]
+}

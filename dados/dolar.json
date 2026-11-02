@@ -1,0 +1,233 @@
+{
+  "id": "dolar",
+  "geradoEm": "2026-11-02T15:18:20.675Z",
+  "origem": "exemplo",
+  "ultimoPeriodo": "2026-10-31",
+  "observacoes": [
+    {
+      "local": "BR",
+      "periodo": "2026-09-01",
+      "valor": 5.4
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-02",
+      "valor": 5.419
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-03",
+      "valor": 5.438
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-04",
+      "valor": 5.456
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-05",
+      "valor": 5.473
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-08",
+      "valor": 5.489
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-09",
+      "valor": 5.503
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-10",
+      "valor": 5.515
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-11",
+      "valor": 5.525
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-12",
+      "valor": 5.533
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-15",
+      "valor": 5.539
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-16",
+      "valor": 5.542
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-17",
+      "valor": 5.543
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-18",
+      "valor": 5.541
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-19",
+      "valor": 5.537
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-22",
+      "valor": 5.531
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-23",
+      "valor": 5.523
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-24",
+      "valor": 5.512
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-25",
+      "valor": 5.501
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-26",
+      "valor": 5.488
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-29",
+      "valor": 5.474
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-30",
+      "valor": 5.459
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-01",
+      "valor": 5.444
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-02",
+      "valor": 5.429
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-03",
+      "valor": 5.414
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-06",
+      "valor": 5.4
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-07",
+      "valor": 5.387
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-08",
+      "valor": 5.375
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-09",
+      "valor": 5.365
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-10",
+      "valor": 5.357
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-13",
+      "valor": 5.351
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-14",
+      "valor": 5.347
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-15",
+      "valor": 5.345
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-16",
+      "valor": 5.346
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-17",
+      "valor": 5.349
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-20",
+      "valor": 5.355
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-21",
+      "valor": 5.363
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-22",
+      "valor": 5.373
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-23",
+      "valor": 5.385
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-24",
+      "valor": 5.4
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-27",
+      "valor": 5.415
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-28",
+      "valor": 5.432
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-29",
+      "valor": 5.45
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-30",
+      "valor": 5.469
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-31",
+      "valor": 5.488
+    }
+  ]
+}

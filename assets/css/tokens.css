@@ -1,0 +1,85 @@
+/* Brasil em Gráfico — tokens de design (modo claro e escuro) */
+
+:root {
+  color-scheme: light;
+
+  --cor-fundo: #F7F2E8;
+  --cor-superficie: #EFE6D6;
+  --cor-texto: #2A211B;
+  --cor-texto-suave: #6B5E52;
+  --cor-primaria: #1F5C4A;
+  --cor-primaria-hover: #174A3B;
+  --cor-sobre-primaria: #F7F2E8;
+  --cor-destaque: #B4502D;
+  --cor-destaque-texto: #A64826;
+  --cor-destaque-fundo: rgba(180, 80, 45, 0.1);
+  --cor-ipe: #D9A23A;
+  --cor-azulejo: #2F5D8A;
+  --cor-azulejo-fundo: rgba(47, 93, 138, 0.1);
+  --cor-contexto: #8C7F6F;
+  --cor-borda: rgba(42, 33, 27, 0.12);
+  --cor-borda-forte: rgba(42, 33, 27, 0.24);
+  --cor-trilho: rgba(42, 33, 27, 0.08);
+  --cor-hachura: rgba(42, 33, 27, 0.18);
+
+  --sombra-flutuante: 0 8px 32px -4px rgba(42, 33, 27, 0.08);
+  --sombra-suave: 0 8px 24px rgba(42, 33, 27, 0.08);
+
+  --fonte-titulo: "Vollkorn", Georgia, "Times New Roman", serif;
+  --fonte-texto: "Source Sans 3", "Segoe UI", Roboto, Arial, sans-serif;
+
+  --texto-sm: 1rem;
+  --texto-md: 1.125rem;
+  --texto-lg: clamp(1.125rem, 1.05rem + 0.4vw, 1.25rem);
+  --titulo-display: clamp(2rem, 1.5rem + 2vw, 2.75rem);
+  --titulo-lg: clamp(1.625rem, 1.35rem + 1.2vw, 2.25rem);
+  --titulo-md: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
+  --titulo-sm: clamp(1.1875rem, 1.1rem + 0.4vw, 1.375rem);
+  --numero-grande: clamp(2rem, 1.6rem + 1.8vw, 2.75rem);
+  --numero-medio: clamp(1.75rem, 1.5rem + 1vw, 2.25rem);
+
+  --espaco-xs: 0.5rem;
+  --espaco-sm: 0.75rem;
+  --espaco-md: 1.25rem;
+  --espaco-lg: 2rem;
+  --espaco-xl: 3rem;
+  --espaco-secao: clamp(4rem, 2.5rem + 6vw, 7rem);
+  --margem: clamp(1.25rem, 0.8rem + 2vw, 2.5rem);
+  --largura-max: 1200px;
+
+  --raio-sm: 4px;
+  --raio-md: 8px;
+  --raio-lg: 12px;
+  --raio-xl: 14px;
+  --raio-pilula: 999px;
+
+  --alvo-toque: 48px;
+  --duracao: 250ms;
+  --curva: cubic-bezier(0.2, 0.7, 0.3, 1);
+}
+
+:root[data-tema="escuro"] {
+  color-scheme: dark;
+
+  --cor-fundo: #1C1814;
+  --cor-superficie: #26201B;
+  --cor-texto: #F2EADC;
+  --cor-texto-suave: #B8AA98;
+  --cor-primaria: #7DB59B;
+  --cor-primaria-hover: #96C7B0;
+  --cor-sobre-primaria: #1C1814;
+  --cor-destaque: #E08A63;
+  --cor-destaque-texto: #E08A63;
+  --cor-destaque-fundo: rgba(224, 138, 99, 0.14);
+  --cor-ipe: #E6B65A;
+  --cor-azulejo: #8DB1D6;
+  --cor-azulejo-fundo: rgba(141, 177, 214, 0.14);
+  --cor-contexto: #7B6E5E;
+  --cor-borda: rgba(242, 234, 220, 0.12);
+  --cor-borda-forte: rgba(242, 234, 220, 0.24);
+  --cor-trilho: rgba(242, 234, 220, 0.08);
+  --cor-hachura: rgba(242, 234, 220, 0.2);
+
+  --sombra-flutuante: 0 8px 32px -4px rgba(0, 0, 0, 0.4);
+  --sombra-suave: 0 8px 24px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,368 @@
+{
+  "id": "ipca-alimentos",
+  "geradoEm": "2026-11-02T15:18:20.669Z",
+  "origem": "exemplo",
+  "ultimoPeriodo": "2025",
+  "observacoes": [
+    {
+      "local": "BR",
+      "categoria": "Arroz",
+      "periodo": "2021",
+      "valor": -13
+    },
+    {
+      "local": "BR",
+      "categoria": "Arroz",
+      "periodo": "2022",
+      "valor": 12
+    },
+    {
+      "local": "BR",
+      "categoria": "Arroz",
+      "periodo": "2023",
+      "valor": 21
+    },
+    {
+      "local": "BR",
+      "categoria": "Arroz",
+      "periodo": "2024",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Arroz",
+      "periodo": "2025",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "categoria": "Feijão",
+      "periodo": "2021",
+      "valor": 4
+    },
+    {
+      "local": "BR",
+      "categoria": "Feijão",
+      "periodo": "2022",
+      "valor": 29
+    },
+    {
+      "local": "BR",
+      "categoria": "Feijão",
+      "periodo": "2023",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Feijão",
+      "periodo": "2024",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "categoria": "Feijão",
+      "periodo": "2025",
+      "valor": -8
+    },
+    {
+      "local": "BR",
+      "categoria": "Carne bovina",
+      "periodo": "2021",
+      "valor": -14
+    },
+    {
+      "local": "BR",
+      "categoria": "Carne bovina",
+      "periodo": "2022",
+      "valor": 11
+    },
+    {
+      "local": "BR",
+      "categoria": "Carne bovina",
+      "periodo": "2023",
+      "valor": 20
+    },
+    {
+      "local": "BR",
+      "categoria": "Carne bovina",
+      "periodo": "2024",
+      "valor": -3
+    },
+    {
+      "local": "BR",
+      "categoria": "Carne bovina",
+      "periodo": "2025",
+      "valor": 14
+    },
+    {
+      "local": "BR",
+      "categoria": "Frango",
+      "periodo": "2021",
+      "valor": 4
+    },
+    {
+      "local": "BR",
+      "categoria": "Frango",
+      "periodo": "2022",
+      "valor": 29
+    },
+    {
+      "local": "BR",
+      "categoria": "Frango",
+      "periodo": "2023",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Frango",
+      "periodo": "2024",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "categoria": "Frango",
+      "periodo": "2025",
+      "valor": -8
+    },
+    {
+      "local": "BR",
+      "categoria": "Leite",
+      "periodo": "2021",
+      "valor": -13
+    },
+    {
+      "local": "BR",
+      "categoria": "Leite",
+      "periodo": "2022",
+      "valor": 12
+    },
+    {
+      "local": "BR",
+      "categoria": "Leite",
+      "periodo": "2023",
+      "valor": 21
+    },
+    {
+      "local": "BR",
+      "categoria": "Leite",
+      "periodo": "2024",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Leite",
+      "periodo": "2025",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "categoria": "Ovo",
+      "periodo": "2021",
+      "valor": -7
+    },
+    {
+      "local": "BR",
+      "categoria": "Ovo",
+      "periodo": "2022",
+      "valor": 18
+    },
+    {
+      "local": "BR",
+      "categoria": "Ovo",
+      "periodo": "2023",
+      "valor": -13
+    },
+    {
+      "local": "BR",
+      "categoria": "Ovo",
+      "periodo": "2024",
+      "valor": 4
+    },
+    {
+      "local": "BR",
+      "categoria": "Ovo",
+      "periodo": "2025",
+      "valor": 21
+    },
+    {
+      "local": "BR",
+      "categoria": "Pão francês",
+      "periodo": "2021",
+      "valor": 9
+    },
+    {
+      "local": "BR",
+      "categoria": "Pão francês",
+      "periodo": "2022",
+      "valor": -6
+    },
+    {
+      "local": "BR",
+      "categoria": "Pão francês",
+      "periodo": "2023",
+      "valor": 3
+    },
+    {
+      "local": "BR",
+      "categoria": "Pão francês",
+      "periodo": "2024",
+      "valor": 20
+    },
+    {
+      "local": "BR",
+      "categoria": "Pão francês",
+      "periodo": "2025",
+      "valor": -3
+    },
+    {
+      "local": "BR",
+      "categoria": "Óleo de soja",
+      "periodo": "2021",
+      "valor": -14
+    },
+    {
+      "local": "BR",
+      "categoria": "Óleo de soja",
+      "periodo": "2022",
+      "valor": 11
+    },
+    {
+      "local": "BR",
+      "categoria": "Óleo de soja",
+      "periodo": "2023",
+      "valor": 20
+    },
+    {
+      "local": "BR",
+      "categoria": "Óleo de soja",
+      "periodo": "2024",
+      "valor": -3
+    },
+    {
+      "local": "BR",
+      "categoria": "Óleo de soja",
+      "periodo": "2025",
+      "valor": 14
+    },
+    {
+      "local": "BR",
+      "categoria": "Café",
+      "periodo": "2021",
+      "valor": 10
+    },
+    {
+      "local": "BR",
+      "categoria": "Café",
+      "periodo": "2022",
+      "valor": -5
+    },
+    {
+      "local": "BR",
+      "categoria": "Café",
+      "periodo": "2023",
+      "valor": 4
+    },
+    {
+      "local": "BR",
+      "categoria": "Café",
+      "periodo": "2024",
+      "valor": 21
+    },
+    {
+      "local": "BR",
+      "categoria": "Café",
+      "periodo": "2025",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Banana",
+      "periodo": "2021",
+      "valor": 4
+    },
+    {
+      "local": "BR",
+      "categoria": "Banana",
+      "periodo": "2022",
+      "valor": 29
+    },
+    {
+      "local": "BR",
+      "categoria": "Banana",
+      "periodo": "2023",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Banana",
+      "periodo": "2024",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "categoria": "Banana",
+      "periodo": "2025",
+      "valor": -8
+    },
+    {
+      "local": "BR",
+      "categoria": "Tomate",
+      "periodo": "2021",
+      "valor": 4
+    },
+    {
+      "local": "BR",
+      "categoria": "Tomate",
+      "periodo": "2022",
+      "valor": 29
+    },
+    {
+      "local": "BR",
+      "categoria": "Tomate",
+      "periodo": "2023",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Tomate",
+      "periodo": "2024",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "categoria": "Tomate",
+      "periodo": "2025",
+      "valor": -8
+    },
+    {
+      "local": "BR",
+      "categoria": "Batata",
+      "periodo": "2021",
+      "valor": 4
+    },
+    {
+      "local": "BR",
+      "categoria": "Batata",
+      "periodo": "2022",
+      "valor": 29
+    },
+    {
+      "local": "BR",
+      "categoria": "Batata",
+      "periodo": "2023",
+      "valor": -2
+    },
+    {
+      "local": "BR",
+      "categoria": "Batata",
+      "periodo": "2024",
+      "valor": 15
+    },
+    {
+      "local": "BR",
+      "categoria": "Batata",
+      "periodo": "2025",
+      "valor": -8
+    }
+  ]
+}

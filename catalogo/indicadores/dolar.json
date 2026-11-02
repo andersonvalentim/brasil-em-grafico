@@ -1,0 +1,21 @@
+{
+  "id": "dolar",
+  "status": "ativo",
+  "tema": "juros-dolar",
+  "nome": "Quanto vale 1 dólar",
+  "nomeTecnico": "Taxa de câmbio comercial, venda (PTAX)",
+  "unidade": "R$",
+  "formato": "real",
+  "casas": 2,
+  "periodicidade": "diaria",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "Banco Central do Brasil",
+    "nome": "Sistema Gerenciador de Séries Temporais (SGS)",
+    "url": "https://www3.bcb.gov.br/sgspub/",
+    "adaptador": "bcb-sgs",
+    "parametros": {}
+  }
+}

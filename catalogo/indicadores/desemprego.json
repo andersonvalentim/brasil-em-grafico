@@ -1,0 +1,22 @@
+{
+  "id": "desemprego",
+  "status": "ativo",
+  "tema": "trabalho",
+  "nome": "Pessoas que procuram trabalho e não encontram",
+  "nomeTecnico": "Taxa de desocupação (PNAD Contínua)",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "trimestral",
+  "abrangencia": [
+    "BR",
+    "UF"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "PNAD Contínua",
+    "url": "https://sidra.ibge.gov.br/tabela/4099",
+    "adaptador": "ibge-sidra",
+    "parametros": {}
+  }
+}

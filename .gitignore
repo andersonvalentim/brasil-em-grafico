@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+.env
+.env.*
+!.env.example
+.tmp/
+*.log
+.venv/
+__pycache__/
+.python-version
+.idea/
+.vscode/
+*.swp
+.cache/

@@ -1,0 +1,22 @@
+{
+  "id": "populacao",
+  "status": "ativo",
+  "tema": "populacao",
+  "nome": "Quantas pessoas vivem aqui",
+  "nomeTecnico": "Estimativa da população residente",
+  "unidade": "pessoas",
+  "formato": "milhoes",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR",
+    "UF"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "Estimativas de população",
+    "url": "https://sidra.ibge.gov.br/tabela/6579",
+    "adaptador": "ibge-sidra",
+    "parametros": {}
+  }
+}

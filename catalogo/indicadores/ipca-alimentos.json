@@ -1,0 +1,21 @@
+{
+  "id": "ipca-alimentos",
+  "status": "ativo",
+  "tema": "precos",
+  "nome": "Quanto o preço de cada alimento mudou no ano",
+  "nomeTecnico": "IPCA: variação acumulada no ano por subitem de Alimentação e bebidas",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "IPCA, grupo Alimentação e bebidas",
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "adaptador": "ibge-sidra",
+    "parametros": {}
+  }
+}

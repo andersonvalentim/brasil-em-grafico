@@ -1,0 +1,35 @@
+{
+  "id": "energia",
+  "status": "ativo",
+  "titulo": "Energia: como está a conta de luz",
+  "nomeCurto": "Energia e conta de luz",
+  "icone": "raio",
+  "azulejo": "contexto",
+  "descricao": "A bandeira tarifária do mês diz se a sua conta de luz vem com cobrança extra.",
+  "palavras": [
+    "luz",
+    "energia",
+    "conta",
+    "bandeira",
+    "aneel",
+    "eletrica",
+    "tarifa",
+    "kwh"
+  ],
+  "resumo": {
+    "indicador": "bandeira-tarifaria",
+    "texto": "Bandeira {valor} neste mês."
+  },
+  "cartoes": [
+    {
+      "indicador": "bandeira-tarifaria",
+      "visual": "bandeira",
+      "pergunta": "Como está a conta de luz?",
+      "detalhes": [
+        "As bandeiras mostram quanto custa gerar energia no mês. Quando chove pouco, usam-se usinas mais caras e a conta tem cobrança extra.",
+        "Roraima não está ligado ao sistema elétrico nacional, por isso a bandeira não vale lá."
+      ]
+    }
+  ],
+  "ordem": 5
+}

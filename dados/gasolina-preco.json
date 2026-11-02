@@ -1,0 +1,2248 @@
+{
+  "id": "gasolina-preco",
+  "geradoEm": "2026-11-02T15:18:20.674Z",
+  "origem": "exemplo",
+  "ultimoPeriodo": "2026-10-19",
+  "observacoes": [
+    {
+      "local": "BR",
+      "periodo": "2026-07-06",
+      "valor": 6.05
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-07-06",
+      "valor": 5.97
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-07-06",
+      "valor": 5.86
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-07-06",
+      "valor": 5.9
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-07-06",
+      "valor": 5.87
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-07-06",
+      "valor": 5.96
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-07-06",
+      "valor": 6.01
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-07-06",
+      "valor": 6.03
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-07-06",
+      "valor": 5.97
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-07-06",
+      "valor": 5.95
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-07-06",
+      "valor": 5.87
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-07-06",
+      "valor": 5.86
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-07-06",
+      "valor": 5.85
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-07-06",
+      "valor": 5.93
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-07-06",
+      "valor": 5.9
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-07-06",
+      "valor": 5.91
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-07-06",
+      "valor": 5.87
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-07-06",
+      "valor": 5.94
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-07-06",
+      "valor": 5.98
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-07-06",
+      "valor": 6.01
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-07-06",
+      "valor": 5.85
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-07-06",
+      "valor": 5.9
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-07-06",
+      "valor": 5.86
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-07-06",
+      "valor": 5.89
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-07-06",
+      "valor": 5.95
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-07-06",
+      "valor": 5.88
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-07-06",
+      "valor": 5.97
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-07-06",
+      "valor": 5.88
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-07-13",
+      "valor": 6.06
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-07-13",
+      "valor": 5.98
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-07-13",
+      "valor": 5.87
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-07-13",
+      "valor": 5.91
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-07-13",
+      "valor": 5.88
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-07-13",
+      "valor": 5.97
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-07-13",
+      "valor": 6.02
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-07-13",
+      "valor": 6.04
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-07-13",
+      "valor": 5.98
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-07-13",
+      "valor": 5.96
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-07-13",
+      "valor": 5.88
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-07-13",
+      "valor": 5.87
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-07-13",
+      "valor": 5.86
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-07-13",
+      "valor": 5.94
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-07-13",
+      "valor": 5.91
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-07-13",
+      "valor": 5.92
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-07-13",
+      "valor": 5.88
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-07-13",
+      "valor": 5.95
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-07-13",
+      "valor": 5.99
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-07-13",
+      "valor": 6.02
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-07-13",
+      "valor": 5.86
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-07-13",
+      "valor": 5.91
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-07-13",
+      "valor": 5.87
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-07-13",
+      "valor": 5.9
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-07-13",
+      "valor": 5.96
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-07-13",
+      "valor": 5.89
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-07-13",
+      "valor": 5.98
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-07-13",
+      "valor": 5.89
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-07-20",
+      "valor": 6.07
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-07-20",
+      "valor": 5.99
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-07-20",
+      "valor": 5.88
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-07-20",
+      "valor": 5.92
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-07-20",
+      "valor": 5.89
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-07-20",
+      "valor": 5.98
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-07-20",
+      "valor": 6.03
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-07-20",
+      "valor": 6.05
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-07-20",
+      "valor": 5.99
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-07-20",
+      "valor": 5.97
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-07-20",
+      "valor": 5.89
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-07-20",
+      "valor": 5.88
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-07-20",
+      "valor": 5.87
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-07-20",
+      "valor": 5.95
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-07-20",
+      "valor": 5.92
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-07-20",
+      "valor": 5.93
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-07-20",
+      "valor": 5.89
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-07-20",
+      "valor": 5.96
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-07-20",
+      "valor": 6
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-07-20",
+      "valor": 6.03
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-07-20",
+      "valor": 5.87
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-07-20",
+      "valor": 5.92
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-07-20",
+      "valor": 5.88
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-07-20",
+      "valor": 5.91
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-07-20",
+      "valor": 5.97
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-07-20",
+      "valor": 5.9
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-07-20",
+      "valor": 5.99
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-07-20",
+      "valor": 5.9
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-07-27",
+      "valor": 6.08
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-07-27",
+      "valor": 6
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-07-27",
+      "valor": 5.89
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-07-27",
+      "valor": 5.93
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-07-27",
+      "valor": 5.9
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-07-27",
+      "valor": 5.99
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-07-27",
+      "valor": 6.04
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-07-27",
+      "valor": 6.06
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-07-27",
+      "valor": 6
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-07-27",
+      "valor": 5.98
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-07-27",
+      "valor": 5.9
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-07-27",
+      "valor": 5.89
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-07-27",
+      "valor": 5.88
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-07-27",
+      "valor": 5.96
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-07-27",
+      "valor": 5.93
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-07-27",
+      "valor": 5.94
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-07-27",
+      "valor": 5.9
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-07-27",
+      "valor": 5.97
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-07-27",
+      "valor": 6.01
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-07-27",
+      "valor": 6.04
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-07-27",
+      "valor": 5.88
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-07-27",
+      "valor": 5.93
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-07-27",
+      "valor": 5.89
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-07-27",
+      "valor": 5.92
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-07-27",
+      "valor": 5.98
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-07-27",
+      "valor": 5.91
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-07-27",
+      "valor": 6
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-07-27",
+      "valor": 5.91
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-08-03",
+      "valor": 6.09
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-08-03",
+      "valor": 6.01
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-08-03",
+      "valor": 5.9
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-08-03",
+      "valor": 5.94
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-08-03",
+      "valor": 5.91
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-08-03",
+      "valor": 6
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-08-03",
+      "valor": 6.05
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-08-03",
+      "valor": 6.07
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-08-03",
+      "valor": 6.01
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-08-03",
+      "valor": 5.99
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-08-03",
+      "valor": 5.91
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-08-03",
+      "valor": 5.9
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-08-03",
+      "valor": 5.89
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-08-03",
+      "valor": 5.97
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-08-03",
+      "valor": 5.94
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-08-03",
+      "valor": 5.95
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-08-03",
+      "valor": 5.91
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-08-03",
+      "valor": 5.98
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-08-03",
+      "valor": 6.02
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-08-03",
+      "valor": 6.05
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-08-03",
+      "valor": 5.89
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-08-03",
+      "valor": 5.94
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-08-03",
+      "valor": 5.9
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-08-03",
+      "valor": 5.93
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-08-03",
+      "valor": 5.99
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-08-03",
+      "valor": 5.92
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-08-03",
+      "valor": 6.01
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-08-03",
+      "valor": 5.92
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-08-10",
+      "valor": 6.1
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-08-10",
+      "valor": 6.02
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-08-10",
+      "valor": 5.91
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-08-10",
+      "valor": 5.95
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-08-10",
+      "valor": 5.92
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-08-10",
+      "valor": 6.01
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-08-10",
+      "valor": 6.06
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-08-10",
+      "valor": 6.08
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-08-10",
+      "valor": 6.02
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-08-10",
+      "valor": 6
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-08-10",
+      "valor": 5.92
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-08-10",
+      "valor": 5.91
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-08-10",
+      "valor": 5.9
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-08-10",
+      "valor": 5.98
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-08-10",
+      "valor": 5.95
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-08-10",
+      "valor": 5.96
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-08-10",
+      "valor": 5.92
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-08-10",
+      "valor": 5.99
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-08-10",
+      "valor": 6.03
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-08-10",
+      "valor": 6.06
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-08-10",
+      "valor": 5.9
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-08-10",
+      "valor": 5.95
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-08-10",
+      "valor": 5.91
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-08-10",
+      "valor": 5.94
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-08-10",
+      "valor": 6
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-08-10",
+      "valor": 5.93
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-08-10",
+      "valor": 6.02
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-08-10",
+      "valor": 5.93
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-08-17",
+      "valor": 6.11
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-08-17",
+      "valor": 6.03
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-08-17",
+      "valor": 5.92
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-08-17",
+      "valor": 5.96
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-08-17",
+      "valor": 5.93
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-08-17",
+      "valor": 6.02
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-08-17",
+      "valor": 6.07
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-08-17",
+      "valor": 6.09
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-08-17",
+      "valor": 6.03
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-08-17",
+      "valor": 6.01
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-08-17",
+      "valor": 5.93
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-08-17",
+      "valor": 5.92
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-08-17",
+      "valor": 5.91
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-08-17",
+      "valor": 5.99
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-08-17",
+      "valor": 5.96
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-08-17",
+      "valor": 5.97
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-08-17",
+      "valor": 5.93
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-08-17",
+      "valor": 6
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-08-17",
+      "valor": 6.04
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-08-17",
+      "valor": 6.07
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-08-17",
+      "valor": 5.91
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-08-17",
+      "valor": 5.96
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-08-17",
+      "valor": 5.92
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-08-17",
+      "valor": 5.95
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-08-17",
+      "valor": 6.01
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-08-17",
+      "valor": 5.94
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-08-17",
+      "valor": 6.03
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-08-17",
+      "valor": 5.94
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-08-24",
+      "valor": 6.12
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-08-24",
+      "valor": 6.04
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-08-24",
+      "valor": 5.93
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-08-24",
+      "valor": 5.97
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-08-24",
+      "valor": 5.94
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-08-24",
+      "valor": 6.03
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-08-24",
+      "valor": 6.08
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-08-24",
+      "valor": 6.1
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-08-24",
+      "valor": 6.04
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-08-24",
+      "valor": 6.02
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-08-24",
+      "valor": 5.94
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-08-24",
+      "valor": 5.93
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-08-24",
+      "valor": 5.92
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-08-24",
+      "valor": 6
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-08-24",
+      "valor": 5.97
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-08-24",
+      "valor": 5.98
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-08-24",
+      "valor": 5.94
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-08-24",
+      "valor": 6.01
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-08-24",
+      "valor": 6.05
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-08-24",
+      "valor": 6.08
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-08-24",
+      "valor": 5.92
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-08-24",
+      "valor": 5.97
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-08-24",
+      "valor": 5.93
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-08-24",
+      "valor": 5.96
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-08-24",
+      "valor": 6.02
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-08-24",
+      "valor": 5.95
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-08-24",
+      "valor": 6.04
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-08-24",
+      "valor": 5.95
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-08-31",
+      "valor": 6.13
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-08-31",
+      "valor": 6.05
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-08-31",
+      "valor": 5.94
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-08-31",
+      "valor": 5.98
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-08-31",
+      "valor": 5.95
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-08-31",
+      "valor": 6.04
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-08-31",
+      "valor": 6.09
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-08-31",
+      "valor": 6.11
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-08-31",
+      "valor": 6.05
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-08-31",
+      "valor": 6.03
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-08-31",
+      "valor": 5.95
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-08-31",
+      "valor": 5.94
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-08-31",
+      "valor": 5.93
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-08-31",
+      "valor": 6.01
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-08-31",
+      "valor": 5.98
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-08-31",
+      "valor": 5.99
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-08-31",
+      "valor": 5.95
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-08-31",
+      "valor": 6.02
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-08-31",
+      "valor": 6.06
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-08-31",
+      "valor": 6.09
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-08-31",
+      "valor": 5.93
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-08-31",
+      "valor": 5.98
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-08-31",
+      "valor": 5.94
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-08-31",
+      "valor": 5.97
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-08-31",
+      "valor": 6.03
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-08-31",
+      "valor": 5.96
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-08-31",
+      "valor": 6.05
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-08-31",
+      "valor": 5.96
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-07",
+      "valor": 6.14
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-09-07",
+      "valor": 6.06
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-09-07",
+      "valor": 5.95
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-09-07",
+      "valor": 5.99
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-09-07",
+      "valor": 5.96
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-09-07",
+      "valor": 6.05
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-09-07",
+      "valor": 6.1
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-09-07",
+      "valor": 6.12
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-09-07",
+      "valor": 6.06
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-09-07",
+      "valor": 6.04
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-09-07",
+      "valor": 5.96
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-09-07",
+      "valor": 5.95
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-09-07",
+      "valor": 5.94
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-09-07",
+      "valor": 6.02
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-09-07",
+      "valor": 5.99
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-09-07",
+      "valor": 6
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-09-07",
+      "valor": 5.96
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-09-07",
+      "valor": 6.03
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-09-07",
+      "valor": 6.07
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-09-07",
+      "valor": 6.1
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-09-07",
+      "valor": 5.94
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-09-07",
+      "valor": 5.99
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-09-07",
+      "valor": 5.95
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-09-07",
+      "valor": 5.98
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-09-07",
+      "valor": 6.04
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-09-07",
+      "valor": 5.97
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-09-07",
+      "valor": 6.06
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-09-07",
+      "valor": 5.97
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-14",
+      "valor": 6.15
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-09-14",
+      "valor": 6.07
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-09-14",
+      "valor": 5.96
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-09-14",
+      "valor": 6
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-09-14",
+      "valor": 5.97
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-09-14",
+      "valor": 6.06
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-09-14",
+      "valor": 6.11
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-09-14",
+      "valor": 6.13
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-09-14",
+      "valor": 6.07
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-09-14",
+      "valor": 6.05
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-09-14",
+      "valor": 5.97
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-09-14",
+      "valor": 5.96
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-09-14",
+      "valor": 5.95
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-09-14",
+      "valor": 6.03
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-09-14",
+      "valor": 6
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-09-14",
+      "valor": 6.01
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-09-14",
+      "valor": 5.97
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-09-14",
+      "valor": 6.04
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-09-14",
+      "valor": 6.08
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-09-14",
+      "valor": 6.11
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-09-14",
+      "valor": 5.95
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-09-14",
+      "valor": 6
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-09-14",
+      "valor": 5.96
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-09-14",
+      "valor": 5.99
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-09-14",
+      "valor": 6.05
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-09-14",
+      "valor": 5.98
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-09-14",
+      "valor": 6.07
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-09-14",
+      "valor": 5.98
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-21",
+      "valor": 6.16
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-09-21",
+      "valor": 6.08
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-09-21",
+      "valor": 5.97
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-09-21",
+      "valor": 6.01
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-09-21",
+      "valor": 5.98
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-09-21",
+      "valor": 6.07
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-09-21",
+      "valor": 6.12
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-09-21",
+      "valor": 6.14
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-09-21",
+      "valor": 6.08
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-09-21",
+      "valor": 6.06
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-09-21",
+      "valor": 5.98
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-09-21",
+      "valor": 5.97
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-09-21",
+      "valor": 5.96
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-09-21",
+      "valor": 6.04
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-09-21",
+      "valor": 6.01
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-09-21",
+      "valor": 6.02
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-09-21",
+      "valor": 5.98
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-09-21",
+      "valor": 6.05
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-09-21",
+      "valor": 6.09
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-09-21",
+      "valor": 6.12
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-09-21",
+      "valor": 5.96
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-09-21",
+      "valor": 6.01
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-09-21",
+      "valor": 5.97
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-09-21",
+      "valor": 6
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-09-21",
+      "valor": 6.06
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-09-21",
+      "valor": 5.99
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-09-21",
+      "valor": 6.08
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-09-21",
+      "valor": 5.99
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-09-28",
+      "valor": 6.17
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-09-28",
+      "valor": 6.09
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-09-28",
+      "valor": 5.98
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-09-28",
+      "valor": 6.02
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-09-28",
+      "valor": 5.99
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-09-28",
+      "valor": 6.08
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-09-28",
+      "valor": 6.13
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-09-28",
+      "valor": 6.15
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-09-28",
+      "valor": 6.09
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-09-28",
+      "valor": 6.07
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-09-28",
+      "valor": 5.99
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-09-28",
+      "valor": 5.98
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-09-28",
+      "valor": 5.97
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-09-28",
+      "valor": 6.05
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-09-28",
+      "valor": 6.02
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-09-28",
+      "valor": 6.03
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-09-28",
+      "valor": 5.99
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-09-28",
+      "valor": 6.06
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-09-28",
+      "valor": 6.1
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-09-28",
+      "valor": 6.13
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-09-28",
+      "valor": 5.97
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-09-28",
+      "valor": 6.02
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-09-28",
+      "valor": 5.98
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-09-28",
+      "valor": 6.01
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-09-28",
+      "valor": 6.07
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-09-28",
+      "valor": 6
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-09-28",
+      "valor": 6.09
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-09-28",
+      "valor": 6
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-05",
+      "valor": 6.18
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-10-05",
+      "valor": 6.1
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-10-05",
+      "valor": 5.99
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-10-05",
+      "valor": 6.03
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-10-05",
+      "valor": 6
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-10-05",
+      "valor": 6.09
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-10-05",
+      "valor": 6.14
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-10-05",
+      "valor": 6.16
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-10-05",
+      "valor": 6.1
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-10-05",
+      "valor": 6.08
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-10-05",
+      "valor": 6
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-10-05",
+      "valor": 5.99
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-10-05",
+      "valor": 5.98
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-10-05",
+      "valor": 6.06
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-10-05",
+      "valor": 6.03
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-10-05",
+      "valor": 6.04
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-10-05",
+      "valor": 6
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-10-05",
+      "valor": 6.07
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-10-05",
+      "valor": 6.11
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-10-05",
+      "valor": 6.14
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-10-05",
+      "valor": 5.98
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-10-05",
+      "valor": 6.03
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-10-05",
+      "valor": 5.99
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-10-05",
+      "valor": 6.02
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-10-05",
+      "valor": 6.08
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-10-05",
+      "valor": 6.01
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-10-05",
+      "valor": 6.1
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-10-05",
+      "valor": 6.01
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-12",
+      "valor": 6.19
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-10-12",
+      "valor": 6.11
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-10-12",
+      "valor": 6
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-10-12",
+      "valor": 6.04
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-10-12",
+      "valor": 6.01
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-10-12",
+      "valor": 6.1
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-10-12",
+      "valor": 6.15
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-10-12",
+      "valor": 6.17
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-10-12",
+      "valor": 6.11
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-10-12",
+      "valor": 6.09
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-10-12",
+      "valor": 6.01
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-10-12",
+      "valor": 6
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-10-12",
+      "valor": 5.99
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-10-12",
+      "valor": 6.07
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-10-12",
+      "valor": 6.04
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-10-12",
+      "valor": 6.05
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-10-12",
+      "valor": 6.01
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-10-12",
+      "valor": 6.08
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-10-12",
+      "valor": 6.12
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-10-12",
+      "valor": 6.15
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-10-12",
+      "valor": 5.99
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-10-12",
+      "valor": 6.04
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-10-12",
+      "valor": 6
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-10-12",
+      "valor": 6.03
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-10-12",
+      "valor": 6.09
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-10-12",
+      "valor": 6.02
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-10-12",
+      "valor": 6.11
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-10-12",
+      "valor": 6.02
+    },
+    {
+      "local": "BR",
+      "periodo": "2026-10-19",
+      "valor": 6.2
+    },
+    {
+      "local": "AC",
+      "periodo": "2026-10-19",
+      "valor": 6.12
+    },
+    {
+      "local": "AL",
+      "periodo": "2026-10-19",
+      "valor": 6.01
+    },
+    {
+      "local": "AP",
+      "periodo": "2026-10-19",
+      "valor": 6.05
+    },
+    {
+      "local": "AM",
+      "periodo": "2026-10-19",
+      "valor": 6.02
+    },
+    {
+      "local": "BA",
+      "periodo": "2026-10-19",
+      "valor": 6.11
+    },
+    {
+      "local": "CE",
+      "periodo": "2026-10-19",
+      "valor": 6.16
+    },
+    {
+      "local": "DF",
+      "periodo": "2026-10-19",
+      "valor": 6.18
+    },
+    {
+      "local": "ES",
+      "periodo": "2026-10-19",
+      "valor": 6.12
+    },
+    {
+      "local": "GO",
+      "periodo": "2026-10-19",
+      "valor": 6.1
+    },
+    {
+      "local": "MA",
+      "periodo": "2026-10-19",
+      "valor": 6.02
+    },
+    {
+      "local": "MT",
+      "periodo": "2026-10-19",
+      "valor": 6.01
+    },
+    {
+      "local": "MS",
+      "periodo": "2026-10-19",
+      "valor": 6
+    },
+    {
+      "local": "MG",
+      "periodo": "2026-10-19",
+      "valor": 6.08
+    },
+    {
+      "local": "PA",
+      "periodo": "2026-10-19",
+      "valor": 6.05
+    },
+    {
+      "local": "PB",
+      "periodo": "2026-10-19",
+      "valor": 6.06
+    },
+    {
+      "local": "PR",
+      "periodo": "2026-10-19",
+      "valor": 6.02
+    },
+    {
+      "local": "PE",
+      "periodo": "2026-10-19",
+      "valor": 6.09
+    },
+    {
+      "local": "PI",
+      "periodo": "2026-10-19",
+      "valor": 6.13
+    },
+    {
+      "local": "RJ",
+      "periodo": "2026-10-19",
+      "valor": 6.16
+    },
+    {
+      "local": "RN",
+      "periodo": "2026-10-19",
+      "valor": 6
+    },
+    {
+      "local": "RS",
+      "periodo": "2026-10-19",
+      "valor": 6.05
+    },
+    {
+      "local": "RO",
+      "periodo": "2026-10-19",
+      "valor": 6.01
+    },
+    {
+      "local": "RR",
+      "periodo": "2026-10-19",
+      "valor": 6.04
+    },
+    {
+      "local": "SC",
+      "periodo": "2026-10-19",
+      "valor": 6.1
+    },
+    {
+      "local": "SP",
+      "periodo": "2026-10-19",
+      "valor": 6.03
+    },
+    {
+      "local": "SE",
+      "periodo": "2026-10-19",
+      "valor": 6.12
+    },
+    {
+      "local": "TO",
+      "periodo": "2026-10-19",
+      "valor": 6.03
+    }
+  ]
+}

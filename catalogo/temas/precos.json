@@ -1,0 +1,91 @@
+{
+  "id": "precos",
+  "status": "ativo",
+  "titulo": "Preços: quanto as coisas estão subindo",
+  "nomeCurto": "Preços (inflação)",
+  "icone": "cesta",
+  "azulejo": "urucum",
+  "descricao": "Veja quanto os preços subiram, o que ficou mais caro na feira e como o seu estado se compara com o resto do país.",
+  "palavras": [
+    "inflacao",
+    "preco",
+    "precos",
+    "ipca",
+    "carestia",
+    "custo",
+    "vida",
+    "subiu",
+    "caro",
+    "aumento",
+    "comida",
+    "alimento",
+    "alimentos",
+    "carne",
+    "cafe",
+    "tomate",
+    "feijao",
+    "arroz",
+    "azeite",
+    "leite",
+    "carrinho",
+    "mercado",
+    "supermercado",
+    "feira"
+  ],
+  "resumo": {
+    "indicador": "ipca-12m",
+    "texto": "Os preços subiram {valor} em 1 ano."
+  },
+  "cartoes": [
+    {
+      "indicador": "ipca-12m",
+      "visual": "linha",
+      "pergunta": "Quanto os preços subiram em 1 ano?",
+      "frase": "O que custava R$ 100 há um ano hoje custa cerca de {r100}.",
+      "opcoes": {
+        "periodos": 12
+      },
+      "detalhes": [
+        "A inflação oficial se chama IPCA (Índice Nacional de Preços ao Consumidor Amplo). Todo mês, o IBGE anota o preço de centenas de produtos e serviços, como comida, aluguel, ônibus e remédio, e compara com o mês anterior.",
+        "O governo define uma meta de 3% ao ano. Se os preços subirem até 4,5% ou até 1,5%, ainda estão dentro do limite aceito."
+      ],
+      "unidade": "em 12 meses, até {periodo}"
+    },
+    {
+      "indicador": "ipca-alimentos",
+      "visual": "ano-a-ano",
+      "pergunta": "Como o preço de cada alimento mudou, ano a ano?",
+      "detalhes": [
+        "Cada linha é um alimento. Cada barra mostra quanto o preço dele subiu ou caiu naquele ano, de janeiro a dezembro.",
+        "O ano atual ainda não terminou: a barra dele mostra a mudança de janeiro até o último mês divulgado."
+      ],
+      "rotuloCategoria": "Alimento",
+      "unidade": "alimentos ficaram mais caros"
+    },
+    {
+      "indicador": "ipca-alimentos",
+      "visual": "destaques-categorias",
+      "pergunta": "O que mais subiu e o que mais caiu no carrinho?",
+      "opcoes": {
+        "quantidade": 5
+      },
+      "detalhes": [
+        "A comida e a bebida são cerca de 1/5 de tudo o que o IPCA mede. Pesquisadores do IBGE anotam os preços em supermercados, feiras, padarias e açougues."
+      ],
+      "rotuloCategoria": "Alimento"
+    },
+    {
+      "indicador": "ipca-12m",
+      "visual": "ranking-uf",
+      "pergunta": "Como está a inflação nos estados?",
+      "detalhes": [
+        "O IBGE mede a inflação em 16 lugares: regiões metropolitanas e capitais. Em cada estado com pesquisa, o número vale para essa capital ou região, e não para o estado inteiro.",
+        "Nos estados sem pesquisa, não existe um número oficial próprio. Por isso eles aparecem com listras, e não com um valor inventado."
+      ],
+      "opcoes": {
+        "area": true
+      }
+    }
+  ],
+  "ordem": 1
+}

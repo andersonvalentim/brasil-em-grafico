@@ -1,0 +1,116 @@
+{
+  "temas": [
+    "precos",
+    "combustiveis",
+    "trabalho",
+    "juros-dolar",
+    "energia",
+    "populacao"
+  ],
+  "inicio": {
+    "destaques": [
+      {
+        "indicador": "ipca-12m",
+        "rotulo": "Custo de vida",
+        "icone": "cesta",
+        "pergunta": "Quanto os preços subiram em 1 ano?",
+        "unidade": "em 12 meses (inflação oficial)",
+        "frase": "O que custava R$ 100 há um ano hoje custa {r100}."
+      },
+      {
+        "indicador": "desemprego",
+        "rotulo": "Trabalho",
+        "icone": "pessoas",
+        "pergunta": "Quantos estão sem trabalho?",
+        "unidade": "das pessoas que procuram trabalho",
+        "frase": "De cada 100 pessoas que procuram trabalho, cerca de {emCada100} não encontram."
+      },
+      {
+        "indicador": "gasolina-preco",
+        "rotulo": "Combustível",
+        "icone": "combustivel",
+        "pergunta": "Quanto custa a gasolina?",
+        "unidade": "o litro, na média do Brasil",
+        "frase": "{variacao} desde {periodoAnterior}."
+      },
+      {
+        "indicador": "dolar",
+        "rotulo": "Dólar",
+        "icone": "dinheiro",
+        "pergunta": "Quanto vale 1 dólar hoje?",
+        "unidade": "cotação comercial de venda",
+        "frase": "{variacao} desde {periodoAnterior}."
+      }
+    ],
+    "foco": {
+      "indicador": "gasolina-preco",
+      "visual": "comparativo-local",
+      "etiqueta": "No seu estado",
+      "pergunta": "Quanto custa a gasolina {noEstado}?",
+      "detalhes": [
+        "Toda semana, a ANP (Agência Nacional do Petróleo) pesquisa o preço da gasolina em postos de várias cidades. O número acima é a média desses preços.",
+        "O preço final soma o custo da refinaria, os impostos federais, o imposto do estado (ICMS) e o lucro de quem distribui e de quem vende."
+      ],
+      "unidade": "o litro da gasolina comum",
+      "frase": "Na média do país, o litro sai por {valorBrasil}."
+    }
+  },
+  "estado": {
+    "cartoes": [
+      {
+        "indicador": "gasolina-preco",
+        "visual": "comparativo-local",
+        "etiqueta": "Combustível · ANP",
+        "pergunta": "Quanto custa a gasolina {noEstado}?",
+        "id": "gasolina",
+        "unidade": "o litro da gasolina comum",
+        "frase": "Na média do país, o litro sai por {valorBrasil}."
+      },
+      {
+        "indicador": "desemprego",
+        "visual": "pictograma",
+        "etiqueta": "Trabalho · IBGE",
+        "pergunta": "Quantas pessoas procuram trabalho e não encontram {noEstado}?",
+        "id": "trabalho",
+        "unidade": "das pessoas que procuram trabalho",
+        "frase": "De cada 100 {gentilico} que procuram trabalho, cerca de {emCada100} não encontram. A média do Brasil é {valorBrasil}.",
+        "tituloGrafico": "Em cada 100 pessoas que procuram trabalho",
+        "opcoes": {
+          "rotulos": [
+            "sem trabalho",
+            "trabalhando"
+          ]
+        }
+      },
+      {
+        "indicador": "ipca-12m",
+        "visual": "linha",
+        "etiqueta": "Custo de vida · IBGE",
+        "pergunta": "Quanto os preços subiram {naArea}?",
+        "opcoes": {
+          "locais": [
+            "estado",
+            "BR"
+          ],
+          "periodos": 12,
+          "area": true
+        },
+        "id": "precos",
+        "unidade": "em 12 meses, até {periodo}"
+      },
+      {
+        "indicador": "bandeira-tarifaria",
+        "visual": "bandeira",
+        "etiqueta": "Conta de luz · ANEEL",
+        "pergunta": "Como está a conta de luz?",
+        "id": "luz"
+      }
+    ],
+    "comparar": [
+      "gasolina-preco",
+      "desemprego",
+      "ipca-12m",
+      "populacao"
+    ]
+  }
+}

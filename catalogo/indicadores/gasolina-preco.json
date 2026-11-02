@@ -1,0 +1,24 @@
+{
+  "id": "gasolina-preco",
+  "status": "ativo",
+  "tema": "combustiveis",
+  "nome": "Preço médio do litro da gasolina comum",
+  "nomeTecnico": "Preço médio de revenda da gasolina comum",
+  "unidade": "R$/litro",
+  "formato": "real",
+  "casas": 2,
+  "periodicidade": "semanal",
+  "abrangencia": [
+    "BR",
+    "UF"
+  ],
+  "fonte": {
+    "orgao": "ANP",
+    "nome": "Levantamento de Preços de Combustíveis",
+    "url": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas",
+    "adaptador": "anp-lpc",
+    "parametros": {
+      "produto": "GASOLINA COMUM"
+    }
+  }
+}
