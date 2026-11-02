@@ -35,6 +35,13 @@ O projeto é modular de propósito: a maior parte das contribuições são arqui
 - [ ] `npm run validar` passa (quando o script existir).
 - [ ] Site local abre e o cartão aparece (`npm run dev`).
 
+## Segurança
+
+- Nunca inclua chaves, tokens ou senhas em commits. O coletor usa só APIs públicas.
+- Links em `fonte.url` precisam começar com `https://`; nomes de `id`, `visual` e `adaptador` usam só letras minúsculas, números e hífen. O `npm run validar` confere isso.
+- Mudanças em `.github/`, `scripts/`, `assets/js/` e nas páginas HTML passam por revisão do mantenedor.
+- Encontrou uma falha? Siga o [SECURITY.md](SECURITY.md) em vez de abrir uma issue pública.
+
 ## Conversas
 
 Dúvidas sobre o contrato dos JSON: veja **[docs/arquitetura.md](docs/arquitetura.md)**.

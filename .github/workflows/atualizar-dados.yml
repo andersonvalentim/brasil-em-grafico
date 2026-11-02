@@ -5,29 +5,37 @@ on:
     - cron: '0 12 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
 
 jobs:
   coletar:
+    if: github.repository == 'andersonvalentim/brasil-em-grafico'
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '20'
       - name: Coletar dados oficiais
         run: npm run dados
-      - name: Validar catálogo
+      - name: Validar catálogo e dados
         run: npm run validar
-      - name: Commit se houver mudança
+      - name: Publicar dados novos
         run: |
-          if git diff --quiet -- dados; then
+          if [ -z "$(git status --porcelain -- dados)" ]; then
             echo "Nenhuma mudança em dados/"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dados
-          git commit -m "chore: atualiza dados oficiais"
-          git push
+          git commit -m "chore(dados): atualiza dados oficiais"
+          git pull --rebase origin main
+          git push origin HEAD:main

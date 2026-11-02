@@ -4,7 +4,7 @@
   "private": true,
   "description": "Site estático e modular com dados oficiais do Brasil em perguntas e gráficos claros.",
   "scripts": {
-    "dev": "npx --yes serve -l 8642 .",
+    "dev": "node scripts/servidor.mjs",
     "dados": "node scripts/atualizar-dados.mjs",
     "validar": "node scripts/validar.mjs",
     "novo-indicador": "node scripts/novo-indicador.mjs"

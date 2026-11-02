@@ -22,6 +22,10 @@
       .replace(/"/g, "&quot;");
   };
 
+  BG.urlSegura = function (url) {
+    return /^https?:\/\//i.test(String(url || "")) ? String(url) : "";
+  };
+
   BG.cap = function (texto) {
     texto = String(texto || "");
     return texto.charAt(0).toUpperCase() + texto.slice(1);
@@ -342,7 +346,7 @@
   ];
 
   function icone(nome, classe) {
-    return '<svg class="icone' + (classe ? " " + classe : "") + '" aria-hidden="true"><use href="#i-' + nome + '"/></svg>';
+    return '<svg class="icone' + (classe ? " " + BG.escapar(classe) : "") + '" aria-hidden="true"><use href="#i-' + BG.escapar(nome) + '"/></svg>';
   }
 
   BG.icone = icone;
@@ -573,6 +577,9 @@
     },
     obter: function (nome) {
       if (visuais[nome]) return Promise.resolve(visuais[nome]);
+      if (!/^[a-z0-9-]+$/.test(String(nome))) {
+        return Promise.reject(new Error('Nome de visual inválido: "' + nome + '"'));
+      }
       if (!esperando[nome]) {
         var p = {};
         p.promessa = new Promise(function (resolver, rejeitar) {

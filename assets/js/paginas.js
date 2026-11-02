@@ -121,7 +121,7 @@
         return [];
       }
       lista.innerHTML = resultados.map(function (r) {
-        return '<li><a class="resultado" href="' + r.url + '"><span><strong>' + esc(r.titulo) + "</strong><span>" + esc(r.descricao) + "</span></span>" + icone("seta") + "</a></li>";
+        return '<li><a class="resultado" href="' + esc(r.url) + '"><span><strong>' + esc(r.titulo) + "</strong><span>" + esc(r.descricao) + "</span></span>" + icone("seta") + "</a></li>";
       }).join("");
       status.textContent = resultados.length === 1 ? "1 resultado encontrado." : resultados.length + " resultados encontrados.";
       return resultados;
@@ -372,7 +372,7 @@
           "<dt>Último dado</dt><dd>" + esc(BG.cap(BG.periodo.longo(d.ultimoPeriodo))) + "</dd>" +
           "<dt>Atualizado no site em</dt><dd>" + esc(BG.periodo.data(d.geradoEm) || "—") + (d.origem !== "api" ? " · <strong>dados ilustrativos</strong>" : "") + "</dd>" +
           (ind.cobertura ? "<dt>Cobertura</dt><dd>" + esc(ind.cobertura) + "</dd>" : "") +
-          "</dl>" + (ind.fonte.url ? '<a class="btn-link" href="' + esc(ind.fonte.url) + '" rel="noopener">Ver no site do ' + esc(ind.fonte.orgao) + icone("abrir", "icone--sm") + "</a>" : "") +
+          "</dl>" + (BG.urlSegura(ind.fonte.url) ? '<a class="btn-link" href="' + esc(BG.urlSegura(ind.fonte.url)) + '" rel="noopener noreferrer">Ver no site do ' + esc(ind.fonte.orgao) + icone("abrir", "icone--sm") + "</a>" : "") +
           "</article>";
       }).join("");
     });
