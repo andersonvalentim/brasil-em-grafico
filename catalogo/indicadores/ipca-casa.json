@@ -1,0 +1,42 @@
+{
+  "id": "ipca-casa",
+  "status": "ativo",
+  "tema": "casa",
+  "nome": "Quanto as contas da casa mudaram no ano",
+  "nomeTecnico": "IPCA: variação acumulada no ano de subitens de Habitação e Comunicação",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "IPCA",
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "tabela": 7060,
+      "variavel": 69,
+      "niveis": [
+        "N1"
+      ],
+      "modo": "fim-de-ano",
+      "anos": 6,
+      "classificacao": {
+        "315": {
+          "7448": "Aluguel",
+          "7449": "Condomínio",
+          "7451": "Água e esgoto",
+          "7482": "Gás de botijão",
+          "7485": "Conta de luz",
+          "47669": "Plano de celular",
+          "47672": "Combo de internet, TV e telefone",
+          "107641": "Mão de obra para reparos",
+          "107688": "Internet"
+        }
+      }
+    }
+  }
+}

@@ -294,7 +294,7 @@
           "<dt>Último dado</dt><dd>" + esc(BG.cap(BG.periodo.longo(d.ultimoPeriodo))) + "</dd>" +
           "<dt>Atualizado no site em</dt><dd>" + esc(BG.periodo.data(d.geradoEm) || "—") + (d.origem !== "api" ? " · <strong>dados ilustrativos</strong>" : "") + "</dd>" +
           (ind.cobertura ? "<dt>Cobertura</dt><dd>" + esc(ind.cobertura) + "</dd>" : "") +
-          "</dl>" + (BG.urlSegura(ind.fonte.url) ? '<a class="btn-link" href="' + esc(BG.urlSegura(ind.fonte.url)) + '" rel="noopener noreferrer">Ver no site do ' + esc(ind.fonte.orgao) + icone("abrir", "icone--sm") + "</a>" : "") +
+          "</dl>" + (BG.urlSegura(ind.fonte.url) ? '<a class="btn-link" href="' + esc(BG.urlSegura(ind.fonte.url)) + '" rel="noopener noreferrer">Ver no site ' + esc(BG.siteDe(ind.fonte.orgao)) + icone("abrir", "icone--sm") + "</a>" : "") +
           "</article>";
       }).join("");
     });

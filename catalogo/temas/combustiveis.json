@@ -1,11 +1,11 @@
 {
   "id": "combustiveis",
   "status": "ativo",
-  "titulo": "Combustíveis: quanto custa abastecer",
-  "nomeCurto": "Combustíveis",
+  "titulo": "Combustíveis e transporte: quanto custa se locomover",
+  "nomeCurto": "Combustíveis e transporte",
   "icone": "combustivel",
   "azulejo": "azulejo",
-  "descricao": "O preço médio do litro da gasolina no seu estado, nos vizinhos e no Brasil, semana a semana.",
+  "descricao": "O preço da gasolina no seu estado, semana a semana, e quanto subiram ônibus, aplicativo, passagem aérea e outros gastos para se locomover.",
   "palavras": [
     "gasolina",
     "combustivel",
@@ -50,7 +50,18 @@
       "indicador": "gasolina-preco",
       "visual": "ranking-uf",
       "pergunta": "Onde a gasolina é mais cara?"
+    },
+    {
+      "indicador": "ipca-transporte",
+      "visual": "ano-a-ano",
+      "pergunta": "Quanto subiu o custo de se locomover?",
+      "rotuloCategoria": "Gasto",
+      "unidade": "gastos com transporte ficaram mais caros",
+      "detalhes": [
+        "Aqui a gasolina vem do IPCA, do IBGE: é quanto o preço subiu no ano. O preço do litro, no começo da página, vem da pesquisa semanal da ANP.",
+        "O ano atual ainda não terminou: a barra dele vai de janeiro até o último mês divulgado."
+      ]
     }
   ],
-  "ordem": 2
+  "ordem": 4
 }

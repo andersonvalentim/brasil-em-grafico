@@ -1,0 +1,228 @@
+{
+ "id": "ipca-comer-fora",
+ "geradoEm": "2026-11-02T23:37:41.917Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/7060",
+ "ultimoPeriodo": "2026",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 7.82,
+   "categoria": "Refeição"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 6.34,
+   "categoria": "Lanche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.36,
+   "categoria": "Cafezinho"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.82,
+   "categoria": "Cerveja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 7.96,
+   "categoria": "Sorvete"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 5.55,
+   "categoria": "Refrigerante e água"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 5.86,
+   "categoria": "Refeição"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 10.67,
+   "categoria": "Lanche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 14.14,
+   "categoria": "Cafezinho"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 6.42,
+   "categoria": "Cerveja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 18.29,
+   "categoria": "Sorvete"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 7.99,
+   "categoria": "Refrigerante e água"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 4.34,
+   "categoria": "Refeição"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 7.24,
+   "categoria": "Lanche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.36,
+   "categoria": "Cafezinho"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.23,
+   "categoria": "Cerveja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 9.66,
+   "categoria": "Sorvete"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 4.74,
+   "categoria": "Refrigerante e água"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.7,
+   "categoria": "Refeição"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 7.56,
+   "categoria": "Lanche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 8.72,
+   "categoria": "Cafezinho"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.83,
+   "categoria": "Cerveja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 8.91,
+   "categoria": "Sorvete"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.07,
+   "categoria": "Refrigerante e água"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 4.97,
+   "categoria": "Refeição"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 11.35,
+   "categoria": "Lanche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 15.5,
+   "categoria": "Cafezinho"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 3.13,
+   "categoria": "Cerveja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 10.22,
+   "categoria": "Sorvete"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 4.92,
+   "categoria": "Refrigerante e água"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.01,
+   "categoria": "Refeição"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.58,
+   "categoria": "Lanche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 8.26,
+   "categoria": "Cafezinho"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 3.38,
+   "categoria": "Cerveja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.19,
+   "categoria": "Sorvete"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.14,
+   "categoria": "Refrigerante e água"
+  }
+ ],
+ "notas": {
+  "anoParcialAte": "2026-09"
+ }
+}

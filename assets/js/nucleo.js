@@ -26,6 +26,10 @@
     return /^https?:\/\//i.test(String(url || "")) ? String(url) : "";
   };
 
+  BG.siteDe = function (orgao) {
+    return (/^(ANP|ANEEL|ANS|ANATEL)$/i.test(String(orgao)) ? "da " : "do ") + orgao;
+  };
+
   BG.cap = function (texto) {
     texto = String(texto || "");
     return texto.charAt(0).toUpperCase() + texto.slice(1);

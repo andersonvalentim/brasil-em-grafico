@@ -1,0 +1,44 @@
+{
+  "id": "casa",
+  "status": "ativo",
+  "ordem": 3,
+  "titulo": "Casa e contas: o que pesa todo mês",
+  "nomeCurto": "Casa e contas",
+  "icone": "casa",
+  "azulejo": "urucum",
+  "descricao": "Quanto subiram a conta de luz, o aluguel, o condomínio, a água, o gás, a internet e o celular.",
+  "palavras": [
+    "aluguel",
+    "condominio",
+    "luz",
+    "agua",
+    "gas",
+    "internet",
+    "celular"
+  ],
+  "cartoes": [
+    {
+      "indicador": "ipca-casa",
+      "visual": "ano-a-ano",
+      "pergunta": "Quanto subiram as contas da casa?",
+      "rotuloCategoria": "Conta",
+      "unidade": "contas ficaram mais caras",
+      "detalhes": [
+        "Conta de luz, aluguel e condomínio estão entre os gastos que mais pesam no orçamento das famílias.",
+        "A conta de luz também muda com a bandeira tarifária, que você vê no tema Energia. O ano atual ainda não terminou: a barra dele vai de janeiro até o último mês divulgado."
+      ]
+    },
+    {
+      "indicador": "ipca-casa",
+      "visual": "destaques-categorias",
+      "pergunta": "Qual conta da casa mais subiu este ano?",
+      "rotuloCategoria": "Conta",
+      "opcoes": {
+        "quantidade": 4
+      },
+      "detalhes": [
+        "Os números vêm do IPCA, a inflação oficial medida pelo IBGE."
+      ]
+    }
+  ]
+}

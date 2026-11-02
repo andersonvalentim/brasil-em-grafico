@@ -1,0 +1,39 @@
+{
+  "id": "ipca-comer-fora",
+  "status": "ativo",
+  "tema": "comida",
+  "nome": "Quanto comer fora de casa mudou no ano",
+  "nomeTecnico": "IPCA: variação acumulada no ano de subitens de Alimentação fora do domicílio",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "IPCA",
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "tabela": 7060,
+      "variavel": 69,
+      "niveis": [
+        "N1"
+      ],
+      "modo": "fim-de-ano",
+      "anos": 6,
+      "classificacao": {
+        "315": {
+          "7434": "Refeição",
+          "7435": "Lanche",
+          "7438": "Cafezinho",
+          "7440": "Cerveja",
+          "47633": "Sorvete",
+          "107633": "Refrigerante e água"
+        }
+      }
+    }
+  }
+}

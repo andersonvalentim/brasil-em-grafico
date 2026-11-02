@@ -1,0 +1,336 @@
+{
+ "id": "ipca-casa",
+ "geradoEm": "2026-11-02T23:37:39.423Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/7060",
+ "ultimoPeriodo": "2026",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 6.96,
+   "categoria": "Aluguel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.31,
+   "categoria": "Condomínio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 5.15,
+   "categoria": "Água e esgoto"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 36.99,
+   "categoria": "Gás de botijão"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 21.21,
+   "categoria": "Conta de luz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 0.16,
+   "categoria": "Plano de celular"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 0,
+   "categoria": "Combo de internet, TV e telefone"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 1.41,
+   "categoria": "Mão de obra para reparos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 0,
+   "categoria": "Internet"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 8.67,
+   "categoria": "Aluguel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 6.8,
+   "categoria": "Condomínio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 9.22,
+   "categoria": "Água e esgoto"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 6.27,
+   "categoria": "Gás de botijão"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": -19.01,
+   "categoria": "Conta de luz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": -3.28,
+   "categoria": "Plano de celular"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 2.55,
+   "categoria": "Combo de internet, TV e telefone"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 3.78,
+   "categoria": "Mão de obra para reparos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": -12.09,
+   "categoria": "Internet"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 3.21,
+   "categoria": "Aluguel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 6.74,
+   "categoria": "Condomínio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 10.08,
+   "categoria": "Água e esgoto"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -6.89,
+   "categoria": "Gás de botijão"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 9.52,
+   "categoria": "Conta de luz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 3.85,
+   "categoria": "Plano de celular"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.71,
+   "categoria": "Combo de internet, TV e telefone"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.88,
+   "categoria": "Mão de obra para reparos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 2.7,
+   "categoria": "Internet"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 3.45,
+   "categoria": "Aluguel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.25,
+   "categoria": "Condomínio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.17,
+   "categoria": "Água e esgoto"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 7.04,
+   "categoria": "Gás de botijão"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": -0.37,
+   "categoria": "Conta de luz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 3.94,
+   "categoria": "Plano de celular"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.13,
+   "categoria": "Combo de internet, TV e telefone"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 7.07,
+   "categoria": "Mão de obra para reparos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 0,
+   "categoria": "Internet"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 6.06,
+   "categoria": "Aluguel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.14,
+   "categoria": "Condomínio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 4.5,
+   "categoria": "Água e esgoto"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 2.55,
+   "categoria": "Gás de botijão"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 12.31,
+   "categoria": "Conta de luz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 2.82,
+   "categoria": "Plano de celular"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 1.3,
+   "categoria": "Combo de internet, TV e telefone"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 7.41,
+   "categoria": "Mão de obra para reparos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 0,
+   "categoria": "Internet"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 3.02,
+   "categoria": "Aluguel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 2.97,
+   "categoria": "Condomínio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 5.02,
+   "categoria": "Água e esgoto"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 3.34,
+   "categoria": "Gás de botijão"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 6.5,
+   "categoria": "Conta de luz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 3.96,
+   "categoria": "Plano de celular"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 1.51,
+   "categoria": "Combo de internet, TV e telefone"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 6.63,
+   "categoria": "Mão de obra para reparos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 1.1,
+   "categoria": "Internet"
+  }
+ ],
+ "notas": {
+  "anoParcialAte": "2026-09"
+ }
+}

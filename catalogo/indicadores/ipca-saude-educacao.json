@@ -1,0 +1,42 @@
+{
+  "id": "ipca-saude-educacao",
+  "status": "ativo",
+  "tema": "saude-educacao",
+  "nome": "Quanto saúde e educação mudaram no ano",
+  "nomeTecnico": "IPCA: variação acumulada no ano de subitens de Saúde e Educação",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "IPCA",
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "tabela": 7060,
+      "variavel": 69,
+      "niveis": [
+        "N1"
+      ],
+      "modo": "fim-de-ano",
+      "anos": 6,
+      "classificacao": {
+        "315": {
+          "7662": "Remédios",
+          "7685": "Consulta médica",
+          "7686": "Dentista",
+          "7691": "Exame de laboratório",
+          "7696": "Plano de saúde",
+          "7769": "Creche",
+          "107671": "Ensino fundamental",
+          "107672": "Ensino médio",
+          "107673": "Faculdade"
+        }
+      }
+    }
+  }
+}

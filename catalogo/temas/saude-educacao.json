@@ -1,0 +1,43 @@
+{
+  "id": "saude-educacao",
+  "status": "ativo",
+  "ordem": 5,
+  "titulo": "Saúde e educação: quanto custa se cuidar e estudar",
+  "nomeCurto": "Saúde e educação",
+  "icone": "saude",
+  "azulejo": "azulejo",
+  "descricao": "Quanto subiram plano de saúde, remédios, consultas e as mensalidades da creche, da escola e da faculdade.",
+  "palavras": [
+    "saude",
+    "plano",
+    "remedio",
+    "escola",
+    "faculdade",
+    "creche"
+  ],
+  "cartoes": [
+    {
+      "indicador": "ipca-saude-educacao",
+      "visual": "ano-a-ano",
+      "pergunta": "Quanto subiram saúde e educação?",
+      "rotuloCategoria": "Gasto",
+      "unidade": "gastos ficaram mais caros",
+      "detalhes": [
+        "As mensalidades de creche, escola e faculdade costumam ser reajustadas no começo do ano, por isso a alta aparece quase toda em fevereiro.",
+        "Remédios reúne todos os produtos de farmácia que o IBGE pesquisa. O ano atual ainda não terminou: a barra dele vai de janeiro até o último mês divulgado."
+      ]
+    },
+    {
+      "indicador": "ipca-saude-educacao",
+      "visual": "destaques-categorias",
+      "pergunta": "O que mais subiu este ano em saúde e educação?",
+      "rotuloCategoria": "Gasto",
+      "opcoes": {
+        "quantidade": 4
+      },
+      "detalhes": [
+        "Os números vêm do IPCA, a inflação oficial medida pelo IBGE."
+      ]
+    }
+  ]
+}

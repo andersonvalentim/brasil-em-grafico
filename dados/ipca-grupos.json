@@ -1,0 +1,336 @@
+{
+ "id": "ipca-grupos",
+ "geradoEm": "2026-11-02T23:37:42.508Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/7060",
+ "ultimoPeriodo": "2026",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 7.94,
+   "categoria": "Comida e bebida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 13.05,
+   "categoria": "Moradia"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 12.07,
+   "categoria": "Móveis e eletrodomésticos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 10.31,
+   "categoria": "Roupas e calçados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 21.03,
+   "categoria": "Transporte"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 3.7,
+   "categoria": "Saúde e cuidados pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.73,
+   "categoria": "Despesas pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 2.81,
+   "categoria": "Educação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 1.38,
+   "categoria": "Comunicação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 11.64,
+   "categoria": "Comida e bebida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 0.07,
+   "categoria": "Moradia"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 7.89,
+   "categoria": "Móveis e eletrodomésticos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 18.02,
+   "categoria": "Roupas e calçados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": -1.29,
+   "categoria": "Transporte"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 11.43,
+   "categoria": "Saúde e cuidados pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 7.77,
+   "categoria": "Despesas pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 7.48,
+   "categoria": "Educação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": -1.02,
+   "categoria": "Comunicação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 1.03,
+   "categoria": "Comida e bebida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.06,
+   "categoria": "Moradia"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 0.27,
+   "categoria": "Móveis e eletrodomésticos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 2.92,
+   "categoria": "Roupas e calçados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 7.14,
+   "categoria": "Transporte"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 6.58,
+   "categoria": "Saúde e cuidados pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.42,
+   "categoria": "Despesas pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 8.24,
+   "categoria": "Educação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 2.89,
+   "categoria": "Comunicação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 7.69,
+   "categoria": "Comida e bebida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 3.06,
+   "categoria": "Moradia"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 1.31,
+   "categoria": "Móveis e eletrodomésticos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 2.78,
+   "categoria": "Roupas e calçados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 3.3,
+   "categoria": "Transporte"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.09,
+   "categoria": "Saúde e cuidados pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.13,
+   "categoria": "Despesas pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.7,
+   "categoria": "Educação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 2.94,
+   "categoria": "Comunicação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 2.95,
+   "categoria": "Comida e bebida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 6.79,
+   "categoria": "Moradia"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": -0.28,
+   "categoria": "Móveis e eletrodomésticos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 4.99,
+   "categoria": "Roupas e calçados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 3.07,
+   "categoria": "Transporte"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.59,
+   "categoria": "Saúde e cuidados pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.87,
+   "categoria": "Despesas pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 6.22,
+   "categoria": "Educação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 0.77,
+   "categoria": "Comunicação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.37,
+   "categoria": "Comida e bebida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.35,
+   "categoria": "Moradia"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 2.81,
+   "categoria": "Móveis e eletrodomésticos"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 1.85,
+   "categoria": "Roupas e calçados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 2.84,
+   "categoria": "Transporte"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.82,
+   "categoria": "Saúde e cuidados pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.24,
+   "categoria": "Despesas pessoais"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 5.8,
+   "categoria": "Educação"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 2.77,
+   "categoria": "Comunicação"
+  }
+ ],
+ "notas": {
+  "anoParcialAte": "2026-09"
+ }
+}

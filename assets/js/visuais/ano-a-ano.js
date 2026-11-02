@@ -44,7 +44,7 @@
   function celula(ctx, m, valor, i) {
     var atual = i === m.anos.length - 1;
     var texto = valor == null ? "sem dado"
-      : valor === 0 ? "0" : (valor > 0 ? "▲ " : "▼ ") + ctx.formatar(Math.abs(valor));
+      : valor === 0 ? "= igual" : (valor > 0 ? "▲ " : "▼ ") + ctx.formatar(Math.abs(valor));
     var tamanho = valor == null ? 0 : (Math.abs(valor) / m.max) * 50;
     return '<span class="aa__celula' + (atual ? " aa__celula--atual" : "") + '" role="cell">' +
       '<span class="aa__ano" aria-hidden="true">' + BG.escapar(m.anos[i]) + "</span>" +

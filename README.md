@@ -119,14 +119,17 @@ Indicadores, temas e tipos de gráfico são peças independentes. Adicionar um d
 
 | Tema | Pergunta principal | Fonte |
 |---|---|---|
-| 🛒 **Preços** | Quanto os preços subiram em 1 ano? Como cada alimento mudou, ano a ano? | IBGE · IPCA |
-| ⛽ **Combustíveis** | Quanto custa o litro da gasolina no meu estado? | ANP |
+| 📈 **Preços** | Quanto os preços subiram em 1 ano e em cada ano? Em que parte do orçamento subiram mais? | IBGE · IPCA |
+| 🛒 **Comida** | Como o preço de cada alimento mudou, ano a ano? Quanto ficou mais caro comer fora? | IBGE · IPCA |
+| 🏠 **Casa e contas** | Quanto subiram luz, aluguel, condomínio, água, gás, internet e celular? | IBGE · IPCA |
+| ⛽ **Combustíveis e transporte** | Quanto custa o litro da gasolina no meu estado? Quanto subiram ônibus, aplicativo e passagem aérea? | ANP · IBGE |
+| 🩺 **Saúde e educação** | Quanto subiram plano de saúde, remédios, escola e faculdade? | IBGE · IPCA |
 | 👷 **Trabalho** | Quantas pessoas procuram trabalho e não encontram? | IBGE · PNAD Contínua |
 | 💵 **Juros e dólar** | Quanto vale 1 dólar hoje? Qual é a taxa de juros básica? | Banco Central |
 | 💡 **Energia** | Qual é a bandeira da conta de luz este mês? | ANEEL |
 | 👥 **População** | Quantas pessoas vivem em cada estado? | IBGE |
 
-**Quer ver outro assunto aqui?** Educação, saúde, segurança, moradia… [Sugira um tema](https://github.com/andersonvalentim/brasil-em-grafico/issues/new) ou [adicione você mesmo](docs/como-adicionar-dados.md).
+**Quer ver outro assunto aqui?** Segurança, renda, meio ambiente… [Sugira um tema](https://github.com/andersonvalentim/brasil-em-grafico/issues/new) ou [adicione você mesmo](docs/como-adicionar-dados.md).
 
 ## 🧠 Como funciona
 
@@ -244,7 +247,8 @@ Os dados pertencem às suas fontes. O Brasil em Gráfico apenas os organiza e ex
 - [x] Guia de contribuição e validação automática
 - [x] Conectores oficiais (IBGE SIDRA, BCB SGS, ANP, ANEEL) com atualização diária
 - [x] Publicação do site em [brasilemgrafico.com.br](https://brasilemgrafico.com.br)
-- [ ] Novos temas: educação, saúde, moradia, segurança
+- [x] Temas de comida, casa e contas, transporte, saúde e educação
+- [ ] Novos temas: segurança, renda, meio ambiente
 - [ ] Mapa do Brasil como tipo de gráfico
 
 ## ♿ Acessível de verdade

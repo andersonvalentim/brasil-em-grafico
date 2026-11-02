@@ -1,0 +1,372 @@
+{
+ "id": "ipca-transporte",
+ "geradoEm": "2026-11-02T23:37:40.348Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/7060",
+ "ultimoPeriodo": "2026",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 1.2,
+   "categoria": "Ônibus urbano"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 1.55,
+   "categoria": "Ônibus intermunicipal"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 17.59,
+   "categoria": "Passagem aérea"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 16.16,
+   "categoria": "Carro novo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 9.06,
+   "categoria": "Seguro do carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 6.43,
+   "categoria": "Conserto de carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 47.49,
+   "categoria": "Gasolina"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 62.23,
+   "categoria": "Etanol"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 46.04,
+   "categoria": "Óleo diesel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 33.75,
+   "categoria": "Transporte por aplicativo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 2.78,
+   "categoria": "Ônibus urbano"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 8.28,
+   "categoria": "Ônibus intermunicipal"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 23.53,
+   "categoria": "Passagem aérea"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 8.19,
+   "categoria": "Carro novo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 32.02,
+   "categoria": "Seguro do carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 10.89,
+   "categoria": "Conserto de carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": -25.78,
+   "categoria": "Gasolina"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": -25.42,
+   "categoria": "Etanol"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 22.87,
+   "categoria": "Óleo diesel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 3.22,
+   "categoria": "Transporte por aplicativo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 0.85,
+   "categoria": "Ônibus urbano"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.12,
+   "categoria": "Ônibus intermunicipal"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 47.24,
+   "categoria": "Passagem aérea"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 2.37,
+   "categoria": "Carro novo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -7.08,
+   "categoria": "Seguro do carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 6.9,
+   "categoria": "Conserto de carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 12.09,
+   "categoria": "Gasolina"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -8.26,
+   "categoria": "Etanol"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -7.84,
+   "categoria": "Óleo diesel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 1.12,
+   "categoria": "Transporte por aplicativo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 0.26,
+   "categoria": "Ônibus urbano"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.99,
+   "categoria": "Ônibus intermunicipal"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": -22.2,
+   "categoria": "Passagem aérea"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 2.85,
+   "categoria": "Carro novo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.3,
+   "categoria": "Seguro do carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.88,
+   "categoria": "Conserto de carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 9.71,
+   "categoria": "Gasolina"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 17.58,
+   "categoria": "Etanol"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 0.66,
+   "categoria": "Óleo diesel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 9.97,
+   "categoria": "Transporte por aplicativo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 2.83,
+   "categoria": "Ônibus urbano"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.58,
+   "categoria": "Ônibus intermunicipal"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 7.85,
+   "categoria": "Passagem aérea"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 3.05,
+   "categoria": "Carro novo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": -5.67,
+   "categoria": "Seguro do carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 6.94,
+   "categoria": "Conserto de carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 1.85,
+   "categoria": "Gasolina"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 7.15,
+   "categoria": "Etanol"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 0.76,
+   "categoria": "Óleo diesel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 56.08,
+   "categoria": "Transporte por aplicativo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 7.59,
+   "categoria": "Ônibus urbano"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 6.4,
+   "categoria": "Ônibus intermunicipal"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 8.26,
+   "categoria": "Passagem aérea"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 0.48,
+   "categoria": "Carro novo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 0.77,
+   "categoria": "Seguro do carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 7.95,
+   "categoria": "Conserto de carro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 5.56,
+   "categoria": "Gasolina"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -7.01,
+   "categoria": "Etanol"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 15.26,
+   "categoria": "Óleo diesel"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -12.97,
+   "categoria": "Transporte por aplicativo"
+  }
+ ],
+ "notas": {
+  "anoParcialAte": "2026-09"
+ }
+}

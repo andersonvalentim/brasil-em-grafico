@@ -1,0 +1,336 @@
+{
+ "id": "ipca-saude-educacao",
+ "geradoEm": "2026-11-02T23:37:41.041Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/7060",
+ "ultimoPeriodo": "2026",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 6.18,
+   "categoria": "Remédios"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 3.39,
+   "categoria": "Consulta médica"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.89,
+   "categoria": "Dentista"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.26,
+   "categoria": "Exame de laboratório"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 2.32,
+   "categoria": "Plano de saúde"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.1,
+   "categoria": "Creche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 5.36,
+   "categoria": "Ensino fundamental"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 5.25,
+   "categoria": "Ensino médio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": -0.98,
+   "categoria": "Faculdade"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 13.52,
+   "categoria": "Remédios"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 7.34,
+   "categoria": "Consulta médica"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 8.71,
+   "categoria": "Dentista"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 5.67,
+   "categoria": "Exame de laboratório"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 6.9,
+   "categoria": "Plano de saúde"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 8.03,
+   "categoria": "Creche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 8.77,
+   "categoria": "Ensino fundamental"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 8.03,
+   "categoria": "Ensino médio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 6.32,
+   "categoria": "Faculdade"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.83,
+   "categoria": "Remédios"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 5.43,
+   "categoria": "Consulta médica"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 7.67,
+   "categoria": "Dentista"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 4.53,
+   "categoria": "Exame de laboratório"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 11.52,
+   "categoria": "Plano de saúde"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 9.19,
+   "categoria": "Creche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 10.63,
+   "categoria": "Ensino fundamental"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 10.37,
+   "categoria": "Ensino médio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 6.4,
+   "categoria": "Faculdade"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 5.95,
+   "categoria": "Remédios"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.19,
+   "categoria": "Consulta médica"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 8.88,
+   "categoria": "Dentista"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.06,
+   "categoria": "Exame de laboratório"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 7.87,
+   "categoria": "Plano de saúde"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 6.91,
+   "categoria": "Creche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 8.86,
+   "categoria": "Ensino fundamental"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 9.2,
+   "categoria": "Ensino médio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 4.95,
+   "categoria": "Faculdade"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.42,
+   "categoria": "Remédios"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 7.47,
+   "categoria": "Consulta médica"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 8.06,
+   "categoria": "Dentista"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 4.65,
+   "categoria": "Exame de laboratório"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 6.42,
+   "categoria": "Plano de saúde"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.95,
+   "categoria": "Creche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 8.21,
+   "categoria": "Ensino fundamental"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 7.65,
+   "categoria": "Ensino médio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.42,
+   "categoria": "Faculdade"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 3.18,
+   "categoria": "Remédios"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 6.4,
+   "categoria": "Consulta médica"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 6.75,
+   "categoria": "Dentista"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.65,
+   "categoria": "Exame de laboratório"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.14,
+   "categoria": "Plano de saúde"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 7.54,
+   "categoria": "Creche"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 8.71,
+   "categoria": "Ensino fundamental"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 8.66,
+   "categoria": "Ensino médio"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.84,
+   "categoria": "Faculdade"
+  }
+ ],
+ "notas": {
+  "anoParcialAte": "2026-09"
+ }
+}

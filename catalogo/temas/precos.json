@@ -5,7 +5,7 @@
   "nomeCurto": "Preços (inflação)",
   "icone": "cesta",
   "azulejo": "urucum",
-  "descricao": "Veja quanto os preços subiram, o que ficou mais caro na feira e como o seu estado se compara com o resto do país.",
+  "descricao": "Veja quanto os preços subiram, em que parte do orçamento eles pesaram mais e como o seu estado se compara com o resto do país.",
   "palavras": [
     "inflacao",
     "preco",
@@ -57,7 +57,10 @@
       "pergunta": "Quanto os preços subiram em cada ano?",
       "unidade": "foi a alta dos preços",
       "opcoes": {
-        "locais": ["estado", "BR"],
+        "locais": [
+          "estado",
+          "BR"
+        ],
         "anos": 7
       },
       "detalhes": [
@@ -66,27 +69,15 @@
       ]
     },
     {
-      "indicador": "ipca-alimentos",
+      "indicador": "ipca-grupos",
       "visual": "ano-a-ano",
-      "pergunta": "Como o preço de cada alimento mudou, ano a ano?",
+      "pergunta": "Em que parte do orçamento os preços subiram mais?",
+      "rotuloCategoria": "Parte do orçamento",
+      "unidade": "partes do orçamento ficaram mais caras",
       "detalhes": [
-        "Cada linha é um alimento. Cada barra mostra quanto o preço dele subiu ou caiu naquele ano, de janeiro a dezembro.",
-        "O ano atual ainda não terminou: a barra dele mostra a mudança de janeiro até o último mês divulgado."
-      ],
-      "rotuloCategoria": "Alimento",
-      "unidade": "alimentos ficaram mais caros"
-    },
-    {
-      "indicador": "ipca-alimentos",
-      "visual": "destaques-categorias",
-      "pergunta": "O que mais subiu e o que mais caiu no carrinho?",
-      "opcoes": {
-        "quantidade": 5
-      },
-      "detalhes": [
-        "A comida e a bebida são cerca de 1/5 de tudo o que o IPCA mede. Pesquisadores do IBGE anotam os preços em supermercados, feiras, padarias e açougues."
-      ],
-      "rotuloCategoria": "Alimento"
+        "O IPCA divide os gastos das famílias em 9 grupos. Os que mais pesam são comida e bebida (cerca de 1/5 de tudo), transporte (outro 1/5) e moradia (cerca de 15%).",
+        "Cada barra mostra quanto os preços daquele grupo subiram ou caíram no ano, de janeiro a dezembro. O ano atual ainda não terminou: a barra dele vai de janeiro até o último mês divulgado."
+      ]
     },
     {
       "indicador": "ipca-12m",

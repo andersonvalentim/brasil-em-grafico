@@ -168,7 +168,7 @@
     return '<details class="detalhes"><summary><span>Entenda este número e baixe os dados</span><span class="detalhes__dica">Toque para abrir</span></summary>' +
       '<div class="detalhes__conteudo">' + paragrafos + '<div class="detalhes__links">' +
       (temTabela ? '<button type="button" class="btn btn--secundario btn--compacto" data-baixar="' + idTabela + '" data-arquivo="' + esc(ind.id) + '.csv">' + icone("baixar", "icone--sm") + "Baixar os dados (planilha)</button>" : "") +
-      (BG.urlSegura(ind.fonte.url) ? '<a class="btn btn--secundario btn--compacto" href="' + esc(BG.urlSegura(ind.fonte.url)) + '" rel="noopener noreferrer">Ver no site do ' + esc(ind.fonte.orgao) + icone("abrir", "icone--sm") + "</a>" : "") +
+      (BG.urlSegura(ind.fonte.url) ? '<a class="btn btn--secundario btn--compacto" href="' + esc(BG.urlSegura(ind.fonte.url)) + '" rel="noopener noreferrer">Ver no site ' + esc(BG.siteDe(ind.fonte.orgao)) + icone("abrir", "icone--sm") + "</a>" : "") +
       "</div></div></details>";
   }
 

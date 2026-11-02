@@ -1,0 +1,43 @@
+{
+  "id": "ipca-transporte",
+  "status": "ativo",
+  "tema": "combustiveis",
+  "nome": "Quanto o transporte mudou no ano",
+  "nomeTecnico": "IPCA: variação acumulada no ano de subitens de Transportes",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "IPCA",
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "tabela": 7060,
+      "variavel": 69,
+      "niveis": [
+        "N1"
+      ],
+      "modo": "fim-de-ano",
+      "anos": 6,
+      "classificacao": {
+        "315": {
+          "7628": "Ônibus urbano",
+          "7631": "Ônibus intermunicipal",
+          "7634": "Passagem aérea",
+          "7641": "Carro novo",
+          "7643": "Seguro do carro",
+          "7647": "Conserto de carro",
+          "7657": "Gasolina",
+          "7658": "Etanol",
+          "7659": "Óleo diesel",
+          "47649": "Transporte por aplicativo"
+        }
+      }
+    }
+  }
+}

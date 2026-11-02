@@ -1,7 +1,7 @@
 {
   "id": "ipca-alimentos",
   "status": "ativo",
-  "tema": "precos",
+  "tema": "comida",
   "nome": "Quanto o preço de cada alimento mudou no ano",
   "nomeTecnico": "IPCA: variação acumulada no ano por subitem de Alimentação e bebidas",
   "unidade": "%",
@@ -33,13 +33,16 @@
           "7221": "Açúcar",
           "7260": "Banana-prata",
           "7283": "Carnes",
+          "7291": "Contrafilé",
           "7355": "Ovo",
           "7375": "Pão francês",
           "7385": "Óleo de soja",
           "7392": "Café moído",
           "12222": "Feijão carioca",
           "12393": "Leite longa vida",
-          "107617": "Frango inteiro"
+          "107617": "Frango inteiro",
+          "107619": "Queijo",
+          "107621": "Refrigerante e água mineral"
         }
       }
     }

@@ -1,0 +1,42 @@
+{
+  "id": "ipca-grupos",
+  "status": "ativo",
+  "tema": "precos",
+  "nome": "Quanto cada parte do orçamento mudou no ano",
+  "nomeTecnico": "IPCA: variação acumulada no ano dos 9 grupos",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "IPCA",
+    "url": "https://sidra.ibge.gov.br/tabela/7060",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "tabela": 7060,
+      "variavel": 69,
+      "niveis": [
+        "N1"
+      ],
+      "modo": "fim-de-ano",
+      "anos": 6,
+      "classificacao": {
+        "315": {
+          "7170": "Comida e bebida",
+          "7445": "Moradia",
+          "7486": "Móveis e eletrodomésticos",
+          "7558": "Roupas e calçados",
+          "7625": "Transporte",
+          "7660": "Saúde e cuidados pessoais",
+          "7712": "Despesas pessoais",
+          "7766": "Educação",
+          "7786": "Comunicação"
+        }
+      }
+    }
+  }
+}
