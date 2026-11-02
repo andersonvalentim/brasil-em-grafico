@@ -92,6 +92,14 @@ async function main() {
         observacoes,
       };
       if (resultado?.extras) payload.extras = resultado.extras;
+
+      const anterior = await readFile(saida, 'utf8').then(JSON.parse, () => null);
+      const mesmosNumeros = (d) => JSON.stringify([d.origem, d.observacoes, d.extras ?? null]);
+      if (anterior && mesmosNumeros(anterior) === mesmosNumeros(payload)) {
+        console.log(`= ${ind.id}: sem números novos (último: ${payload.ultimoPeriodo})`);
+        ok++;
+        continue;
+      }
       await writeFile(saida, JSON.stringify(payload, null, 1) + '\n');
       console.log(`✓ ${ind.id}: ${observacoes.length} números, até ${payload.ultimoPeriodo} (${((Date.now() - inicio) / 1000).toFixed(1)}s)`);
       ok++;
