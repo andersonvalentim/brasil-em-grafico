@@ -17,7 +17,7 @@ Sem economês e sem complicação: cada número do Brasil vira uma pergunta simp
 [![Sem framework](https://img.shields.io/badge/site-HTML%20%2B%20CSS%20%2B%20JS-6B5E52?style=flat-square)](#-como-funciona)
 [![Dados abertos](https://img.shields.io/badge/dados-IBGE%20%C2%B7%20BCB%20%C2%B7%20ANP%20%C2%B7%20ANEEL-D9A23A?style=flat-square)](#-fontes-oficiais)
 
-[**Como contribuir**](CONTRIBUTING.md) · [**Adicionar um dado**](docs/como-adicionar-dados.md) · [**Arquitetura**](docs/arquitetura.md) · [**Abrir uma issue**](https://github.com/andersonvalentim/brasil-em-grafico/issues/new)
+[**🌐 Acessar o site**](https://brasilemgrafico.com.br) · [**Como contribuir**](CONTRIBUTING.md) · [**Adicionar um dado**](docs/como-adicionar-dados.md) · [**Arquitetura**](docs/arquitetura.md) · [**Abrir uma issue**](https://github.com/andersonvalentim/brasil-em-grafico/issues/new)
 
 <br>
 
@@ -242,7 +242,7 @@ Os dados pertencem às suas fontes. O Brasil em Gráfico apenas os organiza e ex
 - [x] Catálogo modular de indicadores, temas e visuais
 - [x] Guia de contribuição e validação automática
 - [ ] Conectores oficiais (IBGE SIDRA, BCB SGS, ANP, ANEEL) substituindo os dados ilustrativos
-- [ ] Publicação do site no GitHub Pages
+- [x] Publicação do site em [brasilemgrafico.com.br](https://brasilemgrafico.com.br)
 - [ ] Novos temas: educação, saúde, moradia, segurança
 - [ ] Mapa do Brasil como tipo de gráfico
 
