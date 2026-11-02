@@ -3,6 +3,7 @@ import { readdir, readFile, access } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { paginasDesatualizadas } from './versao.mjs';
 
 const raiz = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ID_VALIDO = /^[a-z0-9-]+$/;
@@ -77,6 +78,9 @@ async function main() {
       if (!csp[1].includes(hash)) falha(`${pagina}: script embutido mudou; atualize o hash na CSP para ${hash}`);
     }
   }
+
+  const { erradas } = await paginasDesatualizadas();
+  if (erradas.length) falha(`versão do CSS/JS desatualizada em ${erradas.join(', ')}: rode npm run versao`);
 
   if (erros) {
     console.error(`\n${erros} problema(s).`);

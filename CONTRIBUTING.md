@@ -32,7 +32,8 @@ O projeto é modular de propósito: a maior parte das contribuições são arqui
 - [ ] Indicador em `rascunho` enquanto testa; `ativo` quando pronto para aparecer.
 - [ ] Fonte oficial citada (`fonte.orgao`, `fonte.url`).
 - [ ] Cartão no tema com `visual` adequado (veja a tabela em `docs/como-adicionar-dados.md`).
-- [ ] `npm run validar` passa (quando o script existir).
+- [ ] Mexeu em CSS ou JavaScript? Rode `npm run versao` para o navegador de quem visita baixar o código novo.
+- [ ] `npm run validar` passa.
 - [ ] Site local abre e o cartão aparece (`npm run dev`).
 
 ## Segurança

@@ -4,6 +4,9 @@
 
   var BG = (window.BG = window.BG || {});
 
+  /* Versão carimbada no endereço deste arquivo (?v=...), repassada aos visuais carregados depois. */
+  BG.versao = ((document.currentScript && /[?&]v=([\w-]+)/.exec(document.currentScript.src)) || [])[1] || "";
+
   /* ---------- Utilidades ---------- */
 
   BG.$ = function (sel, raiz) {
@@ -595,7 +598,7 @@
         p.promessa = new Promise(function (resolver, rejeitar) {
           p.resolver = resolver;
           var s = document.createElement("script");
-          s.src = "assets/js/visuais/" + nome + ".js";
+          s.src = "assets/js/visuais/" + nome + ".js" + (BG.versao ? "?v=" + BG.versao : "");
           s.onerror = function () { rejeitar(new Error('Visual "' + nome + '" não encontrado em assets/js/visuais/')); };
           document.head.appendChild(s);
         });
