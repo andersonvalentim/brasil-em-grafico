@@ -1,368 +1,513 @@
 {
-  "id": "ipca-alimentos",
-  "geradoEm": "2026-11-02T15:18:20.669Z",
-  "origem": "exemplo",
-  "ultimoPeriodo": "2025",
-  "observacoes": [
-    {
-      "local": "BR",
-      "categoria": "Arroz",
-      "periodo": "2021",
-      "valor": -14.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Arroz",
-      "periodo": "2022",
-      "valor": 9.8
-    },
-    {
-      "local": "BR",
-      "categoria": "Arroz",
-      "periodo": "2023",
-      "valor": 21.3
-    },
-    {
-      "local": "BR",
-      "categoria": "Arroz",
-      "periodo": "2024",
-      "valor": -2.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Arroz",
-      "periodo": "2025",
-      "valor": -11.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Feijão",
-      "periodo": "2021",
-      "valor": 4.2
-    },
-    {
-      "local": "BR",
-      "categoria": "Feijão",
-      "periodo": "2022",
-      "valor": 28.7
-    },
-    {
-      "local": "BR",
-      "categoria": "Feijão",
-      "periodo": "2023",
-      "valor": -1.9
-    },
-    {
-      "local": "BR",
-      "categoria": "Feijão",
-      "periodo": "2024",
-      "valor": 14.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Feijão",
-      "periodo": "2025",
-      "valor": -8.3
-    },
-    {
-      "local": "BR",
-      "categoria": "Carne bovina",
-      "periodo": "2021",
-      "valor": 8.5
-    },
-    {
-      "local": "BR",
-      "categoria": "Carne bovina",
-      "periodo": "2022",
-      "valor": -4.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Carne bovina",
-      "periodo": "2023",
-      "valor": -9.7
-    },
-    {
-      "local": "BR",
-      "categoria": "Carne bovina",
-      "periodo": "2024",
-      "valor": 6.2
-    },
-    {
-      "local": "BR",
-      "categoria": "Carne bovina",
-      "periodo": "2025",
-      "valor": 18.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Frango",
-      "periodo": "2021",
-      "valor": 17.9
-    },
-    {
-      "local": "BR",
-      "categoria": "Frango",
-      "periodo": "2022",
-      "valor": 12.3
-    },
-    {
-      "local": "BR",
-      "categoria": "Frango",
-      "periodo": "2023",
-      "valor": -6.8
-    },
-    {
-      "local": "BR",
-      "categoria": "Frango",
-      "periodo": "2024",
-      "valor": 3.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Frango",
-      "periodo": "2025",
-      "valor": 7.5
-    },
-    {
-      "local": "BR",
-      "categoria": "Leite",
-      "periodo": "2021",
-      "valor": -4.8
-    },
-    {
-      "local": "BR",
-      "categoria": "Leite",
-      "periodo": "2022",
-      "valor": 24.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Leite",
-      "periodo": "2023",
-      "valor": -5.2
-    },
-    {
-      "local": "BR",
-      "categoria": "Leite",
-      "periodo": "2024",
-      "valor": 9.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Leite",
-      "periodo": "2025",
-      "valor": 2.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Ovo",
-      "periodo": "2021",
-      "valor": -2.3
-    },
-    {
-      "local": "BR",
-      "categoria": "Ovo",
-      "periodo": "2022",
-      "valor": 15.7
-    },
-    {
-      "local": "BR",
-      "categoria": "Ovo",
-      "periodo": "2023",
-      "valor": -7.9
-    },
-    {
-      "local": "BR",
-      "categoria": "Ovo",
-      "periodo": "2024",
-      "valor": 4.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Ovo",
-      "periodo": "2025",
-      "valor": 21.8
-    },
-    {
-      "local": "BR",
-      "categoria": "Pão francês",
-      "periodo": "2021",
-      "valor": 9.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Pão francês",
-      "periodo": "2022",
-      "valor": 15.2
-    },
-    {
-      "local": "BR",
-      "categoria": "Pão francês",
-      "periodo": "2023",
-      "valor": 2.8
-    },
-    {
-      "local": "BR",
-      "categoria": "Pão francês",
-      "periodo": "2024",
-      "valor": 1.9
-    },
-    {
-      "local": "BR",
-      "categoria": "Pão francês",
-      "periodo": "2025",
-      "valor": 4.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Óleo de soja",
-      "periodo": "2021",
-      "valor": 34.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Óleo de soja",
-      "periodo": "2022",
-      "valor": 9.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Óleo de soja",
-      "periodo": "2023",
-      "valor": -25.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Óleo de soja",
-      "periodo": "2024",
-      "valor": -3.7
-    },
-    {
-      "local": "BR",
-      "categoria": "Óleo de soja",
-      "periodo": "2025",
-      "valor": 26.2
-    },
-    {
-      "local": "BR",
-      "categoria": "Café",
-      "periodo": "2021",
-      "valor": 50.2
-    },
-    {
-      "local": "BR",
-      "categoria": "Café",
-      "periodo": "2022",
-      "valor": 18.9
-    },
-    {
-      "local": "BR",
-      "categoria": "Café",
-      "periodo": "2023",
-      "valor": -9.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Café",
-      "periodo": "2024",
-      "valor": 39.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Café",
-      "periodo": "2025",
-      "valor": 44.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Banana",
-      "periodo": "2021",
-      "valor": 3.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Banana",
-      "periodo": "2022",
-      "valor": 10.8
-    },
-    {
-      "local": "BR",
-      "categoria": "Banana",
-      "periodo": "2023",
-      "valor": 6.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Banana",
-      "periodo": "2024",
-      "valor": -4.5
-    },
-    {
-      "local": "BR",
-      "categoria": "Banana",
-      "periodo": "2025",
-      "valor": -12.7
-    },
-    {
-      "local": "BR",
-      "categoria": "Tomate",
-      "periodo": "2021",
-      "valor": -18.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Tomate",
-      "periodo": "2022",
-      "valor": 34.1
-    },
-    {
-      "local": "BR",
-      "categoria": "Tomate",
-      "periodo": "2023",
-      "valor": -11.2
-    },
-    {
-      "local": "BR",
-      "categoria": "Tomate",
-      "periodo": "2024",
-      "valor": 22.7
-    },
-    {
-      "local": "BR",
-      "categoria": "Tomate",
-      "periodo": "2025",
-      "valor": -27.9
-    },
-    {
-      "local": "BR",
-      "categoria": "Batata",
-      "periodo": "2021",
-      "valor": -24.6
-    },
-    {
-      "local": "BR",
-      "categoria": "Batata",
-      "periodo": "2022",
-      "valor": 52.3
-    },
-    {
-      "local": "BR",
-      "categoria": "Batata",
-      "periodo": "2023",
-      "valor": -8.8
-    },
-    {
-      "local": "BR",
-      "categoria": "Batata",
-      "periodo": "2024",
-      "valor": 30.4
-    },
-    {
-      "local": "BR",
-      "categoria": "Batata",
-      "periodo": "2025",
-      "valor": -35.2
-    }
-  ]
+ "id": "ipca-alimentos",
+ "geradoEm": "2026-11-02T19:43:27.292Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/7060",
+ "ultimoPeriodo": "2026",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": -16.88,
+   "categoria": "Arroz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": -22.82,
+   "categoria": "Batata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 18.6,
+   "categoria": "Tomate"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 18.3,
+   "categoria": "Cebola"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 37.55,
+   "categoria": "Açúcar"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 13.85,
+   "categoria": "Banana-prata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 8.45,
+   "categoria": "Carnes"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 13.24,
+   "categoria": "Ovo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 6.38,
+   "categoria": "Pão francês"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 4.16,
+   "categoria": "Óleo de soja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 50.24,
+   "categoria": "Café moído"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": -8.12,
+   "categoria": "Feijão carioca"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": -3.72,
+   "categoria": "Leite longa vida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 19.89,
+   "categoria": "Frango inteiro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 5.98,
+   "categoria": "Arroz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 51.92,
+   "categoria": "Batata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 11.87,
+   "categoria": "Tomate"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 130.14,
+   "categoria": "Cebola"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 0.9,
+   "categoria": "Açúcar"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 23.61,
+   "categoria": "Banana-prata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 1.84,
+   "categoria": "Carnes"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 18.45,
+   "categoria": "Ovo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 18.03,
+   "categoria": "Pão francês"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 4.22,
+   "categoria": "Óleo de soja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 13.51,
+   "categoria": "Café moído"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 27.77,
+   "categoria": "Feijão carioca"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 26.18,
+   "categoria": "Leite longa vida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 7.72,
+   "categoria": "Frango inteiro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 24.54,
+   "categoria": "Arroz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 4.18,
+   "categoria": "Batata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -2.91,
+   "categoria": "Tomate"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -25.32,
+   "categoria": "Cebola"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 6.17,
+   "categoria": "Açúcar"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 4.08,
+   "categoria": "Banana-prata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -9.37,
+   "categoria": "Carnes"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 2.83,
+   "categoria": "Ovo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 3.64,
+   "categoria": "Pão francês"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -28,
+   "categoria": "Óleo de soja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -9.07,
+   "categoria": "Café moído"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -13.77,
+   "categoria": "Feijão carioca"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -7.83,
+   "categoria": "Leite longa vida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": -7.43,
+   "categoria": "Frango inteiro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 8.24,
+   "categoria": "Arroz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": -12.53,
+   "categoria": "Batata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": -25.86,
+   "categoria": "Tomate"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": -35.31,
+   "categoria": "Cebola"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 0.35,
+   "categoria": "Açúcar"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 1.67,
+   "categoria": "Banana-prata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 20.84,
+   "categoria": "Carnes"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": -4.54,
+   "categoria": "Ovo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 3.27,
+   "categoria": "Pão francês"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 29.21,
+   "categoria": "Óleo de soja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 39.6,
+   "categoria": "Café moído"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": -8.57,
+   "categoria": "Feijão carioca"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 18.83,
+   "categoria": "Leite longa vida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 8.25,
+   "categoria": "Frango inteiro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": -26.56,
+   "categoria": "Arroz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": -13.65,
+   "categoria": "Batata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 4.38,
+   "categoria": "Tomate"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 3.13,
+   "categoria": "Cebola"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": -9.38,
+   "categoria": "Açúcar"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 7.54,
+   "categoria": "Banana-prata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 1.22,
+   "categoria": "Carnes"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 3.99,
+   "categoria": "Ovo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 5.86,
+   "categoria": "Pão francês"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 3.23,
+   "categoria": "Óleo de soja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 35.65,
+   "categoria": "Café moído"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": -4.21,
+   "categoria": "Feijão carioca"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": -12.87,
+   "categoria": "Leite longa vida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 1.61,
+   "categoria": "Frango inteiro"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.96,
+   "categoria": "Arroz"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 45.55,
+   "categoria": "Batata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 58.7,
+   "categoria": "Tomate"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 61.82,
+   "categoria": "Cebola"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -8.87,
+   "categoria": "Açúcar"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -6.52,
+   "categoria": "Banana-prata"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 6.89,
+   "categoria": "Carnes"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -2.6,
+   "categoria": "Ovo"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 4.24,
+   "categoria": "Pão francês"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -8.6,
+   "categoria": "Óleo de soja"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -16.19,
+   "categoria": "Café moído"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 36.44,
+   "categoria": "Feijão carioca"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 27,
+   "categoria": "Leite longa vida"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": -4.36,
+   "categoria": "Frango inteiro"
+  }
+ ]
 }

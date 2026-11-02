@@ -16,6 +16,32 @@
     "nome": "IPCA, grupo Alimentação e bebidas",
     "url": "https://sidra.ibge.gov.br/tabela/7060",
     "adaptador": "ibge-sidra",
-    "parametros": {}
+    "parametros": {
+      "tabela": 7060,
+      "variavel": 69,
+      "niveis": [
+        "N1"
+      ],
+      "modo": "fim-de-ano",
+      "anos": 6,
+      "classificacao": {
+        "315": {
+          "7173": "Arroz",
+          "7202": "Batata",
+          "7212": "Tomate",
+          "7215": "Cebola",
+          "7221": "Açúcar",
+          "7260": "Banana-prata",
+          "7283": "Carnes",
+          "7355": "Ovo",
+          "7375": "Pão francês",
+          "7385": "Óleo de soja",
+          "7392": "Café moído",
+          "12222": "Feijão carioca",
+          "12393": "Leite longa vida",
+          "107617": "Frango inteiro"
+        }
+      }
+    }
   }
 }

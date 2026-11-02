@@ -1,233 +1,694 @@
 {
-  "id": "dolar",
-  "geradoEm": "2026-11-02T15:18:20.675Z",
-  "origem": "exemplo",
-  "ultimoPeriodo": "2026-10-31",
-  "observacoes": [
-    {
-      "local": "BR",
-      "periodo": "2026-09-01",
-      "valor": 5.4
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-02",
-      "valor": 5.419
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-03",
-      "valor": 5.438
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-04",
-      "valor": 5.456
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-05",
-      "valor": 5.473
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-08",
-      "valor": 5.489
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-09",
-      "valor": 5.503
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-10",
-      "valor": 5.515
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-11",
-      "valor": 5.525
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-12",
-      "valor": 5.533
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-15",
-      "valor": 5.539
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-16",
-      "valor": 5.542
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-17",
-      "valor": 5.543
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-18",
-      "valor": 5.541
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-19",
-      "valor": 5.537
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-22",
-      "valor": 5.531
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-23",
-      "valor": 5.523
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-24",
-      "valor": 5.512
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-25",
-      "valor": 5.501
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-26",
-      "valor": 5.488
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-29",
-      "valor": 5.474
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-09-30",
-      "valor": 5.459
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-01",
-      "valor": 5.444
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-02",
-      "valor": 5.429
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-03",
-      "valor": 5.414
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-06",
-      "valor": 5.4
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-07",
-      "valor": 5.387
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-08",
-      "valor": 5.375
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-09",
-      "valor": 5.365
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-10",
-      "valor": 5.357
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-13",
-      "valor": 5.351
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-14",
-      "valor": 5.347
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-15",
-      "valor": 5.345
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-16",
-      "valor": 5.346
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-17",
-      "valor": 5.349
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-20",
-      "valor": 5.355
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-21",
-      "valor": 5.363
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-22",
-      "valor": 5.373
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-23",
-      "valor": 5.385
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-24",
-      "valor": 5.4
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-27",
-      "valor": 5.415
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-28",
-      "valor": 5.432
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-29",
-      "valor": 5.45
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-30",
-      "valor": 5.469
-    },
-    {
-      "local": "BR",
-      "periodo": "2026-10-31",
-      "valor": 5.488
-    }
-  ]
+ "id": "dolar",
+ "geradoEm": "2026-11-02T19:43:09.375Z",
+ "origem": "api",
+ "fonte": "https://www3.bcb.gov.br/sgspub/",
+ "ultimoPeriodo": "2026-10-30",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2026-04-16",
+   "valor": 5.0007
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-17",
+   "valor": 4.9695
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-20",
+   "valor": 4.9844
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-22",
+   "valor": 4.9653
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-23",
+   "valor": 4.9539
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-24",
+   "valor": 5.0083
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-27",
+   "valor": 4.97
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-28",
+   "valor": 4.9878
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-29",
+   "valor": 4.9985
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-04-30",
+   "valor": 4.9886
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-04",
+   "valor": 4.9587
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-05",
+   "valor": 4.9242
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-06",
+   "valor": 4.9274
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-07",
+   "valor": 4.917
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-08",
+   "valor": 4.8999
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-11",
+   "valor": 4.8973
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-12",
+   "valor": 4.8977
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-13",
+   "valor": 4.9118
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-14",
+   "valor": 4.9809
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-15",
+   "valor": 5.0654
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-18",
+   "valor": 5.0093
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-19",
+   "valor": 5.0378
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-20",
+   "valor": 5.0301
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-21",
+   "valor": 5.0077
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-22",
+   "valor": 5.014
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-25",
+   "valor": 5.0072
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-26",
+   "valor": 5.0211
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-27",
+   "valor": 5.0579
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-28",
+   "valor": 5.0517
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-05-29",
+   "valor": 5.0569
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-01",
+   "valor": 5.0303
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-02",
+   "valor": 5.016
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-03",
+   "valor": 5.0415
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-05",
+   "valor": 5.1244
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-08",
+   "valor": 5.1695
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-09",
+   "valor": 5.1693
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-10",
+   "valor": 5.1763
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-11",
+   "valor": 5.1478
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-12",
+   "valor": 5.0827
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-15",
+   "valor": 5.043
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-16",
+   "valor": 5.078
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-17",
+   "valor": 5.0641
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-18",
+   "valor": 5.1613
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-19",
+   "valor": 5.1442
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-22",
+   "valor": 5.1395
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-23",
+   "valor": 5.1743
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-24",
+   "valor": 5.2098
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-25",
+   "valor": 5.1892
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-26",
+   "valor": 5.1695
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-29",
+   "valor": 5.1717
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-06-30",
+   "valor": 5.1766
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-01",
+   "valor": 5.195
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-02",
+   "valor": 5.1945
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-03",
+   "valor": 5.1717
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-06",
+   "valor": 5.167
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-07",
+   "valor": 5.1458
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-08",
+   "valor": 5.1552
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-09",
+   "valor": 5.1329
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-10",
+   "valor": 5.1088
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-13",
+   "valor": 5.1183
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-14",
+   "valor": 5.0742
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-15",
+   "valor": 5.0727
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-16",
+   "valor": 5.0975
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-17",
+   "valor": 5.1176
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-20",
+   "valor": 5.0894
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-21",
+   "valor": 5.078
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-22",
+   "valor": 5.0638
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-23",
+   "valor": 5.0807
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-24",
+   "valor": 5.0666
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-27",
+   "valor": 5.1005
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-28",
+   "valor": 5.1177
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-29",
+   "valor": 5.1217
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-30",
+   "valor": 5.0739
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-07-31",
+   "valor": 5.0773
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-03",
+   "valor": 5.0723
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-04",
+   "valor": 5.1053
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-05",
+   "valor": 5.1154
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-06",
+   "valor": 5.1017
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-07",
+   "valor": 5.0908
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-10",
+   "valor": 5.0963
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-11",
+   "valor": 5.1285
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-12",
+   "valor": 5.1639
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-13",
+   "valor": 5.1859
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-14",
+   "valor": 5.2236
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-17",
+   "valor": 5.2014
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-18",
+   "valor": 5.2043
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-19",
+   "valor": 5.1714
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-20",
+   "valor": 5.1862
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-21",
+   "valor": 5.1625
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-24",
+   "valor": 5.1512
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-25",
+   "valor": 5.149
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-26",
+   "valor": 5.1604
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-27",
+   "valor": 5.1642
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-28",
+   "valor": 5.2005
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-08-31",
+   "valor": 5.1816
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-01",
+   "valor": 5.157
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-02",
+   "valor": 5.1273
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-03",
+   "valor": 5.0962
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-04",
+   "valor": 5.1253
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-08",
+   "valor": 5.0856
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-09",
+   "valor": 5.0979
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-10",
+   "valor": 5.1149
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-11",
+   "valor": 5.0918
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-14",
+   "valor": 5.1696
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-15",
+   "valor": 5.149
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-16",
+   "valor": 5.1527
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-17",
+   "valor": 5.1521
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-18",
+   "valor": 5.1575
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-21",
+   "valor": 5.1117
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-22",
+   "valor": 5.1161
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-23",
+   "valor": 5.1414
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-24",
+   "valor": 5.1795
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-25",
+   "valor": 5.1991
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-28",
+   "valor": 5.2132
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-29",
+   "valor": 5.2204
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-09-30",
+   "valor": 5.1809
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-01",
+   "valor": 5.2079
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-02",
+   "valor": 5.2238
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-05",
+   "valor": 4.9859
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-06",
+   "valor": 4.9698
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-07",
+   "valor": 4.9935
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-08",
+   "valor": 5.0119
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-09",
+   "valor": 4.9892
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-13",
+   "valor": 5.0096
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-14",
+   "valor": 5.0441
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-15",
+   "valor": 5.0521
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-16",
+   "valor": 5.0826
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-19",
+   "valor": 5.0564
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-20",
+   "valor": 5.014
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-21",
+   "valor": 5.0277
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-22",
+   "valor": 5.0383
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-23",
+   "valor": 5.0377
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-26",
+   "valor": 5.5007
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-27",
+   "valor": 5.3346
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-28",
+   "valor": 5.342
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-29",
+   "valor": 5.3744
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10-30",
+   "valor": 5.4212
+  }
+ ]
 }

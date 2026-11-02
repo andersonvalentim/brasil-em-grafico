@@ -16,6 +16,8 @@
     "nome": "Bandeiras tarifárias",
     "url": "https://dadosabertos.aneel.gov.br/",
     "adaptador": "aneel-bandeiras",
-    "parametros": {}
+    "parametros": {
+      "meses": 24
+    }
   }
 }

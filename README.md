@@ -113,7 +113,7 @@ Indicadores, temas e tipos de gráfico são peças independentes. Adicionar um d
 </table>
 
 > [!NOTE]
-> Enquanto os conectores oficiais estão sendo implementados, parte dos números é **ilustrativa**. O site sempre avisa isso no próprio cartão, com a etiqueta "dados ilustrativos".
+> Os números vêm direto das fontes oficiais e são atualizados todo dia por uma automação. Se uma fonte ficar fora do ar, o site mantém o último número que conseguiu buscar.
 
 ## 📊 O que já está no site
 
@@ -241,7 +241,7 @@ Os dados pertencem às suas fontes. O Brasil em Gráfico apenas os organiza e ex
 - [x] Site estático, acessível e com modo escuro
 - [x] Catálogo modular de indicadores, temas e visuais
 - [x] Guia de contribuição e validação automática
-- [ ] Conectores oficiais (IBGE SIDRA, BCB SGS, ANP, ANEEL) substituindo os dados ilustrativos
+- [x] Conectores oficiais (IBGE SIDRA, BCB SGS, ANP, ANEEL) com atualização diária
 - [x] Publicação do site em [brasilemgrafico.com.br](https://brasilemgrafico.com.br)
 - [ ] Novos temas: educação, saúde, moradia, segurança
 - [ ] Mapa do Brasil como tipo de gráfico

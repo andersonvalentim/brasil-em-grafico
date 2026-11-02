@@ -24,6 +24,18 @@
     "nome": "IPCA",
     "url": "https://sidra.ibge.gov.br/tabela/7060",
     "adaptador": "ibge-sidra",
-    "parametros": {}
+    "parametros": {
+      "tabela": 7060,
+      "variavel": 2265,
+      "classificacao": {
+        "315": "7169"
+      },
+      "niveis": [
+        "N1",
+        "N7",
+        "N6"
+      ],
+      "periodos": 24
+    }
   }
 }

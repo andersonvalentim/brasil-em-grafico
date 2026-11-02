@@ -17,6 +17,14 @@
     "nome": "PNAD Contínua",
     "url": "https://sidra.ibge.gov.br/tabela/4099",
     "adaptador": "ibge-sidra",
-    "parametros": {}
+    "parametros": {
+      "tabela": 4099,
+      "variavel": 4099,
+      "niveis": [
+        "N1",
+        "N3"
+      ],
+      "periodos": 20
+    }
   }
 }

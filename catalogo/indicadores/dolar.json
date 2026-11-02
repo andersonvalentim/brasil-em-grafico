@@ -16,6 +16,9 @@
     "nome": "Sistema Gerenciador de Séries Temporais (SGS)",
     "url": "https://www3.bcb.gov.br/sgspub/",
     "adaptador": "bcb-sgs",
-    "parametros": {}
+    "parametros": {
+      "serie": 1,
+      "dias": 200
+    }
   }
 }

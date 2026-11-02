@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 /**
- * Coletor mínimo: mantém dados/ existentes e avisa quando o adaptador ainda não existe.
- * Um coletor completo (IBGE/BCB/ANP/ANEEL) pode substituir este arquivo.
+ * Coletor: para cada indicador em catalogo/indicadores/, chama o adaptador da fonte
+ * (scripts/adaptadores/<nome>.mjs) e grava dados/<id>.json.
+ * Se a coleta de um indicador falhar, o arquivo anterior é mantido.
+ *
+ * Uso: npm run dados                 todos os indicadores ativos e em rascunho
+ *      npm run dados -- --so <id>    só um indicador
  */
 import { readdir, readFile, writeFile, mkdir, access } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
@@ -13,11 +17,12 @@ const so = (() => {
   return i >= 0 ? process.argv[i + 1] : null;
 })();
 
+const PERIODO_VALIDO = /^\d{4}(-\d{2}(-\d{2})?|-T[1-4])?$/;
+
 async function listarIndicadores() {
   const dir = join(raiz, 'catalogo', 'indicadores');
-  const arquivos = (await readdir(dir)).filter((f) => f.endsWith('.json'));
   const lista = [];
-  for (const arq of arquivos) {
+  for (const arq of (await readdir(dir)).filter((f) => f.endsWith('.json'))) {
     const ind = JSON.parse(await readFile(join(dir, arq), 'utf8'));
     if (ind.status === 'arquivado') continue;
     if (so && ind.id !== so) continue;
@@ -27,6 +32,7 @@ async function listarIndicadores() {
 }
 
 async function carregarAdaptador(nome) {
+  if (!/^[a-z0-9-]+$/.test(nome || '')) return null;
   const caminho = join(raiz, 'scripts', 'adaptadores', `${nome}.mjs`);
   try {
     await access(caminho);
@@ -36,57 +42,67 @@ async function carregarAdaptador(nome) {
   return import(pathToFileURL(caminho).href);
 }
 
+function conferir(ind, observacoes, locaisValidos) {
+  if (!Array.isArray(observacoes) || !observacoes.length) throw new Error('a fonte não devolveu nenhum número');
+  for (const o of observacoes) {
+    if (!locaisValidos.has(o.local)) throw new Error(`local desconhecido: ${o.local}`);
+    if (!PERIODO_VALIDO.test(o.periodo)) throw new Error(`período em formato inesperado: ${o.periodo}`);
+    if (typeof o.valor !== 'number' || !Number.isFinite(o.valor)) throw new Error(`valor inválido em ${o.local} ${o.periodo}`);
+  }
+  if (!observacoes.some((o) => o.local === 'BR') && ind.abrangencia?.includes('BR')) {
+    throw new Error('faltam os números do Brasil');
+  }
+}
+
 async function main() {
   await mkdir(join(raiz, 'dados'), { recursive: true });
+  const locais = JSON.parse(await readFile(join(raiz, 'catalogo', 'locais.json'), 'utf8'));
+  const locaisValidos = new Set(['BR', ...locais.estados.map((e) => e.uf)]);
   const indicadores = await listarIndicadores();
   if (!indicadores.length) {
-    console.error(so ? `Indicador não encontrado: ${so}` : 'Nenhum indicador ativo/rascunho.');
+    console.error(so ? `Indicador não encontrado: ${so}` : 'Nenhum indicador ativo ou em rascunho.');
     process.exit(1);
   }
 
   let ok = 0;
-  let pulados = 0;
+  let falhas = 0;
   for (const ind of indicadores) {
     const saida = join(raiz, 'dados', `${ind.id}.json`);
-    const adaptadorNome = ind.fonte?.adaptador;
-    const mod = adaptadorNome ? await carregarAdaptador(adaptadorNome) : null;
-
+    const mod = await carregarAdaptador(ind.fonte?.adaptador);
     if (!mod?.coletar) {
-      try {
-        await access(saida);
-        console.log(`· ${ind.id}: mantido (adaptador "${adaptadorNome || '?'}" ainda não disponível)`);
-        pulados++;
-        continue;
-      } catch {
-        console.warn(`! ${ind.id}: sem adaptador e sem dados/ — rode depois ou use origem exemplo`);
-        pulados++;
-        continue;
-      }
+      console.warn(`! ${ind.id}: adaptador "${ind.fonte?.adaptador || '?'}" não existe em scripts/adaptadores/`);
+      falhas++;
+      continue;
     }
 
     try {
-      const observacoes = await mod.coletar(ind);
-      if (!Array.isArray(observacoes) || !observacoes.length) {
-        throw new Error('adaptador devolveu lista vazia');
-      }
-      const periodos = observacoes.map((o) => o.periodo).filter(Boolean).sort();
+      const inicio = Date.now();
+      const resultado = await mod.coletar(ind, { locais });
+      const observacoes = Array.isArray(resultado) ? resultado : resultado?.observacoes;
+      conferir(ind, observacoes, locaisValidos);
+      observacoes.sort((a, b) =>
+        a.periodo < b.periodo ? -1 : a.periodo > b.periodo ? 1 : a.local < b.local ? -1 : a.local > b.local ? 1 : 0
+      );
       const payload = {
         id: ind.id,
         geradoEm: new Date().toISOString(),
         origem: 'api',
-        ultimoPeriodo: periodos[periodos.length - 1] || null,
+        fonte: ind.fonte.url,
+        ultimoPeriodo: observacoes[observacoes.length - 1].periodo,
         observacoes,
       };
-      await writeFile(saida, JSON.stringify(payload, null, 2) + '\n');
-      console.log(`✓ ${ind.id}: ${observacoes.length} observações (${payload.ultimoPeriodo})`);
+      if (resultado?.extras) payload.extras = resultado.extras;
+      await writeFile(saida, JSON.stringify(payload, null, 1) + '\n');
+      console.log(`✓ ${ind.id}: ${observacoes.length} números, até ${payload.ultimoPeriodo} (${((Date.now() - inicio) / 1000).toFixed(1)}s)`);
       ok++;
     } catch (err) {
-      console.error(`✗ ${ind.id}: ${err.message}`);
-      pulados++;
+      console.error(`✗ ${ind.id}: ${err.message} — mantido o arquivo anterior`);
+      falhas++;
     }
   }
 
-  console.log(`\nPronto: ${ok} atualizado(s), ${pulados} mantido(s)/pulado(s).`);
+  console.log(`\nPronto: ${ok} atualizado(s), ${falhas} com falha.`);
+  if (!ok) process.exit(1);
 }
 
 main().catch((err) => {

@@ -1,848 +1,849 @@
 {
-  "id": "populacao",
-  "geradoEm": "2026-11-02T15:18:20.678Z",
-  "origem": "exemplo",
-  "ultimoPeriodo": "2025",
-  "observacoes": [
-    {
-      "local": "BR",
-      "periodo": "2020",
-      "valor": 203080756
-    },
-    {
-      "local": "AC",
-      "periodo": "2020",
-      "valor": 14762475
-    },
-    {
-      "local": "AL",
-      "periodo": "2020",
-      "valor": 1984300
-    },
-    {
-      "local": "AP",
-      "periodo": "2020",
-      "valor": 5194000
-    },
-    {
-      "local": "AM",
-      "periodo": "2020",
-      "valor": 2786725
-    },
-    {
-      "local": "BA",
-      "periodo": "2020",
-      "valor": 14000000
-    },
-    {
-      "local": "CE",
-      "periodo": "2020",
-      "valor": 9000000
-    },
-    {
-      "local": "DF",
-      "periodo": "2020",
-      "valor": 19762200
-    },
-    {
-      "local": "ES",
-      "periodo": "2020",
-      "valor": 11699815
-    },
-    {
-      "local": "GO",
-      "periodo": "2020",
-      "valor": 10243105
-    },
-    {
-      "local": "MA",
-      "periodo": "2020",
-      "valor": 2786725
-    },
-    {
-      "local": "MT",
-      "periodo": "2020",
-      "valor": 20847460
-    },
-    {
-      "local": "MS",
-      "periodo": "2020",
-      "valor": 19896895
-    },
-    {
-      "local": "MG",
-      "periodo": "2020",
-      "valor": 21000000
-    },
-    {
-      "local": "PA",
-      "periodo": "2020",
-      "valor": 5194000
-    },
-    {
-      "local": "PB",
-      "periodo": "2020",
-      "valor": 6181600
-    },
-    {
-      "local": "PR",
-      "periodo": "2020",
-      "valor": 12000000
-    },
-    {
-      "local": "PE",
-      "periodo": "2020",
-      "valor": 9500000
-    },
-    {
-      "local": "PI",
-      "periodo": "2020",
-      "valor": 13094800
-    },
-    {
-      "local": "RJ",
-      "periodo": "2020",
-      "valor": 17000000
-    },
-    {
-      "local": "RN",
-      "periodo": "2020",
-      "valor": 19958620
-    },
-    {
-      "local": "RS",
-      "periodo": "2020",
-      "valor": 11000000
-    },
-    {
-      "local": "RO",
-      "periodo": "2020",
-      "valor": 20970910
-    },
-    {
-      "local": "RR",
-      "periodo": "2020",
-      "valor": 4007780
-    },
-    {
-      "local": "SC",
-      "periodo": "2020",
-      "valor": 9650545
-    },
-    {
-      "local": "SP",
-      "periodo": "2020",
-      "valor": 46000000
-    },
-    {
-      "local": "SE",
-      "periodo": "2020",
-      "valor": 11699815
-    },
-    {
-      "local": "TO",
-      "periodo": "2020",
-      "valor": 2921420
-    },
-    {
-      "local": "BR",
-      "periodo": "2021",
-      "valor": 204096160
-    },
-    {
-      "local": "AC",
-      "periodo": "2021",
-      "valor": 14836287
-    },
-    {
-      "local": "AL",
-      "periodo": "2021",
-      "valor": 1994221
-    },
-    {
-      "local": "AP",
-      "periodo": "2021",
-      "valor": 5219970
-    },
-    {
-      "local": "AM",
-      "periodo": "2021",
-      "valor": 2800659
-    },
-    {
-      "local": "BA",
-      "periodo": "2021",
-      "valor": 14070000
-    },
-    {
-      "local": "CE",
-      "periodo": "2021",
-      "valor": 9045000
-    },
-    {
-      "local": "DF",
-      "periodo": "2021",
-      "valor": 19861011
-    },
-    {
-      "local": "ES",
-      "periodo": "2021",
-      "valor": 11758314
-    },
-    {
-      "local": "GO",
-      "periodo": "2021",
-      "valor": 10294321
-    },
-    {
-      "local": "MA",
-      "periodo": "2021",
-      "valor": 2800659
-    },
-    {
-      "local": "MT",
-      "periodo": "2021",
-      "valor": 20951697
-    },
-    {
-      "local": "MS",
-      "periodo": "2021",
-      "valor": 19996379
-    },
-    {
-      "local": "MG",
-      "periodo": "2021",
-      "valor": 21105000
-    },
-    {
-      "local": "PA",
-      "periodo": "2021",
-      "valor": 5219970
-    },
-    {
-      "local": "PB",
-      "periodo": "2021",
-      "valor": 6212508
-    },
-    {
-      "local": "PR",
-      "periodo": "2021",
-      "valor": 12060000
-    },
-    {
-      "local": "PE",
-      "periodo": "2021",
-      "valor": 9547500
-    },
-    {
-      "local": "PI",
-      "periodo": "2021",
-      "valor": 13160274
-    },
-    {
-      "local": "RJ",
-      "periodo": "2021",
-      "valor": 17085000
-    },
-    {
-      "local": "RN",
-      "periodo": "2021",
-      "valor": 20058413
-    },
-    {
-      "local": "RS",
-      "periodo": "2021",
-      "valor": 11055000
-    },
-    {
-      "local": "RO",
-      "periodo": "2021",
-      "valor": 21075765
-    },
-    {
-      "local": "RR",
-      "periodo": "2021",
-      "valor": 4027819
-    },
-    {
-      "local": "SC",
-      "periodo": "2021",
-      "valor": 9698798
-    },
-    {
-      "local": "SP",
-      "periodo": "2021",
-      "valor": 46230000
-    },
-    {
-      "local": "SE",
-      "periodo": "2021",
-      "valor": 11758314
-    },
-    {
-      "local": "TO",
-      "periodo": "2021",
-      "valor": 2936027
-    },
-    {
-      "local": "BR",
-      "periodo": "2022",
-      "valor": 205111564
-    },
-    {
-      "local": "AC",
-      "periodo": "2022",
-      "valor": 14910100
-    },
-    {
-      "local": "AL",
-      "periodo": "2022",
-      "valor": 2004143
-    },
-    {
-      "local": "AP",
-      "periodo": "2022",
-      "valor": 5245940
-    },
-    {
-      "local": "AM",
-      "periodo": "2022",
-      "valor": 2814592
-    },
-    {
-      "local": "BA",
-      "periodo": "2022",
-      "valor": 14140000
-    },
-    {
-      "local": "CE",
-      "periodo": "2022",
-      "valor": 9090000
-    },
-    {
-      "local": "DF",
-      "periodo": "2022",
-      "valor": 19959822
-    },
-    {
-      "local": "ES",
-      "periodo": "2022",
-      "valor": 11816813
-    },
-    {
-      "local": "GO",
-      "periodo": "2022",
-      "valor": 10345536
-    },
-    {
-      "local": "MA",
-      "periodo": "2022",
-      "valor": 2814592
-    },
-    {
-      "local": "MT",
-      "periodo": "2022",
-      "valor": 21055935
-    },
-    {
-      "local": "MS",
-      "periodo": "2022",
-      "valor": 20095864
-    },
-    {
-      "local": "MG",
-      "periodo": "2022",
-      "valor": 21210000
-    },
-    {
-      "local": "PA",
-      "periodo": "2022",
-      "valor": 5245940
-    },
-    {
-      "local": "PB",
-      "periodo": "2022",
-      "valor": 6243416
-    },
-    {
-      "local": "PR",
-      "periodo": "2022",
-      "valor": 12120000
-    },
-    {
-      "local": "PE",
-      "periodo": "2022",
-      "valor": 9595000
-    },
-    {
-      "local": "PI",
-      "periodo": "2022",
-      "valor": 13225748
-    },
-    {
-      "local": "RJ",
-      "periodo": "2022",
-      "valor": 17170000
-    },
-    {
-      "local": "RN",
-      "periodo": "2022",
-      "valor": 20158206
-    },
-    {
-      "local": "RS",
-      "periodo": "2022",
-      "valor": 11110000
-    },
-    {
-      "local": "RO",
-      "periodo": "2022",
-      "valor": 21180619
-    },
-    {
-      "local": "RR",
-      "periodo": "2022",
-      "valor": 4047858
-    },
-    {
-      "local": "SC",
-      "periodo": "2022",
-      "valor": 9747050
-    },
-    {
-      "local": "SP",
-      "periodo": "2022",
-      "valor": 46460000
-    },
-    {
-      "local": "SE",
-      "periodo": "2022",
-      "valor": 11816813
-    },
-    {
-      "local": "TO",
-      "periodo": "2022",
-      "valor": 2950634
-    },
-    {
-      "local": "BR",
-      "periodo": "2023",
-      "valor": 206126967
-    },
-    {
-      "local": "AC",
-      "periodo": "2023",
-      "valor": 14983912
-    },
-    {
-      "local": "AL",
-      "periodo": "2023",
-      "valor": 2014064
-    },
-    {
-      "local": "AP",
-      "periodo": "2023",
-      "valor": 5271910
-    },
-    {
-      "local": "AM",
-      "periodo": "2023",
-      "valor": 2828526
-    },
-    {
-      "local": "BA",
-      "periodo": "2023",
-      "valor": 14210000
-    },
-    {
-      "local": "CE",
-      "periodo": "2023",
-      "valor": 9135000
-    },
-    {
-      "local": "DF",
-      "periodo": "2023",
-      "valor": 20058633
-    },
-    {
-      "local": "ES",
-      "periodo": "2023",
-      "valor": 11875312
-    },
-    {
-      "local": "GO",
-      "periodo": "2023",
-      "valor": 10396752
-    },
-    {
-      "local": "MA",
-      "periodo": "2023",
-      "valor": 2828526
-    },
-    {
-      "local": "MT",
-      "periodo": "2023",
-      "valor": 21160172
-    },
-    {
-      "local": "MS",
-      "periodo": "2023",
-      "valor": 20195348
-    },
-    {
-      "local": "MG",
-      "periodo": "2023",
-      "valor": 21315000
-    },
-    {
-      "local": "PA",
-      "periodo": "2023",
-      "valor": 5271910
-    },
-    {
-      "local": "PB",
-      "periodo": "2023",
-      "valor": 6274324
-    },
-    {
-      "local": "PR",
-      "periodo": "2023",
-      "valor": 12180000
-    },
-    {
-      "local": "PE",
-      "periodo": "2023",
-      "valor": 9642500
-    },
-    {
-      "local": "PI",
-      "periodo": "2023",
-      "valor": 13291222
-    },
-    {
-      "local": "RJ",
-      "periodo": "2023",
-      "valor": 17255000
-    },
-    {
-      "local": "RN",
-      "periodo": "2023",
-      "valor": 20257999
-    },
-    {
-      "local": "RS",
-      "periodo": "2023",
-      "valor": 11165000
-    },
-    {
-      "local": "RO",
-      "periodo": "2023",
-      "valor": 21285474
-    },
-    {
-      "local": "RR",
-      "periodo": "2023",
-      "valor": 4067897
-    },
-    {
-      "local": "SC",
-      "periodo": "2023",
-      "valor": 9795303
-    },
-    {
-      "local": "SP",
-      "periodo": "2023",
-      "valor": 46690000
-    },
-    {
-      "local": "SE",
-      "periodo": "2023",
-      "valor": 11875312
-    },
-    {
-      "local": "TO",
-      "periodo": "2023",
-      "valor": 2965241
-    },
-    {
-      "local": "BR",
-      "periodo": "2024",
-      "valor": 207142371
-    },
-    {
-      "local": "AC",
-      "periodo": "2024",
-      "valor": 15057725
-    },
-    {
-      "local": "AL",
-      "periodo": "2024",
-      "valor": 2023986
-    },
-    {
-      "local": "AP",
-      "periodo": "2024",
-      "valor": 5297880
-    },
-    {
-      "local": "AM",
-      "periodo": "2024",
-      "valor": 2842460
-    },
-    {
-      "local": "BA",
-      "periodo": "2024",
-      "valor": 14280000
-    },
-    {
-      "local": "CE",
-      "periodo": "2024",
-      "valor": 9180000
-    },
-    {
-      "local": "DF",
-      "periodo": "2024",
-      "valor": 20157444
-    },
-    {
-      "local": "ES",
-      "periodo": "2024",
-      "valor": 11933811
-    },
-    {
-      "local": "GO",
-      "periodo": "2024",
-      "valor": 10447967
-    },
-    {
-      "local": "MA",
-      "periodo": "2024",
-      "valor": 2842460
-    },
-    {
-      "local": "MT",
-      "periodo": "2024",
-      "valor": 21264409
-    },
-    {
-      "local": "MS",
-      "periodo": "2024",
-      "valor": 20294833
-    },
-    {
-      "local": "MG",
-      "periodo": "2024",
-      "valor": 21420000
-    },
-    {
-      "local": "PA",
-      "periodo": "2024",
-      "valor": 5297880
-    },
-    {
-      "local": "PB",
-      "periodo": "2024",
-      "valor": 6305232
-    },
-    {
-      "local": "PR",
-      "periodo": "2024",
-      "valor": 12240000
-    },
-    {
-      "local": "PE",
-      "periodo": "2024",
-      "valor": 9690000
-    },
-    {
-      "local": "PI",
-      "periodo": "2024",
-      "valor": 13356696
-    },
-    {
-      "local": "RJ",
-      "periodo": "2024",
-      "valor": 17340000
-    },
-    {
-      "local": "RN",
-      "periodo": "2024",
-      "valor": 20357792
-    },
-    {
-      "local": "RS",
-      "periodo": "2024",
-      "valor": 11220000
-    },
-    {
-      "local": "RO",
-      "periodo": "2024",
-      "valor": 21390328
-    },
-    {
-      "local": "RR",
-      "periodo": "2024",
-      "valor": 4087936
-    },
-    {
-      "local": "SC",
-      "periodo": "2024",
-      "valor": 9843556
-    },
-    {
-      "local": "SP",
-      "periodo": "2024",
-      "valor": 46920000
-    },
-    {
-      "local": "SE",
-      "periodo": "2024",
-      "valor": 11933811
-    },
-    {
-      "local": "TO",
-      "periodo": "2024",
-      "valor": 2979848
-    },
-    {
-      "local": "BR",
-      "periodo": "2025",
-      "valor": 208157775
-    },
-    {
-      "local": "AC",
-      "periodo": "2025",
-      "valor": 15131537
-    },
-    {
-      "local": "AL",
-      "periodo": "2025",
-      "valor": 2033907
-    },
-    {
-      "local": "AP",
-      "periodo": "2025",
-      "valor": 5323850
-    },
-    {
-      "local": "AM",
-      "periodo": "2025",
-      "valor": 2856393
-    },
-    {
-      "local": "BA",
-      "periodo": "2025",
-      "valor": 14350000
-    },
-    {
-      "local": "CE",
-      "periodo": "2025",
-      "valor": 9225000
-    },
-    {
-      "local": "DF",
-      "periodo": "2025",
-      "valor": 20256255
-    },
-    {
-      "local": "ES",
-      "periodo": "2025",
-      "valor": 11992310
-    },
-    {
-      "local": "GO",
-      "periodo": "2025",
-      "valor": 10499183
-    },
-    {
-      "local": "MA",
-      "periodo": "2025",
-      "valor": 2856393
-    },
-    {
-      "local": "MT",
-      "periodo": "2025",
-      "valor": 21368647
-    },
-    {
-      "local": "MS",
-      "periodo": "2025",
-      "valor": 20394317
-    },
-    {
-      "local": "MG",
-      "periodo": "2025",
-      "valor": 21525000
-    },
-    {
-      "local": "PA",
-      "periodo": "2025",
-      "valor": 5323850
-    },
-    {
-      "local": "PB",
-      "periodo": "2025",
-      "valor": 6336140
-    },
-    {
-      "local": "PR",
-      "periodo": "2025",
-      "valor": 12300000
-    },
-    {
-      "local": "PE",
-      "periodo": "2025",
-      "valor": 9737500
-    },
-    {
-      "local": "PI",
-      "periodo": "2025",
-      "valor": 13422170
-    },
-    {
-      "local": "RJ",
-      "periodo": "2025",
-      "valor": 17425000
-    },
-    {
-      "local": "RN",
-      "periodo": "2025",
-      "valor": 20457586
-    },
-    {
-      "local": "RS",
-      "periodo": "2025",
-      "valor": 11275000
-    },
-    {
-      "local": "RO",
-      "periodo": "2025",
-      "valor": 21495183
-    },
-    {
-      "local": "RR",
-      "periodo": "2025",
-      "valor": 4107974
-    },
-    {
-      "local": "SC",
-      "periodo": "2025",
-      "valor": 9891809
-    },
-    {
-      "local": "SP",
-      "periodo": "2025",
-      "valor": 47150000
-    },
-    {
-      "local": "SE",
-      "periodo": "2025",
-      "valor": 11992310
-    },
-    {
-      "local": "TO",
-      "periodo": "2025",
-      "valor": 2994455
-    }
-  ]
+ "id": "populacao",
+ "geradoEm": "2026-11-02T19:43:27.404Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/6579",
+ "ultimoPeriodo": "2026",
+ "observacoes": [
+  {
+   "local": "AC",
+   "periodo": "2019",
+   "valor": 881935
+  },
+  {
+   "local": "AL",
+   "periodo": "2019",
+   "valor": 3337357
+  },
+  {
+   "local": "AM",
+   "periodo": "2019",
+   "valor": 4144597
+  },
+  {
+   "local": "AP",
+   "periodo": "2019",
+   "valor": 845731
+  },
+  {
+   "local": "BA",
+   "periodo": "2019",
+   "valor": 14873064
+  },
+  {
+   "local": "BR",
+   "periodo": "2019",
+   "valor": 210147125
+  },
+  {
+   "local": "CE",
+   "periodo": "2019",
+   "valor": 9132078
+  },
+  {
+   "local": "DF",
+   "periodo": "2019",
+   "valor": 3015268
+  },
+  {
+   "local": "ES",
+   "periodo": "2019",
+   "valor": 4018650
+  },
+  {
+   "local": "GO",
+   "periodo": "2019",
+   "valor": 7018354
+  },
+  {
+   "local": "MA",
+   "periodo": "2019",
+   "valor": 7075181
+  },
+  {
+   "local": "MG",
+   "periodo": "2019",
+   "valor": 21168791
+  },
+  {
+   "local": "MS",
+   "periodo": "2019",
+   "valor": 2778986
+  },
+  {
+   "local": "MT",
+   "periodo": "2019",
+   "valor": 3484466
+  },
+  {
+   "local": "PA",
+   "periodo": "2019",
+   "valor": 8602865
+  },
+  {
+   "local": "PB",
+   "periodo": "2019",
+   "valor": 4018127
+  },
+  {
+   "local": "PE",
+   "periodo": "2019",
+   "valor": 9557071
+  },
+  {
+   "local": "PI",
+   "periodo": "2019",
+   "valor": 3273227
+  },
+  {
+   "local": "PR",
+   "periodo": "2019",
+   "valor": 11433957
+  },
+  {
+   "local": "RJ",
+   "periodo": "2019",
+   "valor": 17264943
+  },
+  {
+   "local": "RN",
+   "periodo": "2019",
+   "valor": 3506853
+  },
+  {
+   "local": "RO",
+   "periodo": "2019",
+   "valor": 1777225
+  },
+  {
+   "local": "RR",
+   "periodo": "2019",
+   "valor": 605761
+  },
+  {
+   "local": "RS",
+   "periodo": "2019",
+   "valor": 11377239
+  },
+  {
+   "local": "SC",
+   "periodo": "2019",
+   "valor": 7164788
+  },
+  {
+   "local": "SE",
+   "periodo": "2019",
+   "valor": 2298696
+  },
+  {
+   "local": "SP",
+   "periodo": "2019",
+   "valor": 45919049
+  },
+  {
+   "local": "TO",
+   "periodo": "2019",
+   "valor": 1572866
+  },
+  {
+   "local": "AC",
+   "periodo": "2020",
+   "valor": 894470
+  },
+  {
+   "local": "AL",
+   "periodo": "2020",
+   "valor": 3351543
+  },
+  {
+   "local": "AM",
+   "periodo": "2020",
+   "valor": 4207714
+  },
+  {
+   "local": "AP",
+   "periodo": "2020",
+   "valor": 861773
+  },
+  {
+   "local": "BA",
+   "periodo": "2020",
+   "valor": 14930634
+  },
+  {
+   "local": "BR",
+   "periodo": "2020",
+   "valor": 211755692
+  },
+  {
+   "local": "CE",
+   "periodo": "2020",
+   "valor": 9187103
+  },
+  {
+   "local": "DF",
+   "periodo": "2020",
+   "valor": 3055149
+  },
+  {
+   "local": "ES",
+   "periodo": "2020",
+   "valor": 4064052
+  },
+  {
+   "local": "GO",
+   "periodo": "2020",
+   "valor": 7113540
+  },
+  {
+   "local": "MA",
+   "periodo": "2020",
+   "valor": 7114598
+  },
+  {
+   "local": "MG",
+   "periodo": "2020",
+   "valor": 21292666
+  },
+  {
+   "local": "MS",
+   "periodo": "2020",
+   "valor": 2809394
+  },
+  {
+   "local": "MT",
+   "periodo": "2020",
+   "valor": 3526220
+  },
+  {
+   "local": "PA",
+   "periodo": "2020",
+   "valor": 8690745
+  },
+  {
+   "local": "PB",
+   "periodo": "2020",
+   "valor": 4039277
+  },
+  {
+   "local": "PE",
+   "periodo": "2020",
+   "valor": 9616621
+  },
+  {
+   "local": "PI",
+   "periodo": "2020",
+   "valor": 3281480
+  },
+  {
+   "local": "PR",
+   "periodo": "2020",
+   "valor": 11516840
+  },
+  {
+   "local": "RJ",
+   "periodo": "2020",
+   "valor": 17366189
+  },
+  {
+   "local": "RN",
+   "periodo": "2020",
+   "valor": 3534165
+  },
+  {
+   "local": "RO",
+   "periodo": "2020",
+   "valor": 1796460
+  },
+  {
+   "local": "RR",
+   "periodo": "2020",
+   "valor": 631181
+  },
+  {
+   "local": "RS",
+   "periodo": "2020",
+   "valor": 11422973
+  },
+  {
+   "local": "SC",
+   "periodo": "2020",
+   "valor": 7252502
+  },
+  {
+   "local": "SE",
+   "periodo": "2020",
+   "valor": 2318822
+  },
+  {
+   "local": "SP",
+   "periodo": "2020",
+   "valor": 46289333
+  },
+  {
+   "local": "TO",
+   "periodo": "2020",
+   "valor": 1590248
+  },
+  {
+   "local": "AC",
+   "periodo": "2021",
+   "valor": 906876
+  },
+  {
+   "local": "AL",
+   "periodo": "2021",
+   "valor": 3365351
+  },
+  {
+   "local": "AM",
+   "periodo": "2021",
+   "valor": 4269995
+  },
+  {
+   "local": "AP",
+   "periodo": "2021",
+   "valor": 877613
+  },
+  {
+   "local": "BA",
+   "periodo": "2021",
+   "valor": 14985284
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 213317639
+  },
+  {
+   "local": "CE",
+   "periodo": "2021",
+   "valor": 9240580
+  },
+  {
+   "local": "DF",
+   "periodo": "2021",
+   "valor": 3094325
+  },
+  {
+   "local": "ES",
+   "periodo": "2021",
+   "valor": 4108508
+  },
+  {
+   "local": "GO",
+   "periodo": "2021",
+   "valor": 7206589
+  },
+  {
+   "local": "MA",
+   "periodo": "2021",
+   "valor": 7153262
+  },
+  {
+   "local": "MG",
+   "periodo": "2021",
+   "valor": 21411923
+  },
+  {
+   "local": "MS",
+   "periodo": "2021",
+   "valor": 2839188
+  },
+  {
+   "local": "MT",
+   "periodo": "2021",
+   "valor": 3567234
+  },
+  {
+   "local": "PA",
+   "periodo": "2021",
+   "valor": 8777124
+  },
+  {
+   "local": "PB",
+   "periodo": "2021",
+   "valor": 4059905
+  },
+  {
+   "local": "PE",
+   "periodo": "2021",
+   "valor": 9674793
+  },
+  {
+   "local": "PI",
+   "periodo": "2021",
+   "valor": 3289290
+  },
+  {
+   "local": "PR",
+   "periodo": "2021",
+   "valor": 11597484
+  },
+  {
+   "local": "RJ",
+   "periodo": "2021",
+   "valor": 17463349
+  },
+  {
+   "local": "RN",
+   "periodo": "2021",
+   "valor": 3560903
+  },
+  {
+   "local": "RO",
+   "periodo": "2021",
+   "valor": 1815278
+  },
+  {
+   "local": "RR",
+   "periodo": "2021",
+   "valor": 652713
+  },
+  {
+   "local": "RS",
+   "periodo": "2021",
+   "valor": 11466630
+  },
+  {
+   "local": "SC",
+   "periodo": "2021",
+   "valor": 7338473
+  },
+  {
+   "local": "SE",
+   "periodo": "2021",
+   "valor": 2338474
+  },
+  {
+   "local": "SP",
+   "periodo": "2021",
+   "valor": 46649132
+  },
+  {
+   "local": "TO",
+   "periodo": "2021",
+   "valor": 1607363
+  },
+  {
+   "local": "AC",
+   "periodo": "2024",
+   "valor": 880631
+  },
+  {
+   "local": "AL",
+   "periodo": "2024",
+   "valor": 3220104
+  },
+  {
+   "local": "AM",
+   "periodo": "2024",
+   "valor": 4281209
+  },
+  {
+   "local": "AP",
+   "periodo": "2024",
+   "valor": 802837
+  },
+  {
+   "local": "BA",
+   "periodo": "2024",
+   "valor": 14850513
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 212583750
+  },
+  {
+   "local": "CE",
+   "periodo": "2024",
+   "valor": 9233656
+  },
+  {
+   "local": "DF",
+   "periodo": "2024",
+   "valor": 2982818
+  },
+  {
+   "local": "ES",
+   "periodo": "2024",
+   "valor": 4102129
+  },
+  {
+   "local": "GO",
+   "periodo": "2024",
+   "valor": 7350483
+  },
+  {
+   "local": "MA",
+   "periodo": "2024",
+   "valor": 7010960
+  },
+  {
+   "local": "MG",
+   "periodo": "2024",
+   "valor": 21322691
+  },
+  {
+   "local": "MS",
+   "periodo": "2024",
+   "valor": 2901895
+  },
+  {
+   "local": "MT",
+   "periodo": "2024",
+   "valor": 3836399
+  },
+  {
+   "local": "PA",
+   "periodo": "2024",
+   "valor": 8664306
+  },
+  {
+   "local": "PB",
+   "periodo": "2024",
+   "valor": 4145040
+  },
+  {
+   "local": "PE",
+   "periodo": "2024",
+   "valor": 9539029
+  },
+  {
+   "local": "PI",
+   "periodo": "2024",
+   "valor": 3375646
+  },
+  {
+   "local": "PR",
+   "periodo": "2024",
+   "valor": 11824665
+  },
+  {
+   "local": "RJ",
+   "periodo": "2024",
+   "valor": 17219679
+  },
+  {
+   "local": "RN",
+   "periodo": "2024",
+   "valor": 3446071
+  },
+  {
+   "local": "RO",
+   "periodo": "2024",
+   "valor": 1746227
+  },
+  {
+   "local": "RR",
+   "periodo": "2024",
+   "valor": 716793
+  },
+  {
+   "local": "RS",
+   "periodo": "2024",
+   "valor": 11229915
+  },
+  {
+   "local": "SC",
+   "periodo": "2024",
+   "valor": 8058441
+  },
+  {
+   "local": "SE",
+   "periodo": "2024",
+   "valor": 2291077
+  },
+  {
+   "local": "SP",
+   "periodo": "2024",
+   "valor": 45973194
+  },
+  {
+   "local": "TO",
+   "periodo": "2024",
+   "valor": 1577342
+  },
+  {
+   "local": "AC",
+   "periodo": "2025",
+   "valor": 884372
+  },
+  {
+   "local": "AL",
+   "periodo": "2025",
+   "valor": 3220848
+  },
+  {
+   "local": "AM",
+   "periodo": "2025",
+   "valor": 4321616
+  },
+  {
+   "local": "AP",
+   "periodo": "2025",
+   "valor": 806517
+  },
+  {
+   "local": "BA",
+   "periodo": "2025",
+   "valor": 14870907
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 213421037
+  },
+  {
+   "local": "CE",
+   "periodo": "2025",
+   "valor": 9268836
+  },
+  {
+   "local": "DF",
+   "periodo": "2025",
+   "valor": 2996899
+  },
+  {
+   "local": "ES",
+   "periodo": "2025",
+   "valor": 4126854
+  },
+  {
+   "local": "GO",
+   "periodo": "2025",
+   "valor": 7423629
+  },
+  {
+   "local": "MA",
+   "periodo": "2025",
+   "valor": 7018211
+  },
+  {
+   "local": "MG",
+   "periodo": "2025",
+   "valor": 21393441
+  },
+  {
+   "local": "MS",
+   "periodo": "2025",
+   "valor": 2924631
+  },
+  {
+   "local": "MT",
+   "periodo": "2025",
+   "valor": 3893659
+  },
+  {
+   "local": "PA",
+   "periodo": "2025",
+   "valor": 8711196
+  },
+  {
+   "local": "PB",
+   "periodo": "2025",
+   "valor": 4164468
+  },
+  {
+   "local": "PE",
+   "periodo": "2025",
+   "valor": 9562007
+  },
+  {
+   "local": "PI",
+   "periodo": "2025",
+   "valor": 3384547
+  },
+  {
+   "local": "PR",
+   "periodo": "2025",
+   "valor": 11890517
+  },
+  {
+   "local": "RJ",
+   "periodo": "2025",
+   "valor": 17223547
+  },
+  {
+   "local": "RN",
+   "periodo": "2025",
+   "valor": 3455236
+  },
+  {
+   "local": "RO",
+   "periodo": "2025",
+   "valor": 1751950
+  },
+  {
+   "local": "RR",
+   "periodo": "2025",
+   "valor": 738772
+  },
+  {
+   "local": "RS",
+   "periodo": "2025",
+   "valor": 11233263
+  },
+  {
+   "local": "SC",
+   "periodo": "2025",
+   "valor": 8187029
+  },
+  {
+   "local": "SE",
+   "periodo": "2025",
+   "valor": 2299425
+  },
+  {
+   "local": "SP",
+   "periodo": "2025",
+   "valor": 46081801
+  },
+  {
+   "local": "TO",
+   "periodo": "2025",
+   "valor": 1586859
+  },
+  {
+   "local": "AC",
+   "periodo": "2026",
+   "valor": 887794
+  },
+  {
+   "local": "AL",
+   "periodo": "2026",
+   "valor": 3221128
+  },
+  {
+   "local": "AM",
+   "periodo": "2026",
+   "valor": 4360926
+  },
+  {
+   "local": "AP",
+   "periodo": "2026",
+   "valor": 809953
+  },
+  {
+   "local": "BA",
+   "periodo": "2026",
+   "valor": 14889472
+  },
+  {
+   "local": "BR",
+   "periodo": "2026",
+   "valor": 214211951
+  },
+  {
+   "local": "CE",
+   "periodo": "2026",
+   "valor": 9302211
+  },
+  {
+   "local": "DF",
+   "periodo": "2026",
+   "valor": 3009996
+  },
+  {
+   "local": "ES",
+   "periodo": "2026",
+   "valor": 4150692
+  },
+  {
+   "local": "GO",
+   "periodo": "2026",
+   "valor": 7495033
+  },
+  {
+   "local": "MA",
+   "periodo": "2026",
+   "valor": 7024557
+  },
+  {
+   "local": "MG",
+   "periodo": "2026",
+   "valor": 21460311
+  },
+  {
+   "local": "MS",
+   "periodo": "2026",
+   "valor": 2946317
+  },
+  {
+   "local": "MT",
+   "periodo": "2026",
+   "valor": 3950330
+  },
+  {
+   "local": "PA",
+   "periodo": "2026",
+   "valor": 8756324
+  },
+  {
+   "local": "PB",
+   "periodo": "2026",
+   "valor": 4182828
+  },
+  {
+   "local": "PE",
+   "periodo": "2026",
+   "valor": 9583176
+  },
+  {
+   "local": "PI",
+   "periodo": "2026",
+   "valor": 3392617
+  },
+  {
+   "local": "PR",
+   "periodo": "2026",
+   "valor": 11952456
+  },
+  {
+   "local": "RJ",
+   "periodo": "2026",
+   "valor": 17225410
+  },
+  {
+   "local": "RN",
+   "periodo": "2026",
+   "valor": 3463737
+  },
+  {
+   "local": "RO",
+   "periodo": "2026",
+   "valor": 1757338
+  },
+  {
+   "local": "RR",
+   "periodo": "2026",
+   "valor": 761012
+  },
+  {
+   "local": "RS",
+   "periodo": "2026",
+   "valor": 11233317
+  },
+  {
+   "local": "SC",
+   "periodo": "2026",
+   "valor": 8312759
+  },
+  {
+   "local": "SE",
+   "periodo": "2026",
+   "valor": 2307255
+  },
+  {
+   "local": "SP",
+   "periodo": "2026",
+   "valor": 46179008
+  },
+  {
+   "local": "TO",
+   "periodo": "2026",
+   "valor": 1595994
+  }
+ ]
 }

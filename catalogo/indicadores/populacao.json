@@ -17,6 +17,14 @@
     "nome": "Estimativas de população",
     "url": "https://sidra.ibge.gov.br/tabela/6579",
     "adaptador": "ibge-sidra",
-    "parametros": {}
+    "parametros": {
+      "tabela": 6579,
+      "variavel": 9324,
+      "niveis": [
+        "N1",
+        "N3"
+      ],
+      "periodos": 6
+    }
   }
 }

@@ -4,6 +4,7 @@ node_modules/
 .env.*
 !.env.example
 .tmp/
+dns/
 *.log
 .venv/
 __pycache__/
