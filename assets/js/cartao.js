@@ -35,11 +35,18 @@
     var opcoes = config.opcoes || {};
     var escopoVisual = visual && (typeof visual.escopo === "function" ? visual.escopo(config) : visual.escopo);
     var escopo = config.escopo || escopoVisual || "brasil";
-    var temEstado = dados.tem(estado.uf);
-    var ultBR = dados.ultimo("BR");
-    var ultEstado = temEstado ? dados.ultimo(estado.uf) : null;
+    var serieDe = indicador.formato === "categoria"
+      ? function (uf) {
+        return dados.observacoes.filter(function (o) { return o.local === uf; })
+          .sort(function (a, b) { return a.periodo < b.periodo ? -1 : a.periodo > b.periodo ? 1 : 0; });
+      }
+      : function (uf) { return dados.serie(uf); };
+    var ultimoDe = function (uf) { var s = serieDe(uf); return s.length ? s[s.length - 1] : null; };
+    var temEstado = serieDe(estado.uf).length > 0;
+    var ultBR = ultimoDe("BR");
+    var ultEstado = temEstado ? ultimoDe(estado.uf) : null;
     var local = escopo === "estado" && temEstado ? estado.uf : "BR";
-    var serieLocal = dados.serie(local);
+    var serieLocal = serieDe(local);
     var atual = serieLocal[serieLocal.length - 1];
     var anterior = serieLocal[serieLocal.length - 2];
 

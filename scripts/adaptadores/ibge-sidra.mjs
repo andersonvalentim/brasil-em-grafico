@@ -30,7 +30,9 @@ function fimDeAno(observacoes, anos) {
   const guardar = (o) => o.periodo === ultimo || (o.periodo.endsWith('12') && o.periodo.slice(0, 4) !== anoAtual);
   const escolhidas = observacoes.filter(guardar).map((o) => ({ ...o, periodo: o.periodo.slice(0, 4) }));
   const manter = new Set([...new Set(escolhidas.map((o) => o.periodo))].sort().slice(-anos));
-  return escolhidas.filter((o) => manter.has(o.periodo));
+  const resultado = { observacoes: escolhidas.filter((o) => manter.has(o.periodo)) };
+  if (!ultimo.endsWith('12')) resultado.notas = { anoParcialAte: `${ultimo.slice(0, 4)}-${ultimo.slice(4, 6)}` };
+  return resultado;
 }
 
 export async function coletar(indicador, { locais }) {

@@ -6,144 +6,71 @@
   var esc = BG.escapar;
   var icone = BG.icone;
 
-  /* ---------- Busca em linguagem do dia a dia ---------- */
+  /* ---------- "O que você quer saber?": perguntas prontas, por assunto ---------- */
 
-  var PALAVRAS_VAZIAS = ["o", "a", "os", "as", "de", "da", "do", "das", "dos", "e", "em", "na", "no", "nas", "nos", "um", "uma",
-    "que", "qual", "quanto", "quanta", "quantos", "ta", "esta", "hoje", "agora", "meu", "minha", "pra", "para", "por", "com", "como"];
-  var UFS_AMBIGUAS = ["se", "to", "es", "ma", "al", "pa", "ap", "pe"];
-
-  function normalizar(texto) {
-    return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9\s-]/g, " ");
+  function marcadoresDoEstado(e) {
+    return {
+      estado: e.nome, uf: e.uf, gentilico: e.gentilico,
+      noEstado: BG.emNome(e), doEstado: BG.deNome(e),
+      naArea: BG.emArea(e), area: e.areaIpca || e.nome
+    };
   }
 
-  function distancia(a, b) {
-    if (Math.abs(a.length - b.length) > 2) return 3;
-    var anterior = [];
-    for (var j = 0; j <= b.length; j++) anterior[j] = j;
-    for (var i = 1; i <= a.length; i++) {
-      var atual = [i];
-      for (var k = 1; k <= b.length; k++) {
-        atual[k] = Math.min(anterior[k] + 1, atual[k - 1] + 1, anterior[k - 1] + (a[i - 1] === b[k - 1] ? 0 : 1));
-      }
-      anterior = atual;
-    }
-    return anterior[b.length];
-  }
-
-  function parecido(palavra, termo) {
-    if (palavra === termo) return true;
-    if (palavra.length >= 5 && termo.indexOf(palavra) === 0) return true;
-    var limite = termo.length >= 7 ? 2 : termo.length >= 4 ? 1 : 0;
-    return limite > 0 && distancia(palavra, termo) <= limite;
-  }
-
-  function encontrarEstado(original, normalizado) {
-    var palavras = normalizado.split(/\s+/).filter(Boolean);
-    var achado = null;
-    BG.locais.estados.forEach(function (e) {
-      if (achado) return;
-      var nome = normalizar(e.nome);
-      if (normalizado.indexOf(nome) !== -1) achado = e;
-      else if (nome.indexOf(" ") === -1 && palavras.some(function (p) { return p.length >= 4 && distancia(p, nome) <= 1; })) achado = e;
-    });
-    if (achado) return achado;
-    original.split(/\s+/).forEach(function (p) {
-      if (achado || p.length !== 2) return;
-      var uf = p.toUpperCase();
-      if (!BG.locais.porUf[uf] || uf === "BR") return;
-      if (UFS_AMBIGUAS.indexOf(p.toLowerCase()) !== -1 && p !== uf) return;
-      achado = BG.locais.porUf[uf];
-    });
-    return achado;
-  }
-
-  function topicosDaBusca(temas) {
+  function assuntosDasPerguntas(temas, site) {
     var lista = temas.map(function (t) {
-      return { titulo: t.nomeCurto || t.titulo, descricao: t.descricao, url: "tema.html?id=" + t.id, termos: (t.palavras || []).map(normalizar), porEstado: true };
+      return {
+        id: t.id, rotulo: t.nomeCurto || t.titulo, icone: t.icone || "temas",
+        perguntas: t.cartoes.map(function (c, i) {
+          return { texto: c.pergunta, url: "tema.html?id=" + encodeURIComponent(t.id) + "#pergunta-" + (i + 1) };
+        })
+      };
     });
-    lista.push({ titulo: "Resumo do seu estado", descricao: "Os números mais importantes do seu estado", url: "meu-estado.html", termos: ["estado", "resumo", "comparar"], porEstado: true });
-    lista.push({ titulo: "De onde vêm os dados", descricao: "Fontes oficiais e como cada número é calculado", url: "sobre.html", termos: ["fonte", "fontes", "dados", "metodologia", "sobre", "oficial", "baixar"] });
+    var cartoesEstado = (site.estado && site.estado.cartoes) || [];
+    if (cartoesEstado.length) {
+      lista.push({
+        id: "meu-estado", rotulo: "Meu estado", icone: "estado",
+        perguntas: cartoesEstado.map(function (c) {
+          return { texto: c.pergunta, url: "meu-estado.html" + (c.id ? "#" + encodeURIComponent(c.id) : "") };
+        })
+      });
+    }
     return lista;
   }
 
-  function comEstado(url, estado) {
-    var partes = url.split("#");
-    return partes[0] + (partes[0].indexOf("?") === -1 ? "?" : "&") + "uf=" + estado.uf + (partes[1] ? "#" + partes[1] : "");
-  }
+  function prepararPerguntas(temas, site) {
+    var areaAssuntos = BG.$("#assuntos");
+    var areaLista = BG.$("#lista-perguntas");
+    if (!areaAssuntos || !areaLista) return;
+    var assuntos = assuntosDasPerguntas(temas, site);
+    var escolhido = assuntos[0] && assuntos[0].id;
 
-  function buscar(topicos, consulta) {
-    var normalizado = normalizar(consulta);
-    var estado = encontrarEstado(consulta, normalizado);
-    var nomeEstado = estado ? normalizar(estado.nome).split(" ") : [];
-    var palavras = normalizado.split(/\s+/).filter(function (p) {
-      return p && PALAVRAS_VAZIAS.indexOf(p) === -1 && nomeEstado.indexOf(p) === -1;
-    });
-    var resultados = topicos.map(function (t) {
-      var pontos = 0;
-      palavras.forEach(function (p) { if (t.termos.some(function (termo) { return parecido(p, termo); })) pontos++; });
-      return { topico: t, pontos: pontos };
-    }).filter(function (r) { return r.pontos > 0; })
-      .sort(function (a, b) { return b.pontos - a.pontos; })
-      .slice(0, 4)
-      .map(function (r) {
-        var t = r.topico;
-        return {
-          titulo: t.porEstado && estado ? t.titulo + " " + BG.emNome(estado) : t.titulo,
-          descricao: t.descricao,
-          url: t.porEstado && estado ? comEstado(t.url, estado) : t.url
-        };
-      });
-    if (estado) resultados.push({ titulo: "Resumo " + BG.deNome(estado), descricao: "Os números mais importantes do estado", url: "meu-estado.html?uf=" + estado.uf });
-    return resultados;
-  }
-
-  function prepararBusca(temas) {
-    var form = BG.$("#form-busca");
-    if (!form) return;
-    var topicos = topicosDaBusca(temas);
-    var campo = BG.$("#campo-busca");
-    var lista = BG.$("#resultados-busca");
-    var status = BG.$("#status-busca");
-    var espera;
-
-    function mostrar(consulta) {
-      var texto = consulta.trim();
-      if (!texto) {
-        lista.innerHTML = "";
-        status.textContent = "";
-        return [];
-      }
-      var resultados = buscar(topicos, texto);
-      if (!resultados.length) {
-        lista.innerHTML = '<li class="resultados__vazio">Não encontramos nada para “' + esc(texto) +
-          "”. Tente palavras do dia a dia, como <strong>gasolina</strong>, <strong>desemprego</strong> ou <strong>conta de luz</strong>.</li>";
-        status.textContent = "Nenhum resultado.";
-        return [];
-      }
-      lista.innerHTML = resultados.map(function (r) {
-        return '<li><a class="resultado" href="' + esc(r.url) + '"><span><strong>' + esc(r.titulo) + "</strong><span>" + esc(r.descricao) + "</span></span>" + icone("seta") + "</a></li>";
+    function desenharLista() {
+      var a = assuntos.filter(function (x) { return x.id === escolhido; })[0];
+      if (!a) return;
+      var m = marcadoresDoEstado(BG.estado.atual());
+      var vistas = {};
+      areaLista.innerHTML = a.perguntas.map(function (p) {
+        var texto = BG.preencherTexto(p.texto, m);
+        if (vistas[texto]) return "";
+        vistas[texto] = true;
+        return '<li><a class="pergunta" href="' + esc(p.url) + '"><span>' + esc(texto) + "</span>" + icone("seta") + "</a></li>";
       }).join("");
-      status.textContent = resultados.length === 1 ? "1 resultado encontrado." : resultados.length + " resultados encontrados.";
-      return resultados;
     }
 
-    campo.addEventListener("input", function () {
-      clearTimeout(espera);
-      espera = setTimeout(function () { mostrar(campo.value); }, 250);
+    areaAssuntos.innerHTML = assuntos.map(function (a) {
+      return '<button type="button" class="chip" data-assunto="' + esc(a.id) + '" aria-pressed="' + (a.id === escolhido) + '" aria-controls="lista-perguntas">' +
+        icone(a.icone, "icone--sm") + esc(a.rotulo) + "</button>";
+    }).join("");
+
+    areaAssuntos.addEventListener("click", function (ev) {
+      var botao = ev.target.closest("[data-assunto]");
+      if (!botao) return;
+      escolhido = botao.dataset.assunto;
+      BG.$$("[data-assunto]", areaAssuntos).forEach(function (b) { b.setAttribute("aria-pressed", String(b === botao)); });
+      desenharLista();
     });
-    form.addEventListener("submit", function (ev) {
-      ev.preventDefault();
-      var r = mostrar(campo.value);
-      if (r.length) location.href = r[0].url;
-    });
-    BG.$$("[data-sugestao]").forEach(function (b) {
-      b.addEventListener("click", function () {
-        campo.value = b.dataset.sugestao;
-        var r = mostrar(campo.value);
-        if (r.length) location.href = r[0].url;
-      });
-    });
-    if (location.hash === "#busca") campo.focus();
+    document.addEventListener("bg:estado", desenharLista);
+    desenharLista();
   }
 
   /* ---------- Início ---------- */
@@ -195,19 +122,20 @@
       BG.cartao(BG.$("#foco"), foco, "grande");
     });
 
-    BG.catalogo.temasAtivos().then(function (temas) {
+    Promise.all([BG.catalogo.temasAtivos(), BG.catalogo.site()]).then(function (r) {
       var grade = BG.$("#lista-temas");
-      temas.forEach(function (t) { blocoTema(grade, t); });
-      prepararBusca(temas);
-    });
-
-    document.addEventListener("bg:estado", function (ev) {
-      var conf = BG.$("#confirmacao-estado");
-      if (conf) {
-        conf.innerHTML = '<span role="status">Pronto! ' + esc(ev.detail.nome) + ' agora aparece destacado em todo o site. <a href="meu-estado.html">Ver meu estado</a></span>';
-      }
+      r[0].forEach(function (t) { blocoTema(grade, t); });
+      prepararPerguntas(r[0], r[1]);
     });
   };
+
+  function irParaPergunta() {
+    var alvo = location.hash && document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (!alvo) return;
+    var rolar = function () { alvo.scrollIntoView({ block: "start" }); };
+    requestAnimationFrame(rolar);
+    setTimeout(rolar, 700);
+  }
 
   /* ---------- Tema ---------- */
 
@@ -225,18 +153,11 @@
         var cfg = Object.assign({ id: "pergunta-" + (i + 1), etiqueta: "Pergunta " + (i + 1) }, c);
         BG.cartao(lista, cfg, "grande");
       });
-      atualizarMostrando();
+      irParaPergunta();
     }).catch(function (erro) {
       console.error(erro);
       cabecalho.innerHTML = '<div><h1>Tema não encontrado</h1><p>Esse tema ainda não existe ou está em preparação. <a href="index.html#temas">Ver todos os temas</a>.</p></div>';
     });
-
-    function atualizarMostrando() {
-      var e = BG.estado.atual();
-      var alvo = BG.$("[data-estado-ativo]");
-      if (alvo) alvo.textContent = e.nome;
-    }
-    document.addEventListener("bg:estado", atualizarMostrando);
   };
 
   /* ---------- Meu estado ---------- */
@@ -284,6 +205,7 @@
     BG.catalogo.site().then(function (site) {
       var grade = BG.$("#painel-estado");
       site.estado.cartoes.forEach(function (c) { BG.cartao(grade, c, "mini"); });
+      irParaPergunta();
 
       Promise.all(site.estado.comparar.map(function (id) { return BG.catalogo.completo(id).catch(function () { return null; }); })).then(function (lista) {
         var itens = lista.filter(Boolean);

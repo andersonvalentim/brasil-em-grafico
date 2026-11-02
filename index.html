@@ -25,41 +25,11 @@
       <h1 id="titulo-hero">Informações públicas oficiais, explicadas com clareza e respeito ao seu tempo.</h1>
       <p class="hero__apoio">Sem economês e sem complicação. Escolha o que você quer entender sobre preços, trabalho e custo de vida no Brasil.</p>
 
-      <form class="busca" id="form-busca" role="search" action="index.html">
-        <label class="busca__rotulo" id="busca" for="campo-busca">O que você quer saber?</label>
-        <div class="busca__campo">
-          <div class="busca__entrada">
-            <svg class="icone" aria-hidden="true"><use href="#i-buscar"/></svg>
-            <input id="campo-busca" name="q" type="search" autocomplete="off" placeholder="Ex.: preço da gasolina" aria-describedby="dica-busca" aria-controls="resultados-busca">
-          </div>
-          <button class="btn btn--primario" type="submit">Buscar<svg class="icone icone--sm" aria-hidden="true"><use href="#i-seta"/></svg></button>
-        </div>
-        <p id="dica-busca" class="sr-only">Escreva do seu jeito, por exemplo “quanto tá o dólar” ou “desemprego na Bahia”. Os resultados aparecem logo abaixo.</p>
-        <p id="status-busca" class="sr-only" role="status" aria-live="polite"></p>
-        <ul class="resultados" id="resultados-busca"></ul>
-      </form>
-
-      <div class="sugestoes">
-        <span class="sugestoes__rotulo">Sugestões:</span>
-        <button type="button" class="chip" data-sugestao="preço da gasolina"><svg class="icone icone--sm" aria-hidden="true"><use href="#i-combustivel"/></svg>Preço da gasolina</button>
-        <button type="button" class="chip" data-sugestao="quanto tá o dólar"><svg class="icone icone--sm" aria-hidden="true"><use href="#i-dinheiro"/></svg>Quanto tá o dólar</button>
-        <button type="button" class="chip" data-sugestao="desemprego bahia"><svg class="icone icone--sm" aria-hidden="true"><use href="#i-trabalho"/></svg>Desemprego na Bahia</button>
-        <button type="button" class="chip" data-sugestao="preço dos alimentos"><svg class="icone icone--sm" aria-hidden="true"><use href="#i-cesta"/></svg>Preço dos alimentos</button>
-      </div>
-
-      <section class="escolha-estado" aria-labelledby="titulo-estado">
-        <span class="escolha-estado__icone" aria-hidden="true"><svg class="icone"><use href="#i-estado"/></svg></span>
-        <div>
-          <h2 id="titulo-estado">Escolha seu estado</h2>
-          <p>Ele fica salvo e aparece em <span class="destaque-texto">destaque</span> em todos os gráficos do site.</p>
-        </div>
-        <label class="seletor">
-          <span class="sr-only">Seu estado</span>
-          <select data-seletor-estado>
-            <option value="BA">Bahia (BA)</option>
-          </select>
-        </label>
-        <p class="escolha-estado__confirmacao" id="confirmacao-estado"></p>
+      <section class="perguntas" id="perguntas" aria-labelledby="titulo-perguntas">
+        <h2 class="perguntas__titulo" id="titulo-perguntas">O que você quer saber?</h2>
+        <p class="perguntas__dica" id="dica-perguntas">Escolha um assunto e toque na pergunta.</p>
+        <div class="perguntas__assuntos" role="group" aria-label="Assuntos" id="assuntos"></div>
+        <ul class="perguntas__lista" id="lista-perguntas" aria-describedby="dica-perguntas"></ul>
       </section>
     </section>
 

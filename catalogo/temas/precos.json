@@ -52,6 +52,20 @@
       "unidade": "em 12 meses, até {periodo}"
     },
     {
+      "indicador": "ipca-anual",
+      "visual": "anual",
+      "pergunta": "Quanto os preços subiram em cada ano?",
+      "unidade": "foi a alta dos preços",
+      "opcoes": {
+        "locais": ["estado", "BR"],
+        "anos": 7
+      },
+      "detalhes": [
+        "Cada barra mostra quanto os preços subiram de dezembro de um ano até dezembro do ano seguinte. É o número que o governo compara com a meta de 3% ao ano.",
+        "Quando o seu estado tem pesquisa do IBGE, ele aparece ao lado da média do Brasil. O ano atual ainda não terminou: a barra dele vai de janeiro até o último mês divulgado."
+      ]
+    },
+    {
       "indicador": "ipca-alimentos",
       "visual": "ano-a-ano",
       "pergunta": "Como o preço de cada alimento mudou, ano a ano?",

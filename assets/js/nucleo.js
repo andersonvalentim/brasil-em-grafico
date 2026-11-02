@@ -332,6 +332,7 @@
       select.value = BG.estado.atual().uf;
       select.addEventListener("change", function () {
         BG.estado.escolher(select.value);
+        BG.avisar("Pronto! " + BG.estado.atual().nome + " agora aparece em destaque em todo o site.");
       });
     });
   }
@@ -342,7 +343,7 @@
     { id: "inicio", rotulo: "Início", icone: "inicio", url: "index.html" },
     { id: "temas", rotulo: "Temas", icone: "temas", url: "index.html#temas" },
     { id: "estado", rotulo: "Meu estado", icone: "estado", url: "meu-estado.html" },
-    { id: "buscar", rotulo: "Buscar", icone: "buscar", url: "index.html#busca" }
+    { id: "perguntas", rotulo: "Perguntas", icone: "pergunta", url: "index.html#perguntas" }
   ];
 
   function icone(nome, classe) {
@@ -370,6 +371,11 @@
         '<button type="button" class="btn-ferramenta" data-acao="texto" aria-pressed="false" aria-label="Texto maior">' +
         '<span class="btn-ferramenta__aa" aria-hidden="true">Aa</span><span class="btn-ferramenta__rotulo" aria-hidden="true">Texto maior</span></button>' +
         '<button type="button" class="btn-ferramenta btn-ferramenta--icone" data-acao="tema" aria-pressed="false" aria-label="Modo escuro">' + icone("lua") + "</button>" +
+        "</div></div>" +
+        '<div class="faixa-estado"><div class="container faixa-estado__linha">' +
+        '<label class="faixa-estado__rotulo" for="estado-topo">' + icone("estado", "icone--sm") + "<span>Vendo os dados de</span></label>" +
+        '<select id="estado-topo" class="faixa-estado__seletor" data-seletor-estado><option value="BA">Bahia (BA)</option></select>' +
+        '<a class="faixa-estado__link" href="meu-estado.html">Resumo do estado</a>' +
         "</div></div></header>";
     }
 

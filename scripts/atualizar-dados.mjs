@@ -92,9 +92,10 @@ async function main() {
         observacoes,
       };
       if (resultado?.extras) payload.extras = resultado.extras;
+      if (resultado?.notas) payload.notas = resultado.notas;
 
       const anterior = await readFile(saida, 'utf8').then(JSON.parse, () => null);
-      const mesmosNumeros = (d) => JSON.stringify([d.origem, d.observacoes, d.extras ?? null]);
+      const mesmosNumeros = (d) => JSON.stringify([d.origem, d.observacoes, d.extras ?? null, d.notas ?? null]);
       if (anterior && mesmosNumeros(anterior) === mesmosNumeros(payload)) {
         console.log(`= ${ind.id}: sem números novos (último: ${payload.ultimoPeriodo})`);
         ok++;

@@ -188,6 +188,7 @@ npm run validar
 | `histograma` | Quantos estados há em cada faixa | Ver a distribuição |
 | `pictograma` | "Em cada 100 pessoas…" | Porcentagens |
 | `ano-a-ano` | Cada item numa linha, cada ano numa coluna | Comparar itens ao longo dos anos |
+| `anual` | Quanto mudou de um ano para o outro | Inflação ano a ano, com o seu estado ao lado do Brasil |
 | `destaques-categorias` | O que mais subiu e o que mais caiu | Dados com categorias |
 | `bandeira` | Bandeira tarifária do mês | Específico da ANEEL |
 

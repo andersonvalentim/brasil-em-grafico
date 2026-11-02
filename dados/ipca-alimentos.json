@@ -1,6 +1,6 @@
 {
  "id": "ipca-alimentos",
- "geradoEm": "2026-11-02T20:00:23.750Z",
+ "geradoEm": "2026-11-02T23:30:16.097Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -509,5 +509,8 @@
    "valor": -4.36,
    "categoria": "Frango inteiro"
   }
- ]
+ ],
+ "notas": {
+  "anoParcialAte": "2026-09"
+ }
 }
