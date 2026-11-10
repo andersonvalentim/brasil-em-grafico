@@ -1,16 +1,10 @@
 {
  "id": "bandeira-tarifaria",
- "geradoEm": "2026-11-02T20:00:03.057Z",
+ "geradoEm": "2026-11-10T19:02:28.874Z",
  "origem": "api",
  "fonte": "https://dadosabertos.aneel.gov.br/",
- "ultimoPeriodo": "2026-10",
+ "ultimoPeriodo": "2026-11",
  "observacoes": [
-  {
-   "local": "BR",
-   "periodo": "2024-11",
-   "categoria": "Amarela",
-   "valor": 1.885
-  },
   {
    "local": "BR",
    "periodo": "2024-12",
@@ -146,6 +140,12 @@
   {
    "local": "BR",
    "periodo": "2026-10",
+   "categoria": "Verde",
+   "valor": 0
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-11",
    "categoria": "Verde",
    "valor": 0
   }
