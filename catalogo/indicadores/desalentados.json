@@ -1,0 +1,34 @@
+{
+  "id": "desalentados",
+  "status": "ativo",
+  "tema": "trabalho",
+  "nome": "Pessoas que desistiram de procurar trabalho",
+  "nomeTecnico": "Pessoas desalentadas, de 14 anos ou mais (PNAD Contínua mensal, trimestres do calendário)",
+  "unidade": "pessoas",
+  "formato": "pessoas",
+  "casas": 1,
+  "periodicidade": "trimestral",
+  "abrangencia": [
+    "BR"
+  ],
+  "cobertura": "Por trimestre, o IBGE publica esse número só para o Brasil. A média de cada ano por estado aparece no cartão das três medidas.",
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "PNAD Contínua",
+    "url": "https://sidra.ibge.gov.br/tabela/6438",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "tabela": 6438,
+      "variavel": 1641,
+      "classificacao": {
+        "604": "46254"
+      },
+      "niveis": [
+        "N1"
+      ],
+      "escala": 1000,
+      "trimestresFechados": true,
+      "periodos": 20
+    }
+  }
+}

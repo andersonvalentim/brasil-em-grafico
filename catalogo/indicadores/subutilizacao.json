@@ -1,0 +1,30 @@
+{
+  "id": "subutilizacao",
+  "status": "ativo",
+  "tema": "trabalho",
+  "nome": "Pessoas sem trabalho ou trabalhando menos do que gostariam",
+  "nomeTecnico": "Taxa composta de subutilização da força de trabalho (PNAD Contínua trimestral)",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "trimestral",
+  "abrangencia": [
+    "BR",
+    "UF"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "PNAD Contínua",
+    "url": "https://sidra.ibge.gov.br/tabela/4099",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "tabela": 4099,
+      "variavel": 4118,
+      "niveis": [
+        "N1",
+        "N3"
+      ],
+      "periodos": 20
+    }
+  }
+}

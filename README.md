@@ -124,7 +124,7 @@ Indicadores, temas e tipos de gráfico são peças independentes. Adicionar um d
 | 🏠 **Casa e contas** | Quanto subiram luz, aluguel, condomínio, água, gás, internet e celular? | IBGE · IPCA |
 | ⛽ **Combustíveis e transporte** | Quanto custa o litro da gasolina no meu estado? Quanto subiram ônibus, aplicativo e passagem aérea? | ANP · IBGE |
 | 🩺 **Saúde e educação** | Quanto subiram plano de saúde, remédios, escola e faculdade? | IBGE · IPCA |
-| 👷 **Trabalho** | Quantas pessoas procuram trabalho e não encontram? | IBGE · PNAD Contínua |
+| 👷 **Trabalho** | Quantas pessoas procuram trabalho e não encontram? Quantas desistiram de procurar? Quanta gente trabalha menos do que gostaria? | IBGE · PNAD Contínua |
 | 💵 **Juros e dólar** | Quanto vale 1 dólar hoje? Qual é a taxa de juros básica? | Banco Central |
 | 💡 **Energia** | Qual é a bandeira da conta de luz este mês? | ANEEL |
 | 👥 **População** | Quantas pessoas vivem em cada estado? | IBGE |
@@ -192,6 +192,7 @@ npm run validar
 | `pictograma` | "Em cada 100 pessoas…" | Porcentagens |
 | `ano-a-ano` | Cada item numa linha, cada ano numa coluna | Comparar itens ao longo dos anos |
 | `anual` | Quanto mudou de um ano para o outro | Inflação ano a ano, com o seu estado ao lado do Brasil |
+| `medidas` | Várias medidas do mesmo assunto lado a lado | Desemprego, desalento e subutilização, cada um com a sua pergunta |
 | `destaques-categorias` | O que mais subiu e o que mais caiu | Dados com categorias |
 | `bandeira` | Bandeira tarifária do mês | Específico da ANEEL |
 

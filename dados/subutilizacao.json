@@ -1,0 +1,2809 @@
+{
+ "id": "subutilizacao",
+ "geradoEm": "2026-11-11T14:12:22.194Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/4099",
+ "ultimoPeriodo": "2026-T2",
+ "observacoes": [
+  {
+   "local": "AC",
+   "periodo": "2021-T3",
+   "valor": 33.3
+  },
+  {
+   "local": "AL",
+   "periodo": "2021-T3",
+   "valor": 40.8
+  },
+  {
+   "local": "AM",
+   "periodo": "2021-T3",
+   "valor": 28.7
+  },
+  {
+   "local": "AP",
+   "periodo": "2021-T3",
+   "valor": 28.5
+  },
+  {
+   "local": "BA",
+   "periodo": "2021-T3",
+   "valor": 41.3
+  },
+  {
+   "local": "BR",
+   "periodo": "2021-T3",
+   "valor": 26.6
+  },
+  {
+   "local": "CE",
+   "periodo": "2021-T3",
+   "valor": 34.5
+  },
+  {
+   "local": "DF",
+   "periodo": "2021-T3",
+   "valor": 25.5
+  },
+  {
+   "local": "ES",
+   "periodo": "2021-T3",
+   "valor": 20.4
+  },
+  {
+   "local": "GO",
+   "periodo": "2021-T3",
+   "valor": 19.4
+  },
+  {
+   "local": "MA",
+   "periodo": "2021-T3",
+   "valor": 43.1
+  },
+  {
+   "local": "MG",
+   "periodo": "2021-T3",
+   "valor": 23.8
+  },
+  {
+   "local": "MS",
+   "periodo": "2021-T3",
+   "valor": 18
+  },
+  {
+   "local": "MT",
+   "periodo": "2021-T3",
+   "valor": 12.9
+  },
+  {
+   "local": "PA",
+   "periodo": "2021-T3",
+   "valor": 31.6
+  },
+  {
+   "local": "PB",
+   "periodo": "2021-T3",
+   "valor": 40
+  },
+  {
+   "local": "PE",
+   "periodo": "2021-T3",
+   "valor": 35.5
+  },
+  {
+   "local": "PI",
+   "periodo": "2021-T3",
+   "valor": 42.6
+  },
+  {
+   "local": "PR",
+   "periodo": "2021-T3",
+   "valor": 17.3
+  },
+  {
+   "local": "RJ",
+   "periodo": "2021-T3",
+   "valor": 24.4
+  },
+  {
+   "local": "RN",
+   "periodo": "2021-T3",
+   "valor": 37
+  },
+  {
+   "local": "RO",
+   "periodo": "2021-T3",
+   "valor": 16.9
+  },
+  {
+   "local": "RR",
+   "periodo": "2021-T3",
+   "valor": 25.3
+  },
+  {
+   "local": "RS",
+   "periodo": "2021-T3",
+   "valor": 17.5
+  },
+  {
+   "local": "SC",
+   "periodo": "2021-T3",
+   "valor": 10
+  },
+  {
+   "local": "SE",
+   "periodo": "2021-T3",
+   "valor": 42.2
+  },
+  {
+   "local": "SP",
+   "periodo": "2021-T3",
+   "valor": 24
+  },
+  {
+   "local": "TO",
+   "periodo": "2021-T3",
+   "valor": 26.3
+  },
+  {
+   "local": "AC",
+   "periodo": "2021-T4",
+   "valor": 31.1
+  },
+  {
+   "local": "AL",
+   "periodo": "2021-T4",
+   "valor": 38.2
+  },
+  {
+   "local": "AM",
+   "periodo": "2021-T4",
+   "valor": 27.4
+  },
+  {
+   "local": "AP",
+   "periodo": "2021-T4",
+   "valor": 25.8
+  },
+  {
+   "local": "BA",
+   "periodo": "2021-T4",
+   "valor": 39.1
+  },
+  {
+   "local": "BR",
+   "periodo": "2021-T4",
+   "valor": 24.3
+  },
+  {
+   "local": "CE",
+   "periodo": "2021-T4",
+   "valor": 31.6
+  },
+  {
+   "local": "DF",
+   "periodo": "2021-T4",
+   "valor": 24
+  },
+  {
+   "local": "ES",
+   "periodo": "2021-T4",
+   "valor": 19.7
+  },
+  {
+   "local": "GO",
+   "periodo": "2021-T4",
+   "valor": 17.5
+  },
+  {
+   "local": "MA",
+   "periodo": "2021-T4",
+   "valor": 40.5
+  },
+  {
+   "local": "MG",
+   "periodo": "2021-T4",
+   "valor": 22.2
+  },
+  {
+   "local": "MS",
+   "periodo": "2021-T4",
+   "valor": 15.4
+  },
+  {
+   "local": "MT",
+   "periodo": "2021-T4",
+   "valor": 12.4
+  },
+  {
+   "local": "PA",
+   "periodo": "2021-T4",
+   "valor": 28.8
+  },
+  {
+   "local": "PB",
+   "periodo": "2021-T4",
+   "valor": 36
+  },
+  {
+   "local": "PE",
+   "periodo": "2021-T4",
+   "valor": 33.8
+  },
+  {
+   "local": "PI",
+   "periodo": "2021-T4",
+   "valor": 42.8
+  },
+  {
+   "local": "PR",
+   "periodo": "2021-T4",
+   "valor": 15.2
+  },
+  {
+   "local": "RJ",
+   "periodo": "2021-T4",
+   "valor": 22.4
+  },
+  {
+   "local": "RN",
+   "periodo": "2021-T4",
+   "valor": 32.3
+  },
+  {
+   "local": "RO",
+   "periodo": "2021-T4",
+   "valor": 15
+  },
+  {
+   "local": "RR",
+   "periodo": "2021-T4",
+   "valor": 22.4
+  },
+  {
+   "local": "RS",
+   "periodo": "2021-T4",
+   "valor": 16.9
+  },
+  {
+   "local": "SC",
+   "periodo": "2021-T4",
+   "valor": 8.7
+  },
+  {
+   "local": "SE",
+   "periodo": "2021-T4",
+   "valor": 39.9
+  },
+  {
+   "local": "SP",
+   "periodo": "2021-T4",
+   "valor": 20.8
+  },
+  {
+   "local": "TO",
+   "periodo": "2021-T4",
+   "valor": 26.1
+  },
+  {
+   "local": "AC",
+   "periodo": "2022-T1",
+   "valor": 31.1
+  },
+  {
+   "local": "AL",
+   "periodo": "2022-T1",
+   "valor": 38.4
+  },
+  {
+   "local": "AM",
+   "periodo": "2022-T1",
+   "valor": 25.7
+  },
+  {
+   "local": "AP",
+   "periodo": "2022-T1",
+   "valor": 23.8
+  },
+  {
+   "local": "BA",
+   "periodo": "2022-T1",
+   "valor": 37.8
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T1",
+   "valor": 23.2
+  },
+  {
+   "local": "CE",
+   "periodo": "2022-T1",
+   "valor": 31
+  },
+  {
+   "local": "DF",
+   "periodo": "2022-T1",
+   "valor": 22.3
+  },
+  {
+   "local": "ES",
+   "periodo": "2022-T1",
+   "valor": 18.3
+  },
+  {
+   "local": "GO",
+   "periodo": "2022-T1",
+   "valor": 15.8
+  },
+  {
+   "local": "MA",
+   "periodo": "2022-T1",
+   "valor": 37
+  },
+  {
+   "local": "MG",
+   "periodo": "2022-T1",
+   "valor": 21.1
+  },
+  {
+   "local": "MS",
+   "periodo": "2022-T1",
+   "valor": 14.3
+  },
+  {
+   "local": "MT",
+   "periodo": "2022-T1",
+   "valor": 11.4
+  },
+  {
+   "local": "PA",
+   "periodo": "2022-T1",
+   "valor": 29.7
+  },
+  {
+   "local": "PB",
+   "periodo": "2022-T1",
+   "valor": 33.2
+  },
+  {
+   "local": "PE",
+   "periodo": "2022-T1",
+   "valor": 33
+  },
+  {
+   "local": "PI",
+   "periodo": "2022-T1",
+   "valor": 44
+  },
+  {
+   "local": "PR",
+   "periodo": "2022-T1",
+   "valor": 14.1
+  },
+  {
+   "local": "RJ",
+   "periodo": "2022-T1",
+   "valor": 22.3
+  },
+  {
+   "local": "RN",
+   "periodo": "2022-T1",
+   "valor": 33.2
+  },
+  {
+   "local": "RO",
+   "periodo": "2022-T1",
+   "valor": 14.8
+  },
+  {
+   "local": "RR",
+   "periodo": "2022-T1",
+   "valor": 19.5
+  },
+  {
+   "local": "RS",
+   "periodo": "2022-T1",
+   "valor": 16
+  },
+  {
+   "local": "SC",
+   "periodo": "2022-T1",
+   "valor": 8.4
+  },
+  {
+   "local": "SE",
+   "periodo": "2022-T1",
+   "valor": 39
+  },
+  {
+   "local": "SP",
+   "periodo": "2022-T1",
+   "valor": 19.1
+  },
+  {
+   "local": "TO",
+   "periodo": "2022-T1",
+   "valor": 23.1
+  },
+  {
+   "local": "AC",
+   "periodo": "2022-T2",
+   "valor": 28.8
+  },
+  {
+   "local": "AL",
+   "periodo": "2022-T2",
+   "valor": 33.5
+  },
+  {
+   "local": "AM",
+   "periodo": "2022-T2",
+   "valor": 23.9
+  },
+  {
+   "local": "AP",
+   "periodo": "2022-T2",
+   "valor": 23.1
+  },
+  {
+   "local": "BA",
+   "periodo": "2022-T2",
+   "valor": 35
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T2",
+   "valor": 21.3
+  },
+  {
+   "local": "CE",
+   "periodo": "2022-T2",
+   "valor": 28.9
+  },
+  {
+   "local": "DF",
+   "periodo": "2022-T2",
+   "valor": 22.1
+  },
+  {
+   "local": "ES",
+   "periodo": "2022-T2",
+   "valor": 16.4
+  },
+  {
+   "local": "GO",
+   "periodo": "2022-T2",
+   "valor": 14.8
+  },
+  {
+   "local": "MA",
+   "periodo": "2022-T2",
+   "valor": 34.2
+  },
+  {
+   "local": "MG",
+   "periodo": "2022-T2",
+   "valor": 17.9
+  },
+  {
+   "local": "MS",
+   "periodo": "2022-T2",
+   "valor": 12.3
+  },
+  {
+   "local": "MT",
+   "periodo": "2022-T2",
+   "valor": 10.2
+  },
+  {
+   "local": "PA",
+   "periodo": "2022-T2",
+   "valor": 27.3
+  },
+  {
+   "local": "PB",
+   "periodo": "2022-T2",
+   "valor": 31.2
+  },
+  {
+   "local": "PE",
+   "periodo": "2022-T2",
+   "valor": 29.3
+  },
+  {
+   "local": "PI",
+   "periodo": "2022-T2",
+   "valor": 42.3
+  },
+  {
+   "local": "PR",
+   "periodo": "2022-T2",
+   "valor": 13.7
+  },
+  {
+   "local": "RJ",
+   "periodo": "2022-T2",
+   "valor": 20.1
+  },
+  {
+   "local": "RN",
+   "periodo": "2022-T2",
+   "valor": 31.1
+  },
+  {
+   "local": "RO",
+   "periodo": "2022-T2",
+   "valor": 11.2
+  },
+  {
+   "local": "RR",
+   "periodo": "2022-T2",
+   "valor": 14.3
+  },
+  {
+   "local": "RS",
+   "periodo": "2022-T2",
+   "valor": 14.9
+  },
+  {
+   "local": "SC",
+   "periodo": "2022-T2",
+   "valor": 7.1
+  },
+  {
+   "local": "SE",
+   "periodo": "2022-T2",
+   "valor": 37.8
+  },
+  {
+   "local": "SP",
+   "periodo": "2022-T2",
+   "valor": 18
+  },
+  {
+   "local": "TO",
+   "periodo": "2022-T2",
+   "valor": 18
+  },
+  {
+   "local": "AC",
+   "periodo": "2022-T3",
+   "valor": 22.2
+  },
+  {
+   "local": "AL",
+   "periodo": "2022-T3",
+   "valor": 32
+  },
+  {
+   "local": "AM",
+   "periodo": "2022-T3",
+   "valor": 22
+  },
+  {
+   "local": "AP",
+   "periodo": "2022-T3",
+   "valor": 20.6
+  },
+  {
+   "local": "BA",
+   "periodo": "2022-T3",
+   "valor": 33.9
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T3",
+   "valor": 20.1
+  },
+  {
+   "local": "CE",
+   "periodo": "2022-T3",
+   "valor": 27.7
+  },
+  {
+   "local": "DF",
+   "periodo": "2022-T3",
+   "valor": 21
+  },
+  {
+   "local": "ES",
+   "periodo": "2022-T3",
+   "valor": 15.5
+  },
+  {
+   "local": "GO",
+   "periodo": "2022-T3",
+   "valor": 14
+  },
+  {
+   "local": "MA",
+   "periodo": "2022-T3",
+   "valor": 32.2
+  },
+  {
+   "local": "MG",
+   "periodo": "2022-T3",
+   "valor": 15.9
+  },
+  {
+   "local": "MS",
+   "periodo": "2022-T3",
+   "valor": 11.6
+  },
+  {
+   "local": "MT",
+   "periodo": "2022-T3",
+   "valor": 10.6
+  },
+  {
+   "local": "PA",
+   "periodo": "2022-T3",
+   "valor": 25.8
+  },
+  {
+   "local": "PB",
+   "periodo": "2022-T3",
+   "valor": 29.1
+  },
+  {
+   "local": "PE",
+   "periodo": "2022-T3",
+   "valor": 30.1
+  },
+  {
+   "local": "PI",
+   "periodo": "2022-T3",
+   "valor": 40.6
+  },
+  {
+   "local": "PR",
+   "periodo": "2022-T3",
+   "valor": 12.3
+  },
+  {
+   "local": "RJ",
+   "periodo": "2022-T3",
+   "valor": 20.1
+  },
+  {
+   "local": "RN",
+   "periodo": "2022-T3",
+   "valor": 29.4
+  },
+  {
+   "local": "RO",
+   "periodo": "2022-T3",
+   "valor": 9.1
+  },
+  {
+   "local": "RR",
+   "periodo": "2022-T3",
+   "valor": 13.7
+  },
+  {
+   "local": "RS",
+   "periodo": "2022-T3",
+   "valor": 13.3
+  },
+  {
+   "local": "SC",
+   "periodo": "2022-T3",
+   "valor": 6.9
+  },
+  {
+   "local": "SE",
+   "periodo": "2022-T3",
+   "valor": 36.4
+  },
+  {
+   "local": "SP",
+   "periodo": "2022-T3",
+   "valor": 16.9
+  },
+  {
+   "local": "TO",
+   "periodo": "2022-T3",
+   "valor": 16.9
+  },
+  {
+   "local": "AC",
+   "periodo": "2022-T4",
+   "valor": 20.2
+  },
+  {
+   "local": "AL",
+   "periodo": "2022-T4",
+   "valor": 29.1
+  },
+  {
+   "local": "AM",
+   "periodo": "2022-T4",
+   "valor": 20.8
+  },
+  {
+   "local": "AP",
+   "periodo": "2022-T4",
+   "valor": 21.1
+  },
+  {
+   "local": "BA",
+   "periodo": "2022-T4",
+   "valor": 32.1
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T4",
+   "valor": 18.5
+  },
+  {
+   "local": "CE",
+   "periodo": "2022-T4",
+   "valor": 25.1
+  },
+  {
+   "local": "DF",
+   "periodo": "2022-T4",
+   "valor": 20.6
+  },
+  {
+   "local": "ES",
+   "periodo": "2022-T4",
+   "valor": 14.2
+  },
+  {
+   "local": "GO",
+   "periodo": "2022-T4",
+   "valor": 13.2
+  },
+  {
+   "local": "MA",
+   "periodo": "2022-T4",
+   "valor": 30.1
+  },
+  {
+   "local": "MG",
+   "periodo": "2022-T4",
+   "valor": 14.7
+  },
+  {
+   "local": "MS",
+   "periodo": "2022-T4",
+   "valor": 8.6
+  },
+  {
+   "local": "MT",
+   "periodo": "2022-T4",
+   "valor": 8.9
+  },
+  {
+   "local": "PA",
+   "periodo": "2022-T4",
+   "valor": 23.3
+  },
+  {
+   "local": "PB",
+   "periodo": "2022-T4",
+   "valor": 28
+  },
+  {
+   "local": "PE",
+   "periodo": "2022-T4",
+   "valor": 26.9
+  },
+  {
+   "local": "PI",
+   "periodo": "2022-T4",
+   "valor": 38.8
+  },
+  {
+   "local": "PR",
+   "periodo": "2022-T4",
+   "valor": 11.5
+  },
+  {
+   "local": "RJ",
+   "periodo": "2022-T4",
+   "valor": 18.6
+  },
+  {
+   "local": "RN",
+   "periodo": "2022-T4",
+   "valor": 27.1
+  },
+  {
+   "local": "RO",
+   "periodo": "2022-T4",
+   "valor": 7.3
+  },
+  {
+   "local": "RR",
+   "periodo": "2022-T4",
+   "valor": 13.1
+  },
+  {
+   "local": "RS",
+   "periodo": "2022-T4",
+   "valor": 11.5
+  },
+  {
+   "local": "SC",
+   "periodo": "2022-T4",
+   "valor": 6
+  },
+  {
+   "local": "SE",
+   "periodo": "2022-T4",
+   "valor": 34.2
+  },
+  {
+   "local": "SP",
+   "periodo": "2022-T4",
+   "valor": 15.4
+  },
+  {
+   "local": "TO",
+   "periodo": "2022-T4",
+   "valor": 15.8
+  },
+  {
+   "local": "AC",
+   "periodo": "2023-T1",
+   "valor": 21.5
+  },
+  {
+   "local": "AL",
+   "periodo": "2023-T1",
+   "valor": 30.1
+  },
+  {
+   "local": "AM",
+   "periodo": "2023-T1",
+   "valor": 22.5
+  },
+  {
+   "local": "AP",
+   "periodo": "2023-T1",
+   "valor": 22.1
+  },
+  {
+   "local": "BA",
+   "periodo": "2023-T1",
+   "valor": 33.2
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T1",
+   "valor": 18.9
+  },
+  {
+   "local": "CE",
+   "periodo": "2023-T1",
+   "valor": 26.1
+  },
+  {
+   "local": "DF",
+   "periodo": "2023-T1",
+   "valor": 20.4
+  },
+  {
+   "local": "ES",
+   "periodo": "2023-T1",
+   "valor": 13.9
+  },
+  {
+   "local": "GO",
+   "periodo": "2023-T1",
+   "valor": 13.6
+  },
+  {
+   "local": "MA",
+   "periodo": "2023-T1",
+   "valor": 30.3
+  },
+  {
+   "local": "MG",
+   "periodo": "2023-T1",
+   "valor": 15
+  },
+  {
+   "local": "MS",
+   "periodo": "2023-T1",
+   "valor": 9.8
+  },
+  {
+   "local": "MT",
+   "periodo": "2023-T1",
+   "valor": 9.5
+  },
+  {
+   "local": "PA",
+   "periodo": "2023-T1",
+   "valor": 25.7
+  },
+  {
+   "local": "PB",
+   "periodo": "2023-T1",
+   "valor": 28.3
+  },
+  {
+   "local": "PE",
+   "periodo": "2023-T1",
+   "valor": 27
+  },
+  {
+   "local": "PI",
+   "periodo": "2023-T1",
+   "valor": 39.7
+  },
+  {
+   "local": "PR",
+   "periodo": "2023-T1",
+   "valor": 12
+  },
+  {
+   "local": "RJ",
+   "periodo": "2023-T1",
+   "valor": 18.2
+  },
+  {
+   "local": "RN",
+   "periodo": "2023-T1",
+   "valor": 29.7
+  },
+  {
+   "local": "RO",
+   "periodo": "2023-T1",
+   "valor": 6.7
+  },
+  {
+   "local": "RR",
+   "periodo": "2023-T1",
+   "valor": 14.1
+  },
+  {
+   "local": "RS",
+   "periodo": "2023-T1",
+   "valor": 11.5
+  },
+  {
+   "local": "SC",
+   "periodo": "2023-T1",
+   "valor": 6.5
+  },
+  {
+   "local": "SE",
+   "periodo": "2023-T1",
+   "valor": 33.6
+  },
+  {
+   "local": "SP",
+   "periodo": "2023-T1",
+   "valor": 15.5
+  },
+  {
+   "local": "TO",
+   "periodo": "2023-T1",
+   "valor": 17.3
+  },
+  {
+   "local": "AC",
+   "periodo": "2023-T2",
+   "valor": 20.4
+  },
+  {
+   "local": "AL",
+   "periodo": "2023-T2",
+   "valor": 29.3
+  },
+  {
+   "local": "AM",
+   "periodo": "2023-T2",
+   "valor": 20.2
+  },
+  {
+   "local": "AP",
+   "periodo": "2023-T2",
+   "valor": 22
+  },
+  {
+   "local": "BA",
+   "periodo": "2023-T2",
+   "valor": 31.2
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T2",
+   "valor": 17.8
+  },
+  {
+   "local": "CE",
+   "periodo": "2023-T2",
+   "valor": 24.8
+  },
+  {
+   "local": "DF",
+   "periodo": "2023-T2",
+   "valor": 16.3
+  },
+  {
+   "local": "ES",
+   "periodo": "2023-T2",
+   "valor": 12.4
+  },
+  {
+   "local": "GO",
+   "periodo": "2023-T2",
+   "valor": 11.3
+  },
+  {
+   "local": "MA",
+   "periodo": "2023-T2",
+   "valor": 28.1
+  },
+  {
+   "local": "MG",
+   "periodo": "2023-T2",
+   "valor": 13.6
+  },
+  {
+   "local": "MS",
+   "periodo": "2023-T2",
+   "valor": 9.6
+  },
+  {
+   "local": "MT",
+   "periodo": "2023-T2",
+   "valor": 7.6
+  },
+  {
+   "local": "PA",
+   "periodo": "2023-T2",
+   "valor": 24.9
+  },
+  {
+   "local": "PB",
+   "periodo": "2023-T2",
+   "valor": 25.9
+  },
+  {
+   "local": "PE",
+   "periodo": "2023-T2",
+   "valor": 27.1
+  },
+  {
+   "local": "PI",
+   "periodo": "2023-T2",
+   "valor": 39.6
+  },
+  {
+   "local": "PR",
+   "periodo": "2023-T2",
+   "valor": 10.8
+  },
+  {
+   "local": "RJ",
+   "periodo": "2023-T2",
+   "valor": 18.1
+  },
+  {
+   "local": "RN",
+   "periodo": "2023-T2",
+   "valor": 26.4
+  },
+  {
+   "local": "RO",
+   "periodo": "2023-T2",
+   "valor": 6.3
+  },
+  {
+   "local": "RR",
+   "periodo": "2023-T2",
+   "valor": 12.5
+  },
+  {
+   "local": "RS",
+   "periodo": "2023-T2",
+   "valor": 11.4
+  },
+  {
+   "local": "SC",
+   "periodo": "2023-T2",
+   "valor": 6.4
+  },
+  {
+   "local": "SE",
+   "periodo": "2023-T2",
+   "valor": 31.3
+  },
+  {
+   "local": "SP",
+   "periodo": "2023-T2",
+   "valor": 14.9
+  },
+  {
+   "local": "TO",
+   "periodo": "2023-T2",
+   "valor": 18.6
+  },
+  {
+   "local": "AC",
+   "periodo": "2023-T3",
+   "valor": 16.8
+  },
+  {
+   "local": "AL",
+   "periodo": "2023-T3",
+   "valor": 27.5
+  },
+  {
+   "local": "AM",
+   "periodo": "2023-T3",
+   "valor": 19.3
+  },
+  {
+   "local": "AP",
+   "periodo": "2023-T3",
+   "valor": 21.6
+  },
+  {
+   "local": "BA",
+   "periodo": "2023-T3",
+   "valor": 33
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T3",
+   "valor": 17.6
+  },
+  {
+   "local": "CE",
+   "periodo": "2023-T3",
+   "valor": 24.7
+  },
+  {
+   "local": "DF",
+   "periodo": "2023-T3",
+   "valor": 16.2
+  },
+  {
+   "local": "ES",
+   "periodo": "2023-T3",
+   "valor": 11.2
+  },
+  {
+   "local": "GO",
+   "periodo": "2023-T3",
+   "valor": 12.1
+  },
+  {
+   "local": "MA",
+   "periodo": "2023-T3",
+   "valor": 27
+  },
+  {
+   "local": "MG",
+   "periodo": "2023-T3",
+   "valor": 13.8
+  },
+  {
+   "local": "MS",
+   "periodo": "2023-T3",
+   "valor": 9.3
+  },
+  {
+   "local": "MT",
+   "periodo": "2023-T3",
+   "valor": 8.5
+  },
+  {
+   "local": "PA",
+   "periodo": "2023-T3",
+   "valor": 24.6
+  },
+  {
+   "local": "PB",
+   "periodo": "2023-T3",
+   "valor": 26.7
+  },
+  {
+   "local": "PE",
+   "periodo": "2023-T3",
+   "valor": 26.3
+  },
+  {
+   "local": "PI",
+   "periodo": "2023-T3",
+   "valor": 38.4
+  },
+  {
+   "local": "PR",
+   "periodo": "2023-T3",
+   "valor": 10.1
+  },
+  {
+   "local": "RJ",
+   "periodo": "2023-T3",
+   "valor": 17.5
+  },
+  {
+   "local": "RN",
+   "periodo": "2023-T3",
+   "valor": 25.6
+  },
+  {
+   "local": "RO",
+   "periodo": "2023-T3",
+   "valor": 5.3
+  },
+  {
+   "local": "RR",
+   "periodo": "2023-T3",
+   "valor": 15.4
+  },
+  {
+   "local": "RS",
+   "periodo": "2023-T3",
+   "valor": 12
+  },
+  {
+   "local": "SC",
+   "periodo": "2023-T3",
+   "valor": 6.2
+  },
+  {
+   "local": "SE",
+   "periodo": "2023-T3",
+   "valor": 31.9
+  },
+  {
+   "local": "SP",
+   "periodo": "2023-T3",
+   "valor": 13.9
+  },
+  {
+   "local": "TO",
+   "periodo": "2023-T3",
+   "valor": 16.8
+  },
+  {
+   "local": "AC",
+   "periodo": "2023-T4",
+   "valor": 17.3
+  },
+  {
+   "local": "AL",
+   "periodo": "2023-T4",
+   "valor": 27.8
+  },
+  {
+   "local": "AM",
+   "periodo": "2023-T4",
+   "valor": 17.6
+  },
+  {
+   "local": "AP",
+   "periodo": "2023-T4",
+   "valor": 23.4
+  },
+  {
+   "local": "BA",
+   "periodo": "2023-T4",
+   "valor": 33.3
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T4",
+   "valor": 17.3
+  },
+  {
+   "local": "CE",
+   "periodo": "2023-T4",
+   "valor": 23.7
+  },
+  {
+   "local": "DF",
+   "periodo": "2023-T4",
+   "valor": 16.2
+  },
+  {
+   "local": "ES",
+   "periodo": "2023-T4",
+   "valor": 11.5
+  },
+  {
+   "local": "GO",
+   "periodo": "2023-T4",
+   "valor": 11.7
+  },
+  {
+   "local": "MA",
+   "periodo": "2023-T4",
+   "valor": 27
+  },
+  {
+   "local": "MG",
+   "periodo": "2023-T4",
+   "valor": 13.7
+  },
+  {
+   "local": "MS",
+   "periodo": "2023-T4",
+   "valor": 9.2
+  },
+  {
+   "local": "MT",
+   "periodo": "2023-T4",
+   "valor": 9.9
+  },
+  {
+   "local": "PA",
+   "periodo": "2023-T4",
+   "valor": 23.5
+  },
+  {
+   "local": "PB",
+   "periodo": "2023-T4",
+   "valor": 26.9
+  },
+  {
+   "local": "PE",
+   "periodo": "2023-T4",
+   "valor": 26.6
+  },
+  {
+   "local": "PI",
+   "periodo": "2023-T4",
+   "valor": 37.1
+  },
+  {
+   "local": "PR",
+   "periodo": "2023-T4",
+   "valor": 10
+  },
+  {
+   "local": "RJ",
+   "periodo": "2023-T4",
+   "valor": 16.5
+  },
+  {
+   "local": "RN",
+   "periodo": "2023-T4",
+   "valor": 23.1
+  },
+  {
+   "local": "RO",
+   "periodo": "2023-T4",
+   "valor": 7
+  },
+  {
+   "local": "RR",
+   "periodo": "2023-T4",
+   "valor": 16.5
+  },
+  {
+   "local": "RS",
+   "periodo": "2023-T4",
+   "valor": 11.5
+  },
+  {
+   "local": "SC",
+   "periodo": "2023-T4",
+   "valor": 6.1
+  },
+  {
+   "local": "SE",
+   "periodo": "2023-T4",
+   "valor": 30.9
+  },
+  {
+   "local": "SP",
+   "periodo": "2023-T4",
+   "valor": 13.8
+  },
+  {
+   "local": "TO",
+   "periodo": "2023-T4",
+   "valor": 16.5
+  },
+  {
+   "local": "AC",
+   "periodo": "2024-T1",
+   "valor": 18.1
+  },
+  {
+   "local": "AL",
+   "periodo": "2024-T1",
+   "valor": 29.3
+  },
+  {
+   "local": "AM",
+   "periodo": "2024-T1",
+   "valor": 18.5
+  },
+  {
+   "local": "AP",
+   "periodo": "2024-T1",
+   "valor": 19.3
+  },
+  {
+   "local": "BA",
+   "periodo": "2024-T1",
+   "valor": 32.5
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T1",
+   "valor": 17.9
+  },
+  {
+   "local": "CE",
+   "periodo": "2024-T1",
+   "valor": 23.7
+  },
+  {
+   "local": "DF",
+   "periodo": "2024-T1",
+   "valor": 18.5
+  },
+  {
+   "local": "ES",
+   "periodo": "2024-T1",
+   "valor": 11.2
+  },
+  {
+   "local": "GO",
+   "periodo": "2024-T1",
+   "valor": 12.6
+  },
+  {
+   "local": "MA",
+   "periodo": "2024-T1",
+   "valor": 27.9
+  },
+  {
+   "local": "MG",
+   "periodo": "2024-T1",
+   "valor": 14.5
+  },
+  {
+   "local": "MS",
+   "periodo": "2024-T1",
+   "valor": 11.3
+  },
+  {
+   "local": "MT",
+   "periodo": "2024-T1",
+   "valor": 10.3
+  },
+  {
+   "local": "PA",
+   "periodo": "2024-T1",
+   "valor": 26.1
+  },
+  {
+   "local": "PB",
+   "periodo": "2024-T1",
+   "valor": 26.1
+  },
+  {
+   "local": "PE",
+   "periodo": "2024-T1",
+   "valor": 27.3
+  },
+  {
+   "local": "PI",
+   "periodo": "2024-T1",
+   "valor": 37.1
+  },
+  {
+   "local": "PR",
+   "periodo": "2024-T1",
+   "valor": 10.6
+  },
+  {
+   "local": "RJ",
+   "periodo": "2024-T1",
+   "valor": 16.9
+  },
+  {
+   "local": "RN",
+   "periodo": "2024-T1",
+   "valor": 24.2
+  },
+  {
+   "local": "RO",
+   "periodo": "2024-T1",
+   "valor": 8
+  },
+  {
+   "local": "RR",
+   "periodo": "2024-T1",
+   "valor": 18.7
+  },
+  {
+   "local": "RS",
+   "periodo": "2024-T1",
+   "valor": 13.2
+  },
+  {
+   "local": "SC",
+   "periodo": "2024-T1",
+   "valor": 7
+  },
+  {
+   "local": "SE",
+   "periodo": "2024-T1",
+   "valor": 29.2
+  },
+  {
+   "local": "SP",
+   "periodo": "2024-T1",
+   "valor": 14.4
+  },
+  {
+   "local": "TO",
+   "periodo": "2024-T1",
+   "valor": 18.4
+  },
+  {
+   "local": "AC",
+   "periodo": "2024-T2",
+   "valor": 17.6
+  },
+  {
+   "local": "AL",
+   "periodo": "2024-T2",
+   "valor": 26.5
+  },
+  {
+   "local": "AM",
+   "periodo": "2024-T2",
+   "valor": 15.6
+  },
+  {
+   "local": "AP",
+   "periodo": "2024-T2",
+   "valor": 17.1
+  },
+  {
+   "local": "BA",
+   "periodo": "2024-T2",
+   "valor": 29.8
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T2",
+   "valor": 16.4
+  },
+  {
+   "local": "CE",
+   "periodo": "2024-T2",
+   "valor": 23.6
+  },
+  {
+   "local": "DF",
+   "periodo": "2024-T2",
+   "valor": 17.4
+  },
+  {
+   "local": "ES",
+   "periodo": "2024-T2",
+   "valor": 9.2
+  },
+  {
+   "local": "GO",
+   "periodo": "2024-T2",
+   "valor": 11.6
+  },
+  {
+   "local": "MA",
+   "periodo": "2024-T2",
+   "valor": 25.1
+  },
+  {
+   "local": "MG",
+   "periodo": "2024-T2",
+   "valor": 12.7
+  },
+  {
+   "local": "MS",
+   "periodo": "2024-T2",
+   "valor": 9.9
+  },
+  {
+   "local": "MT",
+   "periodo": "2024-T2",
+   "valor": 8.2
+  },
+  {
+   "local": "PA",
+   "periodo": "2024-T2",
+   "valor": 23.8
+  },
+  {
+   "local": "PB",
+   "periodo": "2024-T2",
+   "valor": 24
+  },
+  {
+   "local": "PE",
+   "periodo": "2024-T2",
+   "valor": 26.5
+  },
+  {
+   "local": "PI",
+   "periodo": "2024-T2",
+   "valor": 33
+  },
+  {
+   "local": "PR",
+   "periodo": "2024-T2",
+   "valor": 9.9
+  },
+  {
+   "local": "RJ",
+   "periodo": "2024-T2",
+   "valor": 16.3
+  },
+  {
+   "local": "RN",
+   "periodo": "2024-T2",
+   "valor": 21.8
+  },
+  {
+   "local": "RO",
+   "periodo": "2024-T2",
+   "valor": 7.1
+  },
+  {
+   "local": "RR",
+   "periodo": "2024-T2",
+   "valor": 17.7
+  },
+  {
+   "local": "RS",
+   "periodo": "2024-T2",
+   "valor": 12.4
+  },
+  {
+   "local": "SC",
+   "periodo": "2024-T2",
+   "valor": 5.9
+  },
+  {
+   "local": "SE",
+   "periodo": "2024-T2",
+   "valor": 25.4
+  },
+  {
+   "local": "SP",
+   "periodo": "2024-T2",
+   "valor": 13.2
+  },
+  {
+   "local": "TO",
+   "periodo": "2024-T2",
+   "valor": 16.4
+  },
+  {
+   "local": "AC",
+   "periodo": "2024-T3",
+   "valor": 16.7
+  },
+  {
+   "local": "AL",
+   "periodo": "2024-T3",
+   "valor": 26.3
+  },
+  {
+   "local": "AM",
+   "periodo": "2024-T3",
+   "valor": 15.7
+  },
+  {
+   "local": "AP",
+   "periodo": "2024-T3",
+   "valor": 15.9
+  },
+  {
+   "local": "BA",
+   "periodo": "2024-T3",
+   "valor": 29
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T3",
+   "valor": 15.7
+  },
+  {
+   "local": "CE",
+   "periodo": "2024-T3",
+   "valor": 22.1
+  },
+  {
+   "local": "DF",
+   "periodo": "2024-T3",
+   "valor": 18.3
+  },
+  {
+   "local": "ES",
+   "periodo": "2024-T3",
+   "valor": 8.4
+  },
+  {
+   "local": "GO",
+   "periodo": "2024-T3",
+   "valor": 10.6
+  },
+  {
+   "local": "MA",
+   "periodo": "2024-T3",
+   "valor": 24.2
+  },
+  {
+   "local": "MG",
+   "periodo": "2024-T3",
+   "valor": 12.5
+  },
+  {
+   "local": "MS",
+   "periodo": "2024-T3",
+   "valor": 9.2
+  },
+  {
+   "local": "MT",
+   "periodo": "2024-T3",
+   "valor": 7.6
+  },
+  {
+   "local": "PA",
+   "periodo": "2024-T3",
+   "valor": 21
+  },
+  {
+   "local": "PB",
+   "periodo": "2024-T3",
+   "valor": 22.4
+  },
+  {
+   "local": "PE",
+   "periodo": "2024-T3",
+   "valor": 26
+  },
+  {
+   "local": "PI",
+   "periodo": "2024-T3",
+   "valor": 33.7
+  },
+  {
+   "local": "PR",
+   "periodo": "2024-T3",
+   "valor": 9.5
+  },
+  {
+   "local": "RJ",
+   "periodo": "2024-T3",
+   "valor": 15.5
+  },
+  {
+   "local": "RN",
+   "periodo": "2024-T3",
+   "valor": 21.5
+  },
+  {
+   "local": "RO",
+   "periodo": "2024-T3",
+   "valor": 5.6
+  },
+  {
+   "local": "RR",
+   "periodo": "2024-T3",
+   "valor": 16
+  },
+  {
+   "local": "RS",
+   "periodo": "2024-T3",
+   "valor": 11.1
+  },
+  {
+   "local": "SC",
+   "periodo": "2024-T3",
+   "valor": 5.1
+  },
+  {
+   "local": "SE",
+   "periodo": "2024-T3",
+   "valor": 25.7
+  },
+  {
+   "local": "SP",
+   "periodo": "2024-T3",
+   "valor": 12.3
+  },
+  {
+   "local": "TO",
+   "periodo": "2024-T3",
+   "valor": 16.1
+  },
+  {
+   "local": "AC",
+   "periodo": "2024-T4",
+   "valor": 16.9
+  },
+  {
+   "local": "AL",
+   "periodo": "2024-T4",
+   "valor": 26.4
+  },
+  {
+   "local": "AM",
+   "periodo": "2024-T4",
+   "valor": 16.6
+  },
+  {
+   "local": "AP",
+   "periodo": "2024-T4",
+   "valor": 14.3
+  },
+  {
+   "local": "BA",
+   "periodo": "2024-T4",
+   "valor": 29.2
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T4",
+   "valor": 15.2
+  },
+  {
+   "local": "CE",
+   "periodo": "2024-T4",
+   "valor": 21.4
+  },
+  {
+   "local": "DF",
+   "periodo": "2024-T4",
+   "valor": 18.2
+  },
+  {
+   "local": "ES",
+   "periodo": "2024-T4",
+   "valor": 7.7
+  },
+  {
+   "local": "GO",
+   "periodo": "2024-T4",
+   "valor": 10.8
+  },
+  {
+   "local": "MA",
+   "periodo": "2024-T4",
+   "valor": 23.5
+  },
+  {
+   "local": "MG",
+   "periodo": "2024-T4",
+   "valor": 12.1
+  },
+  {
+   "local": "MS",
+   "periodo": "2024-T4",
+   "valor": 9.1
+  },
+  {
+   "local": "MT",
+   "periodo": "2024-T4",
+   "valor": 7
+  },
+  {
+   "local": "PA",
+   "periodo": "2024-T4",
+   "valor": 20.6
+  },
+  {
+   "local": "PB",
+   "periodo": "2024-T4",
+   "valor": 23.3
+  },
+  {
+   "local": "PE",
+   "periodo": "2024-T4",
+   "valor": 25.3
+  },
+  {
+   "local": "PI",
+   "periodo": "2024-T4",
+   "valor": 31.7
+  },
+  {
+   "local": "PR",
+   "periodo": "2024-T4",
+   "valor": 8
+  },
+  {
+   "local": "RJ",
+   "periodo": "2024-T4",
+   "valor": 15.2
+  },
+  {
+   "local": "RN",
+   "periodo": "2024-T4",
+   "valor": 20.4
+  },
+  {
+   "local": "RO",
+   "periodo": "2024-T4",
+   "valor": 7.4
+  },
+  {
+   "local": "RR",
+   "periodo": "2024-T4",
+   "valor": 16.7
+  },
+  {
+   "local": "RS",
+   "periodo": "2024-T4",
+   "valor": 9.5
+  },
+  {
+   "local": "SC",
+   "periodo": "2024-T4",
+   "valor": 4.8
+  },
+  {
+   "local": "SE",
+   "periodo": "2024-T4",
+   "valor": 25.9
+  },
+  {
+   "local": "SP",
+   "periodo": "2024-T4",
+   "valor": 11.8
+  },
+  {
+   "local": "TO",
+   "periodo": "2024-T4",
+   "valor": 16.9
+  },
+  {
+   "local": "AC",
+   "periodo": "2025-T1",
+   "valor": 19.3
+  },
+  {
+   "local": "AL",
+   "periodo": "2025-T1",
+   "valor": 27.3
+  },
+  {
+   "local": "AM",
+   "periodo": "2025-T1",
+   "valor": 17.3
+  },
+  {
+   "local": "AP",
+   "periodo": "2025-T1",
+   "valor": 15.8
+  },
+  {
+   "local": "BA",
+   "periodo": "2025-T1",
+   "valor": 27.9
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T1",
+   "valor": 15.9
+  },
+  {
+   "local": "CE",
+   "periodo": "2025-T1",
+   "valor": 23.5
+  },
+  {
+   "local": "DF",
+   "periodo": "2025-T1",
+   "valor": 19.1
+  },
+  {
+   "local": "ES",
+   "periodo": "2025-T1",
+   "valor": 7.9
+  },
+  {
+   "local": "GO",
+   "periodo": "2025-T1",
+   "valor": 10.6
+  },
+  {
+   "local": "MA",
+   "periodo": "2025-T1",
+   "valor": 25.8
+  },
+  {
+   "local": "MG",
+   "periodo": "2025-T1",
+   "valor": 13
+  },
+  {
+   "local": "MS",
+   "periodo": "2025-T1",
+   "valor": 9.8
+  },
+  {
+   "local": "MT",
+   "periodo": "2025-T1",
+   "valor": 8.1
+  },
+  {
+   "local": "PA",
+   "periodo": "2025-T1",
+   "valor": 22.8
+  },
+  {
+   "local": "PB",
+   "periodo": "2025-T1",
+   "valor": 25.4
+  },
+  {
+   "local": "PE",
+   "periodo": "2025-T1",
+   "valor": 26.3
+  },
+  {
+   "local": "PI",
+   "periodo": "2025-T1",
+   "valor": 34
+  },
+  {
+   "local": "PR",
+   "periodo": "2025-T1",
+   "valor": 9.4
+  },
+  {
+   "local": "RJ",
+   "periodo": "2025-T1",
+   "valor": 15.4
+  },
+  {
+   "local": "RN",
+   "periodo": "2025-T1",
+   "valor": 20.6
+  },
+  {
+   "local": "RO",
+   "periodo": "2025-T1",
+   "valor": 8.5
+  },
+  {
+   "local": "RR",
+   "periodo": "2025-T1",
+   "valor": 15
+  },
+  {
+   "local": "RS",
+   "periodo": "2025-T1",
+   "valor": 10.3
+  },
+  {
+   "local": "SC",
+   "periodo": "2025-T1",
+   "valor": 5.4
+  },
+  {
+   "local": "SE",
+   "periodo": "2025-T1",
+   "valor": 26.9
+  },
+  {
+   "local": "SP",
+   "periodo": "2025-T1",
+   "valor": 12.2
+  },
+  {
+   "local": "TO",
+   "periodo": "2025-T1",
+   "valor": 16.1
+  },
+  {
+   "local": "AC",
+   "periodo": "2025-T2",
+   "valor": 18.2
+  },
+  {
+   "local": "AL",
+   "periodo": "2025-T2",
+   "valor": 23.8
+  },
+  {
+   "local": "AM",
+   "periodo": "2025-T2",
+   "valor": 15.9
+  },
+  {
+   "local": "AP",
+   "periodo": "2025-T2",
+   "valor": 13.6
+  },
+  {
+   "local": "BA",
+   "periodo": "2025-T2",
+   "valor": 27
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T2",
+   "valor": 14.4
+  },
+  {
+   "local": "CE",
+   "periodo": "2025-T2",
+   "valor": 21.4
+  },
+  {
+   "local": "DF",
+   "periodo": "2025-T2",
+   "valor": 16.2
+  },
+  {
+   "local": "ES",
+   "periodo": "2025-T2",
+   "valor": 7.1
+  },
+  {
+   "local": "GO",
+   "periodo": "2025-T2",
+   "valor": 8.8
+  },
+  {
+   "local": "MA",
+   "periodo": "2025-T2",
+   "valor": 24.3
+  },
+  {
+   "local": "MG",
+   "periodo": "2025-T2",
+   "valor": 10.4
+  },
+  {
+   "local": "MS",
+   "periodo": "2025-T2",
+   "valor": 8.1
+  },
+  {
+   "local": "MT",
+   "periodo": "2025-T2",
+   "valor": 6.8
+  },
+  {
+   "local": "PA",
+   "periodo": "2025-T2",
+   "valor": 20.5
+  },
+  {
+   "local": "PB",
+   "periodo": "2025-T2",
+   "valor": 23.1
+  },
+  {
+   "local": "PE",
+   "periodo": "2025-T2",
+   "valor": 25.1
+  },
+  {
+   "local": "PI",
+   "periodo": "2025-T2",
+   "valor": 30.2
+  },
+  {
+   "local": "PR",
+   "periodo": "2025-T2",
+   "valor": 10
+  },
+  {
+   "local": "RJ",
+   "periodo": "2025-T2",
+   "valor": 14.2
+  },
+  {
+   "local": "RN",
+   "periodo": "2025-T2",
+   "valor": 19.2
+  },
+  {
+   "local": "RO",
+   "periodo": "2025-T2",
+   "valor": 7.6
+  },
+  {
+   "local": "RR",
+   "periodo": "2025-T2",
+   "valor": 13.7
+  },
+  {
+   "local": "RS",
+   "periodo": "2025-T2",
+   "valor": 9.5
+  },
+  {
+   "local": "SC",
+   "periodo": "2025-T2",
+   "valor": 4.4
+  },
+  {
+   "local": "SE",
+   "periodo": "2025-T2",
+   "valor": 26
+  },
+  {
+   "local": "SP",
+   "periodo": "2025-T2",
+   "valor": 10.8
+  },
+  {
+   "local": "TO",
+   "periodo": "2025-T2",
+   "valor": 13.6
+  },
+  {
+   "local": "AC",
+   "periodo": "2025-T3",
+   "valor": 18.4
+  },
+  {
+   "local": "AL",
+   "periodo": "2025-T3",
+   "valor": 25
+  },
+  {
+   "local": "AM",
+   "periodo": "2025-T3",
+   "valor": 14.7
+  },
+  {
+   "local": "AP",
+   "periodo": "2025-T3",
+   "valor": 14.8
+  },
+  {
+   "local": "BA",
+   "periodo": "2025-T3",
+   "valor": 26.2
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T3",
+   "valor": 13.9
+  },
+  {
+   "local": "CE",
+   "periodo": "2025-T3",
+   "valor": 18.5
+  },
+  {
+   "local": "DF",
+   "periodo": "2025-T3",
+   "valor": 15.3
+  },
+  {
+   "local": "ES",
+   "periodo": "2025-T3",
+   "valor": 6.1
+  },
+  {
+   "local": "GO",
+   "periodo": "2025-T3",
+   "valor": 9
+  },
+  {
+   "local": "MA",
+   "periodo": "2025-T3",
+   "valor": 22.7
+  },
+  {
+   "local": "MG",
+   "periodo": "2025-T3",
+   "valor": 10.9
+  },
+  {
+   "local": "MS",
+   "periodo": "2025-T3",
+   "valor": 7
+  },
+  {
+   "local": "MT",
+   "periodo": "2025-T3",
+   "valor": 6
+  },
+  {
+   "local": "PA",
+   "periodo": "2025-T3",
+   "valor": 19.6
+  },
+  {
+   "local": "PB",
+   "periodo": "2025-T3",
+   "valor": 20.5
+  },
+  {
+   "local": "PE",
+   "periodo": "2025-T3",
+   "valor": 24.3
+  },
+  {
+   "local": "PI",
+   "periodo": "2025-T3",
+   "valor": 29.1
+  },
+  {
+   "local": "PR",
+   "periodo": "2025-T3",
+   "valor": 8.8
+  },
+  {
+   "local": "RJ",
+   "periodo": "2025-T3",
+   "valor": 14
+  },
+  {
+   "local": "RN",
+   "periodo": "2025-T3",
+   "valor": 18.8
+  },
+  {
+   "local": "RO",
+   "periodo": "2025-T3",
+   "valor": 7
+  },
+  {
+   "local": "RR",
+   "periodo": "2025-T3",
+   "valor": 12.5
+  },
+  {
+   "local": "RS",
+   "periodo": "2025-T3",
+   "valor": 8.6
+  },
+  {
+   "local": "SC",
+   "periodo": "2025-T3",
+   "valor": 4.4
+  },
+  {
+   "local": "SE",
+   "periodo": "2025-T3",
+   "valor": 26.5
+  },
+  {
+   "local": "SP",
+   "periodo": "2025-T3",
+   "valor": 10.7
+  },
+  {
+   "local": "TO",
+   "periodo": "2025-T3",
+   "valor": 12.1
+  },
+  {
+   "local": "AC",
+   "periodo": "2025-T4",
+   "valor": 17.9
+  },
+  {
+   "local": "AL",
+   "periodo": "2025-T4",
+   "valor": 25.1
+  },
+  {
+   "local": "AM",
+   "periodo": "2025-T4",
+   "valor": 14.6
+  },
+  {
+   "local": "AP",
+   "periodo": "2025-T4",
+   "valor": 14.1
+  },
+  {
+   "local": "BA",
+   "periodo": "2025-T4",
+   "valor": 25.4
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T4",
+   "valor": 13.4
+  },
+  {
+   "local": "CE",
+   "periodo": "2025-T4",
+   "valor": 17.4
+  },
+  {
+   "local": "DF",
+   "periodo": "2025-T4",
+   "valor": 14.3
+  },
+  {
+   "local": "ES",
+   "periodo": "2025-T4",
+   "valor": 5.9
+  },
+  {
+   "local": "GO",
+   "periodo": "2025-T4",
+   "valor": 8
+  },
+  {
+   "local": "MA",
+   "periodo": "2025-T4",
+   "valor": 22.8
+  },
+  {
+   "local": "MG",
+   "periodo": "2025-T4",
+   "valor": 10.9
+  },
+  {
+   "local": "MS",
+   "periodo": "2025-T4",
+   "valor": 7
+  },
+  {
+   "local": "MT",
+   "periodo": "2025-T4",
+   "valor": 6.1
+  },
+  {
+   "local": "PA",
+   "periodo": "2025-T4",
+   "valor": 18.7
+  },
+  {
+   "local": "PB",
+   "periodo": "2025-T4",
+   "valor": 19.6
+  },
+  {
+   "local": "PE",
+   "periodo": "2025-T4",
+   "valor": 21.9
+  },
+  {
+   "local": "PI",
+   "periodo": "2025-T4",
+   "valor": 27.8
+  },
+  {
+   "local": "PR",
+   "periodo": "2025-T4",
+   "valor": 8.6
+  },
+  {
+   "local": "RJ",
+   "periodo": "2025-T4",
+   "valor": 13
+  },
+  {
+   "local": "RN",
+   "periodo": "2025-T4",
+   "valor": 18.7
+  },
+  {
+   "local": "RO",
+   "periodo": "2025-T4",
+   "valor": 6.9
+  },
+  {
+   "local": "RR",
+   "periodo": "2025-T4",
+   "valor": 12.3
+  },
+  {
+   "local": "RS",
+   "periodo": "2025-T4",
+   "valor": 7.9
+  },
+  {
+   "local": "SC",
+   "periodo": "2025-T4",
+   "valor": 4.4
+  },
+  {
+   "local": "SE",
+   "periodo": "2025-T4",
+   "valor": 24.3
+  },
+  {
+   "local": "SP",
+   "periodo": "2025-T4",
+   "valor": 10.8
+  },
+  {
+   "local": "TO",
+   "periodo": "2025-T4",
+   "valor": 13.1
+  },
+  {
+   "local": "AC",
+   "periodo": "2026-T1",
+   "valor": 20.4
+  },
+  {
+   "local": "AL",
+   "periodo": "2026-T1",
+   "valor": 26.1
+  },
+  {
+   "local": "AM",
+   "periodo": "2026-T1",
+   "valor": 16.9
+  },
+  {
+   "local": "AP",
+   "periodo": "2026-T1",
+   "valor": 15
+  },
+  {
+   "local": "BA",
+   "periodo": "2026-T1",
+   "valor": 26.3
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T1",
+   "valor": 14.3
+  },
+  {
+   "local": "CE",
+   "periodo": "2026-T1",
+   "valor": 19.8
+  },
+  {
+   "local": "DF",
+   "periodo": "2026-T1",
+   "valor": 14.8
+  },
+  {
+   "local": "ES",
+   "periodo": "2026-T1",
+   "valor": 7
+  },
+  {
+   "local": "GO",
+   "periodo": "2026-T1",
+   "valor": 9.1
+  },
+  {
+   "local": "MA",
+   "periodo": "2026-T1",
+   "valor": 25
+  },
+  {
+   "local": "MG",
+   "periodo": "2026-T1",
+   "valor": 12
+  },
+  {
+   "local": "MS",
+   "periodo": "2026-T1",
+   "valor": 8
+  },
+  {
+   "local": "MT",
+   "periodo": "2026-T1",
+   "valor": 6.7
+  },
+  {
+   "local": "PA",
+   "periodo": "2026-T1",
+   "valor": 21.7
+  },
+  {
+   "local": "PB",
+   "periodo": "2026-T1",
+   "valor": 19.3
+  },
+  {
+   "local": "PE",
+   "periodo": "2026-T1",
+   "valor": 22.2
+  },
+  {
+   "local": "PI",
+   "periodo": "2026-T1",
+   "valor": 30.4
+  },
+  {
+   "local": "PR",
+   "periodo": "2026-T1",
+   "valor": 9
+  },
+  {
+   "local": "RJ",
+   "periodo": "2026-T1",
+   "valor": 13.2
+  },
+  {
+   "local": "RN",
+   "periodo": "2026-T1",
+   "valor": 17.8
+  },
+  {
+   "local": "RO",
+   "periodo": "2026-T1",
+   "valor": 7.7
+  },
+  {
+   "local": "RR",
+   "periodo": "2026-T1",
+   "valor": 14
+  },
+  {
+   "local": "RS",
+   "periodo": "2026-T1",
+   "valor": 8.4
+  },
+  {
+   "local": "SC",
+   "periodo": "2026-T1",
+   "valor": 4.7
+  },
+  {
+   "local": "SE",
+   "periodo": "2026-T1",
+   "valor": 24.8
+  },
+  {
+   "local": "SP",
+   "periodo": "2026-T1",
+   "valor": 11.5
+  },
+  {
+   "local": "TO",
+   "periodo": "2026-T1",
+   "valor": 13.6
+  },
+  {
+   "local": "AC",
+   "periodo": "2026-T2",
+   "valor": 18.3
+  },
+  {
+   "local": "AL",
+   "periodo": "2026-T2",
+   "valor": 23.4
+  },
+  {
+   "local": "AM",
+   "periodo": "2026-T2",
+   "valor": 13.8
+  },
+  {
+   "local": "AP",
+   "periodo": "2026-T2",
+   "valor": 14.5
+  },
+  {
+   "local": "BA",
+   "periodo": "2026-T2",
+   "valor": 24
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T2",
+   "valor": 12.9
+  },
+  {
+   "local": "CE",
+   "periodo": "2026-T2",
+   "valor": 17.2
+  },
+  {
+   "local": "DF",
+   "periodo": "2026-T2",
+   "valor": 13.7
+  },
+  {
+   "local": "ES",
+   "periodo": "2026-T2",
+   "valor": 6.2
+  },
+  {
+   "local": "GO",
+   "periodo": "2026-T2",
+   "valor": 8
+  },
+  {
+   "local": "MA",
+   "periodo": "2026-T2",
+   "valor": 22.7
+  },
+  {
+   "local": "MG",
+   "periodo": "2026-T2",
+   "valor": 10.5
+  },
+  {
+   "local": "MS",
+   "periodo": "2026-T2",
+   "valor": 6.2
+  },
+  {
+   "local": "MT",
+   "periodo": "2026-T2",
+   "valor": 6.1
+  },
+  {
+   "local": "PA",
+   "periodo": "2026-T2",
+   "valor": 19.5
+  },
+  {
+   "local": "PB",
+   "periodo": "2026-T2",
+   "valor": 17.1
+  },
+  {
+   "local": "PE",
+   "periodo": "2026-T2",
+   "valor": 21
+  },
+  {
+   "local": "PI",
+   "periodo": "2026-T2",
+   "valor": 26.6
+  },
+  {
+   "local": "PR",
+   "periodo": "2026-T2",
+   "valor": 7.9
+  },
+  {
+   "local": "RJ",
+   "periodo": "2026-T2",
+   "valor": 13
+  },
+  {
+   "local": "RN",
+   "periodo": "2026-T2",
+   "valor": 16.3
+  },
+  {
+   "local": "RO",
+   "periodo": "2026-T2",
+   "valor": 6
+  },
+  {
+   "local": "RR",
+   "periodo": "2026-T2",
+   "valor": 13
+  },
+  {
+   "local": "RS",
+   "periodo": "2026-T2",
+   "valor": 8.3
+  },
+  {
+   "local": "SC",
+   "periodo": "2026-T2",
+   "valor": 4.1
+  },
+  {
+   "local": "SE",
+   "periodo": "2026-T2",
+   "valor": 20.9
+  },
+  {
+   "local": "SP",
+   "periodo": "2026-T2",
+   "valor": 10.3
+  },
+  {
+   "local": "TO",
+   "periodo": "2026-T2",
+   "valor": 11.2
+  }
+ ]
+}

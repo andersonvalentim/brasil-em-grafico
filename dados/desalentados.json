@@ -1,0 +1,109 @@
+{
+ "id": "desalentados",
+ "geradoEm": "2026-11-11T14:12:22.801Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/6438",
+ "ultimoPeriodo": "2026-T3",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021-T4",
+   "valor": 4727000
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T1",
+   "valor": 4528000
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T2",
+   "valor": 4202000
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T3",
+   "valor": 4197000
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T4",
+   "valor": 3939000
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T1",
+   "valor": 3818000
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T2",
+   "valor": 3630000
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T3",
+   "valor": 3458000
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T4",
+   "valor": 3411000
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T1",
+   "valor": 3557000
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T2",
+   "valor": 3205000
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T3",
+   "valor": 3071000
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T4",
+   "valor": 2989000
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T1",
+   "valor": 3192000
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T2",
+   "valor": 2756000
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T3",
+   "valor": 2637000
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T4",
+   "valor": 2646000
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T1",
+   "valor": 2683000
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T2",
+   "valor": 2288000
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T3",
+   "valor": 2459000
+  }
+ ]
+}

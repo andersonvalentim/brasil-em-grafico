@@ -109,6 +109,10 @@
         return nf(1).format(valor / 1e6) + (opcoes.curto ? " mi" : " milhões");
       case "bilhoes":
         return nf(1).format(valor / 1e9) + (opcoes.curto ? " bi" : " bilhões");
+      case "pessoas":
+        if (Math.abs(valor) >= 1e6) return nf(1).format(valor / 1e6) + (opcoes.curto ? " mi" : " milhões de pessoas");
+        if (Math.abs(valor) >= 1e3) return nf(0).format(valor / 1e3) + (opcoes.curto ? " mil" : " mil pessoas");
+        return nf(0).format(valor) + (opcoes.curto ? "" : " pessoas");
       default:
         return nf(casas || 0).format(valor);
     }

@@ -762,6 +762,10 @@ select {
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr));
 }
 
+.grade--3 {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+}
+
 .indicador {
   display: flex;
   flex-direction: column;
@@ -1084,6 +1088,39 @@ select {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+/* ---------- Medidas lado a lado ---------- */
+
+.medidas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: var(--espaco-lg) clamp(1.25rem, 1rem + 1.5vw, 2.5rem);
+}
+
+.medida {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  border-top: 3px solid var(--cor-borda-forte);
+}
+
+.medida h4 {
+  font-size: var(--titulo-sm);
+}
+
+.medida__pergunta {
+  color: var(--cor-texto-suave);
+  font-size: 1rem;
+}
+
+.medida__valor {
+  margin: 0.25rem 0 0.5rem;
+}
+
+.medida__anos .barra__topo {
+  font-size: 1rem;
 }
 
 .barras__grupo {

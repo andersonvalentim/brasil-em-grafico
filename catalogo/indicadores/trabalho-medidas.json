@@ -1,0 +1,49 @@
+{
+  "id": "trabalho-medidas",
+  "status": "ativo",
+  "tema": "trabalho",
+  "nome": "Desemprego, subutilização e desalento em cada ano",
+  "nomeTecnico": "PNAD Contínua anual: taxa de desocupação, taxa composta de subutilização da força de trabalho e pessoas desalentadas (média do ano)",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR",
+    "UF"
+  ],
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "PNAD Contínua",
+    "url": "https://sidra.ibge.gov.br/tabela/4562",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "niveis": [
+        "N1",
+        "N3"
+      ],
+      "periodos": 8,
+      "consultas": [
+        {
+          "categoria": "Desemprego",
+          "tabela": 4562,
+          "variavel": 4099
+        },
+        {
+          "categoria": "Subutilização",
+          "tabela": 4677,
+          "variavel": 4118
+        },
+        {
+          "categoria": "Desalentados",
+          "tabela": 4666,
+          "variavel": 1641,
+          "classificacao": {
+            "604": "46254"
+          },
+          "escala": 1000
+        }
+      ]
+    }
+  }
+}

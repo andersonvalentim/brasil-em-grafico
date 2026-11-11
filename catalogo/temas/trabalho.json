@@ -1,11 +1,11 @@
 {
   "id": "trabalho",
   "status": "ativo",
-  "titulo": "Trabalho: quem procura e não encontra",
+  "titulo": "Trabalho: quem procura, quem desistiu e quem quer trabalhar mais",
   "nomeCurto": "Trabalho e renda",
   "icone": "trabalho",
   "azulejo": "ipe",
-  "descricao": "Quantas pessoas procuram trabalho e não encontram, no Brasil e no seu estado.",
+  "descricao": "Desemprego, desalento e subutilização: o que cada número mede e como estão no Brasil e no seu estado.",
   "palavras": [
     "desemprego",
     "emprego",
@@ -15,6 +15,9 @@
     "desocupacao",
     "desempregado",
     "desempregados",
+    "desalento",
+    "desalentados",
+    "subutilizacao",
     "pnad",
     "carteira"
   ],
@@ -28,8 +31,9 @@
       "visual": "pictograma",
       "pergunta": "Quantas pessoas procuram trabalho e não encontram {noEstado}?",
       "detalhes": [
-        "O IBGE visita milhares de casas a cada três meses e pergunta quem está trabalhando e quem está procurando trabalho. É a PNAD Contínua.",
-        "Só conta como desempregado quem procurou trabalho de verdade nos últimos 30 dias."
+        "O IBGE visita milhares de casas a cada três meses e pergunta quem está trabalhando e quem está procurando trabalho. É a PNAD Contínua, que segue as regras da Organização Internacional do Trabalho (OIT), as mesmas usadas por outros países.",
+        "Conta como desempregada a pessoa de 14 anos ou mais que, na semana da pesquisa, não trabalhou, procurou trabalho de verdade e podia começar logo.",
+        "A taxa é a divisão: pessoas desempregadas ÷ força de trabalho (quem está trabalhando + quem está procurando)."
       ],
       "unidade": "das pessoas que procuram trabalho",
       "frase": "De cada 100 {gentilico} que procuram trabalho, cerca de {emCada100} não encontram. A média do Brasil é {valorBrasil}.",
@@ -42,6 +46,40 @@
       }
     },
     {
+      "indicador": "trabalho-medidas",
+      "visual": "medidas",
+      "pergunta": "Desemprego, desalento e subutilização: o que cada número mede?",
+      "unidade": "de desemprego",
+      "frase": "Em {ano}, {noEstado}, a subutilização foi de {medida2}, e {medida3} tinham desistido de procurar trabalho. Um número não substitui o outro: cada um responde a uma pergunta diferente.",
+      "tituloGrafico": "Três medidas do trabalho",
+      "opcoes": {
+        "ordem": [
+          "Desemprego",
+          "Subutilização",
+          "Desalentados"
+        ],
+        "perguntas": {
+          "Desemprego": "Quantas pessoas sem trabalho procuraram emprego e podiam começar?",
+          "Subutilização": "Quanta gente está sem trabalho, trabalha menos horas do que gostaria ou queria trabalhar e não conseguiu procurar?",
+          "Desalentados": "Quantas pessoas querem trabalhar e podiam começar, mas não procuraram porque achavam que não iam encontrar vaga?"
+        },
+        "formatos": {
+          "Desalentados": {
+            "formato": "pessoas",
+            "casas": 1
+          }
+        },
+        "anos": 4
+      },
+      "detalhes": [
+        "Desemprego mede quem procurou trabalho e não achou. Quem não procurou não entra nessa conta, mesmo querendo trabalhar.",
+        "Desalentados são pessoas que queriam trabalhar e estavam disponíveis, mas não procuraram porque achavam que não iam encontrar vaga: falta de oportunidade na cidade, falta de qualificação ou a idade, por exemplo.",
+        "Subutilização junta três grupos que não se repetem: quem está desempregado; quem trabalha menos de 40 horas por semana e quer e pode trabalhar mais; e quem queria trabalhar mas não procurou ou não podia começar na hora (os desalentados estão aqui). A conta é feita sobre a força de trabalho ampliada.",
+        "Quem faz bicos ou recebe benefício social é classificado pelo que de fato fez na semana da pesquisa: se trabalhou, conta como ocupado. Esses casos aparecem principalmente na subutilização.",
+        "Os números são a média de cada ano, publicada pelo IBGE na PNAD Contínua anual. Tabelas e microdados são abertos para qualquer pessoa conferir."
+      ]
+    },
+    {
       "indicador": "desemprego",
       "visual": "linha",
       "pergunta": "O desemprego subiu ou caiu?",
@@ -52,6 +90,37 @@
         ],
         "periodos": 12
       }
+    },
+    {
+      "indicador": "subutilizacao",
+      "visual": "linha",
+      "pergunta": "Quanta gente está sem trabalho ou trabalhando menos do que gostaria {noEstado}?",
+      "unidade": "da força de trabalho ampliada, no {periodo}",
+      "opcoes": {
+        "locais": [
+          "estado",
+          "BR"
+        ],
+        "periodos": 12
+      },
+      "detalhes": [
+        "A subutilização é uma medida mais ampla que o desemprego. Soma quem está desempregado, quem trabalha menos de 40 horas por semana e quer trabalhar mais, e quem queria trabalhar mas não procurou ou não podia começar na hora.",
+        "Por isso ela é sempre maior que a taxa de desemprego: as duas medem coisas diferentes."
+      ]
+    },
+    {
+      "indicador": "desalentados",
+      "visual": "linha",
+      "pergunta": "Quantas pessoas desistiram de procurar trabalho?",
+      "unidade": "no {periodo}",
+      "opcoes": {
+        "periodos": 12
+      },
+      "detalhes": [
+        "Desalentados são pessoas de 14 anos ou mais que queriam trabalhar e podiam começar, mas não procuraram porque achavam que não iam encontrar vaga.",
+        "Como não procuraram, não entram na taxa de desemprego. Entram na subutilização.",
+        "Este número vem da divulgação mensal do IBGE e usa os trimestres do calendário (janeiro a março, abril a junho, julho a setembro e outubro a dezembro)."
+      ]
     },
     {
       "indicador": "desemprego",

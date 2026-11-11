@@ -77,6 +77,7 @@ Escolha o visual pelo formato do dado:
 | `histograma` | Quantos estados há em cada faixa | Dado por estado. `opcoes.faixa: 2` |
 | `pictograma` | "Em cada 100 pessoas…" | Porcentagem. `opcoes.rotulos: ["sem trabalho","trabalhando"]` |
 | `ano-a-ano` | Cada item numa linha, cada ano numa coluna | `categoria` + período anual. `opcoes.anos: 5` |
+| `medidas` | Várias medidas do mesmo assunto lado a lado, cada uma com a pergunta que responde | Uma `categoria` por medida + período anual. `opcoes.ordem`, `opcoes.perguntas`, `opcoes.formatos` |
 | `anual` | Quanto mudou de um ano para o outro, uma barra por ano | Período anual (ex.: IPCA de dezembro a dezembro). `opcoes.locais: ["estado","BR"]`, `opcoes.anos: 7` |
 | `destaques-categorias` | O que mais subiu e o que mais caiu | `categoria` |
 | `bandeira` | Bandeira tarifária do mês | Específico da ANEEL |
