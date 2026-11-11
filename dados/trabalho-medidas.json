@@ -1,6 +1,6 @@
 {
  "id": "trabalho-medidas",
- "geradoEm": "2026-11-11T14:12:20.704Z",
+ "geradoEm": "2026-11-11T14:23:42.191Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/4562",
  "ultimoPeriodo": "2025",
@@ -24,6 +24,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AC",
+   "periodo": "2018",
+   "valor": 48000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2018",
+   "valor": 128000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AL",
    "periodo": "2018",
    "valor": 16.6,
@@ -40,6 +52,18 @@
    "periodo": "2018",
    "valor": 213000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AL",
+   "periodo": "2018",
+   "valor": 190000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2018",
+   "valor": 513000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AM",
@@ -60,6 +84,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AM",
+   "periodo": "2018",
+   "valor": 251000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2018",
+   "valor": 544000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AP",
    "periodo": "2018",
    "valor": 20.7,
@@ -76,6 +112,18 @@
    "periodo": "2018",
    "valor": 10000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AP",
+   "periodo": "2018",
+   "valor": 70000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2018",
+   "valor": 123000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BA",
@@ -96,6 +144,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BA",
+   "periodo": "2018",
+   "valor": 1138000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2018",
+   "valor": 3186000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BR",
    "periodo": "2018",
    "valor": 12.1,
@@ -112,6 +172,18 @@
    "periodo": "2018",
    "valor": 4768000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2018",
+   "valor": 12657000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2018",
+   "valor": 27702000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "CE",
@@ -132,6 +204,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "CE",
+   "periodo": "2018",
+   "valor": 468000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2018",
+   "valor": 1406000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "DF",
    "periodo": "2018",
    "valor": 12.3,
@@ -148,6 +232,18 @@
    "periodo": "2018",
    "valor": 33000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "DF",
+   "periodo": "2018",
+   "valor": 194000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2018",
+   "valor": 386000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "ES",
@@ -168,6 +264,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "ES",
+   "periodo": "2018",
+   "valor": 232000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2018",
+   "valor": 416000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "GO",
    "periodo": "2018",
    "valor": 9.2,
@@ -184,6 +292,18 @@
    "periodo": "2018",
    "valor": 83000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "GO",
+   "periodo": "2018",
+   "valor": 337000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2018",
+   "valor": 661000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MA",
@@ -204,6 +324,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MA",
+   "periodo": "2018",
+   "valor": 380000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2018",
+   "valor": 1239000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MG",
    "periodo": "2018",
    "valor": 10.8,
@@ -220,6 +352,18 @@
    "periodo": "2018",
    "valor": 386000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MG",
+   "periodo": "2018",
+   "valor": 1186000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2018",
+   "valor": 2828000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MS",
@@ -240,6 +384,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MS",
+   "periodo": "2018",
+   "valor": 115000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2018",
+   "valor": 258000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MT",
    "periodo": "2018",
    "valor": 7.8,
@@ -256,6 +412,18 @@
    "periodo": "2018",
    "valor": 31000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MT",
+   "periodo": "2018",
+   "valor": 140000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2018",
+   "valor": 280000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PA",
@@ -276,6 +444,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PA",
+   "periodo": "2018",
+   "valor": 432000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2018",
+   "valor": 1364000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PB",
    "periodo": "2018",
    "valor": 10.5,
@@ -292,6 +472,18 @@
    "periodo": "2018",
    "valor": 220000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PB",
+   "periodo": "2018",
+   "valor": 180000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2018",
+   "valor": 675000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PE",
@@ -312,6 +504,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PE",
+   "periodo": "2018",
+   "valor": 681000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2018",
+   "valor": 1522000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PI",
    "periodo": "2018",
    "valor": 12.7,
@@ -328,6 +532,18 @@
    "periodo": "2018",
    "valor": 178000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PI",
+   "periodo": "2018",
+   "valor": 181000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2018",
+   "valor": 693000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PR",
@@ -348,6 +564,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PR",
+   "periodo": "2018",
+   "valor": 503000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2018",
+   "valor": 1038000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RJ",
    "periodo": "2018",
    "valor": 14.8,
@@ -364,6 +592,18 @@
    "periodo": "2018",
    "valor": 92000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2018",
+   "valor": 1304000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2018",
+   "valor": 1811000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RN",
@@ -384,6 +624,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RN",
+   "periodo": "2018",
+   "valor": 187000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2018",
+   "valor": 632000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RO",
    "periodo": "2018",
    "valor": 9.4,
@@ -400,6 +652,18 @@
    "periodo": "2018",
    "valor": 19000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RO",
+   "periodo": "2018",
+   "valor": 78000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2018",
+   "valor": 139000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RR",
@@ -420,6 +684,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RR",
+   "periodo": "2018",
+   "valor": 33000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2018",
+   "valor": 72000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RS",
    "periodo": "2018",
    "valor": 8.3,
@@ -438,6 +714,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RS",
+   "periodo": "2018",
+   "valor": 499000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2018",
+   "valor": 1025000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SC",
    "periodo": "2018",
    "valor": 6.3,
@@ -454,6 +742,18 @@
    "periodo": "2018",
    "valor": 37000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SC",
+   "periodo": "2018",
+   "valor": 254000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2018",
+   "valor": 462000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SE",
@@ -474,6 +774,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SE",
+   "periodo": "2018",
+   "valor": 165000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2018",
+   "valor": 414000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SP",
    "periodo": "2018",
    "valor": 13.2,
@@ -490,6 +802,18 @@
    "periodo": "2018",
    "valor": 485000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SP",
+   "periodo": "2018",
+   "valor": 3336000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2018",
+   "valor": 5715000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "TO",
@@ -510,6 +834,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "TO",
+   "periodo": "2018",
+   "valor": 75000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2018",
+   "valor": 175000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AC",
    "periodo": "2019",
    "valor": 14.7,
@@ -526,6 +862,18 @@
    "periodo": "2019",
    "valor": 36000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AC",
+   "periodo": "2019",
+   "valor": 50000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2019",
+   "valor": 128000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AL",
@@ -546,6 +894,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AL",
+   "periodo": "2019",
+   "valor": 168000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2019",
+   "valor": 501000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AM",
    "periodo": "2019",
    "valor": 14.1,
@@ -562,6 +922,18 @@
    "periodo": "2019",
    "valor": 92000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AM",
+   "periodo": "2019",
+   "valor": 264000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2019",
+   "valor": 557000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AP",
@@ -582,6 +954,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AP",
+   "periodo": "2019",
+   "valor": 59000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2019",
+   "valor": 139000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BA",
    "periodo": "2019",
    "valor": 16.3,
@@ -598,6 +982,18 @@
    "periodo": "2019",
    "valor": 780000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BA",
+   "periodo": "2019",
+   "valor": 1134000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2019",
+   "valor": 3142000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BR",
@@ -618,6 +1014,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BR",
+   "periodo": "2019",
+   "valor": 12511000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2019",
+   "valor": 27820000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "CE",
    "periodo": "2019",
    "valor": 11.1,
@@ -634,6 +1042,18 @@
    "periodo": "2019",
    "valor": 388000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "CE",
+   "periodo": "2019",
+   "valor": 453000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2019",
+   "valor": 1423000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "DF",
@@ -654,6 +1074,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "DF",
+   "periodo": "2019",
+   "valor": 215000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2019",
+   "valor": 386000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "ES",
    "periodo": "2019",
    "valor": 10.3,
@@ -670,6 +1102,18 @@
    "periodo": "2019",
    "valor": 39000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "ES",
+   "periodo": "2019",
+   "valor": 221000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2019",
+   "valor": 424000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "GO",
@@ -690,6 +1134,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "GO",
+   "periodo": "2019",
+   "valor": 407000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2019",
+   "valor": 728000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MA",
    "periodo": "2019",
    "valor": 14.2,
@@ -706,6 +1162,18 @@
    "periodo": "2019",
    "valor": 573000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MA",
+   "periodo": "2019",
+   "valor": 369000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2019",
+   "valor": 1337000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MG",
@@ -726,6 +1194,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MG",
+   "periodo": "2019",
+   "valor": 1160000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2019",
+   "valor": 2800000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MS",
    "periodo": "2019",
    "valor": 7.9,
@@ -744,6 +1224,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MS",
+   "periodo": "2019",
+   "valor": 115000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2019",
+   "valor": 275000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MT",
    "periodo": "2019",
    "valor": 8.2,
@@ -760,6 +1252,18 @@
    "periodo": "2019",
    "valor": 37000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MT",
+   "periodo": "2019",
+   "valor": 154000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2019",
+   "valor": 316000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PA",
@@ -780,6 +1284,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PA",
+   "periodo": "2019",
+   "valor": 402000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2019",
+   "valor": 1184000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PB",
    "periodo": "2019",
    "valor": 12.6,
@@ -796,6 +1312,18 @@
    "periodo": "2019",
    "valor": 202000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PB",
+   "periodo": "2019",
+   "valor": 216000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2019",
+   "valor": 695000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PE",
@@ -816,6 +1344,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PE",
+   "periodo": "2019",
+   "valor": 626000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2019",
+   "valor": 1440000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PI",
    "periodo": "2019",
    "valor": 12.3,
@@ -832,6 +1372,18 @@
    "periodo": "2019",
    "valor": 185000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PI",
+   "periodo": "2019",
+   "valor": 182000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2019",
+   "valor": 794000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PR",
@@ -852,6 +1404,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PR",
+   "periodo": "2019",
+   "valor": 509000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2019",
+   "valor": 1093000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RJ",
    "periodo": "2019",
    "valor": 14.7,
@@ -868,6 +1432,18 @@
    "periodo": "2019",
    "valor": 115000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2019",
+   "valor": 1318000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2019",
+   "valor": 1933000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RN",
@@ -888,6 +1464,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RN",
+   "periodo": "2019",
+   "valor": 193000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2019",
+   "valor": 635000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RO",
    "periodo": "2019",
    "valor": 8.1,
@@ -904,6 +1492,18 @@
    "periodo": "2019",
    "valor": 20000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RO",
+   "periodo": "2019",
+   "valor": 69000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2019",
+   "valor": 157000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RR",
@@ -924,6 +1524,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RR",
+   "periodo": "2019",
+   "valor": 39000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2019",
+   "valor": 89000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RS",
    "periodo": "2019",
    "valor": 7.8,
@@ -940,6 +1552,18 @@
    "periodo": "2019",
    "valor": 79000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RS",
+   "periodo": "2019",
+   "valor": 482000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2019",
+   "valor": 994000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SC",
@@ -960,6 +1584,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SC",
+   "periodo": "2019",
+   "valor": 258000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2019",
+   "valor": 459000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SE",
    "periodo": "2019",
    "valor": 15.6,
@@ -976,6 +1612,18 @@
    "periodo": "2019",
    "valor": 90000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SE",
+   "periodo": "2019",
+   "valor": 168000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2019",
+   "valor": 461000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SP",
@@ -996,6 +1644,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SP",
+   "periodo": "2019",
+   "valor": 3195000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2019",
+   "valor": 5528000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "TO",
    "periodo": "2019",
    "valor": 11.9,
@@ -1012,6 +1672,18 @@
    "periodo": "2019",
    "valor": 44000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "TO",
+   "periodo": "2019",
+   "valor": 85000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2019",
+   "valor": 202000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AC",
@@ -1032,6 +1704,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AC",
+   "periodo": "2020",
+   "valor": 50000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2020",
+   "valor": 143000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AL",
    "periodo": "2020",
    "valor": 19.5,
@@ -1048,6 +1732,18 @@
    "periodo": "2020",
    "valor": 276000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AL",
+   "periodo": "2020",
+   "valor": 216000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2020",
+   "valor": 685000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AM",
@@ -1068,6 +1764,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AM",
+   "periodo": "2020",
+   "valor": 260000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2020",
+   "valor": 624000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AP",
    "periodo": "2020",
    "valor": 16.9,
@@ -1084,6 +1792,18 @@
    "periodo": "2020",
    "valor": 21000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AP",
+   "periodo": "2020",
+   "valor": 55000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2020",
+   "valor": 119000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BA",
@@ -1104,6 +1824,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BA",
+   "periodo": "2020",
+   "valor": 1266000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2020",
+   "valor": 3539000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BR",
    "periodo": "2020",
    "valor": 13.7,
@@ -1120,6 +1852,18 @@
    "periodo": "2020",
    "valor": 5479000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2020",
+   "valor": 13590000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2020",
+   "valor": 31241000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "CE",
@@ -1140,6 +1884,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "CE",
+   "periodo": "2020",
+   "valor": 495000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2020",
+   "valor": 1629000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "DF",
    "periodo": "2020",
    "valor": 14.1,
@@ -1156,6 +1912,18 @@
    "periodo": "2020",
    "valor": 21000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "DF",
+   "periodo": "2020",
+   "valor": 210000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2020",
+   "valor": 365000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "ES",
@@ -1176,6 +1944,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "ES",
+   "periodo": "2020",
+   "valor": 264000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2020",
+   "valor": 487000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "GO",
    "periodo": "2020",
    "valor": 13.2,
@@ -1192,6 +1972,18 @@
    "periodo": "2020",
    "valor": 103000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "GO",
+   "periodo": "2020",
+   "valor": 466000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2020",
+   "valor": 896000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MA",
@@ -1212,6 +2004,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MA",
+   "periodo": "2020",
+   "valor": 386000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2020",
+   "valor": 1439000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MG",
    "periodo": "2020",
    "valor": 12.7,
@@ -1228,6 +2032,18 @@
    "periodo": "2020",
    "valor": 491000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MG",
+   "periodo": "2020",
+   "valor": 1353000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2020",
+   "valor": 3197000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MS",
@@ -1248,6 +2064,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MS",
+   "periodo": "2020",
+   "valor": 129000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2020",
+   "valor": 294000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MT",
    "periodo": "2020",
    "valor": 9.6,
@@ -1264,6 +2092,18 @@
    "periodo": "2020",
    "valor": 36000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MT",
+   "periodo": "2020",
+   "valor": 174000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2020",
+   "valor": 322000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PA",
@@ -1284,6 +2124,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PA",
+   "periodo": "2020",
+   "valor": 379000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2020",
+   "valor": 1177000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PB",
    "periodo": "2020",
    "valor": 17.8,
@@ -1300,6 +2152,18 @@
    "periodo": "2020",
    "valor": 253000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PB",
+   "periodo": "2020",
+   "valor": 276000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2020",
+   "valor": 843000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PE",
@@ -1320,6 +2184,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PE",
+   "periodo": "2020",
+   "valor": 635000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2020",
+   "valor": 1627000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PI",
    "periodo": "2020",
    "valor": 14.7,
@@ -1336,6 +2212,18 @@
    "periodo": "2020",
    "valor": 167000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PI",
+   "periodo": "2020",
+   "valor": 198000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2020",
+   "valor": 813000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PR",
@@ -1356,6 +2244,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PR",
+   "periodo": "2020",
+   "valor": 571000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2020",
+   "valor": 1228000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RJ",
    "periodo": "2020",
    "valor": 17.7,
@@ -1372,6 +2272,18 @@
    "periodo": "2020",
    "valor": 175000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2020",
+   "valor": 1450000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2020",
+   "valor": 2369000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RN",
@@ -1392,6 +2304,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RN",
+   "periodo": "2020",
+   "valor": 226000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2020",
+   "valor": 682000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RO",
    "periodo": "2020",
    "valor": 10,
@@ -1408,6 +2332,18 @@
    "periodo": "2020",
    "valor": 19000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RO",
+   "periodo": "2020",
+   "valor": 85000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2020",
+   "valor": 175000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RR",
@@ -1428,6 +2364,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RR",
+   "periodo": "2020",
+   "valor": 41000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2020",
+   "valor": 93000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RS",
    "periodo": "2020",
    "valor": 9.3,
@@ -1444,6 +2392,18 @@
    "periodo": "2020",
    "valor": 131000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RS",
+   "periodo": "2020",
+   "valor": 535000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2020",
+   "valor": 1168000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SC",
@@ -1464,6 +2424,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SC",
+   "periodo": "2020",
+   "valor": 257000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2020",
+   "valor": 479000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SE",
    "periodo": "2020",
    "valor": 19.7,
@@ -1480,6 +2452,18 @@
    "periodo": "2020",
    "valor": 91000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SE",
+   "periodo": "2020",
+   "valor": 196000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2020",
+   "valor": 510000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SP",
@@ -1500,6 +2484,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SP",
+   "periodo": "2020",
+   "valor": 3346000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2020",
+   "valor": 6099000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "TO",
    "periodo": "2020",
    "valor": 11.1,
@@ -1516,6 +2512,18 @@
    "periodo": "2020",
    "valor": 72000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "TO",
+   "periodo": "2020",
+   "valor": 74000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2020",
+   "valor": 240000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AC",
@@ -1536,6 +2544,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AC",
+   "periodo": "2021",
+   "valor": 56000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2021",
+   "valor": 161000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AL",
    "periodo": "2021",
    "valor": 18.8,
@@ -1552,6 +2572,18 @@
    "periodo": "2021",
    "valor": 251000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AL",
+   "periodo": "2021",
+   "valor": 239000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2021",
+   "valor": 712000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AM",
@@ -1572,6 +2604,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AM",
+   "periodo": "2021",
+   "valor": 294000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2021",
+   "valor": 659000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AP",
    "periodo": "2021",
    "valor": 14.4,
@@ -1588,6 +2632,18 @@
    "periodo": "2021",
    "valor": 21000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AP",
+   "periodo": "2021",
+   "valor": 49000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2021",
+   "valor": 120000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BA",
@@ -1608,6 +2664,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BA",
+   "periodo": "2021",
+   "valor": 1392000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2021",
+   "valor": 3486000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BR",
    "periodo": "2021",
    "valor": 14,
@@ -1624,6 +2692,18 @@
    "periodo": "2021",
    "valor": 5525000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 14324000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021",
+   "valor": 32146000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "CE",
@@ -1644,6 +2724,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "CE",
+   "periodo": "2021",
+   "valor": 530000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2021",
+   "valor": 1686000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "DF",
    "periodo": "2021",
    "valor": 14.7,
@@ -1660,6 +2752,18 @@
    "periodo": "2021",
    "valor": 28000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "DF",
+   "periodo": "2021",
+   "valor": 233000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2021",
+   "valor": 439000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "ES",
@@ -1680,6 +2784,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "ES",
+   "periodo": "2021",
+   "valor": 264000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2021",
+   "valor": 525000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "GO",
    "periodo": "2021",
    "valor": 11.9,
@@ -1696,6 +2812,18 @@
    "periodo": "2021",
    "valor": 87000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "GO",
+   "periodo": "2021",
+   "valor": 436000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2021",
+   "valor": 819000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MA",
@@ -1716,6 +2844,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MA",
+   "periodo": "2021",
+   "valor": 455000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2021",
+   "valor": 1565000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MG",
    "periodo": "2021",
    "valor": 12.2,
@@ -1732,6 +2872,18 @@
    "periodo": "2021",
    "valor": 456000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MG",
+   "periodo": "2021",
+   "valor": 1314000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2021",
+   "valor": 3110000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MS",
@@ -1752,6 +2904,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MS",
+   "periodo": "2021",
+   "valor": 132000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2021",
+   "valor": 293000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MT",
    "periodo": "2021",
    "valor": 9.4,
@@ -1768,6 +2932,18 @@
    "periodo": "2021",
    "valor": 29000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MT",
+   "periodo": "2021",
+   "valor": 177000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2021",
+   "valor": 326000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PA",
@@ -1788,6 +2964,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PA",
+   "periodo": "2021",
+   "valor": 486000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2021",
+   "valor": 1459000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PB",
    "periodo": "2021",
    "valor": 16.2,
@@ -1804,6 +2992,18 @@
    "periodo": "2021",
    "valor": 234000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PB",
+   "periodo": "2021",
+   "valor": 258000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2021",
+   "valor": 832000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PE",
@@ -1824,6 +3024,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PE",
+   "periodo": "2021",
+   "valor": 810000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2021",
+   "valor": 1695000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PI",
    "periodo": "2021",
    "valor": 13,
@@ -1840,6 +3052,18 @@
    "periodo": "2021",
    "valor": 219000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PI",
+   "periodo": "2021",
+   "valor": 190000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2021",
+   "valor": 822000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PR",
@@ -1860,6 +3084,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PR",
+   "periodo": "2021",
+   "valor": 535000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2021",
+   "valor": 1143000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RJ",
    "periodo": "2021",
    "valor": 18.1,
@@ -1876,6 +3112,18 @@
    "periodo": "2021",
    "valor": 193000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2021",
+   "valor": 1539000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2021",
+   "valor": 2486000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RN",
@@ -1896,6 +3144,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RN",
+   "periodo": "2021",
+   "valor": 231000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2021",
+   "valor": 678000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RO",
    "periodo": "2021",
    "valor": 9.4,
@@ -1912,6 +3172,18 @@
    "periodo": "2021",
    "valor": 36000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RO",
+   "periodo": "2021",
+   "valor": 75000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2021",
+   "valor": 184000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RR",
@@ -1932,6 +3204,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RR",
+   "periodo": "2021",
+   "valor": 35000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2021",
+   "valor": 94000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RS",
    "periodo": "2021",
    "valor": 8.8,
@@ -1948,6 +3232,18 @@
    "periodo": "2021",
    "valor": 93000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RS",
+   "periodo": "2021",
+   "valor": 521000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2021",
+   "valor": 1120000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SC",
@@ -1968,6 +3264,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SC",
+   "periodo": "2021",
+   "valor": 209000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2021",
+   "valor": 438000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SE",
    "periodo": "2021",
    "valor": 20.7,
@@ -1984,6 +3292,18 @@
    "periodo": "2021",
    "valor": 123000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SE",
+   "periodo": "2021",
+   "valor": 218000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2021",
+   "valor": 555000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SP",
@@ -2004,6 +3324,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SP",
+   "periodo": "2021",
+   "valor": 3541000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2021",
+   "valor": 6491000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "TO",
    "periodo": "2021",
    "valor": 14.2,
@@ -2020,6 +3352,18 @@
    "periodo": "2021",
    "valor": 43000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "TO",
+   "periodo": "2021",
+   "valor": 104000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2021",
+   "valor": 249000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AC",
@@ -2040,6 +3384,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AC",
+   "periodo": "2022",
+   "valor": 43000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2022",
+   "valor": 103000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AL",
    "periodo": "2022",
    "valor": 12,
@@ -2056,6 +3412,18 @@
    "periodo": "2022",
    "valor": 210000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AL",
+   "periodo": "2022",
+   "valor": 152000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2022",
+   "valor": 546000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AM",
@@ -2076,6 +3444,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AM",
+   "periodo": "2022",
+   "valor": 247000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2022",
+   "valor": 520000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AP",
    "periodo": "2022",
    "valor": 13.7,
@@ -2092,6 +3472,18 @@
    "periodo": "2022",
    "valor": 12000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AP",
+   "periodo": "2022",
+   "valor": 51000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2022",
+   "valor": 95000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BA",
@@ -2112,6 +3504,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BA",
+   "periodo": "2022",
+   "valor": 1044000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2022",
+   "valor": 2690000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BR",
    "periodo": "2022",
    "valor": 9.6,
@@ -2128,6 +3532,18 @@
    "periodo": "2022",
    "valor": 4188000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 10082000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022",
+   "valor": 23597000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "CE",
@@ -2148,6 +3564,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "CE",
+   "periodo": "2022",
+   "valor": 363000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2022",
+   "valor": 1195000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "DF",
    "periodo": "2022",
    "valor": 11.4,
@@ -2164,6 +3592,18 @@
    "periodo": "2022",
    "valor": 17000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "DF",
+   "periodo": "2022",
+   "valor": 190000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2022",
+   "valor": 369000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "ES",
@@ -2184,6 +3624,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "ES",
+   "periodo": "2022",
+   "valor": 181000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2022",
+   "valor": 343000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "GO",
    "periodo": "2022",
    "valor": 7.8,
@@ -2200,6 +3652,18 @@
    "periodo": "2022",
    "valor": 59000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "GO",
+   "periodo": "2022",
+   "valor": 302000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2022",
+   "valor": 586000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MA",
@@ -2220,6 +3684,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MA",
+   "periodo": "2022",
+   "valor": 312000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2022",
+   "valor": 1120000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MG",
    "periodo": "2022",
    "valor": 7.7,
@@ -2236,6 +3712,18 @@
    "periodo": "2022",
    "valor": 288000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MG",
+   "periodo": "2022",
+   "valor": 856000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2022",
+   "valor": 2109000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MS",
@@ -2256,6 +3744,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MS",
+   "periodo": "2022",
+   "valor": 70000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2022",
+   "valor": 173000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MT",
    "periodo": "2022",
    "valor": 4,
@@ -2272,6 +3772,18 @@
    "periodo": "2022",
    "valor": 25000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MT",
+   "periodo": "2022",
+   "valor": 75000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2022",
+   "valor": 205000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PA",
@@ -2292,6 +3804,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PA",
+   "periodo": "2022",
+   "valor": 391000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2022",
+   "valor": 1142000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PB",
    "periodo": "2022",
    "valor": 12.5,
@@ -2308,6 +3832,18 @@
    "periodo": "2022",
    "valor": 178000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PB",
+   "periodo": "2022",
+   "valor": 208000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2022",
+   "valor": 594000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PE",
@@ -2328,6 +3864,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PE",
+   "periodo": "2022",
+   "valor": 664000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2022",
+   "valor": 1496000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PI",
    "periodo": "2022",
    "valor": 10.1,
@@ -2344,6 +3892,18 @@
    "periodo": "2022",
    "valor": 238000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PI",
+   "periodo": "2022",
+   "valor": 145000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2022",
+   "valor": 760000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PR",
@@ -2364,6 +3924,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PR",
+   "periodo": "2022",
+   "valor": 369000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2022",
+   "valor": 814000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RJ",
    "periodo": "2022",
    "valor": 13.3,
@@ -2380,6 +3952,18 @@
    "periodo": "2022",
    "valor": 166000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2022",
+   "valor": 1159000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2022",
+   "valor": 1851000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RN",
@@ -2400,6 +3984,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RN",
+   "periodo": "2022",
+   "valor": 179000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2022",
+   "valor": 517000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RO",
    "periodo": "2022",
    "valor": 4.2,
@@ -2416,6 +4012,18 @@
    "periodo": "2022",
    "valor": 10000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RO",
+   "periodo": "2022",
+   "valor": 35000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2022",
+   "valor": 88000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RR",
@@ -2436,6 +4044,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RR",
+   "periodo": "2022",
+   "valor": 13000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2022",
+   "valor": 33000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RS",
    "periodo": "2022",
    "valor": 6.4,
@@ -2454,6 +4074,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RS",
+   "periodo": "2022",
+   "valor": 383000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2022",
+   "valor": 859000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SC",
    "periodo": "2022",
    "valor": 3.9,
@@ -2470,6 +4102,18 @@
    "periodo": "2022",
    "valor": 25000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SC",
+   "periodo": "2022",
+   "valor": 163000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2022",
+   "valor": 296000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SE",
@@ -2490,6 +4134,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SE",
+   "periodo": "2022",
+   "valor": 143000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2022",
+   "valor": 456000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SP",
    "periodo": "2022",
    "valor": 9.1,
@@ -2506,6 +4162,18 @@
    "periodo": "2022",
    "valor": 421000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SP",
+   "periodo": "2022",
+   "valor": 2288000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2022",
+   "valor": 4482000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "TO",
@@ -2526,6 +4194,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "TO",
+   "periodo": "2022",
+   "valor": 57000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2022",
+   "valor": 154000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AC",
    "periodo": "2023",
    "valor": 7.4,
@@ -2542,6 +4222,18 @@
    "periodo": "2023",
    "valor": 23000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AC",
+   "periodo": "2023",
+   "valor": 24000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2023",
+   "valor": 65000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AL",
@@ -2562,6 +4254,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AL",
+   "periodo": "2023",
+   "valor": 122000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2023",
+   "valor": 429000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AM",
    "periodo": "2023",
    "valor": 10,
@@ -2578,6 +4282,18 @@
    "periodo": "2023",
    "valor": 71000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AM",
+   "periodo": "2023",
+   "valor": 189000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2023",
+   "valor": 412000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AP",
@@ -2598,6 +4314,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AP",
+   "periodo": "2023",
+   "valor": 44000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2023",
+   "valor": 86000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BA",
    "periodo": "2023",
    "valor": 13.2,
@@ -2614,6 +4342,18 @@
    "periodo": "2023",
    "valor": 603000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BA",
+   "periodo": "2023",
+   "valor": 903000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2023",
+   "valor": 2621000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BR",
@@ -2634,6 +4374,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 8293000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023",
+   "valor": 20520000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "CE",
    "periodo": "2023",
    "valor": 8.5,
@@ -2650,6 +4402,18 @@
    "periodo": "2023",
    "valor": 308000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "CE",
+   "periodo": "2023",
+   "valor": 337000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2023",
+   "valor": 1096000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "DF",
@@ -2670,6 +4434,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "DF",
+   "periodo": "2023",
+   "valor": 171000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2023",
+   "valor": 283000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "ES",
    "periodo": "2023",
    "valor": 5.7,
@@ -2686,6 +4462,18 @@
    "periodo": "2023",
    "valor": 23000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "ES",
+   "periodo": "2023",
+   "valor": 119000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2023",
+   "valor": 260000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "GO",
@@ -2706,6 +4494,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "GO",
+   "periodo": "2023",
+   "valor": 239000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2023",
+   "valor": 489000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MA",
    "periodo": "2023",
    "valor": 7.9,
@@ -2722,6 +4522,18 @@
    "periodo": "2023",
    "valor": 425000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MA",
+   "periodo": "2023",
+   "valor": 215000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2023",
+   "valor": 922000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MG",
@@ -2742,6 +4554,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MG",
+   "periodo": "2023",
+   "valor": 658000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2023",
+   "valor": 1670000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MS",
    "periodo": "2023",
    "valor": 4.7,
@@ -2758,6 +4582,18 @@
    "periodo": "2023",
    "valor": 15000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MS",
+   "periodo": "2023",
+   "valor": 70000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2023",
+   "valor": 151000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MT",
@@ -2778,6 +4614,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MT",
+   "periodo": "2023",
+   "valor": 66000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2023",
+   "valor": 186000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PA",
    "periodo": "2023",
    "valor": 7.7,
@@ -2794,6 +4642,18 @@
    "periodo": "2023",
    "valor": 240000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PA",
+   "periodo": "2023",
+   "valor": 312000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2023",
+   "valor": 1087000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PB",
@@ -2814,6 +4674,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PB",
+   "periodo": "2023",
+   "valor": 164000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2023",
+   "valor": 528000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PE",
    "periodo": "2023",
    "valor": 13.5,
@@ -2830,6 +4702,18 @@
    "periodo": "2023",
    "valor": 242000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PE",
+   "periodo": "2023",
+   "valor": 556000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2023",
+   "valor": 1229000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PI",
@@ -2850,6 +4734,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PI",
+   "periodo": "2023",
+   "valor": 141000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2023",
+   "valor": 708000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PR",
    "periodo": "2023",
    "valor": 4.8,
@@ -2866,6 +4762,18 @@
    "periodo": "2023",
    "valor": 80000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PR",
+   "periodo": "2023",
+   "valor": 302000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2023",
+   "valor": 708000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RJ",
@@ -2886,6 +4794,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RJ",
+   "periodo": "2023",
+   "valor": 896000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2023",
+   "valor": 1570000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RN",
    "periodo": "2023",
    "valor": 10.9,
@@ -2902,6 +4822,18 @@
    "periodo": "2023",
    "valor": 121000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RN",
+   "periodo": "2023",
+   "valor": 156000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2023",
+   "valor": 430000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RO",
@@ -2922,6 +4854,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RO",
+   "periodo": "2023",
+   "valor": 25000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2023",
+   "valor": 53000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RR",
    "periodo": "2023",
    "valor": 6.6,
@@ -2938,6 +4882,18 @@
    "periodo": "2023",
    "valor": 6000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RR",
+   "periodo": "2023",
+   "valor": 19000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2023",
+   "valor": 38000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RS",
@@ -2958,6 +4914,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RS",
+   "periodo": "2023",
+   "valor": 330000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2023",
+   "valor": 755000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SC",
    "periodo": "2023",
    "valor": 3.5,
@@ -2974,6 +4942,18 @@
    "periodo": "2023",
    "valor": 10000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SC",
+   "periodo": "2023",
+   "valor": 154000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2023",
+   "valor": 274000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SE",
@@ -2994,6 +4974,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SE",
+   "periodo": "2023",
+   "valor": 121000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2023",
+   "valor": 390000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SP",
    "periodo": "2023",
    "valor": 7.5,
@@ -3010,6 +5002,18 @@
    "periodo": "2023",
    "valor": 341000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SP",
+   "periodo": "2023",
+   "valor": 1918000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2023",
+   "valor": 3929000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "TO",
@@ -3030,6 +5034,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "TO",
+   "periodo": "2023",
+   "valor": 44000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2023",
+   "valor": 152000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AC",
    "periodo": "2024",
    "valor": 6.4,
@@ -3046,6 +5062,18 @@
    "periodo": "2024",
    "valor": 23000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AC",
+   "periodo": "2024",
+   "valor": 22000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2024",
+   "valor": 65000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AL",
@@ -3066,6 +5094,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AL",
+   "periodo": "2024",
+   "valor": 101000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2024",
+   "valor": 405000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AM",
    "periodo": "2024",
    "valor": 8.4,
@@ -3082,6 +5122,18 @@
    "periodo": "2024",
    "valor": 51000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AM",
+   "periodo": "2024",
+   "valor": 164000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2024",
+   "valor": 342000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AP",
@@ -3102,6 +5154,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AP",
+   "periodo": "2024",
+   "valor": 30000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2024",
+   "valor": 62000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BA",
    "periodo": "2024",
    "valor": 10.8,
@@ -3118,6 +5182,18 @@
    "periodo": "2024",
    "valor": 548000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BA",
+   "periodo": "2024",
+   "valor": 765000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2024",
+   "valor": 2335000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BR",
@@ -3138,6 +5214,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 7194000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024",
+   "valor": 18653000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "CE",
    "periodo": "2024",
    "valor": 7,
@@ -3154,6 +5242,18 @@
    "periodo": "2024",
    "valor": 282000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "CE",
+   "periodo": "2024",
+   "valor": 275000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2024",
+   "valor": 1009000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "DF",
@@ -3174,6 +5274,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "DF",
+   "periodo": "2024",
+   "valor": 158000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2024",
+   "valor": 333000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "ES",
    "periodo": "2024",
    "valor": 3.9,
@@ -3190,6 +5302,18 @@
    "periodo": "2024",
    "valor": 24000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "ES",
+   "periodo": "2024",
+   "valor": 84000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2024",
+   "valor": 178000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "GO",
@@ -3210,6 +5334,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "GO",
+   "periodo": "2024",
+   "valor": 221000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2024",
+   "valor": 476000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MA",
    "periodo": "2024",
    "valor": 7.2,
@@ -3226,6 +5362,18 @@
    "periodo": "2024",
    "valor": 319000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MA",
+   "periodo": "2024",
+   "valor": 197000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2024",
+   "valor": 777000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MG",
@@ -3246,6 +5394,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MG",
+   "periodo": "2024",
+   "valor": 580000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2024",
+   "valor": 1508000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MS",
    "periodo": "2024",
    "valor": 3.9,
@@ -3262,6 +5422,18 @@
    "periodo": "2024",
    "valor": 20000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MS",
+   "periodo": "2024",
+   "valor": 58000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2024",
+   "valor": 161000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MT",
@@ -3282,6 +5454,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MT",
+   "periodo": "2024",
+   "valor": 55000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2024",
+   "valor": 167000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PA",
    "periodo": "2024",
    "valor": 7.2,
@@ -3298,6 +5482,18 @@
    "periodo": "2024",
    "valor": 205000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PA",
+   "periodo": "2024",
+   "valor": 291000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2024",
+   "valor": 1034000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PB",
@@ -3318,6 +5514,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PB",
+   "periodo": "2024",
+   "valor": 151000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2024",
+   "valor": 486000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PE",
    "periodo": "2024",
    "valor": 10.9,
@@ -3334,6 +5542,18 @@
    "periodo": "2024",
    "valor": 237000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PE",
+   "periodo": "2024",
+   "valor": 467000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2024",
+   "valor": 1229000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PI",
@@ -3354,6 +5574,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PI",
+   "periodo": "2024",
+   "valor": 106000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2024",
+   "valor": 555000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PR",
    "periodo": "2024",
    "valor": 4.1,
@@ -3370,6 +5602,18 @@
    "periodo": "2024",
    "valor": 63000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PR",
+   "periodo": "2024",
+   "valor": 258000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2024",
+   "valor": 613000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RJ",
@@ -3390,6 +5634,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RJ",
+   "periodo": "2024",
+   "valor": 833000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2024",
+   "valor": 1463000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RN",
    "periodo": "2024",
    "valor": 8.7,
@@ -3406,6 +5662,18 @@
    "periodo": "2024",
    "valor": 100000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RN",
+   "periodo": "2024",
+   "valor": 133000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2024",
+   "valor": 376000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RO",
@@ -3426,6 +5694,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RO",
+   "periodo": "2024",
+   "valor": 27000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2024",
+   "valor": 59000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RR",
    "periodo": "2024",
    "valor": 7.6,
@@ -3442,6 +5722,18 @@
    "periodo": "2024",
    "valor": 12000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RR",
+   "periodo": "2024",
+   "valor": 23000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2024",
+   "valor": 67000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RS",
@@ -3462,6 +5754,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RS",
+   "periodo": "2024",
+   "valor": 320000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2024",
+   "valor": 761000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SC",
    "periodo": "2024",
    "valor": 3,
@@ -3478,6 +5782,18 @@
    "periodo": "2024",
    "valor": 14000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SC",
+   "periodo": "2024",
+   "valor": 136000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2024",
+   "valor": 259000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SE",
@@ -3498,6 +5814,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SE",
+   "periodo": "2024",
+   "valor": 98000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2024",
+   "valor": 310000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SP",
    "periodo": "2024",
    "valor": 6.2,
@@ -3514,6 +5842,18 @@
    "periodo": "2024",
    "valor": 354000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SP",
+   "periodo": "2024",
+   "valor": 1598000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2024",
+   "valor": 3464000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "TO",
@@ -3534,6 +5874,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "TO",
+   "periodo": "2024",
+   "valor": 44000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2024",
+   "valor": 159000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AC",
    "periodo": "2025",
    "valor": 6.6,
@@ -3550,6 +5902,18 @@
    "periodo": "2025",
    "valor": 21000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AC",
+   "periodo": "2025",
+   "valor": 23000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AC",
+   "periodo": "2025",
+   "valor": 70000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "AL",
@@ -3570,6 +5934,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AL",
+   "periodo": "2025",
+   "valor": 109000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AL",
+   "periodo": "2025",
+   "valor": 404000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AM",
    "periodo": "2025",
    "valor": 8.4,
@@ -3588,6 +5964,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "AM",
+   "periodo": "2025",
+   "valor": 168000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AM",
+   "periodo": "2025",
+   "valor": 351000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "AP",
    "periodo": "2025",
    "valor": 7.9,
@@ -3604,6 +5992,18 @@
    "periodo": "2025",
    "valor": 9000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "AP",
+   "periodo": "2025",
+   "valor": 30000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "AP",
+   "periodo": "2025",
+   "valor": 58000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "BA",
@@ -3624,6 +6024,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "BA",
+   "periodo": "2025",
+   "valor": 621000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BA",
+   "periodo": "2025",
+   "valor": 2131000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "BR",
    "periodo": "2025",
    "valor": 5.6,
@@ -3640,6 +6052,18 @@
    "periodo": "2025",
    "valor": 2946000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 6150000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025",
+   "valor": 16647000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "CE",
@@ -3660,6 +6084,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "CE",
+   "periodo": "2025",
+   "valor": 248000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "CE",
+   "periodo": "2025",
+   "valor": 868000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "DF",
    "periodo": "2025",
    "valor": 7.5,
@@ -3676,6 +6112,18 @@
    "periodo": "2025",
    "valor": 20000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "DF",
+   "periodo": "2025",
+   "valor": 128000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "DF",
+   "periodo": "2025",
+   "valor": 280000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "ES",
@@ -3696,6 +6144,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "ES",
+   "periodo": "2025",
+   "valor": 70000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "ES",
+   "periodo": "2025",
+   "valor": 159000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "GO",
    "periodo": "2025",
    "valor": 4.6,
@@ -3712,6 +6172,18 @@
    "periodo": "2025",
    "valor": 38000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "GO",
+   "periodo": "2025",
+   "valor": 188000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "GO",
+   "periodo": "2025",
+   "valor": 405000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MA",
@@ -3732,6 +6204,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MA",
+   "periodo": "2025",
+   "valor": 195000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MA",
+   "periodo": "2025",
+   "valor": 808000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MG",
    "periodo": "2025",
    "valor": 4.6,
@@ -3748,6 +6232,18 @@
    "periodo": "2025",
    "valor": 184000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MG",
+   "periodo": "2025",
+   "valor": 533000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MG",
+   "periodo": "2025",
+   "valor": 1426000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "MS",
@@ -3768,6 +6264,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "MS",
+   "periodo": "2025",
+   "valor": 46000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MS",
+   "periodo": "2025",
+   "valor": 120000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "MT",
    "periodo": "2025",
    "valor": 2.2,
@@ -3784,6 +6292,18 @@
    "periodo": "2025",
    "valor": 23000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "MT",
+   "periodo": "2025",
+   "valor": 46000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "MT",
+   "periodo": "2025",
+   "valor": 144000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PA",
@@ -3804,6 +6324,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PA",
+   "periodo": "2025",
+   "valor": 275000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PA",
+   "periodo": "2025",
+   "valor": 880000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PB",
    "periodo": "2025",
    "valor": 6,
@@ -3820,6 +6352,18 @@
    "periodo": "2025",
    "valor": 114000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PB",
+   "periodo": "2025",
+   "valor": 110000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PB",
+   "periodo": "2025",
+   "valor": 442000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PE",
@@ -3840,6 +6384,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PE",
+   "periodo": "2025",
+   "valor": 369000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PE",
+   "periodo": "2025",
+   "valor": 1117000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "PI",
    "periodo": "2025",
    "valor": 9.3,
@@ -3856,6 +6412,18 @@
    "periodo": "2025",
    "valor": 123000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "PI",
+   "periodo": "2025",
+   "valor": 135000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PI",
+   "periodo": "2025",
+   "valor": 515000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "PR",
@@ -3876,6 +6444,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "PR",
+   "periodo": "2025",
+   "valor": 235000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "PR",
+   "periodo": "2025",
+   "valor": 616000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RJ",
    "periodo": "2025",
    "valor": 7.6,
@@ -3892,6 +6472,18 @@
    "periodo": "2025",
    "valor": 117000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2025",
+   "valor": 686000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RJ",
+   "periodo": "2025",
+   "valor": 1258000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RN",
@@ -3912,6 +6504,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RN",
+   "periodo": "2025",
+   "valor": 120000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RN",
+   "periodo": "2025",
+   "valor": 321000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RO",
    "periodo": "2025",
    "valor": 3.3,
@@ -3928,6 +6532,18 @@
    "periodo": "2025",
    "valor": 9000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RO",
+   "periodo": "2025",
+   "valor": 28000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RO",
+   "periodo": "2025",
+   "valor": 77000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "RR",
@@ -3948,6 +6564,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "RR",
+   "periodo": "2025",
+   "valor": 16000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RR",
+   "periodo": "2025",
+   "valor": 44000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "RS",
    "periodo": "2025",
    "valor": 4,
@@ -3964,6 +6592,18 @@
    "periodo": "2025",
    "valor": 54000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "RS",
+   "periodo": "2025",
+   "valor": 247000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "RS",
+   "periodo": "2025",
+   "valor": 560000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SC",
@@ -3984,6 +6624,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SC",
+   "periodo": "2025",
+   "valor": 105000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SC",
+   "periodo": "2025",
+   "valor": 214000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "SE",
    "periodo": "2025",
    "valor": 7.9,
@@ -4000,6 +6652,18 @@
    "periodo": "2025",
    "valor": 63000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "SE",
+   "periodo": "2025",
+   "valor": 83000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SE",
+   "periodo": "2025",
+   "valor": 294000,
+   "categoria": "Pessoas subutilizadas"
   },
   {
    "local": "SP",
@@ -4020,6 +6684,18 @@
    "categoria": "Desalentados"
   },
   {
+   "local": "SP",
+   "periodo": "2025",
+   "valor": 1298000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "SP",
+   "periodo": "2025",
+   "valor": 2977000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
    "local": "TO",
    "periodo": "2025",
    "valor": 4.7,
@@ -4036,6 +6712,18 @@
    "periodo": "2025",
    "valor": 18000,
    "categoria": "Desalentados"
+  },
+  {
+   "local": "TO",
+   "periodo": "2025",
+   "valor": 38000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "TO",
+   "periodo": "2025",
+   "valor": 110000,
+   "categoria": "Pessoas subutilizadas"
   }
  ]
 }

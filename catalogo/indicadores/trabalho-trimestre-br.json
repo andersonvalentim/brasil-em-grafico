@@ -1,0 +1,67 @@
+{
+  "id": "trabalho-trimestre-br",
+  "status": "ativo",
+  "tema": "trabalho",
+  "nome": "Desemprego, subutilização e desalento no Brasil, por trimestre",
+  "nomeTecnico": "PNAD Contínua mensal (trimestres do calendário): taxa de desocupação, taxa composta de subutilização da força de trabalho e pessoas desocupadas, subutilizadas e desalentadas",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "trimestral",
+  "abrangencia": [
+    "BR"
+  ],
+  "cobertura": "Os números do trimestre mais recente saem primeiro para o Brasil, na divulgação mensal do IBGE. Os estados chegam depois, na divulgação trimestral.",
+  "fonte": {
+    "orgao": "IBGE",
+    "nome": "PNAD Contínua",
+    "url": "https://sidra.ibge.gov.br/tabela/6381",
+    "adaptador": "ibge-sidra",
+    "parametros": {
+      "niveis": [
+        "N1"
+      ],
+      "trimestresFechados": true,
+      "periodos": 20,
+      "consultas": [
+        {
+          "categoria": "Desemprego",
+          "tabela": 6381,
+          "variavel": 4099
+        },
+        {
+          "categoria": "Subutilização",
+          "tabela": 6441,
+          "variavel": 4118
+        },
+        {
+          "categoria": "Desalentados",
+          "tabela": 6438,
+          "variavel": 1641,
+          "classificacao": {
+            "604": "46254"
+          },
+          "escala": 1000
+        },
+        {
+          "categoria": "Pessoas desempregadas",
+          "tabela": 6438,
+          "variavel": 1641,
+          "classificacao": {
+            "604": "31750"
+          },
+          "escala": 1000
+        },
+        {
+          "categoria": "Pessoas subutilizadas",
+          "tabela": 6438,
+          "variavel": 1641,
+          "classificacao": {
+            "604": "40286"
+          },
+          "escala": 1000
+        }
+      ]
+    }
+  }
+}

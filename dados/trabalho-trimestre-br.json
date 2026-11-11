@@ -1,0 +1,609 @@
+{
+ "id": "trabalho-trimestre-br",
+ "geradoEm": "2026-11-11T14:23:40.256Z",
+ "origem": "api",
+ "fonte": "https://sidra.ibge.gov.br/tabela/6381",
+ "ultimoPeriodo": "2026-T3",
+ "observacoes": [
+  {
+   "local": "BR",
+   "periodo": "2021-T4",
+   "valor": 11.1,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021-T4",
+   "valor": 24.3,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021-T4",
+   "valor": 4727000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021-T4",
+   "valor": 11793000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2021-T4",
+   "valor": 27877000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T1",
+   "valor": 11.1,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T1",
+   "valor": 23.2,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T1",
+   "valor": 4528000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T1",
+   "valor": 11725000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T1",
+   "valor": 26359000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T2",
+   "valor": 9.3,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T2",
+   "valor": 21.3,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T2",
+   "valor": 4202000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T2",
+   "valor": 9895000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T2",
+   "valor": 24314000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T3",
+   "valor": 8.7,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T3",
+   "valor": 20.1,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T3",
+   "valor": 4197000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T3",
+   "valor": 9273000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T3",
+   "valor": 23015000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T4",
+   "valor": 7.9,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T4",
+   "valor": 18.5,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T4",
+   "valor": 3939000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T4",
+   "valor": 8410000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2022-T4",
+   "valor": 20934000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T1",
+   "valor": 8.8,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T1",
+   "valor": 18.9,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T1",
+   "valor": 3818000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T1",
+   "valor": 9247000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T1",
+   "valor": 21192000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T2",
+   "valor": 8,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T2",
+   "valor": 17.8,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T2",
+   "valor": 3630000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T2",
+   "valor": 8468000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T2",
+   "valor": 19987000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T3",
+   "valor": 7.7,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T3",
+   "valor": 17.6,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T3",
+   "valor": 3458000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T3",
+   "valor": 8150000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T3",
+   "valor": 19789000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T4",
+   "valor": 7.4,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T4",
+   "valor": 17.3,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T4",
+   "valor": 3411000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T4",
+   "valor": 7926000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2023-T4",
+   "valor": 19598000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T1",
+   "valor": 7.9,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T1",
+   "valor": 17.9,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T1",
+   "valor": 3557000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T1",
+   "valor": 8453000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T1",
+   "valor": 20353000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T2",
+   "valor": 6.9,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T2",
+   "valor": 16.4,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T2",
+   "valor": 3205000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T2",
+   "valor": 7388000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T2",
+   "valor": 18653000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T3",
+   "valor": 6.4,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T3",
+   "valor": 15.7,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T3",
+   "valor": 3071000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T3",
+   "valor": 6854000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T3",
+   "valor": 17831000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T4",
+   "valor": 6.2,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T4",
+   "valor": 15.2,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T4",
+   "valor": 2989000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T4",
+   "valor": 6684000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2024-T4",
+   "valor": 17432000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T1",
+   "valor": 7,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T1",
+   "valor": 15.9,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T1",
+   "valor": 3192000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T1",
+   "valor": 7566000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T1",
+   "valor": 18134000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T2",
+   "valor": 5.8,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T2",
+   "valor": 14.4,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T2",
+   "valor": 2756000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T2",
+   "valor": 6253000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T2",
+   "valor": 16468000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T3",
+   "valor": 5.6,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T3",
+   "valor": 13.9,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T3",
+   "valor": 2637000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T3",
+   "valor": 6045000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T3",
+   "valor": 15804000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T4",
+   "valor": 5.1,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T4",
+   "valor": 13.4,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T4",
+   "valor": 2646000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T4",
+   "valor": 5503000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2025-T4",
+   "valor": 15289000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T1",
+   "valor": 6.1,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T1",
+   "valor": 14.3,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T1",
+   "valor": 2683000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T1",
+   "valor": 6579000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T1",
+   "valor": 16300000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T2",
+   "valor": 5.4,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T2",
+   "valor": 12.9,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T2",
+   "valor": 2288000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T2",
+   "valor": 5861000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T2",
+   "valor": 14659000,
+   "categoria": "Pessoas subutilizadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T3",
+   "valor": 5.2,
+   "categoria": "Desemprego"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T3",
+   "valor": 13,
+   "categoria": "Subutilização"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T3",
+   "valor": 2459000,
+   "categoria": "Desalentados"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T3",
+   "valor": 5628000,
+   "categoria": "Pessoas desempregadas"
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T3",
+   "valor": 14846000,
+   "categoria": "Pessoas subutilizadas"
+  }
+ ]
+}

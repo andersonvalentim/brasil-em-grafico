@@ -3,7 +3,7 @@
   "status": "ativo",
   "tema": "trabalho",
   "nome": "Desemprego, subutilização e desalento em cada ano",
-  "nomeTecnico": "PNAD Contínua anual: taxa de desocupação, taxa composta de subutilização da força de trabalho e pessoas desalentadas (média do ano)",
+  "nomeTecnico": "PNAD Contínua anual: taxa de desocupação, taxa composta de subutilização da força de trabalho e pessoas desocupadas, subutilizadas e desalentadas (média do ano)",
   "unidade": "%",
   "formato": "pct",
   "casas": 1,
@@ -40,6 +40,24 @@
           "variavel": 1641,
           "classificacao": {
             "604": "46254"
+          },
+          "escala": 1000
+        },
+        {
+          "categoria": "Pessoas desempregadas",
+          "tabela": 4666,
+          "variavel": 1641,
+          "classificacao": {
+            "604": "31750"
+          },
+          "escala": 1000
+        },
+        {
+          "categoria": "Pessoas subutilizadas",
+          "tabela": 4666,
+          "variavel": 1641,
+          "classificacao": {
+            "604": "40286"
           },
           "escala": 1000
         }

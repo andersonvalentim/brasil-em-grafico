@@ -46,11 +46,49 @@
       }
     },
     {
+      "indicador": "trabalho-trimestre-br",
+      "visual": "medidas",
+      "pergunta": "Como estão desemprego, subutilização e desalento no trimestre mais recente?",
+      "unidade": "de desemprego",
+      "frase": "No {ano}, eram cerca de {contagem1} sem trabalho e procurando, {contagem2} sem trabalho ou trabalhando menos do que gostariam e {medida3} desalentadas.",
+      "tituloGrafico": "Três medidas do trabalho no trimestre",
+      "opcoes": {
+        "ordem": [
+          "Desemprego",
+          "Subutilização",
+          "Desalentados"
+        ],
+        "perguntas": {
+          "Desemprego": "Quantas pessoas sem trabalho procuraram emprego e podiam começar?",
+          "Subutilização": "Quanta gente está sem trabalho, trabalha menos horas do que gostaria ou queria trabalhar e não conseguiu procurar?",
+          "Desalentados": "Quantas pessoas querem trabalhar e podiam começar, mas não procuraram porque achavam que não iam encontrar vaga?"
+        },
+        "contagens": {
+          "Desemprego": "Pessoas desempregadas",
+          "Subutilização": "Pessoas subutilizadas"
+        },
+        "formatos": {
+          "Desalentados": {
+            "formato": "pessoas",
+            "casas": 1
+          }
+        },
+        "mesmoPeriodo": true,
+        "periodos": 5,
+        "subtitulo": "O mesmo trimestre em cada ano · cada medida responde a uma pergunta diferente"
+      },
+      "detalhes": [
+        "O número do trimestre mais recente sai primeiro para o Brasil, na divulgação mensal do IBGE. Os estados chegam depois, na divulgação trimestral, e aparecem nos cartões abaixo.",
+        "A comparação é sempre com o mesmo trimestre do ano anterior, porque o trabalho muda com a época do ano: fim de ano, colheitas e férias, por exemplo.",
+        "As contagens de pessoas são estimativas da pesquisa e por isso aparecem como “cerca de”."
+      ]
+    },
+    {
       "indicador": "trabalho-medidas",
       "visual": "medidas",
-      "pergunta": "Desemprego, desalento e subutilização: o que cada número mede?",
+      "pergunta": "Desemprego, desalento e subutilização: o que cada número mede, ano a ano?",
       "unidade": "de desemprego",
-      "frase": "Em {ano}, {noEstado}, a subutilização foi de {medida2}, e {medida3} tinham desistido de procurar trabalho. Um número não substitui o outro: cada um responde a uma pergunta diferente.",
+      "frase": "Em {ano}, {noEstado}, eram em média {contagem1} desempregadas e {contagem2} subutilizadas, e {medida3} tinham desistido de procurar trabalho. Um número não substitui o outro: cada um responde a uma pergunta diferente.",
       "tituloGrafico": "Três medidas do trabalho",
       "opcoes": {
         "ordem": [
@@ -69,7 +107,12 @@
             "casas": 1
           }
         },
-        "anos": 4
+        "anos": 4,
+        "contagens": {
+          "Desemprego": "Pessoas desempregadas",
+          "Subutilização": "Pessoas subutilizadas"
+        },
+        "subtitulo": "Média de cada ano · cada medida responde a uma pergunta diferente"
       },
       "detalhes": [
         "Desemprego mede quem procurou trabalho e não achou. Quem não procurou não entra nessa conta, mesmo querendo trabalhar.",
@@ -88,7 +131,7 @@
           "estado",
           "BR"
         ],
-        "periodos": 12
+        "periodos": 16
       }
     },
     {
@@ -101,7 +144,7 @@
           "estado",
           "BR"
         ],
-        "periodos": 12
+        "periodos": 16
       },
       "detalhes": [
         "A subutilização é uma medida mais ampla que o desemprego. Soma quem está desempregado, quem trabalha menos de 40 horas por semana e quer trabalhar mais, e quem queria trabalhar mas não procurou ou não podia começar na hora.",
@@ -114,7 +157,7 @@
       "pergunta": "Quantas pessoas desistiram de procurar trabalho?",
       "unidade": "no {periodo}",
       "opcoes": {
-        "periodos": 12
+        "periodos": 16
       },
       "detalhes": [
         "Desalentados são pessoas de 14 anos ou mais que queriam trabalhar e podiam começar, mas não procuraram porque achavam que não iam encontrar vaga.",
