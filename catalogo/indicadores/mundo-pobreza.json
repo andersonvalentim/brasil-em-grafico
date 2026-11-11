@@ -1,0 +1,24 @@
+{
+  "id": "mundo-pobreza",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Pessoas em pobreza extrema",
+  "nomeTecnico": "Pessoas vivendo com menos de US$ 3,00 por dia (PPC de 2021, % da população)",
+  "unidade": "% da população",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "Banco Mundial",
+    "nome": "Indicadores de Desenvolvimento Mundial",
+    "url": "https://data.worldbank.org/indicator/SI.POV.DDAY",
+    "adaptador": "banco-mundial",
+    "parametros": {
+      "indicador": "SI.POV.DDAY",
+      "anos": 20
+    }
+  }
+}

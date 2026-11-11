@@ -51,7 +51,8 @@
       var w = largura - esq - dir;
       var h = altura - topo - base;
       var max = config.max;
-      var passo = config.passo || max / 5;
+      var min = Math.min(0, config.min || 0);
+      var passo = config.passo || (max - min) / 5;
       var n = config.rotulos.length;
       var formato = config.formato;
       var formatoEixo = config.formatoEixo || formato;
@@ -61,13 +62,14 @@
         return esq + (n === 1 ? w / 2 : (i / (n - 1)) * w);
       }
       function y(v) {
-        return topo + h - (v / max) * h;
+        return topo + h - ((v - min) / (max - min)) * h;
       }
 
       var partes = [];
-      for (var t = 0; t <= max + passo / 1000; t += passo) {
+      for (var t = min; t <= max + passo / 1000; t += passo) {
+        if (Math.abs(t) < passo / 1000) t = 0;
         var yy = y(t).toFixed(1);
-        partes.push('<line class="grade-linha" x1="' + esq + '" x2="' + (esq + w) + '" y1="' + yy + '" y2="' + yy + '"/>');
+        partes.push('<line class="grade-linha' + (t === 0 && min < 0 ? " grade-linha--zero" : "") + '" x1="' + esq + '" x2="' + (esq + w) + '" y1="' + yy + '" y2="' + yy + '"/>');
         partes.push('<text class="eixo-texto" x="' + (esq - 8) + '" y="' + yy + '" text-anchor="end" dominant-baseline="middle">' +
           esc(formatoEixo(t)) + "</text>");
       }

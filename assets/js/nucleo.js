@@ -109,6 +109,8 @@
         return nf(1).format(valor / 1e6) + (opcoes.curto ? " mi" : " milhões");
       case "bilhoes":
         return nf(1).format(valor / 1e9) + (opcoes.curto ? " bi" : " bilhões");
+      case "anos":
+        return nf(casas || 0).format(valor) + (opcoes.curto ? "" : Math.abs(valor) === 1 ? " ano" : " anos");
       case "pessoas":
         if (Math.abs(valor) >= 1e6) return nf(1).format(valor / 1e6) + (opcoes.curto ? " mi" : " milhões de pessoas");
         if (Math.abs(valor) >= 1e3) return nf(0).format(valor / 1e3) + (opcoes.curto ? " mil" : " mil pessoas");
@@ -131,7 +133,7 @@
     }
     if (indicador.formato === "pct") {
       var pontos = nf(casas).format(Math.abs(d));
-      return { sinal: d > 0 ? 1 : -1, texto: pontos + (Math.abs(d) === 1 ? " ponto" : " pontos") + (d > 0 ? " acima" : " abaixo") };
+      return { sinal: d > 0 ? 1 : -1, texto: pontos + (Math.abs(d) < 2 ? " ponto" : " pontos") + (d > 0 ? " acima" : " abaixo") };
     }
     return { sinal: d > 0 ? 1 : -1, texto: BG.formatar(indicador, Math.abs(d)) + (d > 0 ? " a mais" : " a menos") };
   };
@@ -398,7 +400,7 @@
         "<p>O Brasil em Gráfico reúne números públicos oficiais e explica cada um em linguagem simples. É gratuito e apartidário.</p>" +
         '<p style="margin-top:0.75rem">Os números são atualizados automaticamente a partir das fontes oficiais.</p>' +
         "</div><div><h3>Fontes oficiais</h3>" +
-        '<ul class="rodape__fontes"><li>IBGE</li><li>Banco Central do Brasil</li><li>ANP (Agência Nacional do Petróleo)</li><li>ANEEL (Agência Nacional de Energia Elétrica)</li></ul>' +
+        '<ul class="rodape__fontes"><li>IBGE</li><li>Banco Central do Brasil</li><li>ANP (Agência Nacional do Petróleo)</li><li>ANEEL (Agência Nacional de Energia Elétrica)</li><li>FMI (Fundo Monetário Internacional)</li><li>Banco Mundial</li></ul>' +
         '</div></div><div class="container rodape__base"><p>© ' + new Date().getFullYear() + " Brasil em Gráfico · Dados de acesso público</p>" +
         '<p><a href="sobre.html">Sobre os dados</a> · <a href="sobre.html#acessibilidade">Declaração de acessibilidade</a></p></div></footer>' +
         '<div id="aviso" class="aviso-flutuante" role="status" aria-live="polite" hidden></div>';

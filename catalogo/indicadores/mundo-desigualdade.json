@@ -1,0 +1,24 @@
+{
+  "id": "mundo-desigualdade",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Desigualdade de renda",
+  "nomeTecnico": "Índice de Gini (0 = todos com a mesma renda; 100 = toda a renda com uma pessoa)",
+  "unidade": "pontos",
+  "formato": "numero",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "Banco Mundial",
+    "nome": "Indicadores de Desenvolvimento Mundial",
+    "url": "https://data.worldbank.org/indicator/SI.POV.GINI",
+    "adaptador": "banco-mundial",
+    "parametros": {
+      "indicador": "SI.POV.GINI",
+      "anos": 20
+    }
+  }
+}

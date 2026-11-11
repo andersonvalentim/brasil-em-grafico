@@ -1,0 +1,314 @@
+{
+  "id": "mundo",
+  "status": "ativo",
+  "ordem": 10,
+  "titulo": "Brasil e o mundo: como o país se compara",
+  "nomeCurto": "Brasil e o mundo",
+  "icone": "globo",
+  "azulejo": "azulejo",
+  "descricao": "Crescimento, preços, renda, trabalho, pobreza e vida: o Brasil ao lado da América Latina e do resto do mundo, com dados do FMI e do Banco Mundial.",
+  "palavras": [
+    "mundo",
+    "america latina",
+    "fmi",
+    "banco mundial",
+    "paises",
+    "comparar",
+    "internacional"
+  ],
+  "secoes": [
+    {
+      "id": "america-latina",
+      "titulo": "O Brasil e a América Latina",
+      "texto": "O Brasil ao lado da média da América Latina e Caribe e de cada país da região."
+    },
+    {
+      "id": "mundo",
+      "titulo": "O Brasil e o mundo",
+      "texto": "O Brasil ao lado da média mundial e das maiores economias do planeta, as do G20."
+    }
+  ],
+  "cartoes": [
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-pib",
+      "visual": "comparacao-paises",
+      "pergunta": "A economia do Brasil cresce mais ou menos que a da América Latina?",
+      "unidade": "de crescimento do PIB",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "América Latina e Caribe"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "O PIB é a soma de tudo o que o país produz no ano. O crescimento mostra quanto essa produção aumentou em relação ao ano anterior, já descontada a inflação.",
+        "Os números são do World Economic Outlook, o relatório de perspectivas da economia mundial que o FMI publica em abril e outubro. A média de cada região é ponderada pelo tamanho de cada economia.",
+        "Os anos a partir do atual são projeções do FMI: aparecem no texto e na tabela, e não no gráfico."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-inflacao",
+      "visual": "ranking-paises",
+      "pergunta": "Onde os preços sobem mais na América Latina?",
+      "unidade": "de inflação",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Bolívia",
+          "Chile",
+          "Colômbia",
+          "Costa Rica",
+          "República Dominicana",
+          "Equador",
+          "El Salvador",
+          "Guatemala",
+          "Honduras",
+          "México",
+          "Nicarágua",
+          "Panamá",
+          "Paraguai",
+          "Peru",
+          "Uruguai",
+          "Venezuela"
+        ],
+        "referencias": [
+          "América Latina e Caribe"
+        ],
+        "idadeMaxima": 3
+      },
+      "detalhes": [
+        "A inflação mostra quanto os preços ao consumidor subiram, em média, no ano.",
+        "A média da América Latina e Caribe fica bem acima da maioria dos países porque é puxada por poucos países com inflação muito alta, como a Argentina e a Venezuela. Por isso vale olhar cada país no ranking.",
+        "Os números são do World Economic Outlook, o relatório de perspectivas da economia mundial que o FMI publica em abril e outubro. A média de cada região é ponderada pelo tamanho de cada economia."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-renda",
+      "visual": "ranking-paises",
+      "pergunta": "Como a renda por pessoa do Brasil se compara à dos vizinhos?",
+      "unidade": "dólares internacionais por pessoa",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Bolívia",
+          "Chile",
+          "Colômbia",
+          "Costa Rica",
+          "República Dominicana",
+          "Equador",
+          "El Salvador",
+          "Guatemala",
+          "Honduras",
+          "México",
+          "Nicarágua",
+          "Panamá",
+          "Paraguai",
+          "Peru",
+          "Uruguai",
+          "Venezuela"
+        ],
+        "referencias": [
+          "América Latina e Caribe"
+        ],
+        "idadeMaxima": 3
+      },
+      "detalhes": [
+        "A renda por pessoa é o PIB dividido pela população. Para comparar países com moedas e custos de vida diferentes, o Banco Mundial converte tudo em dólares internacionais, que compram a mesma cesta de produtos em qualquer país (paridade de poder de compra).",
+        "É uma média: não mostra como a renda está dividida entre as pessoas. Para isso, veja o cartão da desigualdade.",
+        "Os números são dos Indicadores de Desenvolvimento Mundial, a base de dados do Banco Mundial que reúne estatísticas oficiais de cada país em um formato comparável."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-desigualdade",
+      "visual": "ranking-paises",
+      "pergunta": "Como a desigualdade de renda no Brasil se compara à da região?",
+      "unidade": "no índice de Gini",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Bolívia",
+          "Chile",
+          "Colômbia",
+          "Costa Rica",
+          "República Dominicana",
+          "Equador",
+          "El Salvador",
+          "Guatemala",
+          "Honduras",
+          "México",
+          "Nicarágua",
+          "Panamá",
+          "Paraguai",
+          "Peru",
+          "Uruguai",
+          "Venezuela"
+        ],
+        "idadeMaxima": 10
+      },
+      "detalhes": [
+        "O índice de Gini vai de 0 a 100. Zero seria todo mundo com a mesma renda; 100 seria toda a renda com uma só pessoa. Quanto maior, mais desigual.",
+        "Cada país faz a sua pesquisa em anos diferentes, por isso o ano aparece ao lado do nome quando não é o mesmo do Brasil. Países sem pesquisa nos últimos 10 anos ficam de fora.",
+        "Os números são dos Indicadores de Desenvolvimento Mundial, a base de dados do Banco Mundial que reúne estatísticas oficiais de cada país em um formato comparável."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-desemprego",
+      "visual": "comparacao-paises",
+      "pergunta": "O desemprego no Brasil é maior ou menor que na América Latina?",
+      "unidade": "de desemprego",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "América Latina e Caribe"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "Para comparar países, o Banco Mundial usa uma estimativa da Organização Internacional do Trabalho (OIT) com a mesma regra para todos. Por isso o número do Brasil pode ser um pouco diferente do divulgado pelo IBGE, que aparece no tema Trabalho.",
+        "Os números são dos Indicadores de Desenvolvimento Mundial, a base de dados do Banco Mundial que reúne estatísticas oficiais de cada país em um formato comparável."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-pobreza",
+      "visual": "comparacao-paises",
+      "pergunta": "Quanta gente vive na pobreza extrema no Brasil e na América Latina?",
+      "unidade": "da população",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "América Latina e Caribe"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "Pobreza extrema, pela linha internacional do Banco Mundial, é viver com menos de US$ 3,00 por dia por pessoa, em dólares que compram o mesmo em qualquer país (preços de 2021).",
+        "Os números são dos Indicadores de Desenvolvimento Mundial, a base de dados do Banco Mundial que reúne estatísticas oficiais de cada país em um formato comparável."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-pib",
+      "visual": "comparacao-paises",
+      "pergunta": "A economia do Brasil cresce mais ou menos que a do mundo?",
+      "unidade": "de crescimento do PIB",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "Mundo"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "O crescimento do PIB mostra quanto a produção do país aumentou em relação ao ano anterior, já descontada a inflação.",
+        "Os números são do World Economic Outlook, o relatório de perspectivas da economia mundial que o FMI publica em abril e outubro. A média de cada região é ponderada pelo tamanho de cada economia.",
+        "Os anos a partir do atual são projeções do FMI: aparecem no texto e na tabela, e não no gráfico."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-renda",
+      "visual": "ranking-paises",
+      "pergunta": "Como a renda por pessoa do Brasil se compara à das maiores economias?",
+      "unidade": "dólares internacionais por pessoa",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Austrália",
+          "Canadá",
+          "China",
+          "França",
+          "Alemanha",
+          "Índia",
+          "Indonésia",
+          "Itália",
+          "Japão",
+          "Coreia do Sul",
+          "México",
+          "Rússia",
+          "Arábia Saudita",
+          "África do Sul",
+          "Turquia",
+          "Reino Unido",
+          "Estados Unidos"
+        ],
+        "referencias": [
+          "Mundo"
+        ],
+        "idadeMaxima": 3
+      },
+      "detalhes": [
+        "O G20 reúne as maiores economias do mundo. A União Europeia e a União Africana participam como blocos e não entram no ranking.",
+        "A renda por pessoa é o PIB dividido pela população, em dólares internacionais, que compram a mesma cesta de produtos em qualquer país.",
+        "Os números são dos Indicadores de Desenvolvimento Mundial, a base de dados do Banco Mundial que reúne estatísticas oficiais de cada país em um formato comparável."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-inflacao",
+      "visual": "comparacao-paises",
+      "pergunta": "Os preços sobem mais no Brasil ou no mundo?",
+      "unidade": "de inflação",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "Mundo"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "A inflação mostra quanto os preços ao consumidor subiram, em média, no ano.",
+        "Os números são do World Economic Outlook, o relatório de perspectivas da economia mundial que o FMI publica em abril e outubro. A média de cada região é ponderada pelo tamanho de cada economia."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-divida",
+      "visual": "comparacao-paises",
+      "pergunta": "A dívida do governo brasileiro é maior ou menor que a média do mundo?",
+      "unidade": "do PIB",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "Mundo",
+          "América Latina e Caribe"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "A dívida bruta soma tudo o que os governos federal, estaduais e municipais devem. Ela é comparada ao PIB para mostrar o tamanho da dívida em relação à economia.",
+        "O FMI usa uma regra internacional igual para todos os países, por isso o número pode ser diferente do divulgado pelo Banco Central do Brasil.",
+        "Os números são do World Economic Outlook, o relatório de perspectivas da economia mundial que o FMI publica em abril e outubro. A média de cada região é ponderada pelo tamanho de cada economia."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-vida",
+      "visual": "comparacao-paises",
+      "pergunta": "Quanto tempo se vive, em média, no Brasil e no mundo?",
+      "unidade": "de expectativa de vida",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "Mundo",
+          "América Latina e Caribe"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "A expectativa de vida ao nascer é quantos anos, em média, uma pessoa nascida naquele ano viveria se as condições de saúde continuassem as mesmas.",
+        "Os números são dos Indicadores de Desenvolvimento Mundial, a base de dados do Banco Mundial que reúne estatísticas oficiais de cada país em um formato comparável."
+      ]
+    }
+  ]
+}

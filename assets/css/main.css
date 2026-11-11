@@ -1410,6 +1410,11 @@ select {
   stroke-width: 1;
 }
 
+.grafico-linha .grade-linha--zero {
+  stroke: var(--cor-texto-suave);
+  stroke-width: 1.5;
+}
+
 .grafico-linha .rotulo-final {
   fill: var(--cor-texto);
   font-family: var(--fonte-texto);

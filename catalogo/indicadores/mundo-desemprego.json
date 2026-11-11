@@ -1,0 +1,24 @@
+{
+  "id": "mundo-desemprego",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Pessoas que procuram trabalho e não encontram",
+  "nomeTecnico": "Taxa de desemprego, estimativa modelada da OIT (% da força de trabalho)",
+  "unidade": "%",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "Banco Mundial",
+    "nome": "Indicadores de Desenvolvimento Mundial",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+    "adaptador": "banco-mundial",
+    "parametros": {
+      "indicador": "SL.UEM.TOTL.ZS",
+      "anos": 15
+    }
+  }
+}

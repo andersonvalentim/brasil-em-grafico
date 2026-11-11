@@ -1,0 +1,24 @@
+{
+  "id": "mundo-renda",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Renda por pessoa, em dólares que compram o mesmo em todo país",
+  "nomeTecnico": "PIB per capita em paridade de poder de compra (dólares internacionais constantes de 2021)",
+  "unidade": "dólares internacionais",
+  "formato": "numero",
+  "casas": 0,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "Banco Mundial",
+    "nome": "Indicadores de Desenvolvimento Mundial",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD",
+    "adaptador": "banco-mundial",
+    "parametros": {
+      "indicador": "NY.GDP.PCAP.PP.KD",
+      "anos": 15
+    }
+  }
+}

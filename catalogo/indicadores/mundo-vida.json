@@ -1,0 +1,24 @@
+{
+  "id": "mundo-vida",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Quantos anos uma pessoa vive, em média",
+  "nomeTecnico": "Expectativa de vida ao nascer (anos)",
+  "unidade": "anos",
+  "formato": "anos",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "Banco Mundial",
+    "nome": "Indicadores de Desenvolvimento Mundial",
+    "url": "https://data.worldbank.org/indicator/SP.DYN.LE00.IN",
+    "adaptador": "banco-mundial",
+    "parametros": {
+      "indicador": "SP.DYN.LE00.IN",
+      "anos": 15
+    }
+  }
+}

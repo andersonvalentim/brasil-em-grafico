@@ -171,10 +171,18 @@
     return { id: doEstado && temEstado ? "estado" : "brasil", faltou: doEstado && !temEstado };
   }
 
-  function montarSecoesDoTema(lista, cartoes) {
+  function montarSecoesDoTema(lista, cartoes, secoesDoTema) {
+    var secoes = SECOES;
+    var classificar = secaoDoCartao;
+    if (Array.isArray(secoesDoTema) && secoesDoTema.length) {
+      secoes = secoesDoTema.map(function (s) {
+        return { id: s.id, titulo: function () { return s.titulo; }, texto: function () { return s.texto || ""; } };
+      });
+      classificar = function (c) { return { id: c.secao || secoes[0].id }; };
+    }
     lista.innerHTML = "";
     var blocos = {};
-    SECOES.forEach(function (s) {
+    secoes.forEach(function (s) {
       var bloco = document.createElement("section");
       bloco.className = "bloco-tema";
       bloco.setAttribute("aria-labelledby", "secao-" + s.id);
@@ -198,7 +206,8 @@
         var usadas = {};
         var faltou = false;
         itens.forEach(function (it, i) {
-          var s = rs[i] ? secaoDoCartao(it.cfg, rs[i][0], rs[i][1], estado) : { id: "brasil" };
+          var s = rs[i] ? classificar(it.cfg, rs[i][0], rs[i][1], estado) : { id: secoes[0].id };
+          if (!blocos[s.id]) s = { id: secoes[0].id };
           usadas[s.id] = true;
           if (s.faltou) faltou = true;
           var destino = BG.$(".bloco-tema__cartoes", blocos[s.id]);
@@ -209,7 +218,7 @@
             destino.appendChild(it.artigo);
           }
         });
-        SECOES.forEach(function (s) {
+        secoes.forEach(function (s) {
           var bloco = blocos[s.id];
           bloco.hidden = !usadas[s.id];
           BG.$("h2", bloco).textContent = s.titulo(estado);
@@ -231,7 +240,7 @@
       BG.$("[data-tema-titulo]").textContent = t.titulo;
       BG.$("[data-tema-descricao]").textContent = t.descricao;
       BG.$("[data-tema-migalha]").textContent = t.nomeCurto || t.titulo;
-      return montarSecoesDoTema(BG.$("#cartoes"), t.cartoes).then(irParaPergunta);
+      return montarSecoesDoTema(BG.$("#cartoes"), t.cartoes, t.secoes).then(irParaPergunta);
     }).catch(function (erro) {
       console.error(erro);
       cabecalho.innerHTML = '<div><h1>Tema não encontrado</h1><p>Esse tema ainda não existe ou está em preparação. <a href="index.html#temas">Ver todos os temas</a>.</p></div>';
