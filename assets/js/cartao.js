@@ -147,12 +147,13 @@
       (aviso.proximo ? ' <a href="meu-estado.html?uf=' + aviso.proximo.uf + '">Ver ' + esc(BG.deNome(aviso.proximo)) + "</a>" : "") + "</p></div>";
   }
 
-  function blocoPainel(ctx, visual) {
+  function blocoPainel(ctx, visual, nivel) {
     if (visual.semGrafico) return "";
     var titulo = visual.titulo ? visual.titulo(ctx) : null;
     var legenda = visual.legenda ? visual.legenda(ctx) : [];
+    var h = "h" + (nivel || 3);
     return '<div class="painel-grafico">' +
-      (titulo ? '<div class="painel-grafico__titulo"><h3>' + esc(titulo.texto || titulo) + "</h3>" + (titulo.sub ? "<p>" + esc(titulo.sub) + "</p>" : "") + "</div>" : "") +
+      (titulo ? '<div class="painel-grafico__titulo"><' + h + ' class="painel-grafico__h">' + esc(titulo.texto || titulo) + "</" + h + ">" + (titulo.sub ? "<p>" + esc(titulo.sub) + "</p>" : "") + "</div>" : "") +
       (legenda.length ? '<ul class="legenda">' + legenda.map(function (l) {
         return '<li><span class="legenda__amostra' + (l.tipo && l.tipo !== "dado" ? " legenda__amostra--" + l.tipo : "") + '" aria-hidden="true"></span>' + esc(l.rotulo) + "</li>";
       }).join("") + "</ul>" : "") +
@@ -189,9 +190,10 @@
         '<div class="tabela-envoltorio" id="' + idTabela + '" tabindex="-1" hidden></div>' + linhaFonte(ctx) +
         '<div class="mini-card__acoes">' + botoesAcoes(idTabela, temTabela) + "</div>";
     } else {
-      html = '<div class="grafico-card__topo"><div>' + etiqueta + "<h2 data-falar>" + esc(pergunta) + "</h2></div>" +
+      var nivel = c.nivel === 3 ? 3 : 2;
+      html = '<div class="grafico-card__topo"><div>' + etiqueta + "<h" + nivel + ' class="grafico-card__pergunta" data-falar>' + esc(pergunta) + "</h" + nivel + "></div>" +
         '<div class="grafico-card__acoes">' + botoesAcoes(idTabela, temTabela) + "</div></div>" +
-        blocoResposta(r, frase) + blocoAviso(aviso) + blocoPainel(ctx, visual) +
+        blocoResposta(r, frase) + blocoAviso(aviso) + blocoPainel(ctx, visual, nivel + 1) +
         '<div class="tabela-envoltorio" id="' + idTabela + '" tabindex="-1" hidden></div>' +
         linhaFonte(ctx) + blocoDetalhes(ctx, idTabela, temTabela);
     }

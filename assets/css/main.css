@@ -1239,7 +1239,26 @@ select {
 
 #cartoes {
   display: grid;
+  gap: calc(var(--espaco-xl) * 1.5);
+}
+
+.bloco-tema__cabecalho {
+  display: grid;
+  gap: 0.375rem;
+  margin-bottom: var(--espaco-lg);
+}
+
+.bloco-tema__cabecalho p {
+  max-width: 65ch;
+}
+
+.bloco-tema__cartoes {
+  display: grid;
   gap: var(--espaco-xl);
+}
+
+.bloco-tema__cartoes > .grafico-card + .grafico-card {
+  margin-top: 0;
 }
 
 /* ---------- Comparativo ano a ano ---------- */

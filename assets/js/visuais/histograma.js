@@ -32,6 +32,7 @@
 
   BG.visuais.registrar("histograma", {
     escopo: "estado",
+    comparaEstados: true,
 
     resposta: function (ctx) {
       var f = faixas(ctx);

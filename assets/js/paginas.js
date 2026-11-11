@@ -137,7 +137,90 @@
     setTimeout(rolar, 700);
   }
 
-  /* ---------- Tema ---------- */
+  /* ---------- Tema: cartões separados entre o seu estado, o Brasil e a comparação entre estados ---------- */
+
+  var SECOES = [
+    {
+      id: "estado",
+      titulo: function (e) { return BG.cap(BG.emNome(e)); },
+      texto: function (e) { return "Os números " + BG.deNome(e) + ", comparados com a média do Brasil."; }
+    },
+    {
+      id: "brasil",
+      titulo: function () { return "No Brasil como um todo"; },
+      texto: function (e, faltou) {
+        return "Números do país inteiro." + (faltou ? " Alguns deles o órgão oficial não mede " + BG.emNome(e) + ", por isso aparecem só para o Brasil." : "");
+      }
+    },
+    {
+      id: "estados",
+      titulo: function () { return "Comparando os estados"; },
+      texto: function (e) { return "Todos os estados lado a lado, com " + ({ no: "o ", na: "a " }[e.prep] || "") + e.nome + " em destaque."; }
+    }
+  ];
+
+  function escopoDoVisual(visual, c) {
+    return typeof visual.escopo === "function" ? visual.escopo(c) : visual.escopo;
+  }
+
+  function secaoDoCartao(c, r, visual, estado) {
+    if (c.secao) return { id: c.secao };
+    if (visual.comparaEstados) return { id: "estados" };
+    var temEstado = r.dados.observacoes.some(function (o) { return o.local === estado.uf; });
+    var doEstado = (c.escopo || escopoDoVisual(visual, c)) === "estado";
+    return { id: doEstado && temEstado ? "estado" : "brasil", faltou: doEstado && !temEstado };
+  }
+
+  function montarSecoesDoTema(lista, cartoes) {
+    lista.innerHTML = "";
+    var blocos = {};
+    SECOES.forEach(function (s) {
+      var bloco = document.createElement("section");
+      bloco.className = "bloco-tema";
+      bloco.setAttribute("aria-labelledby", "secao-" + s.id);
+      bloco.hidden = true;
+      bloco.innerHTML = '<header class="bloco-tema__cabecalho"><h2 class="titulo-secao" id="secao-' + s.id + '"></h2><p class="texto-suave"></p></header>' +
+        '<div class="bloco-tema__cartoes"></div>';
+      lista.appendChild(bloco);
+      blocos[s.id] = bloco;
+    });
+
+    var itens = cartoes.map(function (c, i) {
+      return {
+        cfg: Object.assign({ id: "pergunta-" + (i + 1), nivel: 3 }, c),
+        pronto: Promise.all([BG.catalogo.completo(c.indicador), BG.visuais.obter(c.visual)]).catch(function () { return null; })
+      };
+    });
+
+    function organizar() {
+      var estado = BG.estado.atual();
+      return Promise.all(itens.map(function (it) { return it.pronto; })).then(function (rs) {
+        var usadas = {};
+        var faltou = false;
+        itens.forEach(function (it, i) {
+          var s = rs[i] ? secaoDoCartao(it.cfg, rs[i][0], rs[i][1], estado) : { id: "brasil" };
+          usadas[s.id] = true;
+          if (s.faltou) faltou = true;
+          var destino = BG.$(".bloco-tema__cartoes", blocos[s.id]);
+          if (!it.artigo) {
+            BG.cartao(destino, it.cfg, "grande");
+            it.artigo = document.getElementById(it.cfg.id);
+          } else {
+            destino.appendChild(it.artigo);
+          }
+        });
+        SECOES.forEach(function (s) {
+          var bloco = blocos[s.id];
+          bloco.hidden = !usadas[s.id];
+          BG.$("h2", bloco).textContent = s.titulo(estado);
+          BG.$("p", bloco).textContent = s.texto(estado, faltou);
+        });
+      });
+    }
+
+    document.addEventListener("bg:estado", organizar);
+    return organizar();
+  }
 
   BG.paginas.tema = function () {
     var id = BG.parametro("id") || "precos";
@@ -148,12 +231,7 @@
       BG.$("[data-tema-titulo]").textContent = t.titulo;
       BG.$("[data-tema-descricao]").textContent = t.descricao;
       BG.$("[data-tema-migalha]").textContent = t.nomeCurto || t.titulo;
-      var lista = BG.$("#cartoes");
-      t.cartoes.forEach(function (c, i) {
-        var cfg = Object.assign({ id: "pergunta-" + (i + 1), etiqueta: "Pergunta " + (i + 1) }, c);
-        BG.cartao(lista, cfg, "grande");
-      });
-      irParaPergunta();
+      return montarSecoesDoTema(BG.$("#cartoes"), t.cartoes).then(irParaPergunta);
     }).catch(function (erro) {
       console.error(erro);
       cabecalho.innerHTML = '<div><h1>Tema não encontrado</h1><p>Esse tema ainda não existe ou está em preparação. <a href="index.html#temas">Ver todos os temas</a>.</p></div>';

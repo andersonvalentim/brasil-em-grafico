@@ -34,6 +34,7 @@
 
   BG.visuais.registrar("ranking-uf", {
     escopo: "estado",
+    comparaEstados: true,
 
     resposta: function (ctx) {
       var it = itens(ctx);
