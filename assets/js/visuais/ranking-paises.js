@@ -17,17 +17,32 @@
   }
 
   function nomeDaMedia(nome) {
-    return ({ "Mundo": "Média do mundo", "América Latina e Caribe": "Média da América Latina e Caribe" })[nome] || "Média: " + nome;
+    return ({
+      "Mundo": "Média do mundo",
+      "América Latina e Caribe": "Média da América Latina e Caribe",
+      "OCDE": "Média dos países da OCDE",
+      "Américas": "Média das Américas"
+    })[nome] || "Média: " + nome;
+  }
+
+  function ano(p) {
+    return Number(String(p).slice(0, 4));
+  }
+
+  function quando(p) {
+    return /^\d{4}$/.test(p) ? p : BG.periodo.curto(p);
   }
 
   function montar(ctx) {
     var brasil = ultimo(ctx, "Brasil");
-    var anoRef = brasil ? Number(brasil.periodo) : null;
+    var periodoRef = brasil ? brasil.periodo : null;
+    var anoRef = brasil ? ano(brasil.periodo) : null;
     var idade = ctx.opcoes.idadeMaxima != null ? ctx.opcoes.idadeMaxima : 10;
     var fora = [];
     var paises = (ctx.opcoes.paises || []).map(function (nome) {
       var o = ultimo(ctx, nome);
-      if (!o || (anoRef && anoRef - Number(o.periodo) > idade)) { fora.push(nome); return null; }
+      if (!o) return null;
+      if (anoRef && anoRef - ano(o.periodo) > idade) { fora.push(nome); return null; }
       return { nome: nome, obs: o };
     }).filter(Boolean).sort(function (a, b) { return b.obs.valor - a.obs.valor; });
 
@@ -41,13 +56,13 @@
     paises.forEach(function (p) {
       refs.forEach(function (r) {
         if (!postas[r.nome] && r.obs.valor > p.obs.valor) {
-          lista.push({ rotulo: nomeDaMedia(r.nome) + (Number(r.obs.periodo) !== anoRef ? " (" + r.obs.periodo + ")" : ""), valor: r.obs.valor, texto: ctx.formatar(r.obs.valor), tipo: "brasil", referencia: true });
+          lista.push({ rotulo: nomeDaMedia(r.nome) + (r.obs.periodo !== periodoRef ? " (" + quando(r.obs.periodo) + ")" : ""), valor: r.obs.valor, texto: ctx.formatar(r.obs.valor), tipo: "brasil", referencia: true });
           postas[r.nome] = true;
         }
       });
       var eBrasil = p.nome === "Brasil";
       lista.push({
-        rotulo: p.nome + (Number(p.obs.periodo) !== anoRef ? " (" + p.obs.periodo + ")" : ""),
+        rotulo: p.nome + (p.obs.periodo !== periodoRef ? " (" + quando(p.obs.periodo) + ")" : ""),
         valor: p.obs.valor,
         texto: ctx.formatar(p.obs.valor),
         tipo: eBrasil ? "destaque" : "",
@@ -68,12 +83,12 @@
       if (!m.brasil) return null;
       var r = {
         numero: ctx.formatar(m.brasil.valor),
-        unidade: (ctx.cartao.unidade ? ctx.texto(ctx.cartao.unidade) + " " : "") + "no Brasil, em " + m.brasil.periodo,
+        unidade: (ctx.cartao.unidade ? ctx.texto(ctx.cartao.unidade) + " " : "") + "no Brasil, em " + BG.periodo.longo(m.brasil.periodo),
         destaque: true,
         pill: { texto: "Brasil: " + m.posicao + "º lugar entre " + m.paises.length + " países", icone: "comparar", neutra: true }
       };
       var frases = m.refs.map(function (ref) { return nomeDaMedia(ref.nome) + ": " + ctx.formatar(ref.obs.valor) + "."; });
-      if (m.fora.length) frases.push("Ficam de fora os países sem dado nos últimos " + (ctx.opcoes.idadeMaxima != null ? ctx.opcoes.idadeMaxima : 10) + " anos: " + m.fora.join(", ") + ".");
+      if (m.fora.length) frases.push("Ficam de fora os países sem dado recente: " + m.fora.join(", ") + ".");
       r.frase = frases.join(" ");
       return r;
     },

@@ -1,0 +1,27 @@
+{
+  "id": "mundo-homicidios",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Assassinatos para cada 100 mil habitantes",
+  "nomeTecnico": "Vítimas de homicídio doloso por 100 mil habitantes (ODS 16.1.1, UNODC)",
+  "unidade": "por 100 mil habitantes",
+  "formato": "numero",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "ONU",
+    "nome": "Base global dos Objetivos de Desenvolvimento Sustentável",
+    "url": "https://unstats.un.org/sdgs/dataportal/database",
+    "adaptador": "onu-ods",
+    "parametros": {
+      "serie": "VC_IHR_PSRC",
+      "dimensoes": {
+        "Sex": "BOTHSEX"
+      },
+      "anos": 15
+    }
+  }
+}

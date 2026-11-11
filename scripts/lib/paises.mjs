@@ -44,6 +44,24 @@ export const G20 = ['BRA', 'ARG', 'AUS', 'CAN', 'CHN', 'FRA', 'DEU', 'IND', 'IDN
 
 export const MEDIA_AMERICA_LATINA = 'América Latina e Caribe';
 export const MEDIA_MUNDO = 'Mundo';
+export const MEDIA_OCDE = 'OCDE';
+export const MEDIA_AMERICAS = 'Américas';
+
+/** Códigos numéricos da ONU (M49), usados pela base dos Objetivos de Desenvolvimento Sustentável. */
+export const M49 = {
+  BRA: 76, ARG: 32, BOL: 68, CHL: 152, COL: 170, CRI: 188, DOM: 214, ECU: 218, SLV: 222, GTM: 320,
+  HND: 340, MEX: 484, NIC: 558, PAN: 591, PRY: 600, PER: 604, URY: 858, VEN: 862, USA: 840, CHN: 156,
+  IND: 356, DEU: 276, JPN: 392, GBR: 826, FRA: 250, ITA: 380, CAN: 124, KOR: 410, AUS: 36, RUS: 643,
+  IDN: 360, TUR: 792, SAU: 682, ZAF: 710,
+};
+
+/** Códigos de duas letras (ISO 3166-1), usados pelo BIS. */
+export const ISO2 = {
+  BRA: 'BR', ARG: 'AR', BOL: 'BO', CHL: 'CL', COL: 'CO', CRI: 'CR', DOM: 'DO', ECU: 'EC', SLV: 'SV', GTM: 'GT',
+  HND: 'HN', MEX: 'MX', NIC: 'NI', PAN: 'PA', PRY: 'PY', PER: 'PE', URY: 'UY', VEN: 'VE', USA: 'US', CHN: 'CN',
+  IND: 'IN', DEU: 'DE', JPN: 'JP', GBR: 'GB', FRA: 'FR', ITA: 'IT', CAN: 'CA', KOR: 'KR', AUS: 'AU', RUS: 'RU',
+  IDN: 'ID', TUR: 'TR', SAU: 'SA', ZAF: 'ZA',
+};
 
 export function paisesDosGrupos(grupos = ['america-latina', 'g20']) {
   const lista = new Set();

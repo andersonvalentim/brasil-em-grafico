@@ -400,7 +400,7 @@
         "<p>O Brasil em Gráfico reúne números públicos oficiais e explica cada um em linguagem simples. É gratuito e apartidário.</p>" +
         '<p style="margin-top:0.75rem">Os números são atualizados automaticamente a partir das fontes oficiais.</p>' +
         "</div><div><h3>Fontes oficiais</h3>" +
-        '<ul class="rodape__fontes"><li>IBGE</li><li>Banco Central do Brasil</li><li>ANP (Agência Nacional do Petróleo)</li><li>ANEEL (Agência Nacional de Energia Elétrica)</li><li>FMI (Fundo Monetário Internacional)</li><li>Banco Mundial</li></ul>' +
+        '<ul class="rodape__fontes"><li>IBGE</li><li>Banco Central do Brasil</li><li>ANP (Agência Nacional do Petróleo)</li><li>ANEEL (Agência Nacional de Energia Elétrica)</li><li>FMI (Fundo Monetário Internacional)</li><li>Banco Mundial</li><li>OCDE</li><li>OMS (Organização Mundial da Saúde)</li><li>BIS (Banco de Compensações Internacionais)</li><li>ONU</li></ul>' +
         '</div></div><div class="container rodape__base"><p>© ' + new Date().getFullYear() + " Brasil em Gráfico · Dados de acesso público</p>" +
         '<p><a href="sobre.html">Sobre os dados</a> · <a href="sobre.html#acessibilidade">Declaração de acessibilidade</a></p></div></footer>' +
         '<div id="aviso" class="aviso-flutuante" role="status" aria-live="polite" hidden></div>';

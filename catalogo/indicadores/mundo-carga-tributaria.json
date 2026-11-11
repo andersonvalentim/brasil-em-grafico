@@ -1,0 +1,29 @@
+{
+  "id": "mundo-carga-tributaria",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Impostos em relação ao tamanho da economia",
+  "nomeTecnico": "Receita tributária total do governo geral (% do PIB), Global Revenue Statistics",
+  "unidade": "% do PIB",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "OCDE",
+    "nome": "Global Revenue Statistics",
+    "url": "https://data-explorer.oecd.org/vis?df[ds]=dsDisseminateFinalDMZ&df[id]=DSD_REV_COMP_GLOBAL%40DF_RSGLOBAL&df[ag]=OECD.CTP.TPS",
+    "adaptador": "ocde",
+    "parametros": {
+      "dataflow": "OECD.CTP.TPS,DSD_REV_COMP_GLOBAL@DF_RSGLOBAL,",
+      "chave": ".TAX_REV.S13._T._T.PT_B1GQ.A",
+      "medias": {
+        "A9": "América Latina e Caribe",
+        "OECD_REP": "OCDE"
+      },
+      "anos": 15
+    }
+  }
+}

@@ -6,7 +6,7 @@
   "nomeCurto": "Brasil e o mundo",
   "icone": "globo",
   "azulejo": "azulejo",
-  "descricao": "Crescimento, preços, renda, trabalho, pobreza e vida: o Brasil ao lado da América Latina e do resto do mundo, com dados do FMI e do Banco Mundial.",
+  "descricao": "Economia, impostos, juros, saúde, segurança e qualidade de vida: o Brasil ao lado da América Latina e do resto do mundo, com dados do FMI, do Banco Mundial, da OCDE, da OMS, do BIS e da ONU.",
   "palavras": [
     "mundo",
     "america latina",
@@ -25,7 +25,7 @@
     {
       "id": "mundo",
       "titulo": "O Brasil e o mundo",
-      "texto": "O Brasil ao lado da média mundial e das maiores economias do planeta, as do G20."
+      "texto": "O Brasil ao lado da média mundial, dos países da OCDE e das maiores economias do planeta, as do G20."
     }
   ],
   "cartoes": [
@@ -196,6 +196,143 @@
       ]
     },
     {
+      "secao": "america-latina",
+      "indicador": "mundo-carga-tributaria",
+      "visual": "ranking-paises",
+      "pergunta": "O Brasil cobra mais ou menos impostos que os vizinhos?",
+      "unidade": "do PIB em impostos",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Bolívia",
+          "Chile",
+          "Colômbia",
+          "Costa Rica",
+          "República Dominicana",
+          "Equador",
+          "El Salvador",
+          "Guatemala",
+          "Honduras",
+          "México",
+          "Nicarágua",
+          "Panamá",
+          "Paraguai",
+          "Peru",
+          "Uruguai",
+          "Venezuela"
+        ],
+        "referencias": [
+          "América Latina e Caribe",
+          "OCDE"
+        ],
+        "idadeMaxima": 3
+      },
+      "detalhes": [
+        "A carga tributária soma todos os impostos e contribuições cobrados pelos governos federal, estaduais e municipais, inclusive a previdência, e compara com o tamanho da economia (PIB).",
+        "Os números são da Global Revenue Statistics, a base da OCDE que compara a arrecadação de impostos de mais de 100 países com a mesma regra. O Brasil não é membro da OCDE, mas participa das estatísticas."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-mortalidade-infantil",
+      "visual": "ranking-paises",
+      "pergunta": "Quantos bebês morrem antes de 1 ano no Brasil e nos vizinhos?",
+      "unidade": "mortes por mil nascidos vivos",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Bolívia",
+          "Chile",
+          "Colômbia",
+          "Costa Rica",
+          "República Dominicana",
+          "Equador",
+          "El Salvador",
+          "Guatemala",
+          "Honduras",
+          "México",
+          "Nicarágua",
+          "Panamá",
+          "Paraguai",
+          "Peru",
+          "Uruguai",
+          "Venezuela"
+        ],
+        "referencias": [
+          "Américas"
+        ],
+        "idadeMaxima": 3
+      },
+      "detalhes": [
+        "A mortalidade infantil conta quantos bebês, de cada mil que nascem vivos, morrem antes de completar 1 ano. É um dos indicadores mais usados para medir a saúde e as condições de vida.",
+        "Os números são do Global Health Observatory, a base de dados da Organização Mundial da Saúde (OMS). A região das Américas da OMS inclui também os Estados Unidos e o Canadá."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-homicidios",
+      "visual": "ranking-paises",
+      "pergunta": "Como os assassinatos no Brasil se comparam aos da América Latina?",
+      "unidade": "homicídios por 100 mil habitantes",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Bolívia",
+          "Chile",
+          "Colômbia",
+          "Costa Rica",
+          "República Dominicana",
+          "Equador",
+          "El Salvador",
+          "Guatemala",
+          "Honduras",
+          "México",
+          "Nicarágua",
+          "Panamá",
+          "Paraguai",
+          "Peru",
+          "Uruguai",
+          "Venezuela"
+        ],
+        "referencias": [
+          "América Latina e Caribe"
+        ],
+        "idadeMaxima": 5
+      },
+      "detalhes": [
+        "A taxa conta as vítimas de homicídio doloso (com intenção de matar) para cada 100 mil habitantes, o que permite comparar países de tamanhos diferentes.",
+        "Cada país informa seus dados com algum atraso, por isso o ano aparece ao lado do nome quando não é o mesmo do Brasil.",
+        "Os números são da base global dos Objetivos de Desenvolvimento Sustentável da ONU (meta 16.1), compilados pelo Escritório das Nações Unidas sobre Drogas e Crime (UNODC) a partir de dados oficiais de cada país."
+      ]
+    },
+    {
+      "secao": "america-latina",
+      "indicador": "mundo-juros",
+      "visual": "ranking-paises",
+      "pergunta": "Os juros básicos do Brasil são maiores que os dos vizinhos?",
+      "unidade": "ao ano",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Chile",
+          "Colômbia",
+          "México",
+          "Peru"
+        ],
+        "idadeMaxima": 0
+      },
+      "detalhes": [
+        "É a taxa básica de juros definida pelo banco central de cada país; no Brasil, a Selic. Ela serve de base para os juros de empréstimos, financiamentos e investimentos.",
+        "São juros nominais: para comparar o custo real do dinheiro, é preciso descontar a inflação de cada país, que aparece em outro cartão.",
+        "O BIS publica a taxa básica de juros de 6 países da América Latina: Brasil, Argentina, Chile, Colômbia, México e Peru.",
+        "Os números são do Banco de Compensações Internacionais (BIS), uma organização dos bancos centrais do mundo, com a taxa em vigor no fim de cada mês."
+      ]
+    },
+    {
       "secao": "mundo",
       "indicador": "mundo-pib",
       "visual": "comparacao-paises",
@@ -308,6 +445,121 @@
       "detalhes": [
         "A expectativa de vida ao nascer é quantos anos, em média, uma pessoa nascida naquele ano viveria se as condições de saúde continuassem as mesmas.",
         "Os números são dos Indicadores de Desenvolvimento Mundial, a base de dados do Banco Mundial que reúne estatísticas oficiais de cada país em um formato comparável."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-carga-tributaria",
+      "visual": "comparacao-paises",
+      "pergunta": "O Brasil cobra mais ou menos impostos que os países ricos?",
+      "unidade": "do PIB em impostos",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "OCDE",
+          "América Latina e Caribe"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "A OCDE reúne 38 países, a maioria de renda alta, como Estados Unidos, Alemanha, Japão, Chile e México. A comparação mostra a média desses países.",
+        "A carga tributária soma todos os impostos e contribuições, inclusive a previdência, em relação ao tamanho da economia (PIB).",
+        "Os números são da Global Revenue Statistics, a base da OCDE que compara a arrecadação de impostos de mais de 100 países com a mesma regra. O Brasil não é membro da OCDE, mas participa das estatísticas."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-mortalidade-infantil",
+      "visual": "comparacao-paises",
+      "pergunta": "A mortalidade infantil no Brasil é maior ou menor que a do mundo?",
+      "unidade": "mortes por mil nascidos vivos",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "Mundo",
+          "Américas"
+        ],
+        "anos": 12,
+        "unidadeDiferenca": "mortes por mil nascidos vivos"
+      },
+      "detalhes": [
+        "Conta quantos bebês, de cada mil que nascem vivos, morrem antes de completar 1 ano.",
+        "Os números são do Global Health Observatory, a base de dados da Organização Mundial da Saúde (OMS). A região das Américas da OMS inclui também os Estados Unidos e o Canadá."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-gasto-saude",
+      "visual": "comparacao-paises",
+      "pergunta": "O Brasil gasta mais ou menos com saúde que o resto do mundo?",
+      "unidade": "do PIB",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "Mundo",
+          "Américas"
+        ],
+        "anos": 12
+      },
+      "detalhes": [
+        "Soma o gasto do governo (como o SUS), dos planos de saúde e das famílias com consultas, remédios e internações, e compara com o tamanho da economia (PIB).",
+        "Gastar mais não quer dizer, sozinho, ter melhor saúde: depende de como o dinheiro é usado e de quem tem acesso.",
+        "Os números são do Global Health Observatory, a base de dados da Organização Mundial da Saúde (OMS). A região das Américas da OMS inclui também os Estados Unidos e o Canadá."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-juros",
+      "visual": "ranking-paises",
+      "pergunta": "Os juros básicos do Brasil são maiores que os das maiores economias?",
+      "unidade": "ao ano",
+      "opcoes": {
+        "paises": [
+          "Brasil",
+          "Argentina",
+          "Austrália",
+          "Canadá",
+          "China",
+          "Zona do euro",
+          "Índia",
+          "Indonésia",
+          "Japão",
+          "Coreia do Sul",
+          "México",
+          "Rússia",
+          "Arábia Saudita",
+          "África do Sul",
+          "Turquia",
+          "Reino Unido",
+          "Estados Unidos"
+        ],
+        "idadeMaxima": 0
+      },
+      "detalhes": [
+        "É a taxa básica de juros definida pelo banco central de cada país; no Brasil, a Selic.",
+        "Alemanha, França e Itália usam o euro e têm a mesma taxa, definida pelo Banco Central Europeu: por isso aparecem juntas como zona do euro.",
+        "São juros nominais: para comparar o custo real do dinheiro, é preciso descontar a inflação de cada país.",
+        "Os números são do Banco de Compensações Internacionais (BIS), uma organização dos bancos centrais do mundo, com a taxa em vigor no fim de cada mês."
+      ]
+    },
+    {
+      "secao": "mundo",
+      "indicador": "mundo-homicidios",
+      "visual": "comparacao-paises",
+      "pergunta": "Os assassinatos no Brasil são mais comuns que no resto do mundo?",
+      "unidade": "homicídios por 100 mil habitantes",
+      "opcoes": {
+        "series": [
+          "Brasil",
+          "Mundo",
+          "América Latina e Caribe"
+        ],
+        "anos": 12,
+        "unidadeDiferenca": "homicídios por 100 mil habitantes"
+      },
+      "detalhes": [
+        "A taxa conta as vítimas de homicídio doloso para cada 100 mil habitantes.",
+        "Os números são da base global dos Objetivos de Desenvolvimento Sustentável da ONU (meta 16.1), compilados pelo Escritório das Nações Unidas sobre Drogas e Crime (UNODC) a partir de dados oficiais de cada país."
       ]
     }
   ]

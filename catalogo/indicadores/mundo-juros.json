@@ -1,0 +1,25 @@
+{
+  "id": "mundo-juros",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Taxa básica de juros definida pelo banco central",
+  "nomeTecnico": "Taxa de política monetária dos bancos centrais (% ao ano, fim do mês)",
+  "unidade": "% ao ano",
+  "formato": "pct",
+  "casas": 2,
+  "periodicidade": "mensal",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "BIS",
+    "nome": "Central bank policy rates",
+    "url": "https://data.bis.org/topics/CBPOL",
+    "adaptador": "bis",
+    "parametros": {
+      "dataflow": "WS_CBPOL",
+      "frequencia": "M",
+      "meses": 60
+    }
+  }
+}

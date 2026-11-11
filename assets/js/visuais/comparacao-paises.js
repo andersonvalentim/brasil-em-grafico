@@ -3,6 +3,7 @@
  * Lê uma `categoria` por país ou média e um período por ano.
  * opcoes.series: as categorias, o Brasil primeiro (padrão ["Brasil", "América Latina e Caribe", "Mundo"]).
  * opcoes.anos: quantos anos mostrar (padrão 12).
+ * opcoes.unidadeDiferenca: unidade escrita na diferença (ex.: "mortes por mil nascidos vivos").
  * Observações com "projecao": true ficam fora do gráfico e aparecem no texto e na tabela.
  * Marcadores para os textos do cartão: {ano}, {valor1}, {valor2}..., {projecao}, {anoProjecao}.
  */
@@ -14,11 +15,11 @@
   var TIPOS = ["destaque", "dado", "brasil"];
 
   function deNome(nome) {
-    return ({ "Mundo": "do mundo", "América Latina e Caribe": "da América Latina e Caribe" })[nome] || "de " + nome;
+    return ({ "Mundo": "do mundo", "América Latina e Caribe": "da América Latina e Caribe", "OCDE": "dos países da OCDE", "Américas": "das Américas" })[nome] || "de " + nome;
   }
 
   function emNome(nome) {
-    return ({ "Mundo": "no mundo", "América Latina e Caribe": "na América Latina e Caribe" })[nome] || "em " + nome;
+    return ({ "Mundo": "no mundo", "América Latina e Caribe": "na América Latina e Caribe", "OCDE": "nos países da OCDE", "Américas": "nas Américas" })[nome] || "em " + nome;
   }
 
   function montar(ctx) {
@@ -70,8 +71,9 @@
       var ref = m.series[1];
       if (ref && ultimoValor(ref) != null) {
         var d = BG.textoDiferenca(ctx.indicador, v, ultimoValor(ref));
+        var dif = ctx.opcoes.unidadeDiferenca ? d.texto.replace(/^(\S+)/, "$1 " + ctx.opcoes.unidadeDiferenca) : d.texto;
         r.pill = {
-          texto: d.igual ? "Igual à média " + deNome(ref.nome) : BG.cap(d.texto) + (ctx.indicador.formato === "pct" ? " da média " : " que a média ") + deNome(ref.nome),
+          texto: d.igual ? "Igual à média " + deNome(ref.nome) : BG.cap(dif) + (ctx.indicador.formato === "pct" ? " da média " : " que a média ") + deNome(ref.nome),
           icone: "comparar",
           neutra: true
         };

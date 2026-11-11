@@ -1,0 +1,24 @@
+{
+  "id": "mundo-gasto-saude",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Quanto o país gasta com saúde, em relação ao tamanho da economia",
+  "nomeTecnico": "Gasto corrente total com saúde, público e privado (% do PIB)",
+  "unidade": "% do PIB",
+  "formato": "pct",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "OMS",
+    "nome": "Global Health Expenditure Database",
+    "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/current-health-expenditure-(che)-as-percentage-of-gross-domestic-product-(gdp)-(-)",
+    "adaptador": "oms",
+    "parametros": {
+      "indicador": "GHED_CHEGDP_SHA2011",
+      "anos": 15
+    }
+  }
+}

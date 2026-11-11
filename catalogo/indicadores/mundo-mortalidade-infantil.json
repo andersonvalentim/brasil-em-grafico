@@ -1,0 +1,25 @@
+{
+  "id": "mundo-mortalidade-infantil",
+  "status": "ativo",
+  "tema": "mundo",
+  "nome": "Bebês que morrem antes de completar 1 ano",
+  "nomeTecnico": "Taxa de mortalidade infantil (mortes antes de 1 ano por mil nascidos vivos)",
+  "unidade": "por mil nascidos vivos",
+  "formato": "numero",
+  "casas": 1,
+  "periodicidade": "anual",
+  "abrangencia": [
+    "BR"
+  ],
+  "fonte": {
+    "orgao": "OMS",
+    "nome": "Global Health Observatory",
+    "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/infant-mortality-rate-(probability-of-dying-between-birth-and-age-1-per-1000-live-births)",
+    "adaptador": "oms",
+    "parametros": {
+      "indicador": "MDG_0000000001",
+      "filtro": "Dim1 eq 'SEX_BTSX'",
+      "anos": 15
+    }
+  }
+}

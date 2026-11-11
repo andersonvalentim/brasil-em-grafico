@@ -23,6 +23,10 @@ export async function baixarJson(url, opcoes) {
   return (await baixar(url, opcoes)).json();
 }
 
+export async function baixarTexto(url, opcoes) {
+  return (await baixar(url, opcoes)).text();
+}
+
 export async function baixarBinario(url, opcoes) {
   return Buffer.from(await (await baixar(url, opcoes)).arrayBuffer());
 }
