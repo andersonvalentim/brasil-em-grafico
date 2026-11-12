@@ -1,6 +1,6 @@
 {
  "id": "ipca-transporte",
- "geradoEm": "2026-11-02T23:37:40.348Z",
+ "geradoEm": "2026-11-12T19:19:33.659Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -314,59 +314,59 @@
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 6.4,
+   "valor": 6.47,
    "categoria": "Ônibus intermunicipal"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 8.26,
+   "valor": -1.72,
    "categoria": "Passagem aérea"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 0.48,
+   "valor": 0,
    "categoria": "Carro novo"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 0.77,
+   "valor": -0.89,
    "categoria": "Seguro do carro"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 7.95,
+   "valor": 8.31,
    "categoria": "Conserto de carro"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 5.56,
+   "valor": 4.97,
    "categoria": "Gasolina"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -7.01,
+   "valor": -6.06,
    "categoria": "Etanol"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 15.26,
+   "valor": 17.17,
    "categoria": "Óleo diesel"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -12.97,
+   "valor": -13.14,
    "categoria": "Transporte por aplicativo"
   }
  ],
  "notas": {
-  "anoParcialAte": "2026-09"
+  "anoParcialAte": "2026-10"
  }
 }

@@ -1,6 +1,6 @@
 {
  "id": "ipca-alimentos",
- "geradoEm": "2026-11-02T23:37:43.314Z",
+ "geradoEm": "2026-11-12T19:19:31.394Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -518,107 +518,107 @@
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.96,
+   "valor": 10.01,
    "categoria": "Arroz"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 45.55,
+   "valor": 41.26,
    "categoria": "Batata"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 58.7,
+   "valor": 89.76,
    "categoria": "Tomate"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 61.82,
+   "valor": 80.1,
    "categoria": "Cebola"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -8.87,
+   "valor": -6.26,
    "categoria": "Açúcar"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -6.52,
+   "valor": -7.22,
    "categoria": "Banana-prata"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 6.89,
+   "valor": 9.32,
    "categoria": "Carnes"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 8.94,
+   "valor": 12.09,
    "categoria": "Contrafilé"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -2.6,
+   "valor": -2.27,
    "categoria": "Ovo"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.24,
+   "valor": 4.84,
    "categoria": "Pão francês"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -8.6,
+   "valor": -6.6,
    "categoria": "Óleo de soja"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -16.19,
+   "valor": -17.05,
    "categoria": "Café moído"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 36.44,
+   "valor": 38.22,
    "categoria": "Feijão carioca"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 27,
+   "valor": 26.15,
    "categoria": "Leite longa vida"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": -4.36,
+   "valor": -2.92,
    "categoria": "Frango inteiro"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 3.82,
+   "valor": 5.5,
    "categoria": "Queijo"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.75,
+   "valor": 4.98,
    "categoria": "Refrigerante e água mineral"
   }
  ],
  "notas": {
-  "anoParcialAte": "2026-09"
+  "anoParcialAte": "2026-10"
  }
 }

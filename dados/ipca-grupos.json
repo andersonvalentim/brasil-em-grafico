@@ -1,6 +1,6 @@
 {
  "id": "ipca-grupos",
- "geradoEm": "2026-11-02T23:37:42.508Z",
+ "geradoEm": "2026-11-12T19:19:33.044Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -278,59 +278,59 @@
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.37,
+   "valor": 5.46,
    "categoria": "Comida e bebida"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.35,
+   "valor": 3.82,
    "categoria": "Moradia"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 2.81,
+   "valor": 3.26,
    "categoria": "Móveis e eletrodomésticos"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 1.85,
+   "valor": 2.24,
    "categoria": "Roupas e calçados"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 2.84,
+   "valor": 2.23,
    "categoria": "Transporte"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.82,
+   "valor": 4.92,
    "categoria": "Saúde e cuidados pessoais"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.24,
+   "valor": 4.61,
    "categoria": "Despesas pessoais"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 5.8,
+   "valor": 5.87,
    "categoria": "Educação"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 2.77,
+   "valor": 3.5,
    "categoria": "Comunicação"
   }
  ],
  "notas": {
-  "anoParcialAte": "2026-09"
+  "anoParcialAte": "2026-10"
  }
 }

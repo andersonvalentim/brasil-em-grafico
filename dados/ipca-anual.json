@@ -1,6 +1,6 @@
 {
  "id": "ipca-anual",
- "geradoEm": "2026-11-02T23:30:14.950Z",
+ "geradoEm": "2026-11-12T19:19:31.790Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -518,90 +518,90 @@
   {
    "local": "AC",
    "periodo": "2026",
-   "valor": 3.34
+   "valor": 3.37
   },
   {
    "local": "BA",
    "periodo": "2026",
-   "valor": 3.55
+   "valor": 3.95
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 3.95
+   "valor": 4.1
   },
   {
    "local": "CE",
    "periodo": "2026",
-   "valor": 4.52
+   "valor": 4.81
   },
   {
    "local": "DF",
    "periodo": "2026",
-   "valor": 3.98
+   "valor": 3.96
   },
   {
    "local": "ES",
    "periodo": "2026",
-   "valor": 4.28
+   "valor": 4.41
   },
   {
    "local": "GO",
    "periodo": "2026",
-   "valor": 4.38
+   "valor": 4.4
   },
   {
    "local": "MA",
    "periodo": "2026",
-   "valor": 4.74
+   "valor": 5.21
   },
   {
    "local": "MG",
    "periodo": "2026",
-   "valor": 3.84
+   "valor": 4.22
   },
   {
    "local": "MS",
    "periodo": "2026",
-   "valor": 4.45
+   "valor": 5
   },
   {
    "local": "PA",
    "periodo": "2026",
-   "valor": 3.74
+   "valor": 4.46
   },
   {
    "local": "PE",
    "periodo": "2026",
-   "valor": 4.12
+   "valor": 4.51
   },
   {
    "local": "PR",
    "periodo": "2026",
-   "valor": 2.6
+   "valor": 1.91
   },
   {
    "local": "RJ",
    "periodo": "2026",
-   "valor": 4.11
+   "valor": 4.14
   },
   {
    "local": "RS",
    "periodo": "2026",
-   "valor": 3.93
+   "valor": 3.84
   },
   {
    "local": "SE",
    "periodo": "2026",
-   "valor": 4.26
+   "valor": 4.7
   },
   {
    "local": "SP",
    "periodo": "2026",
-   "valor": 4.14
+   "valor": 4.37
   }
  ],
  "notas": {
-  "anoParcialAte": "2026-09"
+  "anoParcialAte": "2026-10"
  }
 }

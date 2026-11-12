@@ -1,6 +1,6 @@
 {
  "id": "ipca-comer-fora",
- "geradoEm": "2026-11-02T23:37:41.917Z",
+ "geradoEm": "2026-11-12T19:19:32.827Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -188,41 +188,41 @@
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.01,
+   "valor": 4.42,
    "categoria": "Refeição"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.58,
+   "valor": 4.91,
    "categoria": "Lanche"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 8.26,
+   "valor": 8.49,
    "categoria": "Cafezinho"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 3.38,
+   "valor": 3.49,
    "categoria": "Cerveja"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.19,
+   "valor": 4.53,
    "categoria": "Sorvete"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.14,
+   "valor": 5.07,
    "categoria": "Refrigerante e água"
   }
  ],
  "notas": {
-  "anoParcialAte": "2026-09"
+  "anoParcialAte": "2026-10"
  }
 }

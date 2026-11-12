@@ -1,6 +1,6 @@
 {
  "id": "ipca-casa",
- "geradoEm": "2026-11-02T23:37:39.423Z",
+ "geradoEm": "2026-11-12T19:19:32.527Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -278,37 +278,37 @@
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 3.02,
+   "valor": 3.3,
    "categoria": "Aluguel"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 2.97,
+   "valor": 3.22,
    "categoria": "Condomínio"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 5.02,
+   "valor": 3.15,
    "categoria": "Água e esgoto"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 3.34,
+   "valor": 4.03,
    "categoria": "Gás de botijão"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 6.5,
+   "valor": 4.46,
    "categoria": "Conta de luz"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 3.96,
+   "valor": 4.73,
    "categoria": "Plano de celular"
   },
   {
@@ -320,17 +320,17 @@
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 6.63,
+   "valor": 7.31,
    "categoria": "Mão de obra para reparos"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 1.1,
+   "valor": 4.96,
    "categoria": "Internet"
   }
  ],
  "notas": {
-  "anoParcialAte": "2026-09"
+  "anoParcialAte": "2026-10"
  }
 }

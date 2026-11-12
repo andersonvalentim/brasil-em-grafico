@@ -1,6 +1,6 @@
 {
  "id": "ipca-saude-educacao",
- "geradoEm": "2026-11-02T23:37:41.041Z",
+ "geradoEm": "2026-11-12T19:19:33.287Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
  "ultimoPeriodo": "2026",
@@ -278,31 +278,31 @@
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 3.18,
+   "valor": 3.1,
    "categoria": "Remédios"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 6.4,
+   "valor": 6.82,
    "categoria": "Consulta médica"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 6.75,
+   "valor": 6.81,
    "categoria": "Dentista"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.65,
+   "valor": 5.02,
    "categoria": "Exame de laboratório"
   },
   {
    "local": "BR",
    "periodo": "2026",
-   "valor": 4.14,
+   "valor": 4.58,
    "categoria": "Plano de saúde"
   },
   {
@@ -331,6 +331,6 @@
   }
  ],
  "notas": {
-  "anoParcialAte": "2026-09"
+  "anoParcialAte": "2026-10"
  }
 }

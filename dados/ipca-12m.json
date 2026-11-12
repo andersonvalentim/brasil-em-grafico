@@ -1,95 +1,10 @@
 {
  "id": "ipca-12m",
- "geradoEm": "2026-11-02T20:00:23.097Z",
+ "geradoEm": "2026-11-12T19:19:30.862Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/7060",
- "ultimoPeriodo": "2026-09",
+ "ultimoPeriodo": "2026-10",
  "observacoes": [
-  {
-   "local": "AC",
-   "periodo": "2024-10",
-   "valor": 4.38
-  },
-  {
-   "local": "BA",
-   "periodo": "2024-10",
-   "valor": 4.15
-  },
-  {
-   "local": "BR",
-   "periodo": "2024-10",
-   "valor": 4.76
-  },
-  {
-   "local": "CE",
-   "periodo": "2024-10",
-   "valor": 4.97
-  },
-  {
-   "local": "DF",
-   "periodo": "2024-10",
-   "valor": 4.57
-  },
-  {
-   "local": "ES",
-   "periodo": "2024-10",
-   "valor": 4.57
-  },
-  {
-   "local": "GO",
-   "periodo": "2024-10",
-   "valor": 5.08
-  },
-  {
-   "local": "MA",
-   "periodo": "2024-10",
-   "valor": 5.46
-  },
-  {
-   "local": "MG",
-   "periodo": "2024-10",
-   "valor": 6.23
-  },
-  {
-   "local": "MS",
-   "periodo": "2024-10",
-   "valor": 4.89
-  },
-  {
-   "local": "PA",
-   "periodo": "2024-10",
-   "valor": 4.47
-  },
-  {
-   "local": "PE",
-   "periodo": "2024-10",
-   "valor": 3.48
-  },
-  {
-   "local": "PR",
-   "periodo": "2024-10",
-   "valor": 3.78
-  },
-  {
-   "local": "RJ",
-   "periodo": "2024-10",
-   "valor": 4.84
-  },
-  {
-   "local": "RS",
-   "periodo": "2024-10",
-   "valor": 3.81
-  },
-  {
-   "local": "SE",
-   "periodo": "2024-10",
-   "valor": 3.77
-  },
-  {
-   "local": "SP",
-   "periodo": "2024-10",
-   "valor": 5.05
-  },
   {
    "local": "AC",
    "periodo": "2024-11",
@@ -2044,6 +1959,91 @@
    "local": "SP",
    "periodo": "2026-09",
    "valor": 4.75
+  },
+  {
+   "local": "AC",
+   "periodo": "2026-10",
+   "valor": 4.13
+  },
+  {
+   "local": "BA",
+   "periodo": "2026-10",
+   "valor": 4.57
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-10",
+   "valor": 4.63
+  },
+  {
+   "local": "CE",
+   "periodo": "2026-10",
+   "valor": 5.43
+  },
+  {
+   "local": "DF",
+   "periodo": "2026-10",
+   "valor": 4.83
+  },
+  {
+   "local": "ES",
+   "periodo": "2026-10",
+   "valor": 4.72
+  },
+  {
+   "local": "GO",
+   "periodo": "2026-10",
+   "valor": 5.1
+  },
+  {
+   "local": "MA",
+   "periodo": "2026-10",
+   "valor": 4.95
+  },
+  {
+   "local": "MG",
+   "periodo": "2026-10",
+   "valor": 4.69
+  },
+  {
+   "local": "MS",
+   "periodo": "2026-10",
+   "valor": 5.42
+  },
+  {
+   "local": "PA",
+   "periodo": "2026-10",
+   "valor": 4.47
+  },
+  {
+   "local": "PE",
+   "periodo": "2026-10",
+   "valor": 5
+  },
+  {
+   "local": "PR",
+   "periodo": "2026-10",
+   "valor": 2.05
+  },
+  {
+   "local": "RJ",
+   "periodo": "2026-10",
+   "valor": 4.81
+  },
+  {
+   "local": "RS",
+   "periodo": "2026-10",
+   "valor": 4.59
+  },
+  {
+   "local": "SE",
+   "periodo": "2026-10",
+   "valor": 4.97
+  },
+  {
+   "local": "SP",
+   "periodo": "2026-10",
+   "valor": 4.94
   }
  ]
 }
