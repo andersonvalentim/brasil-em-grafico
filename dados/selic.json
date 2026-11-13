@@ -1,15 +1,10 @@
 {
  "id": "selic",
- "geradoEm": "2026-11-12T19:26:30.678Z",
+ "geradoEm": "2026-11-13T18:57:31.154Z",
  "origem": "api",
  "fonte": "https://www3.bcb.gov.br/sgspub/",
- "ultimoPeriodo": "2026-11-12",
+ "ultimoPeriodo": "2026-11-13",
  "observacoes": [
-  {
-   "local": "BR",
-   "periodo": "2024-09-03",
-   "valor": 10.5
-  },
   {
    "local": "BR",
    "periodo": "2024-09-04",
@@ -4008,6 +4003,11 @@
   {
    "local": "BR",
    "periodo": "2026-11-12",
+   "valor": 13.75
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-11-13",
    "valor": 13.75
   }
  ]
