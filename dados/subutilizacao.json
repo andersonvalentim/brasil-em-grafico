@@ -1,150 +1,10 @@
 {
  "id": "subutilizacao",
- "geradoEm": "2026-11-11T14:12:22.194Z",
+ "geradoEm": "2026-11-18T19:46:11.562Z",
  "origem": "api",
  "fonte": "https://sidra.ibge.gov.br/tabela/4099",
- "ultimoPeriodo": "2026-T2",
+ "ultimoPeriodo": "2026-T3",
  "observacoes": [
-  {
-   "local": "AC",
-   "periodo": "2021-T3",
-   "valor": 33.3
-  },
-  {
-   "local": "AL",
-   "periodo": "2021-T3",
-   "valor": 40.8
-  },
-  {
-   "local": "AM",
-   "periodo": "2021-T3",
-   "valor": 28.7
-  },
-  {
-   "local": "AP",
-   "periodo": "2021-T3",
-   "valor": 28.5
-  },
-  {
-   "local": "BA",
-   "periodo": "2021-T3",
-   "valor": 41.3
-  },
-  {
-   "local": "BR",
-   "periodo": "2021-T3",
-   "valor": 26.6
-  },
-  {
-   "local": "CE",
-   "periodo": "2021-T3",
-   "valor": 34.5
-  },
-  {
-   "local": "DF",
-   "periodo": "2021-T3",
-   "valor": 25.5
-  },
-  {
-   "local": "ES",
-   "periodo": "2021-T3",
-   "valor": 20.4
-  },
-  {
-   "local": "GO",
-   "periodo": "2021-T3",
-   "valor": 19.4
-  },
-  {
-   "local": "MA",
-   "periodo": "2021-T3",
-   "valor": 43.1
-  },
-  {
-   "local": "MG",
-   "periodo": "2021-T3",
-   "valor": 23.8
-  },
-  {
-   "local": "MS",
-   "periodo": "2021-T3",
-   "valor": 18
-  },
-  {
-   "local": "MT",
-   "periodo": "2021-T3",
-   "valor": 12.9
-  },
-  {
-   "local": "PA",
-   "periodo": "2021-T3",
-   "valor": 31.6
-  },
-  {
-   "local": "PB",
-   "periodo": "2021-T3",
-   "valor": 40
-  },
-  {
-   "local": "PE",
-   "periodo": "2021-T3",
-   "valor": 35.5
-  },
-  {
-   "local": "PI",
-   "periodo": "2021-T3",
-   "valor": 42.6
-  },
-  {
-   "local": "PR",
-   "periodo": "2021-T3",
-   "valor": 17.3
-  },
-  {
-   "local": "RJ",
-   "periodo": "2021-T3",
-   "valor": 24.4
-  },
-  {
-   "local": "RN",
-   "periodo": "2021-T3",
-   "valor": 37
-  },
-  {
-   "local": "RO",
-   "periodo": "2021-T3",
-   "valor": 16.9
-  },
-  {
-   "local": "RR",
-   "periodo": "2021-T3",
-   "valor": 25.3
-  },
-  {
-   "local": "RS",
-   "periodo": "2021-T3",
-   "valor": 17.5
-  },
-  {
-   "local": "SC",
-   "periodo": "2021-T3",
-   "valor": 10
-  },
-  {
-   "local": "SE",
-   "periodo": "2021-T3",
-   "valor": 42.2
-  },
-  {
-   "local": "SP",
-   "periodo": "2021-T3",
-   "valor": 24
-  },
-  {
-   "local": "TO",
-   "periodo": "2021-T3",
-   "valor": 26.3
-  },
   {
    "local": "AC",
    "periodo": "2021-T4",
@@ -2804,6 +2664,146 @@
    "local": "TO",
    "periodo": "2026-T2",
    "valor": 11.2
+  },
+  {
+   "local": "AC",
+   "periodo": "2026-T3",
+   "valor": 17.8
+  },
+  {
+   "local": "AL",
+   "periodo": "2026-T3",
+   "valor": 22.5
+  },
+  {
+   "local": "AM",
+   "periodo": "2026-T3",
+   "valor": 13.6
+  },
+  {
+   "local": "AP",
+   "periodo": "2026-T3",
+   "valor": 12.1
+  },
+  {
+   "local": "BA",
+   "periodo": "2026-T3",
+   "valor": 23.6
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-T3",
+   "valor": 13
+  },
+  {
+   "local": "CE",
+   "periodo": "2026-T3",
+   "valor": 16.3
+  },
+  {
+   "local": "DF",
+   "periodo": "2026-T3",
+   "valor": 12.7
+  },
+  {
+   "local": "ES",
+   "periodo": "2026-T3",
+   "valor": 7.4
+  },
+  {
+   "local": "GO",
+   "periodo": "2026-T3",
+   "valor": 7.7
+  },
+  {
+   "local": "MA",
+   "periodo": "2026-T3",
+   "valor": 21.7
+  },
+  {
+   "local": "MG",
+   "periodo": "2026-T3",
+   "valor": 10.7
+  },
+  {
+   "local": "MS",
+   "periodo": "2026-T3",
+   "valor": 6
+  },
+  {
+   "local": "MT",
+   "periodo": "2026-T3",
+   "valor": 7.1
+  },
+  {
+   "local": "PA",
+   "periodo": "2026-T3",
+   "valor": 19.6
+  },
+  {
+   "local": "PB",
+   "periodo": "2026-T3",
+   "valor": 15.3
+  },
+  {
+   "local": "PE",
+   "periodo": "2026-T3",
+   "valor": 21.2
+  },
+  {
+   "local": "PI",
+   "periodo": "2026-T3",
+   "valor": 24.4
+  },
+  {
+   "local": "PR",
+   "periodo": "2026-T3",
+   "valor": 9
+  },
+  {
+   "local": "RJ",
+   "periodo": "2026-T3",
+   "valor": 12.9
+  },
+  {
+   "local": "RN",
+   "periodo": "2026-T3",
+   "valor": 14.1
+  },
+  {
+   "local": "RO",
+   "periodo": "2026-T3",
+   "valor": 6.7
+  },
+  {
+   "local": "RR",
+   "periodo": "2026-T3",
+   "valor": 11.9
+  },
+  {
+   "local": "RS",
+   "periodo": "2026-T3",
+   "valor": 8.7
+  },
+  {
+   "local": "SC",
+   "periodo": "2026-T3",
+   "valor": 4.4
+  },
+  {
+   "local": "SE",
+   "periodo": "2026-T3",
+   "valor": 21.6
+  },
+  {
+   "local": "SP",
+   "periodo": "2026-T3",
+   "valor": 11
+  },
+  {
+   "local": "TO",
+   "periodo": "2026-T3",
+   "valor": 12.7
   }
  ]
 }

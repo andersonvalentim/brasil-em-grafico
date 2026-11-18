@@ -1,9 +1,9 @@
 {
  "id": "dolar",
- "geradoEm": "2026-11-17T20:14:07.188Z",
+ "geradoEm": "2026-11-18T19:45:01.062Z",
  "origem": "api",
  "fonte": "https://www3.bcb.gov.br/sgspub/",
- "ultimoPeriodo": "2026-11-17",
+ "ultimoPeriodo": "2026-11-18",
  "observacoes": [
   {
    "local": "BR",
@@ -694,6 +694,11 @@
    "local": "BR",
    "periodo": "2026-11-17",
    "valor": 5.7851
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-11-18",
+   "valor": 5.8102
   }
  ]
 }
