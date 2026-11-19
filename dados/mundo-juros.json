@@ -1,21 +1,33 @@
 {
  "id": "mundo-juros",
- "geradoEm": "2026-11-12T19:22:23.201Z",
+ "geradoEm": "2026-11-19T19:46:27.885Z",
  "origem": "api",
  "fonte": "https://data.bis.org/topics/CBPOL",
  "ultimoPeriodo": "2026-10",
  "observacoes": [
   {
    "local": "BR",
-   "categoria": "Reino Unido",
+   "categoria": "Chile",
    "periodo": "2021-11",
-   "valor": 0.1
+   "valor": 2.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2021-11",
    "valor": 3.85
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2021-11",
+   "valor": 0.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2021-11",
+   "valor": 0.1
   },
   {
    "local": "BR",
@@ -43,15 +55,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2021-11",
-   "valor": 1
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2021-11",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2021-11",
+   "valor": 1
   },
   {
    "local": "BR",
@@ -61,15 +73,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2021-11",
-   "valor": 0.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2021-11",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2021-11",
+   "valor": 3.75
   },
   {
    "local": "BR",
@@ -79,9 +91,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2021-11",
-   "valor": 1
+   "valor": 0.125
   },
   {
    "local": "BR",
@@ -91,9 +103,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2021-11",
-   "valor": 3.75
+   "valor": 1
   },
   {
    "local": "BR",
@@ -116,13 +128,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2021-11",
-   "valor": 2.75
+   "periodo": "2021-12",
+   "valor": 4
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2021-12",
+   "valor": 3.8
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2021-11",
+   "periodo": "2021-12",
    "valor": 0.25
   },
   {
@@ -130,12 +148,6 @@
    "categoria": "Reino Unido",
    "periodo": "2021-12",
    "valor": 0.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2021-12",
-   "valor": 3.8
   },
   {
    "local": "BR",
@@ -163,15 +175,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2021-12",
-   "valor": 1
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2021-12",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2021-12",
+   "valor": 1
   },
   {
    "local": "BR",
@@ -181,15 +193,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2021-12",
-   "valor": 0.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2021-12",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2021-12",
+   "valor": 3.75
   },
   {
    "local": "BR",
@@ -199,9 +211,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2021-12",
-   "valor": 1
+   "valor": 0.125
   },
   {
    "local": "BR",
@@ -211,9 +223,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2021-12",
-   "valor": 3.75
+   "valor": 1
   },
   {
    "local": "BR",
@@ -236,13 +248,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2021-12",
-   "valor": 4
+   "periodo": "2022-01",
+   "valor": 5.5
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2022-01",
+   "valor": 3.7
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2021-12",
+   "periodo": "2022-01",
    "valor": 0.25
   },
   {
@@ -250,12 +268,6 @@
    "categoria": "Reino Unido",
    "periodo": "2022-01",
    "valor": 0.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2022-01",
-   "valor": 3.7
   },
   {
    "local": "BR",
@@ -283,15 +295,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-01",
-   "valor": 1.25
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-01",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-01",
+   "valor": 1.25
   },
   {
    "local": "BR",
@@ -301,15 +313,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-01",
-   "valor": 0.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-01",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-01",
+   "valor": 4
   },
   {
    "local": "BR",
@@ -319,9 +331,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-01",
-   "valor": 1
+   "valor": 0.125
   },
   {
    "local": "BR",
@@ -331,9 +343,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-01",
-   "valor": 4
+   "valor": 1
   },
   {
    "local": "BR",
@@ -356,13 +368,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-01",
+   "periodo": "2022-02",
    "valor": 5.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2022-02",
+   "valor": 3.7
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2022-01",
+   "periodo": "2022-02",
    "valor": 0.25
   },
   {
@@ -370,12 +388,6 @@
    "categoria": "Reino Unido",
    "periodo": "2022-02",
    "valor": 0.5
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2022-02",
-   "valor": 3.7
   },
   {
    "local": "BR",
@@ -403,15 +415,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-02",
-   "valor": 1.25
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-02",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-02",
+   "valor": 1.25
   },
   {
    "local": "BR",
@@ -421,15 +433,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-02",
-   "valor": 0.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-02",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-02",
+   "valor": 4
   },
   {
    "local": "BR",
@@ -439,9 +451,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-02",
-   "valor": 1
+   "valor": 0.125
   },
   {
    "local": "BR",
@@ -451,9 +463,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-02",
-   "valor": 4
+   "valor": 1
   },
   {
    "local": "BR",
@@ -476,26 +488,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-02",
-   "valor": 5.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-02",
-   "valor": 0.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2022-03",
-   "valor": 0.75
+   "valor": 7
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2022-03",
    "valor": 3.7
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2022-03",
+   "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2022-03",
+   "valor": 0.75
   },
   {
    "local": "BR",
@@ -523,15 +535,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-03",
-   "valor": 1.25
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-03",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-03",
+   "valor": 1.25
   },
   {
    "local": "BR",
@@ -541,15 +553,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-03",
-   "valor": 0.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-03",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-03",
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -559,9 +571,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-03",
-   "valor": 1.25
+   "valor": 0.375
   },
   {
    "local": "BR",
@@ -571,9 +583,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-03",
-   "valor": 4.25
+   "valor": 1.25
   },
   {
    "local": "BR",
@@ -596,26 +608,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-03",
-   "valor": 7
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-03",
-   "valor": 0.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2022-04",
-   "valor": 0.75
+   "valor": 7
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2022-04",
    "valor": 3.7
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2022-04",
+   "valor": 1
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2022-04",
+   "valor": 0.75
   },
   {
    "local": "BR",
@@ -643,15 +655,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-04",
-   "valor": 1.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-04",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-04",
+   "valor": 1.5
   },
   {
    "local": "BR",
@@ -661,15 +673,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-04",
-   "valor": 0.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-04",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-04",
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -679,9 +691,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-04",
-   "valor": 1.25
+   "valor": 0.375
   },
   {
    "local": "BR",
@@ -691,9 +703,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-04",
-   "valor": 4.25
+   "valor": 1.25
   },
   {
    "local": "BR",
@@ -716,13 +728,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-04",
-   "valor": 7
+   "periodo": "2022-05",
+   "valor": 8.25
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2022-05",
+   "valor": 3.7
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2022-04",
+   "periodo": "2022-05",
    "valor": 1
   },
   {
@@ -730,12 +748,6 @@
    "categoria": "Reino Unido",
    "periodo": "2022-05",
    "valor": 1
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2022-05",
-   "valor": 3.7
   },
   {
    "local": "BR",
@@ -763,15 +775,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-05",
-   "valor": 1.75
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-05",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-05",
+   "valor": 1.75
   },
   {
    "local": "BR",
@@ -781,15 +793,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-05",
-   "valor": 0.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-05",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-05",
+   "valor": 4.75
   },
   {
    "local": "BR",
@@ -799,9 +811,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-05",
-   "valor": 1.75
+   "valor": 0.875
   },
   {
    "local": "BR",
@@ -811,9 +823,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-05",
-   "valor": 4.75
+   "valor": 1.75
   },
   {
    "local": "BR",
@@ -836,26 +848,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-05",
-   "valor": 8.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-05",
-   "valor": 1
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2022-06",
-   "valor": 1.25
+   "valor": 9
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2022-06",
    "valor": 3.7
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2022-06",
+   "valor": 1.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2022-06",
+   "valor": 1.25
   },
   {
    "local": "BR",
@@ -883,15 +895,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-06",
-   "valor": 1.75
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-06",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-06",
+   "valor": 1.75
   },
   {
    "local": "BR",
@@ -901,15 +913,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-06",
-   "valor": 1.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-06",
    "valor": 0
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-06",
+   "valor": 4.75
   },
   {
    "local": "BR",
@@ -919,9 +931,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-06",
-   "valor": 2.25
+   "valor": 1.625
   },
   {
    "local": "BR",
@@ -931,9 +943,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-06",
-   "valor": 4.75
+   "valor": 2.25
   },
   {
    "local": "BR",
@@ -956,26 +968,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-06",
-   "valor": 9
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-06",
-   "valor": 1.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2022-07",
-   "valor": 1.25
+   "valor": 9.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2022-07",
    "valor": 3.7
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2022-07",
+   "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2022-07",
+   "valor": 1.25
   },
   {
    "local": "BR",
@@ -1003,15 +1015,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-07",
-   "valor": 2.25
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-07",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-07",
+   "valor": 2.25
   },
   {
    "local": "BR",
@@ -1021,15 +1033,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-07",
-   "valor": 2.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-07",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-07",
+   "valor": 5.5
   },
   {
    "local": "BR",
@@ -1039,9 +1051,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-07",
-   "valor": 3
+   "valor": 2.375
   },
   {
    "local": "BR",
@@ -1051,9 +1063,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-07",
-   "valor": 5.5
+   "valor": 3
   },
   {
    "local": "BR",
@@ -1076,13 +1088,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-07",
+   "periodo": "2022-08",
    "valor": 9.75
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2022-08",
+   "valor": 3.65
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2022-07",
+   "periodo": "2022-08",
    "valor": 2.5
   },
   {
@@ -1090,12 +1108,6 @@
    "categoria": "Reino Unido",
    "periodo": "2022-08",
    "valor": 1.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2022-08",
-   "valor": 3.65
   },
   {
    "local": "BR",
@@ -1123,15 +1135,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-08",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-08",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-08",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -1141,15 +1153,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-08",
-   "valor": 2.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-08",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-08",
+   "valor": 5.5
   },
   {
    "local": "BR",
@@ -1159,9 +1171,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-08",
-   "valor": 3
+   "valor": 2.375
   },
   {
    "local": "BR",
@@ -1171,9 +1183,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-08",
-   "valor": 5.5
+   "valor": 3
   },
   {
    "local": "BR",
@@ -1196,26 +1208,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-08",
-   "valor": 9.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-08",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2022-09",
-   "valor": 2.25
+   "valor": 10.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2022-09",
    "valor": 3.65
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2022-09",
+   "valor": 3.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2022-09",
+   "valor": 2.25
   },
   {
    "local": "BR",
@@ -1243,15 +1255,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-09",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-09",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-09",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -1261,15 +1273,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-09",
-   "valor": 3.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-09",
    "valor": 1.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-09",
+   "valor": 6.25
   },
   {
    "local": "BR",
@@ -1279,9 +1291,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-09",
-   "valor": 3.75
+   "valor": 3.125
   },
   {
    "local": "BR",
@@ -1291,9 +1303,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-09",
-   "valor": 6.25
+   "valor": 3.75
   },
   {
    "local": "BR",
@@ -1316,26 +1328,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-09",
-   "valor": 10.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-09",
-   "valor": 3.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2022-10",
-   "valor": 2.25
+   "valor": 11.25
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2022-10",
    "valor": 3.65
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2022-10",
+   "valor": 3.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2022-10",
+   "valor": 2.25
   },
   {
    "local": "BR",
@@ -1363,15 +1375,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-10",
-   "valor": 3
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-10",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-10",
+   "valor": 3
   },
   {
    "local": "BR",
@@ -1381,15 +1393,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-10",
-   "valor": 3.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-10",
    "valor": 1.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-10",
+   "valor": 6.25
   },
   {
    "local": "BR",
@@ -1399,9 +1411,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-10",
-   "valor": 3.75
+   "valor": 3.125
   },
   {
    "local": "BR",
@@ -1411,9 +1423,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-10",
-   "valor": 6.25
+   "valor": 3.75
   },
   {
    "local": "BR",
@@ -1436,13 +1448,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-10",
+   "periodo": "2022-11",
    "valor": 11.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2022-11",
+   "valor": 3.65
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2022-10",
+   "periodo": "2022-11",
    "valor": 3.75
   },
   {
@@ -1450,12 +1468,6 @@
    "categoria": "Reino Unido",
    "periodo": "2022-11",
    "valor": 3
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2022-11",
-   "valor": 3.65
   },
   {
    "local": "BR",
@@ -1483,15 +1495,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-11",
-   "valor": 3.25
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-11",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-11",
+   "valor": 3.25
   },
   {
    "local": "BR",
@@ -1501,15 +1513,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-11",
-   "valor": 3.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-11",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-11",
+   "valor": 7
   },
   {
    "local": "BR",
@@ -1519,9 +1531,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-11",
-   "valor": 4.5
+   "valor": 3.875
   },
   {
    "local": "BR",
@@ -1531,9 +1543,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-11",
-   "valor": 7
+   "valor": 4.5
   },
   {
    "local": "BR",
@@ -1556,26 +1568,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-11",
-   "valor": 11.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-11",
-   "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2022-12",
-   "valor": 3.5
+   "valor": 11.25
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2022-12",
    "valor": 3.65
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2022-12",
+   "valor": 4.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2022-12",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -1603,15 +1615,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2022-12",
-   "valor": 3.25
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2022-12",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2022-12",
+   "valor": 3.25
   },
   {
    "local": "BR",
@@ -1621,15 +1633,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2022-12",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2022-12",
    "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2022-12",
+   "valor": 7
   },
   {
    "local": "BR",
@@ -1639,9 +1651,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2022-12",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -1651,9 +1663,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2022-12",
-   "valor": 7
+   "valor": 5
   },
   {
    "local": "BR",
@@ -1676,26 +1688,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2022-12",
-   "valor": 11.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2022-12",
-   "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2023-01",
-   "valor": 3.5
+   "valor": 11.25
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2023-01",
    "valor": 3.65
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2023-01",
+   "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2023-01",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -1723,15 +1735,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-01",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-01",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-01",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -1741,15 +1753,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-01",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-01",
    "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-01",
+   "valor": 7.25
   },
   {
    "local": "BR",
@@ -1759,9 +1771,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-01",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -1771,9 +1783,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-01",
-   "valor": 7.25
+   "valor": 5
   },
   {
    "local": "BR",
@@ -1796,13 +1808,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-01",
+   "periodo": "2023-02",
    "valor": 11.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-02",
+   "valor": 3.65
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-01",
+   "periodo": "2023-02",
    "valor": 4.5
   },
   {
@@ -1810,12 +1828,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-02",
    "valor": 4
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-02",
-   "valor": 3.65
   },
   {
    "local": "BR",
@@ -1843,15 +1855,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-02",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-02",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-02",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -1861,15 +1873,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-02",
-   "valor": 4.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-02",
    "valor": 3
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-02",
+   "valor": 7.25
   },
   {
    "local": "BR",
@@ -1879,9 +1891,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-02",
-   "valor": 5.25
+   "valor": 4.625
   },
   {
    "local": "BR",
@@ -1891,9 +1903,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-02",
-   "valor": 7.25
+   "valor": 5.25
   },
   {
    "local": "BR",
@@ -1916,13 +1928,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-02",
+   "periodo": "2023-03",
    "valor": 11.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-03",
+   "valor": 3.65
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-02",
+   "periodo": "2023-03",
    "valor": 4.5
   },
   {
@@ -1930,12 +1948,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-03",
    "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-03",
-   "valor": 3.65
   },
   {
    "local": "BR",
@@ -1963,15 +1975,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-03",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-03",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-03",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -1981,15 +1993,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-03",
-   "valor": 4.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-03",
    "valor": 3.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-03",
+   "valor": 7.75
   },
   {
    "local": "BR",
@@ -1999,9 +2011,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-03",
-   "valor": 5.5
+   "valor": 4.875
   },
   {
    "local": "BR",
@@ -2011,9 +2023,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-03",
-   "valor": 7.75
+   "valor": 5.5
   },
   {
    "local": "BR",
@@ -2036,13 +2048,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-03",
+   "periodo": "2023-04",
    "valor": 11.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-04",
+   "valor": 3.65
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-03",
+   "periodo": "2023-04",
    "valor": 4.5
   },
   {
@@ -2050,12 +2068,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-04",
    "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-04",
-   "valor": 3.65
   },
   {
    "local": "BR",
@@ -2083,15 +2095,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-04",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-04",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-04",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -2101,15 +2113,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-04",
-   "valor": 4.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-04",
    "valor": 3.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-04",
+   "valor": 7.75
   },
   {
    "local": "BR",
@@ -2119,9 +2131,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-04",
-   "valor": 5.5
+   "valor": 4.875
   },
   {
    "local": "BR",
@@ -2131,9 +2143,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-04",
-   "valor": 7.75
+   "valor": 5.5
   },
   {
    "local": "BR",
@@ -2156,13 +2168,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-04",
+   "periodo": "2023-05",
    "valor": 11.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-05",
+   "valor": 3.65
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-04",
+   "periodo": "2023-05",
    "valor": 4.5
   },
   {
@@ -2170,12 +2188,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-05",
    "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-05",
-   "valor": 3.65
   },
   {
    "local": "BR",
@@ -2203,15 +2215,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-05",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-05",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-05",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -2221,15 +2233,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-05",
-   "valor": 5.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-05",
    "valor": 3.75
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-05",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -2239,9 +2251,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-05",
-   "valor": 5.75
+   "valor": 5.125
   },
   {
    "local": "BR",
@@ -2251,9 +2263,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-05",
-   "valor": 8.25
+   "valor": 5.75
   },
   {
    "local": "BR",
@@ -2276,128 +2288,14 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-05",
-   "valor": 11.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2023-05",
-   "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2023-06",
-   "valor": 5
+   "valor": 11.25
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2023-06",
    "valor": 3.55
-  },
-  {
-   "local": "BR",
-   "categoria": "Colômbia",
-   "periodo": "2023-06",
-   "valor": 13.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Índia",
-   "periodo": "2023-06",
-   "valor": 6.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Indonésia",
-   "periodo": "2023-06",
-   "valor": 5.75
-  },
-  {
-   "local": "BR",
-   "categoria": "México",
-   "periodo": "2023-06",
-   "valor": 11.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-06",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Japão",
-   "periodo": "2023-06",
-   "valor": -0.1
-  },
-  {
-   "local": "BR",
-   "categoria": "Peru",
-   "periodo": "2023-06",
-   "valor": 7.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-06",
-   "valor": 5.125
-  },
-  {
-   "local": "BR",
-   "categoria": "Zona do euro",
-   "periodo": "2023-06",
-   "valor": 4
-  },
-  {
-   "local": "BR",
-   "categoria": "Turquia",
-   "periodo": "2023-06",
-   "valor": 15
-  },
-  {
-   "local": "BR",
-   "categoria": "Arábia Saudita",
-   "periodo": "2023-06",
-   "valor": 5.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Rússia",
-   "periodo": "2023-06",
-   "valor": 7.5
-  },
-  {
-   "local": "BR",
-   "categoria": "África do Sul",
-   "periodo": "2023-06",
-   "valor": 8.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Argentina",
-   "periodo": "2023-06",
-   "valor": 97
-  },
-  {
-   "local": "BR",
-   "categoria": "Brasil",
-   "periodo": "2023-06",
-   "valor": 13.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Austrália",
-   "periodo": "2023-06",
-   "valor": 4.1
-  },
-  {
-   "local": "BR",
-   "categoria": "Chile",
-   "periodo": "2023-06",
-   "valor": 11.25
   },
   {
    "local": "BR",
@@ -2408,14 +2306,128 @@
   {
    "local": "BR",
    "categoria": "Reino Unido",
-   "periodo": "2023-07",
+   "periodo": "2023-06",
    "valor": 5
+  },
+  {
+   "local": "BR",
+   "categoria": "Colômbia",
+   "periodo": "2023-06",
+   "valor": 13.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Índia",
+   "periodo": "2023-06",
+   "valor": 6.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Indonésia",
+   "periodo": "2023-06",
+   "valor": 5.75
+  },
+  {
+   "local": "BR",
+   "categoria": "México",
+   "periodo": "2023-06",
+   "valor": 11.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Japão",
+   "periodo": "2023-06",
+   "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-06",
+   "valor": 3.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Peru",
+   "periodo": "2023-06",
+   "valor": 7.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Zona do euro",
+   "periodo": "2023-06",
+   "valor": 4
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-06",
+   "valor": 8.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Turquia",
+   "periodo": "2023-06",
+   "valor": 15
+  },
+  {
+   "local": "BR",
+   "categoria": "Estados Unidos",
+   "periodo": "2023-06",
+   "valor": 5.125
+  },
+  {
+   "local": "BR",
+   "categoria": "Rússia",
+   "periodo": "2023-06",
+   "valor": 7.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Arábia Saudita",
+   "periodo": "2023-06",
+   "valor": 5.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Argentina",
+   "periodo": "2023-06",
+   "valor": 97
+  },
+  {
+   "local": "BR",
+   "categoria": "Brasil",
+   "periodo": "2023-06",
+   "valor": 13.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Austrália",
+   "periodo": "2023-06",
+   "valor": 4.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Chile",
+   "periodo": "2023-07",
+   "valor": 10.25
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2023-07",
    "valor": 3.55
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2023-07",
+   "valor": 5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2023-07",
+   "valor": 5
   },
   {
    "local": "BR",
@@ -2443,15 +2455,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-07",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-07",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-07",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -2461,15 +2473,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-07",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-07",
    "valor": 4
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-07",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -2479,9 +2491,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-07",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -2491,9 +2503,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-07",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -2516,13 +2528,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-07",
+   "periodo": "2023-08",
    "valor": 10.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-08",
+   "valor": 3.45
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-07",
+   "periodo": "2023-08",
    "valor": 5
   },
   {
@@ -2530,12 +2548,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-08",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-08",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -2563,15 +2575,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-08",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-08",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-08",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -2581,15 +2593,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-08",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-08",
    "valor": 4.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-08",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -2599,9 +2611,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-08",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -2611,9 +2623,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-08",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -2636,13 +2648,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-08",
-   "valor": 10.25
+   "periodo": "2023-09",
+   "valor": 9.5
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-09",
+   "valor": 3.45
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-08",
+   "periodo": "2023-09",
    "valor": 5
   },
   {
@@ -2650,12 +2668,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-09",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-09",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -2683,15 +2695,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-09",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-09",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-09",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -2701,15 +2713,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-09",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-09",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-09",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -2719,9 +2731,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-09",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -2731,9 +2743,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-09",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -2756,13 +2768,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-09",
-   "valor": 9.5
+   "periodo": "2023-10",
+   "valor": 9
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-10",
+   "valor": 3.45
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-09",
+   "periodo": "2023-10",
    "valor": 5
   },
   {
@@ -2770,12 +2788,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-10",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-10",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -2803,15 +2815,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-10",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-10",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-10",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -2821,15 +2833,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-10",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-10",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-10",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -2839,9 +2851,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-10",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -2851,9 +2863,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-10",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -2876,13 +2888,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-10",
+   "periodo": "2023-11",
    "valor": 9
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-11",
+   "valor": 3.45
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-10",
+   "periodo": "2023-11",
    "valor": 5
   },
   {
@@ -2890,12 +2908,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-11",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-11",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -2923,15 +2935,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-11",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-11",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-11",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -2941,15 +2953,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-11",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-11",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-11",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -2959,9 +2971,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-11",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -2971,9 +2983,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-11",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -2996,13 +3008,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-11",
-   "valor": 9
+   "periodo": "2023-12",
+   "valor": 8.25
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2023-12",
+   "valor": 3.45
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-11",
+   "periodo": "2023-12",
    "valor": 5
   },
   {
@@ -3010,12 +3028,6 @@
    "categoria": "Reino Unido",
    "periodo": "2023-12",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2023-12",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -3043,15 +3055,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2023-12",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2023-12",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2023-12",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -3061,15 +3073,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2023-12",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2023-12",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2023-12",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -3079,9 +3091,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2023-12",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -3091,9 +3103,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2023-12",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -3116,13 +3128,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2023-12",
+   "periodo": "2024-01",
    "valor": 8.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2024-01",
+   "valor": 3.45
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2023-12",
+   "periodo": "2024-01",
    "valor": 5
   },
   {
@@ -3130,12 +3148,6 @@
    "categoria": "Reino Unido",
    "periodo": "2024-01",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2024-01",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -3163,15 +3175,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-01",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-01",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-01",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -3181,15 +3193,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-01",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-01",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-01",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -3199,9 +3211,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-01",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -3211,9 +3223,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-01",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -3236,13 +3248,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-01",
-   "valor": 8.25
+   "periodo": "2024-02",
+   "valor": 7.25
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2024-02",
+   "valor": 3.45
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2024-01",
+   "periodo": "2024-02",
    "valor": 5
   },
   {
@@ -3250,12 +3268,6 @@
    "categoria": "Reino Unido",
    "periodo": "2024-02",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2024-02",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -3283,15 +3295,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-02",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-02",
    "valor": -0.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-02",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -3301,15 +3313,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-02",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-02",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-02",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -3319,9 +3331,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-02",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -3331,9 +3343,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-02",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -3356,13 +3368,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-02",
+   "periodo": "2024-03",
    "valor": 7.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2024-03",
+   "valor": 3.45
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2024-02",
+   "periodo": "2024-03",
    "valor": 5
   },
   {
@@ -3370,12 +3388,6 @@
    "categoria": "Reino Unido",
    "periodo": "2024-03",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2024-03",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -3403,15 +3415,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-03",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-03",
    "valor": 0.05
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-03",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -3421,15 +3433,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-03",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-03",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-03",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -3439,9 +3451,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-03",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -3451,9 +3463,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-03",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -3476,13 +3488,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-03",
-   "valor": 7.25
+   "periodo": "2024-04",
+   "valor": 6.5
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2024-04",
+   "valor": 3.45
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2024-03",
+   "periodo": "2024-04",
    "valor": 5
   },
   {
@@ -3490,12 +3508,6 @@
    "categoria": "Reino Unido",
    "periodo": "2024-04",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2024-04",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -3523,15 +3535,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-04",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-04",
    "valor": 0.05
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-04",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -3541,15 +3553,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-04",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-04",
    "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-04",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -3559,9 +3571,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-04",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -3571,9 +3583,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-04",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -3596,13 +3608,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-04",
-   "valor": 6.5
+   "periodo": "2024-05",
+   "valor": 6
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2024-05",
+   "valor": 3.45
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2024-04",
+   "periodo": "2024-05",
    "valor": 5
   },
   {
@@ -3610,12 +3628,6 @@
    "categoria": "Reino Unido",
    "periodo": "2024-05",
    "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2024-05",
-   "valor": 3.45
   },
   {
    "local": "BR",
@@ -3643,27 +3655,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-05",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-05",
    "valor": 0.05
   },
   {
    "local": "BR",
-   "categoria": "Peru",
+   "categoria": "Coreia do Sul",
    "periodo": "2024-05",
-   "valor": 5.75
+   "valor": 3.5
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
+   "categoria": "Peru",
    "periodo": "2024-05",
-   "valor": 5.375
+   "valor": 5.75
   },
   {
    "local": "BR",
@@ -3673,15 +3679,21 @@
   },
   {
    "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-05",
+   "valor": 8.25
+  },
+  {
+   "local": "BR",
    "categoria": "Turquia",
    "periodo": "2024-05",
    "valor": 50
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-05",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -3691,9 +3703,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-05",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -3716,128 +3728,14 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-05",
-   "valor": 6
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2024-05",
-   "valor": 5
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2024-06",
-   "valor": 5.25
+   "valor": 5.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2024-06",
    "valor": 3.45
-  },
-  {
-   "local": "BR",
-   "categoria": "Colômbia",
-   "periodo": "2024-06",
-   "valor": 11.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Índia",
-   "periodo": "2024-06",
-   "valor": 6.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Indonésia",
-   "periodo": "2024-06",
-   "valor": 6.25
-  },
-  {
-   "local": "BR",
-   "categoria": "México",
-   "periodo": "2024-06",
-   "valor": 11
-  },
-  {
-   "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-06",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Japão",
-   "periodo": "2024-06",
-   "valor": 0.05
-  },
-  {
-   "local": "BR",
-   "categoria": "Peru",
-   "periodo": "2024-06",
-   "valor": 5.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-06",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
-   "categoria": "Zona do euro",
-   "periodo": "2024-06",
-   "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Turquia",
-   "periodo": "2024-06",
-   "valor": 50
-  },
-  {
-   "local": "BR",
-   "categoria": "Arábia Saudita",
-   "periodo": "2024-06",
-   "valor": 6
-  },
-  {
-   "local": "BR",
-   "categoria": "Rússia",
-   "periodo": "2024-06",
-   "valor": 16
-  },
-  {
-   "local": "BR",
-   "categoria": "África do Sul",
-   "periodo": "2024-06",
-   "valor": 8.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Argentina",
-   "periodo": "2024-06",
-   "valor": 40
-  },
-  {
-   "local": "BR",
-   "categoria": "Brasil",
-   "periodo": "2024-06",
-   "valor": 10.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Austrália",
-   "periodo": "2024-06",
-   "valor": 4.35
-  },
-  {
-   "local": "BR",
-   "categoria": "Chile",
-   "periodo": "2024-06",
-   "valor": 5.75
   },
   {
    "local": "BR",
@@ -3848,14 +3746,128 @@
   {
    "local": "BR",
    "categoria": "Reino Unido",
-   "periodo": "2024-07",
+   "periodo": "2024-06",
    "valor": 5.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Colômbia",
+   "periodo": "2024-06",
+   "valor": 11.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Índia",
+   "periodo": "2024-06",
+   "valor": 6.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Indonésia",
+   "periodo": "2024-06",
+   "valor": 6.25
+  },
+  {
+   "local": "BR",
+   "categoria": "México",
+   "periodo": "2024-06",
+   "valor": 11
+  },
+  {
+   "local": "BR",
+   "categoria": "Japão",
+   "periodo": "2024-06",
+   "valor": 0.05
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-06",
+   "valor": 3.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Peru",
+   "periodo": "2024-06",
+   "valor": 5.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Zona do euro",
+   "periodo": "2024-06",
+   "valor": 4.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-06",
+   "valor": 8.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Turquia",
+   "periodo": "2024-06",
+   "valor": 50
+  },
+  {
+   "local": "BR",
+   "categoria": "Estados Unidos",
+   "periodo": "2024-06",
+   "valor": 5.375
+  },
+  {
+   "local": "BR",
+   "categoria": "Rússia",
+   "periodo": "2024-06",
+   "valor": 16
+  },
+  {
+   "local": "BR",
+   "categoria": "Arábia Saudita",
+   "periodo": "2024-06",
+   "valor": 6
+  },
+  {
+   "local": "BR",
+   "categoria": "Argentina",
+   "periodo": "2024-06",
+   "valor": 40
+  },
+  {
+   "local": "BR",
+   "categoria": "Brasil",
+   "periodo": "2024-06",
+   "valor": 10.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Austrália",
+   "periodo": "2024-06",
+   "valor": 4.35
+  },
+  {
+   "local": "BR",
+   "categoria": "Chile",
+   "periodo": "2024-07",
+   "valor": 5.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2024-07",
    "valor": 3.35
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2024-07",
+   "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2024-07",
+   "valor": 5.25
   },
   {
    "local": "BR",
@@ -3883,15 +3895,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-07",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-07",
    "valor": 0.05
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-07",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -3901,15 +3913,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-07",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-07",
    "valor": 4.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-07",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -3919,9 +3931,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-07",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -3931,9 +3943,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-07",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -3956,13 +3968,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-07",
+   "periodo": "2024-08",
    "valor": 5.75
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2024-08",
+   "valor": 3.35
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2024-07",
+   "periodo": "2024-08",
    "valor": 4.5
   },
   {
@@ -3970,12 +3988,6 @@
    "categoria": "Reino Unido",
    "periodo": "2024-08",
    "valor": 5
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2024-08",
-   "valor": 3.35
   },
   {
    "local": "BR",
@@ -4003,15 +4015,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-08",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-08",
    "valor": 0.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-08",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -4021,15 +4033,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-08",
-   "valor": 5.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-08",
    "valor": 4.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-08",
+   "valor": 8.25
   },
   {
    "local": "BR",
@@ -4039,9 +4051,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-08",
-   "valor": 6
+   "valor": 5.375
   },
   {
    "local": "BR",
@@ -4051,9 +4063,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-08",
-   "valor": 8.25
+   "valor": 6
   },
   {
    "local": "BR",
@@ -4076,26 +4088,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-08",
-   "valor": 5.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2024-08",
-   "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2024-09",
-   "valor": 5
+   "valor": 5.5
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2024-09",
    "valor": 3.35
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2024-09",
+   "valor": 4.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2024-09",
+   "valor": 5
   },
   {
    "local": "BR",
@@ -4123,15 +4135,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-09",
-   "valor": 3.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-09",
    "valor": 0.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-09",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -4141,15 +4153,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-09",
-   "valor": 4.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-09",
    "valor": 3.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-09",
+   "valor": 8
   },
   {
    "local": "BR",
@@ -4159,9 +4171,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-09",
-   "valor": 5.5
+   "valor": 4.875
   },
   {
    "local": "BR",
@@ -4171,9 +4183,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-09",
-   "valor": 8
+   "valor": 5.5
   },
   {
    "local": "BR",
@@ -4196,26 +4208,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-09",
-   "valor": 5.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2024-09",
-   "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2024-10",
-   "valor": 5
+   "valor": 5.25
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2024-10",
    "valor": 3.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2024-10",
+   "valor": 3.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2024-10",
+   "valor": 5
   },
   {
    "local": "BR",
@@ -4243,15 +4255,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-10",
-   "valor": 3.25
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-10",
    "valor": 0.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-10",
+   "valor": 3.25
   },
   {
    "local": "BR",
@@ -4261,15 +4273,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-10",
-   "valor": 4.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-10",
    "valor": 3.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-10",
+   "valor": 8
   },
   {
    "local": "BR",
@@ -4279,9 +4291,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-10",
-   "valor": 5.5
+   "valor": 4.875
   },
   {
    "local": "BR",
@@ -4291,9 +4303,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-10",
-   "valor": 8
+   "valor": 5.5
   },
   {
    "local": "BR",
@@ -4316,13 +4328,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-10",
+   "periodo": "2024-11",
    "valor": 5.25
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2024-11",
+   "valor": 3.1
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2024-10",
+   "periodo": "2024-11",
    "valor": 3.75
   },
   {
@@ -4330,12 +4348,6 @@
    "categoria": "Reino Unido",
    "periodo": "2024-11",
    "valor": 4.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2024-11",
-   "valor": 3.1
   },
   {
    "local": "BR",
@@ -4363,15 +4375,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-11",
-   "valor": 3
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-11",
    "valor": 0.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-11",
+   "valor": 3
   },
   {
    "local": "BR",
@@ -4381,15 +4393,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-11",
-   "valor": 4.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-11",
    "valor": 3.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-11",
+   "valor": 7.75
   },
   {
    "local": "BR",
@@ -4399,9 +4411,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-11",
-   "valor": 5.25
+   "valor": 4.625
   },
   {
    "local": "BR",
@@ -4411,9 +4423,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-11",
-   "valor": 7.75
+   "valor": 5.25
   },
   {
    "local": "BR",
@@ -4436,26 +4448,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-11",
-   "valor": 5.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2024-11",
-   "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2024-12",
-   "valor": 4.75
+   "valor": 5
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2024-12",
    "valor": 3.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2024-12",
+   "valor": 3.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2024-12",
+   "valor": 4.75
   },
   {
    "local": "BR",
@@ -4483,15 +4495,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2024-12",
-   "valor": 3
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2024-12",
    "valor": 0.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2024-12",
+   "valor": 3
   },
   {
    "local": "BR",
@@ -4501,15 +4513,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2024-12",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2024-12",
    "valor": 3
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2024-12",
+   "valor": 7.75
   },
   {
    "local": "BR",
@@ -4519,9 +4531,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2024-12",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -4531,9 +4543,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2024-12",
-   "valor": 7.75
+   "valor": 5
   },
   {
    "local": "BR",
@@ -4556,26 +4568,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2024-12",
-   "valor": 5
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2024-12",
-   "valor": 3.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2025-01",
-   "valor": 4.75
+   "valor": 5
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2025-01",
    "valor": 3.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2025-01",
+   "valor": 3
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2025-01",
+   "valor": 4.75
   },
   {
    "local": "BR",
@@ -4603,15 +4615,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-01",
-   "valor": 3
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-01",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-01",
+   "valor": 3
   },
   {
    "local": "BR",
@@ -4621,15 +4633,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-01",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-01",
    "valor": 3
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-01",
+   "valor": 7.5
   },
   {
    "local": "BR",
@@ -4639,9 +4651,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-01",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -4651,9 +4663,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-01",
-   "valor": 7.5
+   "valor": 5
   },
   {
    "local": "BR",
@@ -4676,13 +4688,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-01",
+   "periodo": "2025-02",
    "valor": 5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2025-02",
+   "valor": 3.1
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-01",
+   "periodo": "2025-02",
    "valor": 3
   },
   {
@@ -4690,12 +4708,6 @@
    "categoria": "Reino Unido",
    "periodo": "2025-02",
    "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2025-02",
-   "valor": 3.1
   },
   {
    "local": "BR",
@@ -4723,15 +4735,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-02",
-   "valor": 2.75
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-02",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-02",
+   "valor": 2.75
   },
   {
    "local": "BR",
@@ -4741,15 +4753,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-02",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-02",
    "valor": 2.75
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-02",
+   "valor": 7.5
   },
   {
    "local": "BR",
@@ -4759,9 +4771,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-02",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -4771,9 +4783,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-02",
-   "valor": 7.5
+   "valor": 5
   },
   {
    "local": "BR",
@@ -4796,26 +4808,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-02",
-   "valor": 5
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2025-02",
-   "valor": 3
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2025-03",
-   "valor": 4.5
+   "valor": 5
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2025-03",
    "valor": 3.1
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2025-03",
+   "valor": 2.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2025-03",
+   "valor": 4.5
   },
   {
    "local": "BR",
@@ -4843,15 +4855,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-03",
-   "valor": 2.75
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-03",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-03",
+   "valor": 2.75
   },
   {
    "local": "BR",
@@ -4861,15 +4873,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-03",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-03",
    "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-03",
+   "valor": 7.5
   },
   {
    "local": "BR",
@@ -4879,9 +4891,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-03",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -4891,9 +4903,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-03",
-   "valor": 7.5
+   "valor": 5
   },
   {
    "local": "BR",
@@ -4916,13 +4928,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-03",
+   "periodo": "2025-04",
    "valor": 5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2025-04",
+   "valor": 3.1
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-03",
+   "periodo": "2025-04",
    "valor": 2.75
   },
   {
@@ -4930,12 +4948,6 @@
    "categoria": "Reino Unido",
    "periodo": "2025-04",
    "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2025-04",
-   "valor": 3.1
   },
   {
    "local": "BR",
@@ -4963,15 +4975,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-04",
-   "valor": 2.75
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-04",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-04",
+   "valor": 2.75
   },
   {
    "local": "BR",
@@ -4981,15 +4993,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-04",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-04",
    "valor": 2.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-04",
+   "valor": 7.5
   },
   {
    "local": "BR",
@@ -4999,9 +5011,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-04",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -5011,9 +5023,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-04",
-   "valor": 7.5
+   "valor": 5
   },
   {
    "local": "BR",
@@ -5036,13 +5048,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-04",
+   "periodo": "2025-05",
    "valor": 5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2025-05",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-04",
+   "periodo": "2025-05",
    "valor": 2.75
   },
   {
@@ -5050,12 +5068,6 @@
    "categoria": "Reino Unido",
    "periodo": "2025-05",
    "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2025-05",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -5083,15 +5095,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-05",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-05",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-05",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -5101,15 +5113,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-05",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-05",
    "valor": 2.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-05",
+   "valor": 7.25
   },
   {
    "local": "BR",
@@ -5119,9 +5131,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-05",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -5131,9 +5143,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-05",
-   "valor": 7.25
+   "valor": 5
   },
   {
    "local": "BR",
@@ -5156,13 +5168,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-05",
+   "periodo": "2025-06",
    "valor": 5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2025-06",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-05",
+   "periodo": "2025-06",
    "valor": 2.75
   },
   {
@@ -5170,12 +5188,6 @@
    "categoria": "Reino Unido",
    "periodo": "2025-06",
    "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2025-06",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -5203,15 +5215,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-06",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-06",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-06",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -5221,15 +5233,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-06",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-06",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-06",
+   "valor": 7.25
   },
   {
    "local": "BR",
@@ -5239,9 +5251,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-06",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -5251,9 +5263,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-06",
-   "valor": 7.25
+   "valor": 5
   },
   {
    "local": "BR",
@@ -5276,13 +5288,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-06",
-   "valor": 5
+   "periodo": "2025-07",
+   "valor": 4.75
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2025-07",
+   "valor": 3
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-06",
+   "periodo": "2025-07",
    "valor": 2.75
   },
   {
@@ -5290,12 +5308,6 @@
    "categoria": "Reino Unido",
    "periodo": "2025-07",
    "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2025-07",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -5323,15 +5335,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-07",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-07",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-07",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -5341,15 +5353,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-07",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-07",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-07",
+   "valor": 7.25
   },
   {
    "local": "BR",
@@ -5359,9 +5371,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-07",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -5371,9 +5383,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-07",
-   "valor": 7.25
+   "valor": 5
   },
   {
    "local": "BR",
@@ -5390,13 +5402,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-07",
+   "periodo": "2025-08",
    "valor": 4.75
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2025-08",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-07",
+   "periodo": "2025-08",
    "valor": 2.75
   },
   {
@@ -5404,12 +5422,6 @@
    "categoria": "Reino Unido",
    "periodo": "2025-08",
    "valor": 4
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2025-08",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -5437,15 +5449,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-08",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-08",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-08",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -5455,15 +5467,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-08",
-   "valor": 4.375
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-08",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-08",
+   "valor": 7
   },
   {
    "local": "BR",
@@ -5473,9 +5485,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-08",
-   "valor": 5
+   "valor": 4.375
   },
   {
    "local": "BR",
@@ -5485,9 +5497,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-08",
-   "valor": 7
+   "valor": 5
   },
   {
    "local": "BR",
@@ -5504,26 +5516,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-08",
-   "valor": 4.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2025-08",
-   "valor": 2.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2025-09",
-   "valor": 4
+   "valor": 4.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2025-09",
    "valor": 3
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2025-09",
+   "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2025-09",
+   "valor": 4
   },
   {
    "local": "BR",
@@ -5551,15 +5563,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-09",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-09",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-09",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -5569,15 +5581,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-09",
-   "valor": 4.125
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-09",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-09",
+   "valor": 7
   },
   {
    "local": "BR",
@@ -5587,9 +5599,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-09",
-   "valor": 4.75
+   "valor": 4.125
   },
   {
    "local": "BR",
@@ -5599,9 +5611,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-09",
-   "valor": 7
+   "valor": 4.75
   },
   {
    "local": "BR",
@@ -5618,122 +5630,14 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-09",
-   "valor": 4.75
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2025-09",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2025-10",
-   "valor": 4
+   "valor": 4.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2025-10",
    "valor": 3
-  },
-  {
-   "local": "BR",
-   "categoria": "Colômbia",
-   "periodo": "2025-10",
-   "valor": 9.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Índia",
-   "periodo": "2025-10",
-   "valor": 5.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Indonésia",
-   "periodo": "2025-10",
-   "valor": 4.75
-  },
-  {
-   "local": "BR",
-   "categoria": "México",
-   "periodo": "2025-10",
-   "valor": 7.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-10",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Japão",
-   "periodo": "2025-10",
-   "valor": 0.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Peru",
-   "periodo": "2025-10",
-   "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-10",
-   "valor": 3.875
-  },
-  {
-   "local": "BR",
-   "categoria": "Zona do euro",
-   "periodo": "2025-10",
-   "valor": 2
-  },
-  {
-   "local": "BR",
-   "categoria": "Turquia",
-   "periodo": "2025-10",
-   "valor": 39.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Arábia Saudita",
-   "periodo": "2025-10",
-   "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Rússia",
-   "periodo": "2025-10",
-   "valor": 16.5
-  },
-  {
-   "local": "BR",
-   "categoria": "África do Sul",
-   "periodo": "2025-10",
-   "valor": 7
-  },
-  {
-   "local": "BR",
-   "categoria": "Brasil",
-   "periodo": "2025-10",
-   "valor": 15
-  },
-  {
-   "local": "BR",
-   "categoria": "Austrália",
-   "periodo": "2025-10",
-   "valor": 3.6
-  },
-  {
-   "local": "BR",
-   "categoria": "Chile",
-   "periodo": "2025-10",
-   "valor": 4.75
   },
   {
    "local": "BR",
@@ -5744,14 +5648,122 @@
   {
    "local": "BR",
    "categoria": "Reino Unido",
-   "periodo": "2025-11",
+   "periodo": "2025-10",
    "valor": 4
+  },
+  {
+   "local": "BR",
+   "categoria": "Colômbia",
+   "periodo": "2025-10",
+   "valor": 9.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Índia",
+   "periodo": "2025-10",
+   "valor": 5.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Indonésia",
+   "periodo": "2025-10",
+   "valor": 4.75
+  },
+  {
+   "local": "BR",
+   "categoria": "México",
+   "periodo": "2025-10",
+   "valor": 7.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Japão",
+   "periodo": "2025-10",
+   "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-10",
+   "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Peru",
+   "periodo": "2025-10",
+   "valor": 4.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Zona do euro",
+   "periodo": "2025-10",
+   "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-10",
+   "valor": 7
+  },
+  {
+   "local": "BR",
+   "categoria": "Turquia",
+   "periodo": "2025-10",
+   "valor": 39.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Estados Unidos",
+   "periodo": "2025-10",
+   "valor": 3.875
+  },
+  {
+   "local": "BR",
+   "categoria": "Rússia",
+   "periodo": "2025-10",
+   "valor": 16.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Arábia Saudita",
+   "periodo": "2025-10",
+   "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Brasil",
+   "periodo": "2025-10",
+   "valor": 15
+  },
+  {
+   "local": "BR",
+   "categoria": "Austrália",
+   "periodo": "2025-10",
+   "valor": 3.6
+  },
+  {
+   "local": "BR",
+   "categoria": "Chile",
+   "periodo": "2025-11",
+   "valor": 4.75
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2025-11",
    "valor": 3
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2025-11",
+   "valor": 2.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2025-11",
+   "valor": 4
   },
   {
    "local": "BR",
@@ -5779,15 +5791,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-11",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-11",
    "valor": 0.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-11",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -5797,15 +5809,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-11",
-   "valor": 3.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-11",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-11",
+   "valor": 6.75
   },
   {
    "local": "BR",
@@ -5815,9 +5827,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-11",
-   "valor": 4.5
+   "valor": 3.875
   },
   {
    "local": "BR",
@@ -5827,9 +5839,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-11",
-   "valor": 6.75
+   "valor": 4.5
   },
   {
    "local": "BR",
@@ -5846,13 +5858,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-11",
-   "valor": 4.75
+   "periodo": "2025-12",
+   "valor": 4.5
+  },
+  {
+   "local": "BR",
+   "categoria": "China",
+   "periodo": "2025-12",
+   "valor": 3
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-11",
+   "periodo": "2025-12",
    "valor": 2.25
   },
   {
@@ -5860,12 +5878,6 @@
    "categoria": "Reino Unido",
    "periodo": "2025-12",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2025-12",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -5893,15 +5905,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2025-12",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2025-12",
    "valor": 0.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2025-12",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -5911,15 +5923,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2025-12",
-   "valor": 3.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2025-12",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2025-12",
+   "valor": 6.75
   },
   {
    "local": "BR",
@@ -5929,9 +5941,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2025-12",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -5941,9 +5953,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2025-12",
-   "valor": 6.75
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -5960,13 +5972,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2025-12",
+   "periodo": "2026-01",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-01",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2025-12",
+   "periodo": "2026-01",
    "valor": 2.25
   },
   {
@@ -5974,12 +5992,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-01",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-01",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6007,15 +6019,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-01",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-01",
    "valor": 0.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-01",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -6025,15 +6037,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-01",
-   "valor": 3.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-01",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-01",
+   "valor": 6.75
   },
   {
    "local": "BR",
@@ -6043,9 +6055,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-01",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6055,9 +6067,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-01",
-   "valor": 6.75
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6074,13 +6086,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-01",
+   "periodo": "2026-02",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-02",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-01",
+   "periodo": "2026-02",
    "valor": 2.25
   },
   {
@@ -6088,12 +6106,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-02",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-02",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6121,15 +6133,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-02",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-02",
    "valor": 0.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-02",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -6139,15 +6151,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-02",
-   "valor": 3.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-02",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-02",
+   "valor": 6.75
   },
   {
    "local": "BR",
@@ -6157,9 +6169,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-02",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6169,9 +6181,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-02",
-   "valor": 6.75
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6188,13 +6200,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-02",
+   "periodo": "2026-03",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-03",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-02",
+   "periodo": "2026-03",
    "valor": 2.25
   },
   {
@@ -6202,12 +6220,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-03",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-03",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6235,15 +6247,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-03",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-03",
    "valor": 0.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-03",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -6253,15 +6265,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-03",
-   "valor": 3.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-03",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-03",
+   "valor": 6.75
   },
   {
    "local": "BR",
@@ -6271,9 +6283,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-03",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6283,9 +6295,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-03",
-   "valor": 6.75
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6302,13 +6314,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-03",
+   "periodo": "2026-04",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-04",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-03",
+   "periodo": "2026-04",
    "valor": 2.25
   },
   {
@@ -6316,12 +6334,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-04",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-04",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6349,15 +6361,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-04",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-04",
    "valor": 0.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-04",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -6367,15 +6379,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-04",
-   "valor": 3.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-04",
    "valor": 2
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-04",
+   "valor": 6.75
   },
   {
    "local": "BR",
@@ -6385,9 +6397,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-04",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6397,9 +6409,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-04",
-   "valor": 6.75
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6416,13 +6428,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-04",
+   "periodo": "2026-05",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-05",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-04",
+   "periodo": "2026-05",
    "valor": 2.25
   },
   {
@@ -6430,12 +6448,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-05",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-05",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6460,12 +6472,6 @@
    "categoria": "México",
    "periodo": "2026-05",
    "valor": 6.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-05",
-   "valor": 2.5
   },
   {
    "local": "BR",
@@ -6475,15 +6481,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Peru",
+   "categoria": "Coreia do Sul",
    "periodo": "2026-05",
-   "valor": 4.25
+   "valor": 2.5
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
+   "categoria": "Peru",
    "periodo": "2026-05",
-   "valor": 3.625
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6493,15 +6499,21 @@
   },
   {
    "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-05",
+   "valor": 7
+  },
+  {
+   "local": "BR",
    "categoria": "Turquia",
    "periodo": "2026-05",
    "valor": 37
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-05",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6511,9 +6523,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-05",
-   "valor": 7
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6530,13 +6542,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-05",
+   "periodo": "2026-06",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-06",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-05",
+   "periodo": "2026-06",
    "valor": 2.25
   },
   {
@@ -6544,12 +6562,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-06",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-06",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6577,15 +6589,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-06",
-   "valor": 2.5
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-06",
    "valor": 1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-06",
+   "valor": 2.5
   },
   {
    "local": "BR",
@@ -6595,15 +6607,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-06",
-   "valor": 3.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-06",
    "valor": 2.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-06",
+   "valor": 7
   },
   {
    "local": "BR",
@@ -6613,9 +6625,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-06",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6625,9 +6637,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-06",
-   "valor": 7
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6644,13 +6656,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-06",
+   "periodo": "2026-07",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-07",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-06",
+   "periodo": "2026-07",
    "valor": 2.25
   },
   {
@@ -6658,12 +6676,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-07",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-07",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6688,6 +6700,12 @@
    "categoria": "México",
    "periodo": "2026-07",
    "valor": 6.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Japão",
+   "periodo": "2026-07",
+   "valor": 1
   },
   {
    "local": "BR",
@@ -6697,21 +6715,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Japão",
-   "periodo": "2026-07",
-   "valor": 1
-  },
-  {
-   "local": "BR",
    "categoria": "Peru",
    "periodo": "2026-07",
    "valor": 4.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-07",
-   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6721,15 +6727,21 @@
   },
   {
    "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-07",
+   "valor": 7
+  },
+  {
+   "local": "BR",
    "categoria": "Turquia",
    "periodo": "2026-07",
    "valor": 37
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-07",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6739,9 +6751,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-07",
-   "valor": 7
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6758,13 +6770,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-07",
+   "periodo": "2026-08",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-08",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-07",
+   "periodo": "2026-08",
    "valor": 2.25
   },
   {
@@ -6772,12 +6790,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-08",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-08",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6805,15 +6817,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-08",
-   "valor": 3
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-08",
    "valor": 1
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-08",
+   "valor": 3
   },
   {
    "local": "BR",
@@ -6823,15 +6835,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-08",
-   "valor": 3.625
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-08",
    "valor": 2.25
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-08",
+   "valor": 7
   },
   {
    "local": "BR",
@@ -6841,9 +6853,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-08",
-   "valor": 4.25
+   "valor": 3.625
   },
   {
    "local": "BR",
@@ -6853,9 +6865,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-08",
-   "valor": 7
+   "valor": 4.25
   },
   {
    "local": "BR",
@@ -6872,13 +6884,19 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-08",
+   "periodo": "2026-09",
    "valor": 4.5
   },
   {
    "local": "BR",
+   "categoria": "China",
+   "periodo": "2026-09",
+   "valor": 3
+  },
+  {
+   "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2026-08",
+   "periodo": "2026-09",
    "valor": 2.25
   },
   {
@@ -6886,12 +6904,6 @@
    "categoria": "Reino Unido",
    "periodo": "2026-09",
    "valor": 3.75
-  },
-  {
-   "local": "BR",
-   "categoria": "China",
-   "periodo": "2026-09",
-   "valor": 3
   },
   {
    "local": "BR",
@@ -6919,15 +6931,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-09",
-   "valor": 3
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-09",
    "valor": 1.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-09",
+   "valor": 3
   },
   {
    "local": "BR",
@@ -6937,15 +6949,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-09",
-   "valor": 3.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-09",
    "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-09",
+   "valor": 7.25
   },
   {
    "local": "BR",
@@ -6955,9 +6967,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
+   "categoria": "Estados Unidos",
    "periodo": "2026-09",
-   "valor": 4.5
+   "valor": 3.875
   },
   {
    "local": "BR",
@@ -6967,9 +6979,9 @@
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Arábia Saudita",
    "periodo": "2026-09",
-   "valor": 7.25
+   "valor": 4.5
   },
   {
    "local": "BR",
@@ -6986,26 +6998,26 @@
   {
    "local": "BR",
    "categoria": "Chile",
-   "periodo": "2026-09",
-   "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2026-09",
-   "valor": 2.25
-  },
-  {
-   "local": "BR",
-   "categoria": "Reino Unido",
    "periodo": "2026-10",
-   "valor": 3.75
+   "valor": 4.5
   },
   {
    "local": "BR",
    "categoria": "China",
    "periodo": "2026-10",
    "valor": 3
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2026-10",
+   "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "Reino Unido",
+   "periodo": "2026-10",
+   "valor": 3.75
   },
   {
    "local": "BR",
@@ -7027,15 +7039,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2026-10",
-   "valor": 3
-  },
-  {
-   "local": "BR",
    "categoria": "Japão",
    "periodo": "2026-10",
    "valor": 1.25
+  },
+  {
+   "local": "BR",
+   "categoria": "Coreia do Sul",
+   "periodo": "2026-10",
+   "valor": 3
   },
   {
    "local": "BR",
@@ -7045,15 +7057,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2026-10",
-   "valor": 3.875
-  },
-  {
-   "local": "BR",
    "categoria": "Zona do euro",
    "periodo": "2026-10",
    "valor": 2.5
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2026-10",
+   "valor": 7.25
   },
   {
    "local": "BR",
@@ -7063,15 +7075,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Rússia",
+   "categoria": "Estados Unidos",
    "periodo": "2026-10",
-   "valor": 14
+   "valor": 3.875
   },
   {
    "local": "BR",
-   "categoria": "África do Sul",
+   "categoria": "Rússia",
    "periodo": "2026-10",
-   "valor": 7.25
+   "valor": 14
   },
   {
    "local": "BR",
@@ -7084,18 +7096,6 @@
    "categoria": "Austrália",
    "periodo": "2026-10",
    "valor": 4.6
-  },
-  {
-   "local": "BR",
-   "categoria": "Chile",
-   "periodo": "2026-10",
-   "valor": 4.5
-  },
-  {
-   "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2026-10",
-   "valor": 2.5
   }
  ]
 }
