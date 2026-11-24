@@ -1,22 +1,10 @@
 {
  "id": "mundo-mortalidade-infantil",
- "geradoEm": "2026-11-20T19:27:57.520Z",
+ "geradoEm": "2026-11-24T21:43:59.731Z",
  "origem": "api",
  "fonte": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/infant-mortality-rate-(probability-of-dying-between-birth-and-age-1-per-1000-live-births)",
  "ultimoPeriodo": "2024",
  "observacoes": [
-  {
-   "local": "BR",
-   "categoria": "Turquia",
-   "periodo": "2011",
-   "valor": 13.62
-  },
-  {
-   "local": "BR",
-   "categoria": "Nicarágua",
-   "periodo": "2011",
-   "valor": 19.03
-  },
   {
    "local": "BR",
    "categoria": "Indonésia",
@@ -223,21 +211,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2012",
-   "valor": 3.09
+   "categoria": "Turquia",
+   "periodo": "2011",
+   "valor": 13.62
   },
   {
    "local": "BR",
-   "categoria": "El Salvador",
-   "periodo": "2012",
-   "valor": 14.28
-  },
-  {
-   "local": "BR",
-   "categoria": "Arábia Saudita",
-   "periodo": "2012",
-   "valor": 8.99
+   "categoria": "Nicarágua",
+   "periodo": "2011",
+   "valor": 19.03
   },
   {
    "local": "BR",
@@ -439,21 +421,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Brasil",
-   "periodo": "2013",
-   "valor": 14.37
+   "categoria": "Coreia do Sul",
+   "periodo": "2012",
+   "valor": 3.09
   },
   {
    "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2013",
-   "valor": 4.77
+   "categoria": "El Salvador",
+   "periodo": "2012",
+   "valor": 14.28
   },
   {
    "local": "BR",
-   "categoria": "Peru",
-   "periodo": "2013",
-   "valor": 14.66
+   "categoria": "Arábia Saudita",
+   "periodo": "2012",
+   "valor": 8.99
   },
   {
    "local": "BR",
@@ -655,33 +637,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Mundo",
-   "periodo": "2014",
-   "valor": 32.11
-  },
-  {
-   "local": "BR",
-   "categoria": "Peru",
-   "periodo": "2014",
-   "valor": 14.2
+   "categoria": "Brasil",
+   "periodo": "2013",
+   "valor": 14.37
   },
   {
    "local": "BR",
    "categoria": "Canadá",
-   "periodo": "2014",
-   "valor": 4.71
+   "periodo": "2013",
+   "valor": 4.77
   },
   {
    "local": "BR",
-   "categoria": "Colômbia",
-   "periodo": "2014",
-   "valor": 14.32
-  },
-  {
-   "local": "BR",
-   "categoria": "Panamá",
-   "periodo": "2014",
-   "valor": 13.77
+   "categoria": "Peru",
+   "periodo": "2013",
+   "valor": 14.66
   },
   {
    "local": "BR",
@@ -868,6 +838,36 @@
    "categoria": "Brasil",
    "periodo": "2014",
    "valor": 14.01
+  },
+  {
+   "local": "BR",
+   "categoria": "Mundo",
+   "periodo": "2014",
+   "valor": 32.11
+  },
+  {
+   "local": "BR",
+   "categoria": "Peru",
+   "periodo": "2014",
+   "valor": 14.2
+  },
+  {
+   "local": "BR",
+   "categoria": "Canadá",
+   "periodo": "2014",
+   "valor": 4.71
+  },
+  {
+   "local": "BR",
+   "categoria": "Colômbia",
+   "periodo": "2014",
+   "valor": 14.32
+  },
+  {
+   "local": "BR",
+   "categoria": "Panamá",
+   "periodo": "2014",
+   "valor": 13.77
   },
   {
    "local": "BR",
@@ -1087,18 +1087,6 @@
   },
   {
    "local": "BR",
-   "categoria": "Coreia do Sul",
-   "periodo": "2016",
-   "valor": 2.79
-  },
-  {
-   "local": "BR",
-   "categoria": "Peru",
-   "periodo": "2016",
-   "valor": 13.44
-  },
-  {
-   "local": "BR",
    "categoria": "Costa Rica",
    "periodo": "2016",
    "valor": 7.7
@@ -1303,9 +1291,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Paraguai",
-   "periodo": "2017",
-   "valor": 18.14
+   "categoria": "Coreia do Sul",
+   "periodo": "2016",
+   "valor": 2.79
+  },
+  {
+   "local": "BR",
+   "categoria": "Peru",
+   "periodo": "2016",
+   "valor": 13.44
   },
   {
    "local": "BR",
@@ -1519,15 +1513,9 @@
   },
   {
    "local": "BR",
-   "categoria": "México",
-   "periodo": "2018",
-   "valor": 14.05
-  },
-  {
-   "local": "BR",
-   "categoria": "África do Sul",
-   "periodo": "2018",
-   "valor": 25.84
+   "categoria": "Paraguai",
+   "periodo": "2017",
+   "valor": 18.14
   },
   {
    "local": "BR",
@@ -1735,9 +1723,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Equador",
-   "periodo": "2019",
-   "valor": 11.68
+   "categoria": "México",
+   "periodo": "2018",
+   "valor": 14.05
+  },
+  {
+   "local": "BR",
+   "categoria": "África do Sul",
+   "periodo": "2018",
+   "valor": 25.84
   },
   {
    "local": "BR",
@@ -1951,27 +1945,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Reino Unido",
-   "periodo": "2020",
-   "valor": 3.85
-  },
-  {
-   "local": "BR",
-   "categoria": "El Salvador",
-   "periodo": "2020",
-   "valor": 10.22
-  },
-  {
-   "local": "BR",
-   "categoria": "França",
-   "periodo": "2020",
-   "valor": 3.33
-  },
-  {
-   "local": "BR",
-   "categoria": "Honduras",
-   "periodo": "2020",
-   "valor": 14.46
+   "categoria": "Equador",
+   "periodo": "2019",
+   "valor": 11.68
   },
   {
    "local": "BR",
@@ -2168,20 +2144,26 @@
   {
    "local": "BR",
    "categoria": "Reino Unido",
-   "periodo": "2021",
-   "valor": 3.9
+   "periodo": "2020",
+   "valor": 3.85
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2021",
-   "valor": 5.49
+   "categoria": "El Salvador",
+   "periodo": "2020",
+   "valor": 10.22
   },
   {
    "local": "BR",
-   "categoria": "Mundo",
-   "periodo": "2021",
-   "valor": 29.26
+   "categoria": "França",
+   "periodo": "2020",
+   "valor": 3.33
+  },
+  {
+   "local": "BR",
+   "categoria": "Honduras",
+   "periodo": "2020",
+   "valor": 14.46
   },
   {
    "local": "BR",
@@ -2383,9 +2365,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Alemanha",
-   "periodo": "2022",
-   "valor": 3.1
+   "categoria": "Reino Unido",
+   "periodo": "2021",
+   "valor": 3.9
+  },
+  {
+   "local": "BR",
+   "categoria": "Estados Unidos",
+   "periodo": "2021",
+   "valor": 5.49
+  },
+  {
+   "local": "BR",
+   "categoria": "Mundo",
+   "periodo": "2021",
+   "valor": 29.26
   },
   {
    "local": "BR",
@@ -2599,21 +2593,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Américas",
-   "periodo": "2023",
-   "valor": 11.14
-  },
-  {
-   "local": "BR",
-   "categoria": "Austrália",
-   "periodo": "2023",
-   "valor": 3.13
-  },
-  {
-   "local": "BR",
    "categoria": "Alemanha",
-   "periodo": "2023",
-   "valor": 3.11
+   "periodo": "2022",
+   "valor": 3.1
   },
   {
    "local": "BR",
@@ -2812,6 +2794,24 @@
    "categoria": "Venezuela",
    "periodo": "2023",
    "valor": 21.17
+  },
+  {
+   "local": "BR",
+   "categoria": "Américas",
+   "periodo": "2023",
+   "valor": 11.14
+  },
+  {
+   "local": "BR",
+   "categoria": "Austrália",
+   "periodo": "2023",
+   "valor": 3.13
+  },
+  {
+   "local": "BR",
+   "categoria": "Alemanha",
+   "periodo": "2023",
+   "valor": 3.11
   },
   {
    "local": "BR",

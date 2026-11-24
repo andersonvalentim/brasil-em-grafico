@@ -1,40 +1,10 @@
 {
  "id": "mundo-gasto-saude",
- "geradoEm": "2026-11-20T19:27:37.263Z",
+ "geradoEm": "2026-11-24T21:43:46.179Z",
  "origem": "api",
  "fonte": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/current-health-expenditure-(che)-as-percentage-of-gross-domestic-product-(gdp)-(-)",
  "ultimoPeriodo": "2023",
  "observacoes": [
-  {
-   "local": "BR",
-   "categoria": "Mundo",
-   "periodo": "2011",
-   "valor": 6.21
-  },
-  {
-   "local": "BR",
-   "categoria": "Nicarágua",
-   "periodo": "2011",
-   "valor": 7.45
-  },
-  {
-   "local": "BR",
-   "categoria": "Américas",
-   "periodo": "2011",
-   "valor": 6.68
-  },
-  {
-   "local": "BR",
-   "categoria": "Costa Rica",
-   "periodo": "2011",
-   "valor": 8.12
-  },
-  {
-   "local": "BR",
-   "categoria": "Argentina",
-   "periodo": "2011",
-   "valor": 9.51
-  },
   {
    "local": "BR",
    "categoria": "Equador",
@@ -217,21 +187,33 @@
   },
   {
    "local": "BR",
-   "categoria": "Uruguai",
-   "periodo": "2012",
-   "valor": 8.03
+   "categoria": "Mundo",
+   "periodo": "2011",
+   "valor": 6.21
   },
   {
    "local": "BR",
-   "categoria": "Alemanha",
-   "periodo": "2012",
-   "valor": 10.59
+   "categoria": "Nicarágua",
+   "periodo": "2011",
+   "valor": 7.45
   },
   {
    "local": "BR",
-   "categoria": "Itália",
-   "periodo": "2012",
-   "valor": 8.8
+   "categoria": "Américas",
+   "periodo": "2011",
+   "valor": 6.68
+  },
+  {
+   "local": "BR",
+   "categoria": "Costa Rica",
+   "periodo": "2011",
+   "valor": 8.12
+  },
+  {
+   "local": "BR",
+   "categoria": "Argentina",
+   "periodo": "2011",
+   "valor": 9.51
   },
   {
    "local": "BR",
@@ -427,33 +409,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Japão",
-   "periodo": "2013",
-   "valor": 10.67
-  },
-  {
-   "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2013",
-   "valor": 15.95
-  },
-  {
-   "local": "BR",
-   "categoria": "El Salvador",
-   "periodo": "2013",
-   "valor": 9.05
-  },
-  {
-   "local": "BR",
-   "categoria": "Austrália",
-   "periodo": "2013",
-   "valor": 8.75
+   "categoria": "Uruguai",
+   "periodo": "2012",
+   "valor": 8.03
   },
   {
    "local": "BR",
    "categoria": "Alemanha",
-   "periodo": "2013",
-   "valor": 10.74
+   "periodo": "2012",
+   "valor": 10.59
+  },
+  {
+   "local": "BR",
+   "categoria": "Itália",
+   "periodo": "2012",
+   "valor": 8.8
   },
   {
    "local": "BR",
@@ -634,6 +604,36 @@
    "categoria": "Reino Unido",
    "periodo": "2013",
    "valor": 9.99
+  },
+  {
+   "local": "BR",
+   "categoria": "Japão",
+   "periodo": "2013",
+   "valor": 10.67
+  },
+  {
+   "local": "BR",
+   "categoria": "Estados Unidos",
+   "periodo": "2013",
+   "valor": 15.95
+  },
+  {
+   "local": "BR",
+   "categoria": "El Salvador",
+   "periodo": "2013",
+   "valor": 9.05
+  },
+  {
+   "local": "BR",
+   "categoria": "Austrália",
+   "periodo": "2013",
+   "valor": 8.75
+  },
+  {
+   "local": "BR",
+   "categoria": "Alemanha",
+   "periodo": "2013",
+   "valor": 10.74
   },
   {
    "local": "BR",
@@ -847,24 +847,6 @@
   },
   {
    "local": "BR",
-   "categoria": "Estados Unidos",
-   "periodo": "2015",
-   "valor": 16.4
-  },
-  {
-   "local": "BR",
-   "categoria": "República Dominicana",
-   "periodo": "2015",
-   "valor": 4.74
-  },
-  {
-   "local": "BR",
-   "categoria": "Guatemala",
-   "periodo": "2015",
-   "valor": 6.01
-  },
-  {
-   "local": "BR",
    "categoria": "Canadá",
    "periodo": "2015",
    "valor": 10.76
@@ -1057,15 +1039,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Reino Unido",
-   "periodo": "2016",
-   "valor": 9.87
+   "categoria": "Estados Unidos",
+   "periodo": "2015",
+   "valor": 16.4
   },
   {
    "local": "BR",
-   "categoria": "Índia",
-   "periodo": "2016",
-   "valor": 3.5
+   "categoria": "República Dominicana",
+   "periodo": "2015",
+   "valor": 4.74
+  },
+  {
+   "local": "BR",
+   "categoria": "Guatemala",
+   "periodo": "2015",
+   "valor": 6.01
   },
   {
    "local": "BR",
@@ -1267,9 +1255,15 @@
   },
   {
    "local": "BR",
-   "categoria": "Guatemala",
-   "periodo": "2017",
-   "valor": 6.14
+   "categoria": "Reino Unido",
+   "periodo": "2016",
+   "valor": 9.87
+  },
+  {
+   "local": "BR",
+   "categoria": "Índia",
+   "periodo": "2016",
+   "valor": 3.5
   },
   {
    "local": "BR",
@@ -1477,9 +1471,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Colômbia",
-   "periodo": "2018",
-   "valor": 7.72
+   "categoria": "Guatemala",
+   "periodo": "2017",
+   "valor": 6.14
   },
   {
    "local": "BR",
@@ -1693,21 +1687,9 @@
   },
   {
    "local": "BR",
-   "categoria": "Canadá",
-   "periodo": "2019",
-   "valor": 11.05
-  },
-  {
-   "local": "BR",
-   "categoria": "Américas",
-   "periodo": "2019",
-   "valor": 7.01
-  },
-  {
-   "local": "BR",
-   "categoria": "Alemanha",
-   "periodo": "2019",
-   "valor": 11.43
+   "categoria": "Colômbia",
+   "periodo": "2018",
+   "valor": 7.72
   },
   {
    "local": "BR",
@@ -1909,21 +1891,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Equador",
-   "periodo": "2020",
-   "valor": 8.61
+   "categoria": "Canadá",
+   "periodo": "2019",
+   "valor": 11.05
   },
   {
    "local": "BR",
-   "categoria": "Arábia Saudita",
-   "periodo": "2020",
-   "valor": 6.65
+   "categoria": "Américas",
+   "periodo": "2019",
+   "valor": 7.01
   },
   {
    "local": "BR",
-   "categoria": "Costa Rica",
-   "periodo": "2020",
-   "valor": 7.83
+   "categoria": "Alemanha",
+   "periodo": "2019",
+   "valor": 11.43
   },
   {
    "local": "BR",
@@ -2125,21 +2107,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Venezuela",
-   "periodo": "2021",
-   "valor": 4.1
+   "categoria": "Equador",
+   "periodo": "2020",
+   "valor": 8.61
   },
   {
    "local": "BR",
-   "categoria": "Índia",
-   "periodo": "2021",
-   "valor": 3.35
+   "categoria": "Arábia Saudita",
+   "periodo": "2020",
+   "valor": 6.65
   },
   {
    "local": "BR",
-   "categoria": "Austrália",
-   "periodo": "2021",
-   "valor": 10.52
+   "categoria": "Costa Rica",
+   "periodo": "2020",
+   "valor": 7.83
   },
   {
    "local": "BR",
@@ -2341,45 +2323,21 @@
   },
   {
    "local": "BR",
-   "categoria": "Argentina",
-   "periodo": "2022",
-   "valor": 10.16
+   "categoria": "Venezuela",
+   "periodo": "2021",
+   "valor": 4.1
   },
   {
    "local": "BR",
-   "categoria": "Costa Rica",
-   "periodo": "2022",
-   "valor": 7.18
+   "categoria": "Índia",
+   "periodo": "2021",
+   "valor": 3.35
   },
   {
    "local": "BR",
-   "categoria": "Bolívia",
-   "periodo": "2022",
-   "valor": 7.16
-  },
-  {
-   "local": "BR",
-   "categoria": "México",
-   "periodo": "2022",
-   "valor": 5.71
-  },
-  {
-   "local": "BR",
-   "categoria": "Colômbia",
-   "periodo": "2022",
-   "valor": 7.59
-  },
-  {
-   "local": "BR",
-   "categoria": "Panamá",
-   "periodo": "2022",
-   "valor": 9.05
-  },
-  {
-   "local": "BR",
-   "categoria": "Uruguai",
-   "periodo": "2022",
-   "valor": 8.89
+   "categoria": "Austrália",
+   "periodo": "2021",
+   "valor": 10.52
   },
   {
    "local": "BR",
@@ -2554,6 +2512,48 @@
    "categoria": "República Dominicana",
    "periodo": "2022",
    "valor": 4.65
+  },
+  {
+   "local": "BR",
+   "categoria": "Argentina",
+   "periodo": "2022",
+   "valor": 10.16
+  },
+  {
+   "local": "BR",
+   "categoria": "Costa Rica",
+   "periodo": "2022",
+   "valor": 7.18
+  },
+  {
+   "local": "BR",
+   "categoria": "Bolívia",
+   "periodo": "2022",
+   "valor": 7.16
+  },
+  {
+   "local": "BR",
+   "categoria": "México",
+   "periodo": "2022",
+   "valor": 5.71
+  },
+  {
+   "local": "BR",
+   "categoria": "Colômbia",
+   "periodo": "2022",
+   "valor": 7.59
+  },
+  {
+   "local": "BR",
+   "categoria": "Panamá",
+   "periodo": "2022",
+   "valor": 9.05
+  },
+  {
+   "local": "BR",
+   "categoria": "Uruguai",
+   "periodo": "2022",
+   "valor": 8.89
   },
   {
    "local": "BR",
