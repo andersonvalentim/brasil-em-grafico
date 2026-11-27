@@ -1,150 +1,10 @@
 {
  "id": "gasolina-preco",
- "geradoEm": "2026-11-23T23:04:37.543Z",
+ "geradoEm": "2026-11-27T20:28:55.311Z",
  "origem": "api",
  "fonte": "https://www.gov.br/anp/pt-br/assuntos/precos-e-defesa-da-concorrencia/precos/levantamento-de-precos-de-combustiveis-ultimas-semanas-pesquisadas",
- "ultimoPeriodo": "2026-11-21",
+ "ultimoPeriodo": "2026-11-28",
  "observacoes": [
-  {
-   "local": "AC",
-   "periodo": "2025-10-04",
-   "valor": 7.54
-  },
-  {
-   "local": "AL",
-   "periodo": "2025-10-04",
-   "valor": 6.25
-  },
-  {
-   "local": "AM",
-   "periodo": "2025-10-04",
-   "valor": 7.02
-  },
-  {
-   "local": "AP",
-   "periodo": "2025-10-04",
-   "valor": 6.02
-  },
-  {
-   "local": "BA",
-   "periodo": "2025-10-04",
-   "valor": 6.22
-  },
-  {
-   "local": "BR",
-   "periodo": "2025-10-04",
-   "valor": 6.2
-  },
-  {
-   "local": "CE",
-   "periodo": "2025-10-04",
-   "valor": 6.29
-  },
-  {
-   "local": "DF",
-   "periodo": "2025-10-04",
-   "valor": 6.45
-  },
-  {
-   "local": "ES",
-   "periodo": "2025-10-04",
-   "valor": 6.26
-  },
-  {
-   "local": "GO",
-   "periodo": "2025-10-04",
-   "valor": 6.41
-  },
-  {
-   "local": "MA",
-   "periodo": "2025-10-04",
-   "valor": 5.86
-  },
-  {
-   "local": "MG",
-   "periodo": "2025-10-04",
-   "valor": 6.01
-  },
-  {
-   "local": "MS",
-   "periodo": "2025-10-04",
-   "valor": 5.94
-  },
-  {
-   "local": "MT",
-   "periodo": "2025-10-04",
-   "valor": 6.33
-  },
-  {
-   "local": "PA",
-   "periodo": "2025-10-04",
-   "valor": 6.24
-  },
-  {
-   "local": "PB",
-   "periodo": "2025-10-04",
-   "valor": 5.98
-  },
-  {
-   "local": "PE",
-   "periodo": "2025-10-04",
-   "valor": 6.38
-  },
-  {
-   "local": "PI",
-   "periodo": "2025-10-04",
-   "valor": 5.78
-  },
-  {
-   "local": "PR",
-   "periodo": "2025-10-04",
-   "valor": 6.46
-  },
-  {
-   "local": "RJ",
-   "periodo": "2025-10-04",
-   "valor": 6.05
-  },
-  {
-   "local": "RN",
-   "periodo": "2025-10-04",
-   "valor": 6
-  },
-  {
-   "local": "RO",
-   "periodo": "2025-10-04",
-   "valor": 6.81
-  },
-  {
-   "local": "RR",
-   "periodo": "2025-10-04",
-   "valor": 6.95
-  },
-  {
-   "local": "RS",
-   "periodo": "2025-10-04",
-   "valor": 6.2
-  },
-  {
-   "local": "SC",
-   "periodo": "2025-10-04",
-   "valor": 6.32
-  },
-  {
-   "local": "SE",
-   "periodo": "2025-10-04",
-   "valor": 6.62
-  },
-  {
-   "local": "SP",
-   "periodo": "2025-10-04",
-   "valor": 6.08
-  },
-  {
-   "local": "TO",
-   "periodo": "2025-10-04",
-   "valor": 6.47
-  },
   {
    "local": "AC",
    "periodo": "2025-10-11",
@@ -8379,6 +8239,146 @@
    "local": "TO",
    "periodo": "2026-11-21",
    "valor": 6.87
+  },
+  {
+   "local": "AC",
+   "periodo": "2026-11-28",
+   "valor": 7.36
+  },
+  {
+   "local": "AL",
+   "periodo": "2026-11-28",
+   "valor": 6.52
+  },
+  {
+   "local": "AM",
+   "periodo": "2026-11-28",
+   "valor": 6.96
+  },
+  {
+   "local": "AP",
+   "periodo": "2026-11-28",
+   "valor": 6.33
+  },
+  {
+   "local": "BA",
+   "periodo": "2026-11-28",
+   "valor": 6.56
+  },
+  {
+   "local": "BR",
+   "periodo": "2026-11-28",
+   "valor": 6.47
+  },
+  {
+   "local": "CE",
+   "periodo": "2026-11-28",
+   "valor": 6.88
+  },
+  {
+   "local": "DF",
+   "periodo": "2026-11-28",
+   "valor": 6.49
+  },
+  {
+   "local": "ES",
+   "periodo": "2026-11-28",
+   "valor": 6.48
+  },
+  {
+   "local": "GO",
+   "periodo": "2026-11-28",
+   "valor": 6.54
+  },
+  {
+   "local": "MA",
+   "periodo": "2026-11-28",
+   "valor": 6.35
+  },
+  {
+   "local": "MG",
+   "periodo": "2026-11-28",
+   "valor": 6.38
+  },
+  {
+   "local": "MS",
+   "periodo": "2026-11-28",
+   "valor": 6.41
+  },
+  {
+   "local": "MT",
+   "periodo": "2026-11-28",
+   "valor": 6.74
+  },
+  {
+   "local": "PA",
+   "periodo": "2026-11-28",
+   "valor": 6.47
+  },
+  {
+   "local": "PB",
+   "periodo": "2026-11-28",
+   "valor": 6.24
+  },
+  {
+   "local": "PE",
+   "periodo": "2026-11-28",
+   "valor": 6.66
+  },
+  {
+   "local": "PI",
+   "periodo": "2026-11-28",
+   "valor": 6.58
+  },
+  {
+   "local": "PR",
+   "periodo": "2026-11-28",
+   "valor": 6.61
+  },
+  {
+   "local": "RJ",
+   "periodo": "2026-11-28",
+   "valor": 6.61
+  },
+  {
+   "local": "RN",
+   "periodo": "2026-11-28",
+   "valor": 6.26
+  },
+  {
+   "local": "RO",
+   "periodo": "2026-11-28",
+   "valor": 7.43
+  },
+  {
+   "local": "RR",
+   "periodo": "2026-11-28",
+   "valor": 7.57
+  },
+  {
+   "local": "RS",
+   "periodo": "2026-11-28",
+   "valor": 6.08
+  },
+  {
+   "local": "SC",
+   "periodo": "2026-11-28",
+   "valor": 6.29
+  },
+  {
+   "local": "SE",
+   "periodo": "2026-11-28",
+   "valor": 6.84
+  },
+  {
+   "local": "SP",
+   "periodo": "2026-11-28",
+   "valor": 6.36
+  },
+  {
+   "local": "TO",
+   "periodo": "2026-11-28",
+   "valor": 6.84
   }
  ]
 }
